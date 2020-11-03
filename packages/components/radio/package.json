@@ -1,14 +1,14 @@
 {
     "name": "@atlantum/radio",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "radio component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/input": "^0.1.0",
-        "@atlantum/theme": "^0.1.0"
+        "@atlantum/input": "^0.1.1",
+        "@atlantum/theme": "^0.1.1"
     },
     "devDependencies": {
         "react": "^16.13.1",
