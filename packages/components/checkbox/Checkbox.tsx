@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import * as React from 'react';
 import { FC } from 'react';
 
-import { InputProps } from '@morph-design-system/input';
+import { InputProps } from '@atlantum/input';
 
 export interface CheckboxProps extends InputProps {
     label?: string;

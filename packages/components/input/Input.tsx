@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import * as React from 'react';
 import { FC, ChangeEventHandler } from 'react';
-import InputTypes from '@morph-design-system/types';
+import InputTypes from '@atlantum/types';
 
 export interface InputProps {
     className?: string;
