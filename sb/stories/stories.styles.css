@@ -1,0 +1,7 @@
+.flex {
+    display: flex;
+}
+
+.margin-r-24 *:not(last-child) {
+    margin-right: 24px;
+}

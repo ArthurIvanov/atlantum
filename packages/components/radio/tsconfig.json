@@ -1,0 +1,14 @@
+{
+    "include": ["*.tsx", "*.ts"],
+    "extends": "../../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": ".",
+        "baseUrl": "."
+    },
+    "references": [
+        { "path": "../../theme" },
+        { "path": "../input" },
+        { "path": "../label" }
+    ]
+}
