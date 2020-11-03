@@ -3,6 +3,8 @@ import * as React from 'react';
 import { FC, ChangeEventHandler } from 'react';
 import InputTypes from '@atlantum/types';
 
+import Label from '@atlantum/label';
+
 export interface InputProps {
     className?: string;
     disabled?: boolean;
@@ -13,8 +15,11 @@ export interface InputProps {
     name: string;
     type: InputTypes;
     value?: string;
+    label?: string;
+
     defaultValue?: string;
     id?: string;
+    input?: boolean;
     onChange?: ChangeEventHandler<HTMLInputElement>;
 }
 
@@ -92,19 +97,24 @@ const StyledInput = styled.input<InputProps>`
     `}
 `;
 
-const Input: FC<InputProps> = (props) => (
-    <StyledInput
-        className={props.className}
-        type={props.type}
-        name={props.name}
-        onChange={props.onChange}
-        disabled={props.disabled}
-        danger={props.danger}
-        success={props.success}
-        placeholder={props.placeholder}
-        value={props.value}
-        defaultValue={props.defaultValue}
-    />
-);
+const Input: FC<InputProps> = (props) => {
+    return (
+        <Label htmlFor={props.id} input={props.input} danger={props.danger}>
+            <span>{props.label}</span>
+            <StyledInput
+                className={props.className}
+                type={props.type}
+                name={props.name}
+                onChange={props.onChange}
+                disabled={props.disabled}
+                danger={props.danger}
+                success={props.success}
+                placeholder={props.placeholder}
+                value={props.value}
+                defaultValue={props.defaultValue}
+            />
+        </Label>
+    );
+};
 
 export default Input;

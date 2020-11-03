@@ -8,6 +8,7 @@ export interface ButtonProps {
     secondary?: boolean;
     disabled?: boolean;
     loading?: boolean;
+
     onClick?: React.MouseEventHandler;
 }
 

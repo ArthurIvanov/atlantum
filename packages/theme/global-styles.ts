@@ -9,13 +9,20 @@ const GlobalStyles = createGlobalStyle`
     body {
         font-family: ${(props) => props.theme.typography.family.base};
         * {
-             box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
 
         }
     }
     a, a:active {
         text-decoration: none;
     };
+    
+    label {
+        font-family: ${(props) => props.theme.typography.family.base};
+        color: blue;
+    }
 
 
 	p, button {
