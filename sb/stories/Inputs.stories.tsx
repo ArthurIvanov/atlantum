@@ -1,13 +1,13 @@
 import * as React from 'react';
-import Input from '@morph-design-system/input';
+import Input from '@atlantum/input';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { defaultTheme } from '@morph-design-system/theme';
+import { theme } from '@atlantum/theme';
 import './stories.styles.css';
 
 const Inputs = () => {
     return (
-        <ThemeProvider theme={defaultTheme}>
+        <ThemeProvider theme={theme}>
             <div className="flex margin-r-24">
                 <Input
                     type={'text'}

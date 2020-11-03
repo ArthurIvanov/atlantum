@@ -1,13 +1,13 @@
 import * as React from 'react';
-import Checkbox from '@morph-design-system/checkbox';
+import Checkbox from '@atlantum/checkbox';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { defaultTheme } from '@morph-design-system/theme';
+import { theme } from '@atlantum/theme';
 import './stories.styles.css';
 
 const Checkboxes = () => {
     return (
-        <ThemeProvider theme={defaultTheme}>
+        <ThemeProvider theme={theme}>
             <div className="flex margin-r-24">
                 <Checkbox type={'checkbox'} name={'username'} />
                 <Checkbox

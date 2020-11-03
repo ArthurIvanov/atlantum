@@ -16,7 +16,7 @@ const StyledButton = styled.button<ButtonProps>`
     background-color: ${(props) => props.theme.colors.primaryBase};
     color: ${(props) => props.theme.colors.textInverted};
     padding: ${(props) => props.theme.spacing.space8}
-        ${(props) => props.theme.spacing.space22};
+        ${(props) => props.theme.spacing.space24};
     font-size: ${(props) => props.theme.typography.size[300]};
     line-height: ${(props) => props.theme.typography.lineHeight[24]};
     font-weight: 500;
@@ -39,26 +39,27 @@ const StyledButton = styled.button<ButtonProps>`
     ${(props) =>
         props.secondary &&
         `  
-         color: ${props.theme.colors.neutralDarker};
+         color: ${props.theme.colors.text};
          background-color: ${props.theme.colors.neutralLighter};
-         &:hover {
-            background-color: ${props.theme.colors.neutralLight};
-            
+         &:hover {   
+         background-color: ${props.theme.colors.neutralLighter};      
     }
     &:focus {
         outline: none;
-        background-color: ${props.theme.colors.neutralBase};
+        color: ${props.theme.colors.primaryBase};
+        background-color: ${props.theme.colors.neutralLight};
     }
 
     &:active {
-        background-color: ${props.theme.colors.neutralBase};
+        color: ${props.theme.colors.primaryBase};
+        background-color: ${props.theme.colors.neutralLight};
     }
              `}
 
     ${(props) =>
         props.disabled &&
         `
-         color: ${props.theme.colors.neutralDark};
+         color: ${props.theme.colors.neutralBase};
          background-color: ${props.theme.colors.neutralLighter};
          border-color: ${props.theme.colors.neutralDark};
          cursor: not-allowed;

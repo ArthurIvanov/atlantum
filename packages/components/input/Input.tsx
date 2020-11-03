@@ -28,6 +28,7 @@ const StyledInput = styled.input<InputProps>`
         ${(props) => props.theme.colors.neutralDark};
 
     color: ${(props) => props.theme.colors.text};
+    background-color: ${(props) => props.theme.colors.neutralLighter};
     padding: ${(props) => props.theme.spacing.space8};
     font-size: ${(props) => props.theme.typography.size[300]};
     line-height: ${(props) => props.theme.typography.lineHeight[24]};
@@ -42,7 +43,7 @@ const StyledInput = styled.input<InputProps>`
     }
     &:focus {
         outline: 0;
-        border-color: ${(props) => props.theme.colors.primaryLight};
+        border-color: ${(props) => props.theme.colors.primaryDark};
         border-bottom-color: ${(props) => props.theme.colors.primaryDark};
         box-shadow: ${(props) => props.theme.elevation.slight};
     }
@@ -55,13 +56,13 @@ const StyledInput = styled.input<InputProps>`
         &::placeholder {
         color: ${props.theme.colors.neutralDark};
         }
-         color: ${props.theme.colors.neutralDark};
-         background-color: ${props.theme.colors.neutralLighter};
-         border-color: ${props.theme.colors.neutralBase};
+         color: ${props.theme.colors.neutralBase};
+         background-color: ${props.theme.colors.neutralLight};
+         border-color: ${props.theme.colors.neutralLight};
          cursor: not-allowed;
          &:hover {    
-            background-color: ${props.theme.colors.neutralLighter};
-            border-color: ${props.theme.colors.neutralBase};
+            background-color: ${props.theme.colors.neutralLight};
+            border-color: ${props.theme.colors.neutralLight};
             box-shadow: none;
     }
     `}

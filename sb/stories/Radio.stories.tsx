@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Radio from '../../packages/components/radio';
+import Radio from '@atlantum/radio';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../../packages/theme';
+import { theme } from '@atlantum//theme';
 import './stories.styles.css';
 
 const Radios = () => {

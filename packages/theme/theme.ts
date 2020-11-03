@@ -4,19 +4,19 @@ import {
     spacing,
     typography,
     elevation,
-} from '../tokens';
+} from '@atlantum/tokens';
 
 export const theme: DefaultTheme = {
     borderRadius: spacing.s2,
 
     colors: {
         primaryLight: colors.blue['400'],
-        primaryBase: colors.blue['500'],
-        primaryDark: colors.blue['600'],
+        primaryBase: colors.blue['600'],
+        primaryDark: colors.blue['900'],
 
-        secondaryBase: colors.blue['400'],
-        secondaryDark: colors.blue['500'],
-        secondaryLight: colors.blue['100'],
+        secondaryLight: colors.teal['400'],
+        secondaryBase: colors.teal['600'],
+        secondaryDark: colors.teal['900'],
 
         successLight: colors.success['100'],
         successBase: colors.success['200'],
@@ -30,17 +30,17 @@ export const theme: DefaultTheme = {
         dangerBase: colors.danger['200'],
         dangerDark: colors.danger['300'],
 
-        text: colors.neutral['900'],
-        textInverted: colors.neutral['100'],
+        text: colors.neutral['1200'],
+        textInverted: colors.neutral['25'],
 
-        background: colors.neutral['100'],
-        backgroundInverted: colors.neutral['900'],
+        background: colors.neutral['25'],
+        backgroundInverted: colors.neutral['1800'],
 
-        neutralLighter: colors.neutral['200'],
-        neutralLight: colors.neutral['300'],
-        neutralBase: colors.neutral['400'],
-        neutralDark: colors.neutral['600'],
-        neutralDarker: colors.neutral['800'],
+        neutralLighter: colors.neutral['25'],
+        neutralLight: colors.neutral['50'],
+        neutralBase: colors.neutral['300'],
+        neutralDark: colors.neutral['700'],
+        neutralDarker: colors.neutral['900'],
     },
 
     spacing: {

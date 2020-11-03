@@ -1,13 +1,13 @@
 import * as React from 'react';
-import Button from '@morph-design-system/button';
+import Button from '@atlantum/button';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { defaultTheme } from '@morph-design-system/theme';
+import { theme } from '@atlantum/theme';
 import './stories.styles.css';
 
 const Buttons = () => {
     return (
-        <ThemeProvider theme={defaultTheme}>
+        <ThemeProvider theme={theme}>
             <div className="margin-r-24">
                 <Button>I am Primary</Button>
                 <Button secondary>I am Secondary</Button>
@@ -19,21 +19,21 @@ const Buttons = () => {
 
 const Primary = () => {
     return (
-        <ThemeProvider theme={defaultTheme}>
+        <ThemeProvider theme={theme}>
             <Button>I am Primary</Button>
         </ThemeProvider>
     );
 };
 const Secondary = () => {
     return (
-        <ThemeProvider theme={defaultTheme}>
+        <ThemeProvider theme={theme}>
             <Button secondary>I am Secondary</Button>
         </ThemeProvider>
     );
 };
 const Disabled = () => {
     return (
-        <ThemeProvider theme={defaultTheme}>
+        <ThemeProvider theme={theme}>
             <Button disabled>I am Disabled</Button>
         </ThemeProvider>
     );
