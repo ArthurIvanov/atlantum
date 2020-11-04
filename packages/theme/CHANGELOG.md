@@ -1,8 +1,15 @@
 # @atlantum/theme
 
-## 0.1.1
+## 0.1.2
+
 ### Patch Changes
 
-- 9caacf9: bug fixes
-- Updated dependencies [9caacf9]
-  - @atlantum/tokens@0.2.1
+-   e17cee0: bug fixes and improvements
+
+## 0.1.1
+
+### Patch Changes
+
+-   9caacf9: bug fixes
+-   Updated dependencies [9caacf9]
+    -   @atlantum/tokens@0.2.1
