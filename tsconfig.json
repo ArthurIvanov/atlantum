@@ -46,6 +46,7 @@
         { "path": "packages/components/button" },
         { "path": "packages/components/input" },
         { "path": "packages/components/checkbox" },
+        { "path": "packages/components/toggle" },
         { "path": "packages/components/label" },
         { "path": "packages/components/radio" },
         { "path": "packages/tokens" },

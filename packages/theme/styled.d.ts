@@ -49,6 +49,7 @@ declare module 'styled-components' {
             readonly space20?: string;
             readonly space22?: string;
             readonly space24?: string;
+            readonly space30?: string;
             readonly space32?: string;
             readonly space36?: string;
             readonly space40?: string;
@@ -58,6 +59,7 @@ declare module 'styled-components' {
 
         elevation?: {
             slight?: string;
+            medium?: string;
         };
 
         typography: {

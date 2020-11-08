@@ -20,7 +20,7 @@ const StyledButton = styled.button<ButtonProps>`
         ${(props) => props.theme.spacing.space24};
     font-size: ${(props) => props.theme.typography.size[300]};
     line-height: ${(props) => props.theme.typography.lineHeight[24]};
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
     transition: 0.2s ease;
     &:hover {

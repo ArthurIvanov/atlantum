@@ -1,7 +1,9 @@
 .flex {
     display: flex;
+    width: 100%;
 }
 
-.margin-r-24 *:not(last-child) {
+.margin-r-24 div:not(last-child) {
     margin-right: 24px;
+    width: 100%;
 }

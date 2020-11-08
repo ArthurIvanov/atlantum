@@ -16,6 +16,7 @@ export interface InputProps {
     type: InputTypes;
     value?: string;
     label?: string;
+    alert?: 'string';
 
     defaultValue?: string;
     id?: string;
@@ -24,7 +25,10 @@ export interface InputProps {
 }
 
 const StyledInput = styled.input<InputProps>`
+    display: block;
+    box-sizing: border-box;
     width: 100%;
+    margin: 0;
     border-top-left-radius: ${(props) => props.theme.borderRadius};
     border-top-right-radius: ${(props) => props.theme.borderRadius};
     border: ${(props) => props.theme.spacing.space1} solid
@@ -36,10 +40,15 @@ const StyledInput = styled.input<InputProps>`
     background-color: ${(props) => props.theme.colors.neutralLighter};
     padding: ${(props) => props.theme.spacing.space8};
     font-size: ${(props) => props.theme.typography.size[300]};
+    font-family: ${(props) => props.theme.typography.family.base};
+    font-weight: ${(props) => props.theme.typography.weight['400']};
     line-height: ${(props) => props.theme.typography.lineHeight[24]};
 
     &::placeholder {
         color: ${(props) => props.theme.colors.neutralDark};
+        font-family: ${(props) => props.theme.typography.family.base};
+        font-size: ${(props) => props.theme.typography.size[300]};
+        font-weight: ${(props) => props.theme.typography.weight['400']};
     }
 
     &:hover {
@@ -99,8 +108,13 @@ const StyledInput = styled.input<InputProps>`
 
 const Input: FC<InputProps> = (props) => {
     return (
-        <Label htmlFor={props.id} input={props.input} danger={props.danger}>
-            <span>{props.label}</span>
+        <Label
+            htmlFor={props.id}
+            input={props.input}
+            danger={props.danger}
+            disabled={props.disabled}
+        >
+            <span className="input-label">{props.label}</span>
             <StyledInput
                 className={props.className}
                 type={props.type}
@@ -113,6 +127,7 @@ const Input: FC<InputProps> = (props) => {
                 value={props.value}
                 defaultValue={props.defaultValue}
             />
+            <span className="input-alert">{props.alert}</span>
         </Label>
     );
 };

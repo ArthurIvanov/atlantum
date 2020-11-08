@@ -9,20 +9,41 @@ const Checkboxes = () => {
     return (
         <ThemeProvider theme={theme}>
             <div className="flex margin-r-24">
-                <Checkbox type={'checkbox'} name={'username'} />
-                <Checkbox
-                    disabled
-                    checked
-                    type={'checkbox'}
-                    name={'disabled'}
-                />
-                <Checkbox danger type={'checkbox'} name={'disabled'} />
-                <Checkbox success type={'checkbox'} name={'disabled'} />
+                <div>
+                    <Checkbox
+                        type={'checkbox'}
+                        name={'username'}
+                        label={'Regular checkbox'}
+                    />
+                </div>
+                <div>
+                    <Checkbox
+                        disabled
+                        checked
+                        type={'checkbox'}
+                        name={'checkbox'}
+                        label={'Disabled checkbox'}
+                    />
+                </div>
+                <div>
+                    <Checkbox
+                        danger
+                        type={'checkbox'}
+                        name={'disabled'}
+                        label={'Danger checkbox'}
+                    />
+                </div>
+                <div>
+                    <Checkbox
+                        success
+                        type={'checkbox'}
+                        name={'disabled'}
+                        label={'Success checkbox'}
+                    />
+                </div>
             </div>
         </ThemeProvider>
     );
 };
 
-storiesOf('Inputs/Checkbox', module).add('All checkboxes', () => (
-    <Checkboxes />
-));
+storiesOf('Checkbox', module).add('All checkboxes', () => <Checkboxes />);

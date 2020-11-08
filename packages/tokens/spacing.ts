@@ -16,7 +16,7 @@ export const spacing = {
     s22: '22px',
     s23: '23px',
     s24: '24px',
-    s31: '31px',
+    s30: '30px',
     s32: '32px',
     s36: '36px',
     s40: '40px',

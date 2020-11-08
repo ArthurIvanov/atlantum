@@ -1,26 +1,19 @@
 import { DefaultTheme } from 'styled-components';
-import {
-    colors,
-    spacing,
-    typography,
-    elevation,
-} from '@atlantum/tokens';
+import { colors, spacing, typography, elevation } from '@atlantum/tokens';
 
 export const theme: DefaultTheme = {
-    borderRadius: spacing.s2,
-
     colors: {
-        primaryLight: colors.blue['400'],
-        primaryBase: colors.blue['600'],
-        primaryDark: colors.blue['900'],
+        primaryLight: colors.blue['500'],
+        primaryBase: colors.blue['700'],
+        primaryDark: colors.blue['1000'],
 
-        secondaryLight: colors.teal['400'],
-        secondaryBase: colors.teal['600'],
-        secondaryDark: colors.teal['900'],
+        secondaryLight: colors.green['500'],
+        secondaryBase: colors.green['600'],
+        secondaryDark: colors.green['900'],
 
-        successLight: colors.success['100'],
-        successBase: colors.success['200'],
-        successDark: colors.success['300'],
+        successLight: colors.green['500'],
+        successBase: colors.green['700'],
+        successDark: colors.green['900'],
 
         warningBase: colors.warning['100'],
         warningDark: colors.warning['200'],
@@ -54,6 +47,7 @@ export const theme: DefaultTheme = {
         space20: spacing.s20,
         space22: spacing.s22,
         space24: spacing.s24,
+        space30: spacing.s30,
         space32: spacing.s32,
         space36: spacing.s36,
         space40: spacing.s40,
@@ -63,11 +57,12 @@ export const theme: DefaultTheme = {
 
     elevation: {
         slight: elevation.slight,
+        medium: elevation.medium,
     },
 
     typography: {
         family: {
-            base: `-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";`,
+            base: `Inter -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";`,
             monospace: `'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Consolas, Courier, monospace`,
         },
         size: {

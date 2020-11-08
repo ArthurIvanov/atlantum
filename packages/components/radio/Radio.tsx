@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import * as React from 'react';
 import { FC } from 'react';
 import { InputProps } from '@atlantum/input';
+import Label from '@atlantum/label';
 
 export interface RadioProps extends InputProps {
-    label?: string;
     checked?: boolean;
 }
 
@@ -13,10 +13,12 @@ const StyledRadio = styled.input<RadioProps>`
     position: relative;
     cursor: pointer;
     display: block;
+    margin: 0;
+    padding: 0;
     width: ${(props) => props.theme.spacing.space16};
     height: ${(props) => props.theme.spacing.space16};
     border-radius: 50%;
-    border: ${(props) => props.theme.spacing.space2} solid
+    border: ${(props) => props.theme.spacing.space1} solid
         ${(props) => props.theme.colors.primaryBase};
 
     transition: 0.2s ease;
@@ -41,8 +43,8 @@ const StyledRadio = styled.input<RadioProps>`
         position: absolute;
         width: 4px;
         height: 4px;
-        top: 4px;
-        left: 4px;
+        top: 5px;
+        left: 5px;
     }
 
     ${(props) =>
@@ -104,14 +106,24 @@ const StyledRadio = styled.input<RadioProps>`
 
 const Radio: FC<RadioProps> = (props) => {
     return (
-        <StyledRadio
-            checked={props.checked}
-            disabled={props.disabled}
+        <Label
+            htmlFor={props.id}
+            input={props.input}
             danger={props.danger}
-            success={props.success}
-            name={props.name}
-            type={'radio'}
-        />
+            disabled={props.disabled}
+        >
+            <StyledRadio
+                checked={props.checked}
+                disabled={props.disabled}
+                danger={props.danger}
+                success={props.success}
+                name={props.name}
+                type={'radio'}
+                id={props.id}
+                onChange={props.onChange}
+            />
+            <span className="input-label">{props.label}</span>
+        </Label>
     );
 };
 

@@ -15,6 +15,7 @@
     "scripts": {
         "start": "webpack-dev-server --open",
         "compile": "tsc --build",
+        "watch": "tsc --build && tsc --watch",
         "devbuild": "webpack --mode development",
         "build": "webpack --mode production",
         "storybook": "start-storybook -p 6006 --no-dll",

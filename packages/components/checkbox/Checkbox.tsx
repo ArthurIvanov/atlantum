@@ -3,9 +3,9 @@ import * as React from 'react';
 import { FC } from 'react';
 
 import { InputProps } from '@atlantum/input';
+import Label from '@atlantum/label';
 
 export interface CheckboxProps extends InputProps {
-    label?: string;
     checked?: boolean;
 }
 
@@ -14,6 +14,8 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     position: relative;
     cursor: pointer;
     display: block;
+    margin: 0;
+    padding: 0;
     width: ${(props) => props.theme.spacing.space16};
     height: ${(props) => props.theme.spacing.space16};
     border-radius: ${(props) => props.theme.spacing.space2};
@@ -91,14 +93,23 @@ const StyledCheckbox = styled.input<CheckboxProps>`
 
 const Checkbox: FC<CheckboxProps> = (props) => {
     return (
-        <StyledCheckbox
-            checked={props.checked}
-            disabled={props.disabled}
+        <Label
+            htmlFor={props.id}
+            input={props.input}
             danger={props.danger}
-            success={props.success}
-            name={props.name}
-            type={'checkbox'}
-        />
+            disabled={props.disabled}
+        >
+            <StyledCheckbox
+                checked={props.checked}
+                disabled={props.disabled}
+                danger={props.danger}
+                success={props.success}
+                name={props.name}
+                type={'checkbox'}
+                onChange={props.onChange}
+            />
+            <span className="input-label">{props.label}</span>
+        </Label>
     );
 };
 

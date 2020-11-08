@@ -8,10 +8,16 @@ import './stories.styles.css';
 const Buttons = () => {
     return (
         <ThemeProvider theme={theme}>
-            <div className="margin-r-24">
-                <Button>I am Primary</Button>
-                <Button secondary>I am Secondary</Button>
-                <Button disabled>I am Disabled</Button>
+            <div className="flex margin-r-24">
+                <div>
+                    <Button>I am Primary</Button>
+                </div>
+                <div>
+                    <Button secondary>I am Secondary</Button>
+                </div>
+                <div>
+                    <Button disabled>I am Disabled</Button>
+                </div>
             </div>
         </ThemeProvider>
     );
@@ -39,7 +45,7 @@ const Disabled = () => {
     );
 };
 
-storiesOf('Buttons', module).add('All buttons', () => <Buttons />);
-storiesOf('Buttons', module).add('Primary', () => <Primary />);
-storiesOf('Buttons', module).add('Secondary', () => <Secondary />);
-storiesOf('Buttons', module).add('Disabled', () => <Disabled />);
+storiesOf('Button', module).add('All buttons', () => <Buttons />);
+storiesOf('Button', module).add('Primary', () => <Primary />);
+storiesOf('Button', module).add('Secondary', () => <Secondary />);
+storiesOf('Button', module).add('Disabled', () => <Disabled />);
