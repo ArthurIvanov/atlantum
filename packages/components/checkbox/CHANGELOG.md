@@ -1,5 +1,13 @@
 # @atlantum/checkbox
 
+## 0.1.3
+
+### Patch Changes
+
+-   a071c47: fixed package.json label dependencies
+-   Updated dependencies [a071c47]
+    -   @atlantum/input@0.1.4
+
 ## 0.1.2
 
 ### Patch Changes
