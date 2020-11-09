@@ -1,5 +1,13 @@
 # @atlantum/toggle
 
+## 0.1.1
+
+### Patch Changes
+
+-   a071c47: fixed package.json label dependencies
+-   Updated dependencies [a071c47]
+    -   @atlantum/input@0.1.4
+
 ## 0.1.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @atlantum/input
 
+## 0.1.4
+
+### Patch Changes
+
+-   a071c47: fixed package.json label dependencies
+
 ## 0.1.3
 
 ### Patch Changes
