@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.2.3
+
+### Patch Changes
+
+-   f779f46: added Heading component, fixed token convention for typography, fixed input components
+
 ## 0.2.2
 
 ### Patch Changes

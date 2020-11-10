@@ -1,5 +1,13 @@
 # @atlantum/label
 
+## 0.1.4
+
+### Patch Changes
+
+-   f779f46: added Heading component, fixed token convention for typography, fixed input components
+-   Updated dependencies [f779f46]
+    -   @atlantum/theme@0.1.4
+
 ## 0.1.3
 
 ### Patch Changes
