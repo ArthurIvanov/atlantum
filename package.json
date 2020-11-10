@@ -9,6 +9,7 @@
         "packages/components/*",
         "packages/layout/*",
         "packages/theme",
+        "packages/typography/*",
         "packages/common/types",
         "packages/tokens"
     ],

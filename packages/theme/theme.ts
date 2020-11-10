@@ -2,6 +2,7 @@ import { DefaultTheme } from 'styled-components';
 import { colors, spacing, typography, elevation } from '@atlantum/tokens';
 
 export const theme: DefaultTheme = {
+    borderRadius: spacing.s2,
     colors: {
         primaryLight: colors.blue['500'],
         primaryBase: colors.blue['700'],
@@ -63,38 +64,41 @@ export const theme: DefaultTheme = {
     typography: {
         family: {
             base: `Inter -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";`,
+            heading: `Inter -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";`,
             monospace: `'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Consolas, Courier, monospace`,
         },
-        size: {
-            100: typography.size['100'],
-            200: typography.size['200'],
-            300: typography.size['300'],
-            400: typography.size['400'],
-            500: typography.size['500'],
-            600: typography.size['600'],
-            700: typography.size['700'],
-            800: typography.size['800'],
-            900: typography.size['900'],
+        fontSize: {
+            h1: typography.size.h1,
+            h2: typography.size.h2,
+            h3: typography.size.h3,
+            h4: typography.size.h4,
+            h5: typography.size.h5,
+            h6: typography.size.h6,
+            base: typography.size.base,
+            label: typography.size.label,
+            subLabel: typography.size.subLabel,
         },
 
         lineHeight: {
-            16: typography.lineHeight['16'],
-            20: typography.lineHeight['20'],
-            24: typography.lineHeight['24'],
-            32: typography.lineHeight['32'],
-            40: typography.lineHeight['40'],
-            48: typography.lineHeight['48'],
-            64: typography.lineHeight['64'],
+            h1: typography.lineHeight.h1,
+            h2: typography.lineHeight.h2,
+            h3: typography.lineHeight.h3,
+            h4: typography.lineHeight.h4,
+            h5: typography.lineHeight.h5,
+            h6: typography.lineHeight.h6,
+            base: typography.lineHeight.base,
+            label: typography.lineHeight.label,
+            subLabel: typography.lineHeight.subLabel,
         },
 
-        weight: {
-            400: typography.weight['400'],
-            500: typography.weight['500'],
-            700: typography.weight['700'],
+        fontWeight: {
+            regular: typography.fontWeight.regular,
+            semiBold: typography.fontWeight.semiBold,
+            bold: typography.fontWeight.bold,
         },
     },
 
     animation: {
-        base: `0.2s ease`,
+        base: `0.2s ease-in-out`,
     },
 };

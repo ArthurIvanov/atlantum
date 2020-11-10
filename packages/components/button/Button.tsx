@@ -18,9 +18,9 @@ const StyledButton = styled.button<ButtonProps>`
     color: ${(props) => props.theme.colors.textInverted};
     padding: ${(props) => props.theme.spacing.space8}
         ${(props) => props.theme.spacing.space24};
-    font-size: ${(props) => props.theme.typography.size[300]};
-    line-height: ${(props) => props.theme.typography.lineHeight[24]};
-    font-weight: 400;
+    font-size: ${(props) => props.theme.typography.fontSize.base};
+    line-height: ${(props) => props.theme.typography.lineHeight.base};
+    font-weight: ${(props) => props.theme.typography.fontWeight.regular};
     cursor: pointer;
     transition: 0.2s ease;
     &:hover {

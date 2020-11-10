@@ -39,16 +39,16 @@ const StyledInput = styled.input<InputProps>`
     color: ${(props) => props.theme.colors.text};
     background-color: ${(props) => props.theme.colors.neutralLighter};
     padding: ${(props) => props.theme.spacing.space8};
-    font-size: ${(props) => props.theme.typography.size[300]};
+    font-size: ${(props) => props.theme.typography.fontSize.base};
     font-family: ${(props) => props.theme.typography.family.base};
-    font-weight: ${(props) => props.theme.typography.weight['400']};
-    line-height: ${(props) => props.theme.typography.lineHeight[24]};
+    font-weight: ${(props) => props.theme.typography.fontWeight.regular};
+    line-height: ${(props) => props.theme.typography.lineHeight.base};
 
     &::placeholder {
         color: ${(props) => props.theme.colors.neutralDark};
         font-family: ${(props) => props.theme.typography.family.base};
-        font-size: ${(props) => props.theme.typography.size[300]};
-        font-weight: ${(props) => props.theme.typography.weight['400']};
+        font-size: ${(props) => props.theme.typography.fontSize.base};
+        font-weight: ${(props) => props.theme.typography.fontWeight.regular};
     }
 
     &:hover {

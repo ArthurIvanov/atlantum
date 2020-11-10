@@ -50,15 +50,15 @@ const StyledRadio = styled.input<RadioProps>`
     ${(props) =>
         props.disabled &&
         `
-         border-color: ${props.theme.colors.neutralDark};
+         border-color: ${props.theme.colors.neutralBase};
          cursor: not-allowed;
          &:hover {
-            border-color: ${props.theme.colors.neutralDark}; 
+            border-color: ${props.theme.colors.neutralBase}; 
             box-shadow: none;
         }
         &:checked,
     &:focus {
-        background-color: ${props.theme.colors.neutralDark};
+        background-color: ${props.theme.colors.neutralBase};
     }
     &:checked::after {
         background-color: ${props.theme.colors.textInverted};

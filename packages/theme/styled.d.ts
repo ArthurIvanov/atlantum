@@ -65,35 +65,38 @@ declare module 'styled-components' {
         typography: {
             family: {
                 base: string;
+                heading: string;
                 monospace: string;
             };
 
-            size: {
-                readonly 100?: string;
-                readonly 200?: string;
-                readonly 300?: string;
-                readonly 400?: string;
-                readonly 500?: string;
-                readonly 600?: string;
-                readonly 700?: string;
-                readonly 800?: string;
-                readonly 900?: string;
+            fontSize: {
+                h6: string;
+                h5: string;
+                h4: string;
+                h3: string;
+                h2: string;
+                h1: string;
+                base: string;
+                label: string;
+                subLabel: string;
             };
 
             lineHeight: {
-                readonly 16: string;
-                readonly 20: string;
-                readonly 24: string;
-                readonly 32: string;
-                readonly 40: string;
-                readonly 48: string;
-                readonly 64: string;
+                readonly h1: string;
+                readonly h2: string;
+                readonly h3: string;
+                readonly h4: string;
+                readonly h5: string;
+                readonly h6: string;
+                readonly base: string;
+                readonly label: string;
+                readonly subLabel: string;
             };
 
-            weight: {
-                readonly 400: string;
-                readonly 500: string;
-                readonly 700: string;
+            fontWeight: {
+                readonly regular: string;
+                readonly semiBold: string;
+                readonly bold: string;
             };
         };
 

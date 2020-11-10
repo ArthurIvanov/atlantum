@@ -22,8 +22,9 @@ const StyledLabel = styled.label<LabelProps>`
 
     span {
         display: block;
-        font-size: ${(props) => props.theme.typography.size['200']};
-        font-weight: ${(props) => props.theme.typography.weight['400']};
+        font-size: ${(props) => props.theme.typography.fontSize.label};
+        font-weight: ${(props) => props.theme.typography.fontWeight.regular};
+        line-height: ${(props) => props.theme.typography.lineHeight.label};
         font-family: ${(props) => props.theme.typography.family.base};
         margin: 0;
     }
@@ -35,14 +36,12 @@ const StyledLabel = styled.label<LabelProps>`
             align-items: flex-start;
             span.input-alert {
                 color: ${props.theme.colors.text};
-                font-size: ${props.theme.typography.size[100]};
-                line-height: ${props.theme.typography.lineHeight[16]};
+                font-size: ${props.theme.typography.fontSize.subLabel};
+                line-height: ${props.theme.typography.lineHeight.subLabel};
                 margin-top: ${props.theme.spacing.space4};
                 }
             span.input-label {
                 color: ${props.theme.colors.text};
-                font-size: ${props.theme.typography.size[200]};
-                line-height: ${props.theme.typography.lineHeight[20]};
                 margin-bottom: ${props.theme.spacing.space4};
                 margin-left: 0;
             }
@@ -56,9 +55,7 @@ const StyledLabel = styled.label<LabelProps>`
             span.input-alert {
             color: ${props.theme.colors.dangerBase};
             }
-            
-            
-            
+               
     `};
 
     ${(props) =>
