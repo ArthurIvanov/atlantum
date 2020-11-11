@@ -53,6 +53,7 @@
         { "path": "packages/tokens" },
         { "path": "packages/theme" },
         { "path": "packages/common/types" },
-        { "path": "packages/typography/heading" }
+        { "path": "packages/typography/heading" },
+        { "path": "packages/typography/text" }
     ]
 }
