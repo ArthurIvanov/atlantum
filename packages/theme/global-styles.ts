@@ -5,6 +5,11 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         font-family: ${(props) => props.theme.typography.family.base};
+        box-sizing: border-box;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
         * {
             box-sizing: border-box;
             display: block;
