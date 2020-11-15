@@ -1,5 +1,11 @@
 # @atlantum/heading
 
+## 0.1.1
+
+### Patch Changes
+
+-   1217cbc: added text component
+
 ## 0.1.0
 
 ### Minor Changes
