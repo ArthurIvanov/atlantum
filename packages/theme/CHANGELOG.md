@@ -1,5 +1,13 @@
 # @atlantum/theme
 
+## 0.1.5
+
+### Patch Changes
+
+-   9398852: Added sidebar and main header components
+-   Updated dependencies [9398852]
+    -   @atlantum/tokens@0.2.4
+
 ## 0.1.4
 
 ### Patch Changes
