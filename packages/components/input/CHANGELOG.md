@@ -1,5 +1,13 @@
 # @atlantum/input
 
+## 0.1.6
+
+### Patch Changes
+
+-   9398852: Added sidebar and main header components
+-   Updated dependencies [9398852]
+    -   @atlantum/theme@0.1.5
+
 ## 0.1.5
 
 ### Patch Changes

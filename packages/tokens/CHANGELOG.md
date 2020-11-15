@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.2.4
+
+### Patch Changes
+
+-   9398852: Added sidebar and main header components
+
 ## 0.2.3
 
 ### Patch Changes
