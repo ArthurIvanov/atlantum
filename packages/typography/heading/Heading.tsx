@@ -7,13 +7,19 @@ type Headings = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 export interface HeadingProps {
     children: ReactNode;
     as: Headings;
+    onDark?: boolean;
 }
 
 const StyledHeading = styled(Fragment)<HeadingProps>`
     margin: 0;
     font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
     font-family: ${(props) => props.theme.typography.family.heading};
-    color: ${(props) => props.theme.colors.text};
+
+    ${(props) =>
+        props.onDark &&
+        `
+         color: ${props.theme.colors.textInverted};
+    `}
 
     ${(props) =>
         props.as === 'h1' &&

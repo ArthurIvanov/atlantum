@@ -1,6 +1,7 @@
 export const typography = {
     family: {
-        base: `Inter -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
+        base: `"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
+        heading: `"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
         monospace: `'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Consolas, Courier, monospace`,
     },
 
@@ -10,7 +11,7 @@ export const typography = {
         h3: '36px',
         h4: '32px',
         h5: '24px',
-        h6: '18px',
+        h6: '20px',
         base: '16px',
         label: '14px',
         subLabel: '12px',
@@ -30,7 +31,7 @@ export const typography = {
 
     fontWeight: {
         regular: '400',
-        semiBold: '500',
+        semiBold: '600',
         bold: '700',
     },
 };

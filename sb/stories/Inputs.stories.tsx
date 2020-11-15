@@ -55,7 +55,7 @@ const Inputs = () => {
                         type={'text'}
                         name={'success'}
                         placeholder={'Enter something'}
-                        defaultValue={'Oukeeyy 👍'}
+                        defaultValue={'Everything are ok 👍'}
                     />
                 </div>
             </div>

@@ -44,6 +44,10 @@
         "examples"
     ],
     "references": [
+        { "path": "packages/components/accordion" },
+        { "path": "packages/components/accordion-item" },
+        { "path": "packages/components/main-header" },
+        { "path": "packages/components/sidebar" },
         { "path": "packages/components/button" },
         { "path": "packages/components/input" },
         { "path": "packages/components/checkbox" },
