@@ -1,5 +1,11 @@
 # @atlantum/theme
 
+## 0.1.6
+
+### Patch Changes
+
+-   36d901b: fixed margins
+
 ## 0.1.5
 
 ### Patch Changes
