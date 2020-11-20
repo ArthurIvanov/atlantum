@@ -6,20 +6,19 @@ import AccordionItem from '../../packages/components/accordion-item';
 import Heading from '@atlantum/heading';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles from '@atlantum/theme';
-import { theme } from '@atlantum/theme';
+
+import GlobalStyles, { theme } from '@atlantum/theme';
 import './stories.styles.css';
 
 const Navigation = () => {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyles />
-            <body>
                 <MainHeader>
-                    <Heading as={'h6'}>Atlantum Design System</Heading>
+                    <a href='#'><Heading as={'h6'}>Atlantum Design System</Heading></a>
                 </MainHeader>
                 <Sidebar>
-                    <Accordion onDark>
+                    <Accordion >
                         <AccordionItem title={'Design'}>
                             <li>
                                 <a href="#">Foundation</a>
@@ -48,7 +47,6 @@ const Navigation = () => {
                         </li>
                     </Accordion>
                 </Sidebar>
-            </body>
         </ThemeProvider>
     );
 };

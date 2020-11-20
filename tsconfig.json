@@ -27,7 +27,7 @@
                 "packages/common/*/",
                 "packages/components/*/",
                 "packages/layout/*/",
-                "packages/theme/*",
+                "packages/theme/*/",
                 "packages/tokens/*",
                 "packages/typography/*"
             ]
@@ -57,6 +57,8 @@
         { "path": "packages/tokens" },
         { "path": "packages/theme" },
         { "path": "packages/common/types" },
+        { "path": "packages/layout/grid" },
+        { "path": "packages/layout/column" },
         { "path": "packages/typography/heading" },
         { "path": "packages/typography/text" }
     ]

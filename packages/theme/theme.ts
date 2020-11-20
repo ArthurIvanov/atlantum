@@ -1,5 +1,11 @@
 import { DefaultTheme } from 'styled-components';
-import { colors, spacing, typography, elevation } from '@atlantum/tokens';
+import {
+    colors,
+    spacing,
+    typography,
+    elevation,
+    layout,
+} from '@atlantum/tokens';
 
 export const theme: DefaultTheme = {
     borderRadius: spacing.s2,
@@ -54,6 +60,13 @@ export const theme: DefaultTheme = {
         space40: spacing.s40,
         space48: spacing.s48,
         space64: spacing.s64,
+    },
+
+    layout: {
+        columns: layout.columns,
+        column: layout.column,
+        columnGap: layout.columnGap,
+        rowGap: layout.rowGap,
     },
 
     elevation: {

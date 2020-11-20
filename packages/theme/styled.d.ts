@@ -57,6 +57,13 @@ declare module 'styled-components' {
             readonly space64?: string;
         };
 
+        layout?: {
+            columns?: number;
+            column?: number;
+            columnGap?: string;
+            rowGap?: string;
+        };
+
         elevation?: {
             slight?: string;
             medium?: string;

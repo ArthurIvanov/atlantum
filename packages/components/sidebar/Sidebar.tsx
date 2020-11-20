@@ -10,8 +10,8 @@ const StyledSidebar = styled.div<SidebarProps>`
     display: flex;
     flex-direction: row;
     position: fixed;
-    top: 0;
     left: 0;
+    transform: translateX(0px);
     padding: ${(props) => props.theme.spacing.space24};
     margin-top: ${(props) => props.theme.spacing.space48};
     width: 256px;
@@ -20,7 +20,6 @@ const StyledSidebar = styled.div<SidebarProps>`
     transition: all ease-in-out 0.4s;
 
     @media only screen and (max-width: 1050px) {
-        left: -286px;
     }
 `;
 

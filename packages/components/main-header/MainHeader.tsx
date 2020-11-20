@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ReactNode, FC, useState } from 'react';
+import { ReactNode, FC, useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Menu } from 'react-feather';
 import { X } from 'react-feather';
@@ -23,7 +23,14 @@ const StyledMainHeader = styled.header<MainHeaderProps>`
     h6 {
         margin-left: ${(props) => props.theme.spacing.space12};
     }
-
+    
+    a, a:active, a:visited {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: ${(props) => props.theme.colors.textInverted};
+    }
+    
     button.atlantum-header-button {
         display: block;
         margin: 0;
@@ -43,22 +50,48 @@ const StyledMainHeader = styled.header<MainHeaderProps>`
 `;
 
 const MainHeader: FC<MainHeaderProps> = (props) => {
-    const [checked, setChecked] = useState(false);
-
-    const onClick = () => {
-        setChecked(!checked);
+    const [checked, setChecked] = useState<boolean>(false);
+    const [windowWidth, setWindowSize] = useState<undefined | number>(0);
         const sidebar: HTMLElement | null = document.getElementById(
             'atlantum-sidebar'
         );
-        if (!checked) {
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowSize(window.innerWidth);
+        }
+
+        window.addEventListener("resize", handleResize);
+        handleResize();
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+    if (windowWidth != undefined) {
+        if (windowWidth < 1050) {
             if (sidebar !== null) {
-                sidebar.style.left = '0';
+                sidebar.style.left = '-256px';
             }
-        } else {
+        } else if (windowWidth > 1050 && checked) {
+            console.log(checked);
+            setChecked(false);
             if (sidebar !== null) {
-                sidebar.style.left = '-286px';
+                sidebar.style.left = '0px';
+                sidebar.style.transform = 'translateX(0)';
             }
         }
+        }
+
+    const onClick = () => {
+        setChecked(!checked);
+        if (!checked) {
+            if (sidebar !== null) {
+                sidebar.style.transform = 'translateX(256px)';
+            }
+        } else if (checked) {
+            if (sidebar !== null) {
+                sidebar.style.transform = 'translateX(0px)';
+            }
+        }
+
     };
 
     return (

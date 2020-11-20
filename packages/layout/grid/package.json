@@ -1,0 +1,20 @@
+{
+    "name": "@atlantum/grid",
+    "version": "0.0.0",
+    "description": "grid layout",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "dependencies": {
+        "@atlantum/theme": "^0.1.5"
+    },
+    "devDependencies": {
+        "react": "^16.13.1",
+        "styled-components": "^5.2.0"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    },
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/layout/grid"
+}

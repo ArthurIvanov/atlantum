@@ -10,12 +10,6 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         position: relative;
-        * {
-            box-sizing: border-box;
-            display: block;
-            margin: 0;
-            padding: 0;
-        }
     }
 `;
 
