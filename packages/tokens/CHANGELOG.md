@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.2.5
+
+### Patch Changes
+
+-   35eb043: fixed issues with global styles
+
 ## 0.2.4
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/tokens",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "tokens",
     "main": "dist/index.js",
     "module": "dist/index.js",
