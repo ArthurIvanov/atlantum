@@ -1,5 +1,13 @@
 # @atlantum/theme
 
+## 0.1.7
+
+### Patch Changes
+
+-   35eb043: fixed issues with global styles
+-   Updated dependencies [35eb043]
+    -   @atlantum/tokens@0.2.5
+
 ## 0.1.6
 
 ### Patch Changes
