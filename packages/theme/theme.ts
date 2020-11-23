@@ -10,37 +10,37 @@ import {
 export const theme: DefaultTheme = {
     borderRadius: spacing.s2,
     colors: {
-        primaryLight: colors.blue['500'],
-        primaryBase: colors.blue['700'],
-        primaryDark: colors.blue['1000'],
+        primaryLight: colors.blue.c500,
+        primaryBase: colors.blue.c700,
+        primaryDark: colors.blue.c900,
 
-        secondaryLight: colors.green['500'],
-        secondaryBase: colors.green['600'],
-        secondaryDark: colors.green['900'],
+        secondaryLight: colors.green.c500,
+        secondaryBase: colors.green.c700,
+        secondaryDark: colors.green.c900,
 
-        successLight: colors.green['500'],
-        successBase: colors.green['700'],
-        successDark: colors.green['900'],
+        successLight: colors.green.c500,
+        successBase: colors.green.c700,
+        successDark: colors.green.c900,
 
-        warningBase: colors.warning['100'],
-        warningDark: colors.warning['200'],
-        warningLight: colors.warning['300'],
+        warningDark: colors.orange.c500,
+        warningBase: colors.orange.c700,
+        warningLight: colors.orange.c900,
 
-        dangerLight: colors.danger['100'],
-        dangerBase: colors.danger['200'],
-        dangerDark: colors.danger['300'],
+        dangerLight: colors.red.c500,
+        dangerBase: colors.red.c700,
+        dangerDark: colors.red.c900,
 
-        text: colors.neutral['1200'],
-        textInverted: colors.neutral['25'],
+        text: colors.neutral.c1200,
+        textInverted: colors.neutral.c25,
 
-        background: colors.neutral['25'],
-        backgroundInverted: colors.neutral['1800'],
+        background: colors.neutral.c25,
+        backgroundInverted: colors.neutral.c1800,
 
-        neutralLighter: colors.neutral['25'],
-        neutralLight: colors.neutral['50'],
-        neutralBase: colors.neutral['300'],
-        neutralDark: colors.neutral['700'],
-        neutralDarker: colors.neutral['900'],
+        neutralLighter: colors.neutral.c25,
+        neutralLight: colors.neutral.c50,
+        neutralBase: colors.neutral.c300,
+        neutralDark: colors.neutral.c700,
+        neutralDarker: colors.neutral.c900,
     },
 
     spacing: {
