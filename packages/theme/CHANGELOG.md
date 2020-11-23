@@ -1,5 +1,13 @@
 # @atlantum/theme
 
+## 0.1.8
+
+### Patch Changes
+
+-   3c2db54: fixed color scheme
+-   Updated dependencies [3c2db54]
+    -   @atlantum/tokens@0.2.6
+
 ## 0.1.7
 
 ### Patch Changes
