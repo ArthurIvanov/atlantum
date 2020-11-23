@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.2.6
+
+### Patch Changes
+
+-   3c2db54: fixed color scheme
+
 ## 0.2.5
 
 ### Patch Changes
