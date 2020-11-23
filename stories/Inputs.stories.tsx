@@ -2,9 +2,7 @@ import * as React from 'react';
 import Input from '@atlantum/input';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles from '@atlantum/theme';
-
-import { theme } from '@atlantum/theme';
+import GlobalStyles, { theme } from '@atlantum/theme';
 import './stories.styles.css';
 
 const Inputs = () => {

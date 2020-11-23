@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Accordion from '../../packages/components/accordion';
-import AccordionItem from '../../packages/components/accordion-item';
+import Accordion from '@atlantum/accordion';
+import AccordionItem from '@atlantum/accordion-item';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '@atlantum/theme';

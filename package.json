@@ -30,9 +30,13 @@
     },
     "dependencies": {
         "@babel/core": "^7.11.6",
+        "@storybook/addon-a11y": "^6.0.26",
+        "@storybook/addon-actions": "^6.0.22",
+        "@storybook/addon-essentials": "^6.0.22",
+        "@storybook/addon-links": "^6.0.22",
+        "@storybook/react": "^6.0.22",
         "@changesets/cli": "^2.11.2",
         "@manypkg/cli": "^0.16.1",
-        "@storybook/addon-a11y": "^6.1.1",
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
         "@types/jest": "^26.0.14",
@@ -43,6 +47,7 @@
         "@typescript-eslint/parser": "^4.6.0",
         "babel-loader": "^8.1.0",
         "chromatic": "^5.2.0",
+        "core-js": "^3.7.0",
         "eslint": "^7.12.1",
         "eslint-config-prettier": "^6.15.0",
         "eslint-plugin-import": "^2.22.1",
@@ -58,11 +63,5 @@
         "styled-components": "^5.2.0",
         "ts-loader": "^8.0.4",
         "typescript": "^4.0.3"
-    },
-    "devDependencies": {
-        "@storybook/addon-actions": "^6.1.1",
-        "@storybook/addon-essentials": "^6.1.1",
-        "@storybook/addon-links": "^6.1.1",
-        "@storybook/react": "^6.1.1"
     }
 }
