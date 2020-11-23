@@ -1,5 +1,5 @@
 import * as React from 'react';
-import MainHeader from '@atlantum//main-header';
+import MainHeader from '@atlantum/main-header';
 import Sidebar from '@atlantum/sidebar';
 import Accordion from '@atlantum//accordion';
 import AccordionItem from '@atlantum//accordion-item';
