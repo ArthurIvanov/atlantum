@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 import * as React from 'react';
-import { FC } from 'react';
+import {FC, ReactNode} from 'react';
 
 import { InputProps } from '@atlantum/input';
 import Label from '@atlantum/label';
 
 export interface CheckboxProps extends InputProps {
     checked?: boolean;
+    children?: ReactNode;
 }
 
 const StyledCheckbox = styled.input<CheckboxProps>`
@@ -34,17 +35,22 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     &:focus {
         outline: none;
     }
+    
+    &:checked {
+    background-color: ${(props) => props.theme.colors.primaryBase};
+    }
 
     &:checked::after {
         content: '';
-        display: block;
-        background-color: ${(props) => props.theme.colors.primaryBase};
-        border-radius: 1px;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+        display: block;   
+        border-radius: ${(props) => props.theme.spacing.space2};
         position: absolute;
-        width: 8px;
-        height: 8px;
-        top: 2px;
-        left: 2px;
+        width: 16px;
+        height: 16px;
+        top: -2px;
+        left: -2px;
+
     }
 
     ${(props) =>
@@ -57,7 +63,7 @@ const StyledCheckbox = styled.input<CheckboxProps>`
             box-shadow: none;
     }
     
-    &:checked::after {
+    &:checked {
         background-color: ${props.theme.colors.neutralDark};
     }
     `}
@@ -108,6 +114,7 @@ const Checkbox: FC<CheckboxProps> = (props) => {
                 type={'checkbox'}
                 onChange={props.onChange}
             />
+
             <span className="input-label">{props.label}</span>
         </Label>
     );
