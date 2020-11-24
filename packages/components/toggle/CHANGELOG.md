@@ -1,5 +1,11 @@
 # @atlantum/toggle
 
+## 0.1.2
+
+### Patch Changes
+
+-   5e48f47: fixed appearance issue
+
 ## 0.1.1
 
 ### Patch Changes
