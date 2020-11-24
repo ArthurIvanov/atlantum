@@ -20,7 +20,7 @@ const Navigation = () => {
                 </a>
             </MainHeader>
             <Sidebar>
-                <Accordion>
+                <Accordion onDark>
                     <AccordionItem title={'Design'}>
                         <li>
                             <a href="#">Foundation</a>
