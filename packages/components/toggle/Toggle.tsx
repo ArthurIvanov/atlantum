@@ -15,6 +15,7 @@ const StyledToggle = styled.input<ToggleProps>`
     position: relative;
     display: block;
     cursor: pointer;
+    appearance: none;
 
     &:hover {
         &:before {
@@ -28,6 +29,7 @@ const StyledToggle = styled.input<ToggleProps>`
         display: block;
         content: '';
         border-radius: ${(props) => props.theme.spacing.space32};
+        top: 0;
     }
 
     &:before {

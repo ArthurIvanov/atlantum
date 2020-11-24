@@ -12,7 +12,7 @@ const Toggles = () => {
                 <div>
                     <Toggle
                         type={'checkbox'}
-                        name={'checkbox'}
+                        name={'toggle'}
                         label={'Regular toggle'}
                     />
                 </div>
@@ -20,7 +20,7 @@ const Toggles = () => {
                     <Toggle
                         disabled
                         type={'checkbox'}
-                        name={'checkbox'}
+                        name={'toggle'}
                         label={'Disabled toggle'}
                     />
                 </div>
@@ -28,7 +28,7 @@ const Toggles = () => {
                     <Toggle
                         checked
                         type={'checkbox'}
-                        name={'checkbox'}
+                        name={'toggle'}
                         label={'Switch "on" toggle'}
                     />
                 </div>
