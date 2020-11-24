@@ -1,5 +1,11 @@
 # @atlantum/checkbox
 
+## 0.1.4
+
+### Patch Changes
+
+-   8367feb: fixed icon
+
 ## 0.1.3
 
 ### Patch Changes
