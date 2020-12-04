@@ -1,5 +1,11 @@
 # @atlantum/datepicker
 
+## 0.1.1
+
+### Patch Changes
+
+-   1e80a4f: minor fixing
+
 ## 0.1.0
 
 ### Minor Changes
