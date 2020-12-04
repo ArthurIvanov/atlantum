@@ -1,5 +1,13 @@
 # @atlantum/input
 
+## 0.1.7
+
+### Patch Changes
+
+-   f6fbe0e: Added complete restyle
+-   Updated dependencies [f6fbe0e]
+    -   @atlantum/theme@0.1.9
+
 ## 0.1.6
 
 ### Patch Changes

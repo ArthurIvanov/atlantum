@@ -1,5 +1,13 @@
 # @atlantum/heading
 
+## 0.1.3
+
+### Patch Changes
+
+-   f6fbe0e: Added complete restyle
+-   Updated dependencies [f6fbe0e]
+    -   @atlantum/theme@0.1.9
+
 ## 0.1.2
 
 ### Patch Changes

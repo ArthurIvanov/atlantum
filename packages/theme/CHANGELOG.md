@@ -1,5 +1,11 @@
 # @atlantum/theme
 
+## 0.1.9
+
+### Patch Changes
+
+-   f6fbe0e: Added complete restyle
+
 ## 0.1.8
 
 ### Patch Changes
