@@ -1,5 +1,11 @@
 # @atlantum/main-header
 
+## 0.1.5
+
+### Patch Changes
+
+-   9fcaa90: FIxed collapse sidebar issue
+
 ## 0.1.4
 
 ### Patch Changes

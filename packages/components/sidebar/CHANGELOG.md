@@ -1,5 +1,11 @@
 # @atlantum/sidebar
 
+## 0.1.3
+
+### Patch Changes
+
+-   9fcaa90: FIxed collapse sidebar issue
+
 ## 0.1.2
 
 ### Patch Changes
