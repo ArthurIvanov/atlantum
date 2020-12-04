@@ -1,5 +1,13 @@
 # @atlantum/main-header
 
+## 0.1.3
+
+### Patch Changes
+
+-   3671796: fixing sidebar
+-   Updated dependencies [3671796]
+    -   @atlantum/theme@0.1.10
+
 ## 0.1.2
 
 ### Patch Changes
