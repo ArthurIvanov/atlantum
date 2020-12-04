@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/theme",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "morph theme",
     "main": "dist/index.js",
     "module": "dist/index.js",
