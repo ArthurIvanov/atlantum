@@ -1,5 +1,11 @@
 # @atlantum/main-header
 
+## 0.1.4
+
+### Patch Changes
+
+-   1e80a4f: minor fixing
+
 ## 0.1.3
 
 ### Patch Changes
