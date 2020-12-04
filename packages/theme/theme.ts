@@ -8,7 +8,9 @@ import {
 } from '@atlantum/tokens';
 
 export const theme: DefaultTheme = {
-    borderRadius: spacing.s2,
+    borderRadius: spacing.s8,
+    baseStep: spacing.s4,
+
     colors: {
         primaryLight: colors.blue.c500,
         primaryBase: colors.blue.c700,
@@ -47,6 +49,7 @@ export const theme: DefaultTheme = {
         space1: spacing.s1,
         space2: spacing.s2,
         space4: spacing.s4,
+        space7: spacing.s7,
         space8: spacing.s8,
         space10: spacing.s10,
         space12: spacing.s12,

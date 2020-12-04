@@ -39,7 +39,7 @@ const StyledAccordion = styled.ul<AccordionProps>`
     `}
 
     & > li:not(:last-child) {
-        margin-bottom: 4px;
+        margin-bottom: 12px;
     }
 
     a {

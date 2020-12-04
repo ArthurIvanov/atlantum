@@ -10,11 +10,13 @@ export interface AccordionItemProps {
 }
 
 const StyledAccordionItem = styled.li<AccordionItemProps>`
+    outline: black;
+
     ul > li:first-child {
-        margin-top: 4px;
+        margin-top: 12px;
     }
     ul > li:not(:last-child) {
-        margin-bottom: 4px;
+        margin-bottom: 12px;
     }
     .atlantum-accordion-item--title {
         cursor: pointer;

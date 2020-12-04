@@ -1,21 +1,33 @@
-body.sb-show-main {
-    margin: 0 !important;
-    padding: 0 !important;
-}
+/*body.sb-show-main {*/
+/*    margin: 0 !important;*/
+/*    padding: 0 !important;*/
+/*}*/
 
 .flex {
     display: flex;
     width: 100%;
 }
 
-.margin-r-24 div:not(last-child) {
+.margin-r-24 > div:not(:last-child) {
     margin-right: 24px;
     width: 100%;
+}
+
+.atlantum-view {
+    width: 80%;
+    padding: 48px;
+}
+
+.atlantum-compact {
+    width: 25%;
+    padding: 48px;
 }
 
 .atlantum-div {
     height: 200px;
     color: white;
+    display: flex;
     background-color: blue;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 }

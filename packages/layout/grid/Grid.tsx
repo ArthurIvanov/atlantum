@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react';
 import * as React from 'react';
 import styled from 'styled-components';
 
-type Gap = '0' | '2' | '4' | '8' | '12' | '16' | '24';
+export type Gap = '0' | '2' | '4' | '8' | '12' | '16' | '24';
 
 export interface GridProps {
     children: ReactNode;
@@ -12,6 +12,7 @@ export interface GridProps {
 }
 
 const StyledGrid = styled.div<GridProps>`
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(
         ${(props) => props.theme.layout.columns},

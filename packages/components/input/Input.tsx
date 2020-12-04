@@ -29,16 +29,14 @@ const StyledInput = styled.input<InputProps>`
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    border-top-left-radius: ${(props) => props.theme.borderRadius};
-    border-top-right-radius: ${(props) => props.theme.borderRadius};
+    border-radius: ${(props) => props.theme.borderRadius};
+
     border: ${(props) => props.theme.spacing.space1} solid
-        ${(props) => props.theme.colors.neutralDark};
-    border-bottom: ${(props) => props.theme.spacing.space2} solid
         ${(props) => props.theme.colors.neutralDark};
 
     color: ${(props) => props.theme.colors.text};
     background-color: ${(props) => props.theme.colors.neutralLighter};
-    padding: ${(props) => props.theme.spacing.space8};
+    padding: ${(props) => props.theme.spacing.space7};
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-family: ${(props) => props.theme.typography.family.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.regular};
@@ -58,7 +56,6 @@ const StyledInput = styled.input<InputProps>`
     &:focus {
         outline: 0;
         border-color: ${(props) => props.theme.colors.primaryDark};
-        border-bottom-color: ${(props) => props.theme.colors.primaryDark};
         box-shadow: ${(props) => props.theme.elevation.slight};
     }
 

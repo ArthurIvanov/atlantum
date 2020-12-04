@@ -7,6 +7,7 @@ type Headings = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 export interface HeadingProps {
     children: ReactNode;
     as: Headings;
+    centered?: boolean;
     onDark?: boolean;
 }
 
@@ -14,6 +15,13 @@ const StyledHeading = styled(Fragment)<HeadingProps>`
     margin: 0;
     font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
     font-family: ${(props) => props.theme.typography.family.heading};
+    color: ${(props) => props.theme.colors.text};
+
+    ${(props) =>
+        props.centered &&
+        `
+         text-align: center;
+    `}
 
     ${(props) =>
         props.onDark &&
@@ -65,8 +73,12 @@ const StyledHeading = styled(Fragment)<HeadingProps>`
     `};
 `;
 
-const Heading: FC<HeadingProps> = ({ as = 'h1', children }) => {
-    return <StyledHeading as={as}>{children}</StyledHeading>;
+const Heading: FC<HeadingProps> = ({ as = 'h1', children, centered }) => {
+    return (
+        <StyledHeading as={as} centered={centered}>
+            {children}
+        </StyledHeading>
+    );
 };
 
 export default Heading;

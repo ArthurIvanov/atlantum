@@ -14,11 +14,13 @@ export interface ButtonProps {
 
 const StyledButton = styled.button<ButtonProps>`
     border: none;
+    border-radius: ${(props) => props.theme.borderRadius};
     background-color: ${(props) => props.theme.colors.primaryBase};
     color: ${(props) => props.theme.colors.textInverted};
     padding: ${(props) => props.theme.spacing.space8}
         ${(props) => props.theme.spacing.space24};
     font-size: ${(props) => props.theme.typography.fontSize.base};
+    font-family: ${(props) => props.theme.typography.family.base};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.regular};
     cursor: pointer;

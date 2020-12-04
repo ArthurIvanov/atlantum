@@ -3,6 +3,7 @@ import 'styled-components';
 declare module 'styled-components' {
     export interface DefaultTheme {
         borderRadius?: string;
+        baseStep: string;
 
         colors: {
             readonly primaryLight: string;
@@ -42,6 +43,7 @@ declare module 'styled-components' {
             readonly space1?: string;
             readonly space2?: string;
             readonly space4?: string;
+            readonly space7?: string;
             readonly space8?: string;
             readonly space10?: string;
             readonly space12?: string;

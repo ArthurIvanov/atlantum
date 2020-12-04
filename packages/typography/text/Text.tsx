@@ -27,6 +27,7 @@ export interface TextProps {
     children?: ReactNode;
     as?: TextTags;
     size?: TextSize;
+    centered?: boolean;
 }
 
 const StyledText = styled(Fragment)<TextProps>`
@@ -34,6 +35,13 @@ const StyledText = styled(Fragment)<TextProps>`
     font-weight: ${(props) => props.theme.typography.fontWeight.base};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
     color: ${(props) => props.theme.colors.text};
+    margin: 0;
+
+    ${(props) =>
+        props.centered &&
+        `
+        text-align: center;
+    `}
 
     ${(props) =>
         props.size === 'label' &&
@@ -50,9 +58,9 @@ const StyledText = styled(Fragment)<TextProps>`
     `}
 `;
 
-const Text: FC<TextProps> = ({ as, children, size }) => {
+const Text: FC<TextProps> = ({ as, children, size, centered }) => {
     return (
-        <StyledText as={as} size={size}>
+        <StyledText as={as} size={size} centered={centered}>
             {children}
         </StyledText>
     );

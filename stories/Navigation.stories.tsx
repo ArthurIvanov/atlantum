@@ -10,7 +10,7 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles, { theme } from '@atlantum/theme';
 import './stories.styles.css';
 
-const Navigation = () => {
+const UI = () => {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyles />
@@ -20,7 +20,7 @@ const Navigation = () => {
                 </a>
             </MainHeader>
             <Sidebar>
-                <Accordion onDark>
+                <Accordion>
                     <AccordionItem title={'Design'}>
                         <li>
                             <a href="#">Foundation</a>
@@ -53,4 +53,4 @@ const Navigation = () => {
     );
 };
 
-storiesOf('Navigation', module).add('Navigation', () => <Navigation />);
+storiesOf('UI', module).add('UI', () => <UI />);

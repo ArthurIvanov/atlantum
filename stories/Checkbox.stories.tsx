@@ -5,40 +5,31 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from '@atlantum/theme';
 import './stories.styles.css';
 
-const Checkboxes = () => {
+const Regular = () => {
     return (
         <ThemeProvider theme={theme}>
-            <div className="flex margin-r-24">
+            <div className="atlantum-view">
                 <div>
                     <Checkbox
                         type={'checkbox'}
                         name={'username'}
-                        label={'Regular checkbox'}
+                        label={'Label'}
                     />
                 </div>
+            </div>
+        </ThemeProvider>
+    );
+};
+const Checked = () => {
+    return (
+        <ThemeProvider theme={theme}>
+            <div className="atlantum-view">
                 <div>
                     <Checkbox
-                        disabled
                         checked
                         type={'checkbox'}
-                        name={'checkbox'}
-                        label={'Disabled checkbox'}
-                    />
-                </div>
-                <div>
-                    <Checkbox
-                        danger
-                        type={'checkbox'}
-                        name={'disabled'}
-                        label={'Danger checkbox'}
-                    />
-                </div>
-                <div>
-                    <Checkbox
-                        success
-                        type={'checkbox'}
-                        name={'disabled'}
-                        label={'Success checkbox'}
+                        name={'username'}
+                        label={'Label'}
                     />
                 </div>
             </div>
@@ -46,4 +37,24 @@ const Checkboxes = () => {
     );
 };
 
-storiesOf('Checkbox', module).add('All checkboxes', () => <Checkboxes />);
+const Disabled = () => {
+    return (
+        <ThemeProvider theme={theme}>
+            <div className="atlantum-view">
+                <div>
+                    <Checkbox
+                        checked
+                        disabled
+                        type={'checkbox'}
+                        name={'username'}
+                        label={'Label'}
+                    />
+                </div>
+            </div>
+        </ThemeProvider>
+    );
+};
+
+storiesOf('Checkbox', module).add('Regular', () => <Regular />);
+storiesOf('Checkbox', module).add('Checked', () => <Checked />);
+storiesOf('Checkbox', module).add('Disabled', () => <Disabled />);

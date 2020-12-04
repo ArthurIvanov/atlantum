@@ -9,31 +9,34 @@ export interface MainHeaderProps {
 }
 
 const StyledMainHeader = styled.header<MainHeaderProps>`
-    color: ${(props) => props.theme.colors.textInverted};
+    border-radius: ${(props) => props.theme.borderRadius};
+    color: ${(props) => props.theme.colors.text};
     width: 100%;
-    padding: ${(props) => props.theme.spacing.space12};
+    padding-left: ${(props) => props.theme.spacing.space24};
+    padding-right: ${(props) => props.theme.spacing.space24};
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
-    background-color: ${(props) => props.theme.colors.primaryDark};
-    border-bottom: 1px solid ${(props) => props.theme.colors.textInverted};
+    height: 72px;
+    justify-items: center;
+    background-color: ${(props) => props.theme.colors.neutralLighter};
     z-index: 1000;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
 
-    h6 {
-        margin-left: ${(props) => props.theme.spacing.space12};
+    a,
+    a:active,
+    a:visited {
+        display: block;
+        text-decoration: none;
+        margin: 0 0 0 ${(props) => props.theme.spacing.space12};
+        color: ${(props) => props.theme.colors.textInverted};
     }
-    
-    a, a:active, a:visited {
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    color: ${(props) => props.theme.colors.textInverted};
-    }
-    
+
     button.atlantum-header-button {
         display: block;
         margin: 0;
+        padding: 0;
         outline: none;
         border: none;
         background-color: transparent;
@@ -41,7 +44,7 @@ const StyledMainHeader = styled.header<MainHeaderProps>`
 
     .atlantum-header-icon {
         display: none;
-        color: ${(props) => props.theme.colors.textInverted};
+        color: ${(props) => props.theme.colors.text};
         @media only screen and (max-width: 1050px) {
             display: block;
             margin: 0 ${(props) => props.theme.spacing.space12};
@@ -52,46 +55,45 @@ const StyledMainHeader = styled.header<MainHeaderProps>`
 const MainHeader: FC<MainHeaderProps> = (props) => {
     const [checked, setChecked] = useState<boolean>(false);
     const [windowWidth, setWindowSize] = useState<undefined | number>(0);
-        const sidebar: HTMLElement | null = document.getElementById(
-            'atlantum-sidebar'
-        );
+    const sidebar: HTMLElement | null = document.getElementById(
+        'atlantum-sidebar'
+    );
 
     useEffect(() => {
         const handleResize = () => {
             setWindowSize(window.innerWidth);
-        }
+        };
 
-        window.addEventListener("resize", handleResize);
+        window.addEventListener('resize', handleResize);
         handleResize();
-        return () => window.removeEventListener("resize", handleResize);
+        return () => window.removeEventListener('resize', handleResize);
     }, []);
     if (windowWidth != undefined) {
         if (windowWidth < 1050) {
             if (sidebar !== null) {
-                sidebar.style.left = '-256px';
+                sidebar.style.left = '-280px';
             }
         } else if (windowWidth > 1050 && checked) {
             console.log(checked);
             setChecked(false);
             if (sidebar !== null) {
-                sidebar.style.left = '0px';
-                sidebar.style.transform = 'translateX(0)';
+                sidebar.style.left = '24px';
+                sidebar.style.transform = 'translateX(24px)';
             }
         }
-        }
+    }
 
     const onClick = () => {
         setChecked(!checked);
         if (!checked) {
             if (sidebar !== null) {
-                sidebar.style.transform = 'translateX(256px)';
+                sidebar.style.transform = 'translateX(280px)';
             }
         } else if (checked) {
             if (sidebar !== null) {
                 sidebar.style.transform = 'translateX(0px)';
             }
         }
-
     };
 
     return (

@@ -7,16 +7,18 @@ export interface SidebarProps {
 }
 
 const StyledSidebar = styled.div<SidebarProps>`
+    border-radius: ${(props) => props.theme.borderRadius};
+    color: ${(props) => props.theme.colors.text};
     display: flex;
     flex-direction: row;
     position: fixed;
     left: 0;
     transform: translateX(0px);
     padding: ${(props) => props.theme.spacing.space24};
-    margin-top: ${(props) => props.theme.spacing.space48};
+    margin-top: 96px;
     width: 256px;
     height: 100%;
-    background-color: ${(props) => props.theme.colors.primaryDark};
+    background-color: ${(props) => props.theme.colors.neutralLighter};
     transition: all ease-in-out 0.4s;
 
     @media only screen and (max-width: 1050px) {

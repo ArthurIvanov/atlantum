@@ -9,34 +9,40 @@ import './stories.styles.css';
 const Accordions = () => {
     return (
         <ThemeProvider theme={theme}>
-            <Accordion>
-                <AccordionItem title={'Design'}>
-                    <li>
-                        <a href="#">Foundation</a>
-                    </li>
-                    <li>
-                        <a href="#">Idea</a>
-                    </li>
-                    <li>
-                        <a href="#">Examples</a>
-                    </li>
-                </AccordionItem>
-                <AccordionItem title={'Components'}>
-                    <li>
-                        <a href="#">Accordion</a>
-                    </li>
-                    <li>
-                        <a href="#">Button</a>
-                    </li>
-                    <li>
-                        <a href="#">Input</a>
-                    </li>
-                </AccordionItem>
+            <div className="">
+                <div className="atlantum-compact">
+                    <Accordion>
+                        <AccordionItem title={'Expandable item 1'}>
+                            <li>
+                                <a href="#">Nested item 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Nested item 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Nested item 3</a>
+                            </li>
+                        </AccordionItem>
+                        <AccordionItem title={'Expandable item 2'}>
+                            <li>
+                                <a href="#">Nested item 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Nested item 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Nested item 1</a>
+                            </li>
+                        </AccordionItem>
 
-                <li>
-                    <a href="https://github.com/ArthurIvanov">Github</a>
-                </li>
-            </Accordion>
+                        <li>
+                            <a href="https://github.com/ArthurIvanov">
+                                Nested item 1
+                            </a>
+                        </li>
+                    </Accordion>
+                </div>
+            </div>
         </ThemeProvider>
     );
 };
