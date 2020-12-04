@@ -15,7 +15,7 @@ const StyledSidebar = styled.div<SidebarProps>`
     left: 0;
     transform: translateX(0px);
     padding: ${(props) => props.theme.spacing.space24};
-    margin-top: 96px;
+    top: 96px;
     width: 256px;
     height: 100%;
     background-color: ${(props) => props.theme.colors.neutralLighter};

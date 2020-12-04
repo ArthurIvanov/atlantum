@@ -8,21 +8,29 @@ export interface MainHeaderProps {
     children: ReactNode;
 }
 
-const StyledMainHeader = styled.header<MainHeaderProps>`
-    border-radius: ${(props) => props.theme.borderRadius};
-    color: ${(props) => props.theme.colors.text};
+const StyledMainHeader = styled.div<MainHeaderProps>`
+    position: relative;
     width: 100%;
     padding-left: ${(props) => props.theme.spacing.space24};
     padding-right: ${(props) => props.theme.spacing.space24};
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    height: 72px;
-    justify-items: center;
-    background-color: ${(props) => props.theme.colors.neutralLighter};
-    z-index: 1000;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+    header {
+        position: sticky;
+        padding-left: ${(props) => props.theme.spacing.space24};
+        padding-right: ${(props) => props.theme.spacing.space24};
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        top: 24px;
+        height: 72px;
+        width: 100%;
+        border-radius: ${(props) => props.theme.borderRadius};
+        color: ${(props) => props.theme.colors.text};
+
+        background-color: ${(props) => props.theme.colors.neutralLighter};
+        box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+
+        z-index: 1000;
+    }
 
     a,
     a:active,
@@ -98,14 +106,16 @@ const MainHeader: FC<MainHeaderProps> = (props) => {
 
     return (
         <StyledMainHeader>
-            <button className="atlantum-header-button" onClick={onClick}>
-                {checked ? (
-                    <X className="atlantum-header-icon" size={24} />
-                ) : (
-                    <Menu className="atlantum-header-icon" size={24} />
-                )}
-            </button>
-            {props.children}
+            <header>
+                <button className="atlantum-header-button" onClick={onClick}>
+                    {checked ? (
+                        <X className="atlantum-header-icon" size={24} />
+                    ) : (
+                        <Menu className="atlantum-header-icon" size={24} />
+                    )}
+                </button>
+                {props.children}
+            </header>
         </StyledMainHeader>
     );
 };

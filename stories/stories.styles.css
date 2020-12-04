@@ -1,7 +1,7 @@
-/*body.sb-show-main {*/
-/*    margin: 0 !important;*/
-/*    padding: 0 !important;*/
-/*}*/
+body.sb-show-main {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 .flex {
     display: flex;

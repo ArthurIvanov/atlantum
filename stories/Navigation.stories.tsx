@@ -14,41 +14,43 @@ const UI = () => {
     return (
         <ThemeProvider theme={theme}>
             <GlobalStyles />
-            <MainHeader>
-                <a href="#">
-                    <Heading as={'h6'}>Atlantum Design System</Heading>
-                </a>
-            </MainHeader>
-            <Sidebar>
-                <Accordion>
-                    <AccordionItem title={'Design'}>
-                        <li>
-                            <a href="#">Foundation</a>
-                        </li>
-                        <li>
-                            <a href="#">Idea</a>
-                        </li>
-                        <li>
-                            <a href="#">Examples</a>
-                        </li>
-                    </AccordionItem>
-                    <AccordionItem title={'Components'}>
-                        <li>
-                            <a href="#">Accordion</a>
-                        </li>
-                        <li>
-                            <a href="#">Button</a>
-                        </li>
-                        <li>
-                            <a href="#">Input</a>
-                        </li>
-                    </AccordionItem>
+            <div className="">
+                <MainHeader>
+                    <a href="#">
+                        <Heading as={'h6'}>Atlantum Design System</Heading>
+                    </a>
+                </MainHeader>
+                <Sidebar>
+                    <Accordion>
+                        <AccordionItem title={'Design'}>
+                            <li>
+                                <a href="#">Foundation</a>
+                            </li>
+                            <li>
+                                <a href="#">Idea</a>
+                            </li>
+                            <li>
+                                <a href="#">Examples</a>
+                            </li>
+                        </AccordionItem>
+                        <AccordionItem title={'Components'}>
+                            <li>
+                                <a href="#">Accordion</a>
+                            </li>
+                            <li>
+                                <a href="#">Button</a>
+                            </li>
+                            <li>
+                                <a href="#">Input</a>
+                            </li>
+                        </AccordionItem>
 
-                    <li>
-                        <a href="https://github.com/ArthurIvanov">Github</a>
-                    </li>
-                </Accordion>
-            </Sidebar>
+                        <li>
+                            <a href="https://github.com/ArthurIvanov">Github</a>
+                        </li>
+                    </Accordion>
+                </Sidebar>
+            </div>
         </ThemeProvider>
     );
 };
