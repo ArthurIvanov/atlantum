@@ -58,6 +58,7 @@ const MainHeader: FC<MainHeaderProps> = (props) => {
         'atlantum-sidebar'
     );
 
+    console.log(windowWidth);
     useEffect(() => {
         const handleResize = () => {
             setWindowSize(window.innerWidth);
@@ -70,14 +71,18 @@ const MainHeader: FC<MainHeaderProps> = (props) => {
     if (windowWidth != undefined) {
         if (windowWidth < 1050) {
             if (sidebar !== null) {
-                sidebar.style.left = '-280px';
+                sidebar.style.left = '-304px';
             }
         } else if (windowWidth > 1050 && checked) {
-            console.log(checked);
             setChecked(false);
-            if (sidebar !== null) {
+            if (sidebar) {
                 sidebar.style.left = '24px';
-                sidebar.style.transform = 'translateX(24px)';
+                sidebar.style.transform = 'translateX(0px)';
+            }
+        } else {
+            if (sidebar) {
+                sidebar.style.left = '24px';
+                sidebar.style.transform = 'translateX(0px)';
             }
         }
     }
@@ -86,7 +91,7 @@ const MainHeader: FC<MainHeaderProps> = (props) => {
         setChecked(!checked);
         if (!checked) {
             if (sidebar !== null) {
-                sidebar.style.transform = 'translateX(280px)';
+                sidebar.style.transform = 'translateX(328px)';
             }
         } else if (checked) {
             if (sidebar !== null) {

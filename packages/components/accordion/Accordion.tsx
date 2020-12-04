@@ -8,7 +8,6 @@ export interface AccordionProps {
     children: ReactNode;
     size?: AccordionSize;
     withSeparator?: boolean;
-    onDark?: boolean;
 }
 
 const StyledAccordion = styled.ul<AccordionProps>`
@@ -26,18 +25,6 @@ const StyledAccordion = styled.ul<AccordionProps>`
         color: ${(props) => props.theme.colors.text};
     }
 
-    ${(props) =>
-        props.onDark &&
-        `
-        color: ${props.theme.colors.textInverted};
-        .atlantum-accordion-icon {
-            color: ${props.theme.colors.textInverted};
-        }
-        li, li a {
-        color: ${props.theme.colors.textInverted};
-        }
-    `}
-
     & > li:not(:last-child) {
         margin-bottom: 12px;
     }
@@ -53,15 +40,11 @@ const StyledAccordion = styled.ul<AccordionProps>`
 const Accordion: FC<AccordionProps> = ({
     withSeparator,
     size,
-    onDark,
+
     children,
 }) => {
     return (
-        <StyledAccordion
-            size={size}
-            withSeparator={withSeparator}
-            onDark={onDark}
-        >
+        <StyledAccordion size={size} withSeparator={withSeparator}>
             {children}
         </StyledAccordion>
     );
