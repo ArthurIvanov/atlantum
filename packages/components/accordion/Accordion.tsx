@@ -26,7 +26,7 @@ const StyledAccordion = styled.ul<AccordionProps>`
     }
 
     & > li:not(:last-child) {
-        margin-bottom: 12px;
+        margin-bottom: ${(props) => props.theme.spacing.space12};
     }
 
     a {

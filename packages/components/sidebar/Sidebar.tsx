@@ -12,14 +12,14 @@ const StyledSidebar = styled.div<SidebarProps>`
     display: flex;
     flex-direction: row;
     position: fixed;
-    left: 24px;
+    left: ${(props) => props.theme.spacing.space24};
+    bottom: ${(props) => props.theme.spacing.space24};
     transform: translateX(0px);
     padding: ${(props) => props.theme.spacing.space24};
     top: 120px;
     width: 256px;
-    height: 100%;
+
     background-color: ${(props) => props.theme.colors.neutralLighter};
-    transition: all ease-in-out 0.4s;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
 `;
 

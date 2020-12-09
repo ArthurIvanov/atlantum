@@ -22,4 +22,5 @@ export const spacing = {
     s40: '40px',
     s48: '48px',
     s64: '64px',
+    s72: '72px',
 };

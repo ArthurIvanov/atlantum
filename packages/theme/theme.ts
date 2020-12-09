@@ -9,7 +9,7 @@ import {
 
 export const theme: DefaultTheme = {
     borderRadius: spacing.s8,
-    baseStep: spacing.s4,
+    baseSpace: spacing.s24,
 
     colors: {
         primaryLight: colors.blue.c500,
@@ -63,6 +63,7 @@ export const theme: DefaultTheme = {
         space40: spacing.s40,
         space48: spacing.s48,
         space64: spacing.s64,
+        space72: spacing.s72,
     },
 
     layout: {

@@ -20,8 +20,12 @@ const StyledGroup = styled.div<GroupProps>`
     ${(props) =>
         props.relation === 'closest' &&
         `
-        & > *:not(:last-child) {
-            margin-bottom: 8px;
+        &>*:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space8};
+            
+            & div >.atlantum-column:not(:last-child) {
+                margin-bottom: ${props.theme.spacing.space8};
+            }
         }
         
     `}
@@ -29,18 +33,42 @@ const StyledGroup = styled.div<GroupProps>`
     ${(props) =>
         props.relation === 'one-of' &&
         `
-        & > *:not(:last-child) {
-            margin-bottom: 16px;
+        &>*:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space24};  
+        }
+        @media only screen and (min-width: 400px) {
+        div.atlantum-grid > .atlantum-column:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space16};
         }
         
+        @media only screen and (min-width: 600px) {
+        div.atlantum-grid > .atlantum-column:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space16};
+        }
+        
+        @media only screen and (min-width: 1050px) {
+        div.atlantum-grid > .atlantum-column:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+        
+    }
+            
+        
     `}
-    
+
     ${(props) =>
         props.relation === 'not-depend' &&
         `
         & > *:not(:last-child) {
-            margin-bottom: 24px;
+            margin-bottom: ${props.theme.spacing.space24};
+            
         }
+        
+        @media only screen and (min-width: 400px) {
+            & div.atlantum-grid > .atlantum-column:not(:last-child) {
+                margin-bottom: ${props.theme.spacing.space16};
+            }
         
     `}
     
@@ -48,7 +76,7 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'separated' &&
         `
         & > *:not(:last-child) {
-            margin-bottom: 32px;
+            margin-bottom: ${props.theme.spacing.space16};
         }
         
     `}
@@ -57,7 +85,7 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'far' &&
         `
         & > *:not(:last-child) {
-            margin-bottom: 48px;
+            margin-bottom: ${props.theme.spacing.space48};
         }
         
     `}

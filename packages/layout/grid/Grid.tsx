@@ -9,10 +9,10 @@ export interface GridProps {
     readonly columns?: number;
     columnGap?: Gap;
     rowGap?: Gap;
+    className?: string;
 }
 
 const StyledGrid = styled.div<GridProps>`
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(
         ${(props) => props.theme.layout.columns},
@@ -24,7 +24,11 @@ const StyledGrid = styled.div<GridProps>`
 
 const Grid: FC<GridProps> = ({ children, columnGap = '24', rowGap = '0' }) => {
     return (
-        <StyledGrid columnGap={columnGap} rowGap={rowGap}>
+        <StyledGrid
+            className="atlantum-grid"
+            columnGap={columnGap}
+            rowGap={rowGap}
+        >
             {children}
         </StyledGrid>
     );

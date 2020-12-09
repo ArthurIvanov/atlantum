@@ -8,21 +8,42 @@ export interface MainHeaderProps {
     children: ReactNode;
 }
 
-const StyledMainHeader = styled.header<MainHeaderProps>`
-    border-radius: ${(props) => props.theme.borderRadius};
-    color: ${(props) => props.theme.colors.text};
+const StyledMainHeader = styled.div<MainHeaderProps>`
 
-    padding-left: ${(props) => props.theme.spacing.space24};
-    padding-right: ${(props) => props.theme.spacing.space24};
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 24px;
-    height: 72px;
-    justify-items: center;
-    background-color: ${(props) => props.theme.colors.neutralLighter};
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+  right: 0;
+  left: 0;
+  top: ${(props) => props.theme.spacing.space24};
+  height: ${(props) => props.theme.spacing.space72};
+  padding: 0  ${(props) => props.theme.spacing.space24};
+  position: fixed;
+  
+  &::before {
+  position:absolute;
+  background: linear-gradient(180deg, rgba(245, 245, 247, 1) 50%, rgba(245, 245, 247, 0) 100%);
+  content: '';
+  height: ${(props) => props.theme.spacing.space72};
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: block;
+  
+}
 
+    .atlantum-main-header {
+        border-radius: ${(props) => props.theme.borderRadius};
+        color: ${(props) => props.theme.colors.text};   
+        padding: ${(props) => props.theme.spacing.space24};
+        display: flex;
+        position: relative;
+        z-index: 100;
+        align-items: center;
+        justify-items: center;
+        background-color: ${(props) => props.theme.colors.neutralLighter};
+        box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);   
+    
+        }
+    
     a,
     a:active,
     a:visited {
@@ -49,6 +70,9 @@ const StyledMainHeader = styled.header<MainHeaderProps>`
             margin: 0 ${(props) => props.theme.spacing.space12};
         }
     }
+      
+    }
+    
 `;
 
 const MainHeader: FC<MainHeaderProps> = (props) => {
@@ -102,14 +126,16 @@ const MainHeader: FC<MainHeaderProps> = (props) => {
 
     return (
         <StyledMainHeader>
-            <button className="atlantum-header-button" onClick={onClick}>
-                {checked ? (
-                    <X className="atlantum-header-icon" size={24} />
-                ) : (
-                    <Menu className="atlantum-header-icon" size={24} />
-                )}
-            </button>
-            {props.children}
+            <header className="atlantum-main-header">
+                <button className="atlantum-header-button" onClick={onClick}>
+                    {checked ? (
+                        <X className="atlantum-header-icon" size={24} />
+                    ) : (
+                        <Menu className="atlantum-header-icon" size={24} />
+                    )}
+                </button>
+                {props.children}
+            </header>
         </StyledMainHeader>
     );
 };

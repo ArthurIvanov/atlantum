@@ -29,7 +29,12 @@ const Column: FC<ColumnProps> = ({
     largeBP = '1 / 12',
 }) => {
     return (
-        <StyledColumn smallBP={smallBP} mediumBP={mediumBP} largeBP={largeBP}>
+        <StyledColumn
+            className="atlantum-column"
+            smallBP={smallBP}
+            mediumBP={mediumBP}
+            largeBP={largeBP}
+        >
             {children}
         </StyledColumn>
     );

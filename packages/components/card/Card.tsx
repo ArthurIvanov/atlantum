@@ -12,25 +12,23 @@ export interface CardProps {
     centered?: boolean;
 }
 
-const StyledCard = styled.div<CardProps>`
+const StyledCard = styled.section<CardProps>`
     border-radius: ${(props) => props.theme.borderRadius};
     background-color: ${(props) => props.theme.colors.neutralLighter};
-    width: 100%;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
 
     ${(props) =>
         props.size === 'standard' &&
         `
-        padding: ${props.theme.spacing.space24};
-        
+        padding: ${props.theme.spacing.space24}; 
     `};
 
     ${(props) =>
         props.centered &&
         `
-        justify-content: center;
-        
+        justify-content: center;        
     `};
 `;
 

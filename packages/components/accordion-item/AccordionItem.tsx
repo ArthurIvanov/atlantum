@@ -13,10 +13,10 @@ const StyledAccordionItem = styled.li<AccordionItemProps>`
     outline: black;
 
     ul > li:first-child {
-        margin-top: 12px;
+        margin-bottom: ${(props) => props.theme.spacing.space12};
     }
     ul > li:not(:last-child) {
-        margin-bottom: 12px;
+        margin-bottom: ${(props) => props.theme.spacing.space12};
     }
     .atlantum-accordion-item--title {
         cursor: pointer;
@@ -29,9 +29,8 @@ const StyledAccordionItem = styled.li<AccordionItemProps>`
     .atlantum-accordion-item--content {
         font-weight: ${(props) => props.theme.typography.fontWeight.regular};
         list-style: none;
-        margin: 0;
         padding: 0;
-        margin-left: 12px;
+        margin-bottom: ${(props) => props.theme.spacing.space12};
     }
 
     .atlantum-accordion-item--content__closed {

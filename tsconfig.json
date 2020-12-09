@@ -56,12 +56,14 @@
         { "path": "packages/components/toggle" },
         { "path": "packages/components/label" },
         { "path": "packages/components/radio" },
+        { "path": "packages/components/product-banner" },
         { "path": "packages/components/select" },
         { "path": "packages/tokens" },
         { "path": "packages/theme" },
         { "path": "packages/common/types" },
         { "path": "packages/layout/grid" },
         { "path": "packages/layout/column" },
+        { "path": "packages/layout/container" },
         { "path": "packages/typography/heading" },
         { "path": "packages/typography/text" }
     ]
