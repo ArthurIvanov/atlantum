@@ -1,5 +1,13 @@
 # @atlantum/sidebar
 
+## 0.1.4
+
+### Patch Changes
+
+-   086b9ac: Fixed constraint values
+-   Updated dependencies [086b9ac]
+    -   @atlantum/theme@0.1.11
+
 ## 0.1.3
 
 ### Patch Changes
