@@ -1,13 +1,13 @@
 {
     "name": "@atlantum/accordion-item",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "accordion-item component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.1.9"
+        "@atlantum/theme": "^0.1.11"
     },
     "devDependencies": {
         "react": "^16.13.1",

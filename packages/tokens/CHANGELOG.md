@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.2.7
+
+### Patch Changes
+
+-   086b9ac: Fixed constraint values
+
 ## 0.2.6
 
 ### Patch Changes

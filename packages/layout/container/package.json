@@ -1,13 +1,13 @@
 {
     "name": "@atlantum/container",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "container layout",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.1.9",
+        "@atlantum/theme": "^0.1.11",
         "styled-components": "^5.2.0"
     },
     "devDependencies": {

@@ -1,5 +1,13 @@
 # @atlantum/theme
 
+## 0.1.11
+
+### Patch Changes
+
+-   086b9ac: Fixed constraint values
+-   Updated dependencies [086b9ac]
+    -   @atlantum/tokens@0.2.7
+
 ## 0.1.10
 
 ### Patch Changes
