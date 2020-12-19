@@ -11,14 +11,8 @@ const GlobalStyles = createGlobalStyle`
         display: block;
         margin: 0;
         padding: 0;
-        position: relative;   
-        
-        * {
-            margin:0;
-            padding: 0;
-            display: block;
-            box-sizing: border-box;
-        }
+        position: relative;
+              
     }
 `;
 

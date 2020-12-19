@@ -8,7 +8,7 @@ body.sb-show-main {
     width: 100%;
 }
 
-.margin-r-24 > div:not(:last-child) {
+.margin-r-24 > *:not(:last-child) {
     margin-right: 24px;
     width: 100%;
 }
@@ -25,9 +25,9 @@ body.sb-show-main {
 
 .atlantum-div {
     height: 200px;
-    color: white;
+    color: #1d202a;
     display: flex;
-    background-color: blue;
+    background-color: #c3c3dc;
     align-items: center;
     justify-content: center;
 }

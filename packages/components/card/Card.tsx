@@ -20,6 +20,12 @@ const StyledCard = styled.section<CardProps>`
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
 
     ${(props) =>
+        props.size === 'compact' &&
+        `
+        padding: ${props.theme.spacing.space12}; 
+    `};
+
+    ${(props) =>
         props.size === 'standard' &&
         `
         padding: ${props.theme.spacing.space24}; 
@@ -29,6 +35,18 @@ const StyledCard = styled.section<CardProps>`
         props.centered &&
         `
         justify-content: center;        
+    `};
+
+    ${(props) =>
+        props.size === 'large' &&
+        `
+        padding: ${props.theme.spacing.space48}; 
+    `};
+
+    ${(props) =>
+        props.size === 'landing' &&
+        `
+        padding: ${props.theme.spacing.space64}; 
     `};
 `;
 

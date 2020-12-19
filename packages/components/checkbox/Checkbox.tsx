@@ -55,15 +55,15 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     ${(props) =>
         props.disabled &&
         `
-         border-color: ${props.theme.colors.neutralDark};
+         border-color: ${props.theme.colors.neutralBase};
          cursor: not-allowed;
          &:hover {
-            border-color: ${props.theme.colors.neutralDark}; 
+            border-color: ${props.theme.colors.neutralBase}; 
             box-shadow: none;
     }
     
     &:checked {
-        background-color: ${props.theme.colors.neutralDark};
+        background-color: ${props.theme.colors.neutralBase};
     }
     `}
 

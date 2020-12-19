@@ -8,6 +8,7 @@ export interface AccordionProps {
     children: ReactNode;
     size?: AccordionSize;
     withSeparator?: boolean;
+    horizontal?: boolean;
 }
 
 const StyledAccordion = styled.ul<AccordionProps>`

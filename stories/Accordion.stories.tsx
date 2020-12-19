@@ -3,14 +3,16 @@ import Accordion from '@atlantum/accordion';
 import AccordionItem from '@atlantum/accordion-item';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '@atlantum/theme';
+import GlobalStyles, { theme } from '@atlantum/theme';
 import './stories.styles.css';
+import Card from '@atlantum/card';
 
 const Accordions = () => {
     return (
         <ThemeProvider theme={theme}>
-            <div className="">
-                <div className="atlantum-compact">
+            <GlobalStyles />
+            <div className="atlantum-compact">
+                <Card size={'standard'}>
                     <Accordion>
                         <AccordionItem title={'Expandable item 1'}>
                             <li>
@@ -41,7 +43,7 @@ const Accordions = () => {
                             </a>
                         </li>
                     </Accordion>
-                </div>
+                </Card>
             </div>
         </ThemeProvider>
     );

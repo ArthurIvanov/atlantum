@@ -124,7 +124,7 @@ const Input: FC<InputProps> = (props) => {
                 value={props.value}
                 defaultValue={props.defaultValue}
             />
-            <span className="input-alert">{props.alert}</span>
+            {props.alert && <span className="input-alert">{props.alert}</span>}
         </Label>
     );
 };

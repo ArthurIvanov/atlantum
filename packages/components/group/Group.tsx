@@ -16,6 +16,8 @@ export interface GroupProps {
 
 const StyledGroup = styled.div<GroupProps>`
     width: 100%;
+    display: flex;
+    flex-direction: column;
 
     ${(props) =>
         props.relation === 'closest' &&

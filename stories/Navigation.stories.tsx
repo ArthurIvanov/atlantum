@@ -55,4 +55,4 @@ const UI = () => {
     );
 };
 
-storiesOf('UI', module).add('UI', () => <UI />);
+storiesOf('UI navigation', module).add('With sidebar', () => <UI />);

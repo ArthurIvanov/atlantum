@@ -43,9 +43,9 @@ const StyledButton = styled.button<ButtonProps>`
         props.secondary &&
         `  
          color: ${props.theme.colors.text};
-         background-color: ${props.theme.colors.neutralLighter};
+         background-color: ${props.theme.colors.neutralLight};
          &:hover {   
-         background-color: ${props.theme.colors.neutralLighter};      
+         background-color: ${props.theme.colors.neutralLight};      
     }
     &:focus {
         outline: none;
@@ -63,13 +63,13 @@ const StyledButton = styled.button<ButtonProps>`
         props.disabled &&
         `
          color: ${props.theme.colors.neutralBase};
-         background-color: ${props.theme.colors.neutralLighter};
+         background-color: ${props.theme.colors.neutralLight};
          border-color: ${props.theme.colors.neutralDark};
          cursor: not-allowed;
          &:hover {
             
             
-         background-color: ${props.theme.colors.neutralLighter};
+         background-color: ${props.theme.colors.neutralLight};
             box-shadow: none;
     }
     `}

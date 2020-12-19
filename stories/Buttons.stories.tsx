@@ -2,15 +2,19 @@ import * as React from 'react';
 import Button from '@atlantum/button';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '@atlantum/theme';
+import GlobalStyles, { theme } from '@atlantum/theme';
 
 import './stories.styles.css';
+import Card from '@atlantum/card';
 
 const Primary = () => {
     return (
         <ThemeProvider theme={theme}>
+            <GlobalStyles />
             <div className="atlantum-compact">
-                <Button>I am Primary</Button>
+                <Card size={'standard'}>
+                    <Button>I am Primary</Button>
+                </Card>
             </div>
         </ThemeProvider>
     );
@@ -18,8 +22,11 @@ const Primary = () => {
 const Secondary = () => {
     return (
         <ThemeProvider theme={theme}>
+            <GlobalStyles />
             <div className="atlantum-compact">
-                <Button secondary>I am Secondary</Button>
+                <Card size={'standard'}>
+                    <Button secondary>I am Secondary</Button>
+                </Card>
             </div>
         </ThemeProvider>
     );
@@ -27,8 +34,11 @@ const Secondary = () => {
 const Disabled = () => {
     return (
         <ThemeProvider theme={theme}>
+            <GlobalStyles />
             <div className="atlantum-compact">
-                <Button disabled>I am Disabled</Button>
+                <Card size={'standard'}>
+                    <Button disabled>I am Disabled</Button>
+                </Card>
             </div>
         </ThemeProvider>
     );

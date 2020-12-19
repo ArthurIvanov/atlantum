@@ -2,24 +2,29 @@ import * as React from 'react';
 import Select from '../packages/components/select';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '@atlantum/theme';
+import GlobalStyles, { theme } from '@atlantum/theme';
 import './stories.styles.css';
+import Card from '@atlantum/card';
 
-
-const Checkboxes = () => {
+const DefaultSelect = () => {
     return (
         <ThemeProvider theme={theme}>
-            <div className="flex margin-r-24">
-                <div>
-                    <Select name={'select'} type={'text'} placeholder={'Please select and option'}>
+            <GlobalStyles />
+            <div className="atlantum-compact">
+                <Card size={'standard'}>
+                    <Select
+                        name={'select'}
+                        type={'text'}
+                        placeholder={'Please select and option'}
+                    >
                         <option>Option 1</option>
                         <option>Option 2</option>
                         <option>Option 3</option>
                     </Select>
-                </div>
+                </Card>
             </div>
         </ThemeProvider>
     );
 };
 
-storiesOf('Select', module).add('Select', () => <Checkboxes />);
+storiesOf('Select', module).add('Default', () => <DefaultSelect />);

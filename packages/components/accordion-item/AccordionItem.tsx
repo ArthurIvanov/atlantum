@@ -12,7 +12,12 @@ export interface AccordionItemProps {
 const StyledAccordionItem = styled.li<AccordionItemProps>`
     outline: black;
 
+    ul {
+        margin-left: ${(props) => props.theme.spacing.space12};
+    }
+
     ul > li:first-child {
+        margin-top: ${(props) => props.theme.spacing.space12};
         margin-bottom: ${(props) => props.theme.spacing.space12};
     }
     ul > li:not(:last-child) {
