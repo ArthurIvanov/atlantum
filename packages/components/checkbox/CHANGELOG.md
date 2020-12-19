@@ -1,5 +1,14 @@
 # @atlantum/checkbox
 
+## 0.1.6
+
+### Patch Changes
+
+-   39a5d54: added card and group components
+-   Updated dependencies [39a5d54]
+    -   @atlantum/input@0.1.8
+    -   @atlantum/theme@0.1.12
+
 ## 0.1.5
 
 ### Patch Changes
