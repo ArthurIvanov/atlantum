@@ -1,5 +1,16 @@
 # @atlantum/group
 
+## 0.2.0
+
+### Minor Changes
+
+-   39a5d54: added card and group components
+
+### Patch Changes
+
+-   Updated dependencies [39a5d54]
+    -   @atlantum/theme@0.1.12
+
 ## 0.1.2
 
 ### Patch Changes

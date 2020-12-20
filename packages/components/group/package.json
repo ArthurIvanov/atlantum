@@ -1,13 +1,13 @@
 {
     "name": "@atlantum/group",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": "group component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.1.11"
+        "@atlantum/theme": "^0.1.12"
     },
     "devDependencies": {
         "react": "^16.13.1",
