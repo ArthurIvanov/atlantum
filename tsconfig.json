@@ -62,9 +62,11 @@
         { "path": "packages/theme" },
         { "path": "packages/common/types" },
         { "path": "packages/layout/grid" },
+        { "path": "packages/layout/content" },
         { "path": "packages/layout/column" },
         { "path": "packages/layout/container" },
         { "path": "packages/typography/heading" },
-        { "path": "packages/typography/text" }
+        { "path": "packages/typography/text" },
+        { "path": "packages/components/text-link" }
     ]
 }

@@ -11,11 +11,11 @@ export interface ContainerProps {
 
 const StyledContainer = styled.div<ContainerProps>`
     margin-top: 96px;
-    padding: 24px;
 
     section:not(:last-child) {
         margin-bottom: 24px;
     }
+
     ${(props) =>
         props.align === 'sidebar' &&
         `
@@ -30,10 +30,12 @@ const StyledContainer = styled.div<ContainerProps>`
         props.align === 'centered' &&
         `
         @media only screen and (min-width: 600px) {
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
         @media only screen and (min-width: 1050px) {
-            margin: 0 auto;
+           margin-left: auto;
+            margin-right: auto;
         }
     `};
 `;

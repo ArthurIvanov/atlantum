@@ -36,7 +36,7 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'one-of' &&
         `
         &>*:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space24};  
+            margin-bottom: ${props.theme.spacing.space16};  
         }
         @media only screen and (min-width: 400px) {
         div.atlantum-grid > .atlantum-column:not(:last-child) {

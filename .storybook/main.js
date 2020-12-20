@@ -1,5 +1,6 @@
 module.exports = {
     stories: [
+        '../stories/Intro.stories.tsx',
         '../stories/*.stories.mdx',
         '../stories/*.stories.@(js|jsx|ts|tsx)',
     ],
@@ -7,7 +8,7 @@ module.exports = {
         '@storybook/addon-links',
         '@storybook/addon-essentials',
         '@storybook/addon-a11y',
-        '@storybook/addon-storysource'
+        '@storybook/addon-storysource',
     ],
     typescript: {
         check: false,

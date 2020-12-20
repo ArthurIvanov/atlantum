@@ -41,7 +41,7 @@ const StyledProductBanner = styled.div<ProductBannerProps>`
         height: 540px;
     `}
     
-    h2 {
+    h1,h2,h3,h4,h5,h6 {
         margin-bottom: ${(props) => props.theme.spacing.space24};
         color: ${(props) => props.theme.colors.textInverted};
     }

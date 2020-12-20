@@ -7,36 +7,47 @@ export interface TextLinkProps {
     children: ReactNode;
     onClick?: React.MouseEventHandler;
     isIcon?: boolean;
-    src: string;
+    href?: string;
 }
 
-const StyledTextLink = styled.a<TextLinkProps>`
+const StyledTextLink = styled.button<TextLinkProps>`
     cursor: pointer;
     display: flex;
+    color: ${(props) => props.theme.colors.text};
+    text-decoration: none;
+    font-size: ${(props) => props.theme.typography.fontSize.base};
+    font-weight: ${(props) => props.theme.typography.fontWeight.base};
+    line-height: ${(props) => props.theme.typography.lineHeight.base};
     &:hover {
-        color: blue;
+        color: ${(props) => props.theme.colors.primaryBase};
         .atlantum-navlink-icon {
             &:hover {
-                color: blue;
+                color: ${(props) => props.theme.colors.primaryBase};
             }
         }
     }
 
     .atlantum-navlink {
-        margin-left: 24px;
+        margin-left: ${(props) => props.theme.spacing.space24};
     }
 
     .atlantum-navlink-icon {
-        margin-left: 8px;
+        margin-left: ${(props) => props.theme.spacing.space8};
     }
 `;
 
-const TextLink: FC<TextLinkProps> = ({ children, onClick, isIcon,src}) => {
+const TextLink: FC<TextLinkProps> = ({ children, onClick, isIcon, href }) => {
     return (
-        <StyledTextLink src={src} onClick={onClick} className="atlantum-navlink">
+        <StyledTextLink
+            as="a"
+            href={href}
+            onClick={onClick}
+            className="atlantum-navlink"
+        >
             {children}
-            {isIcon && <ChevronDown className="atlantum-navlink-icon" size={20} />}
-
+            {isIcon && (
+                <ChevronDown className="atlantum-navlink-icon" size={20} />
+            )}
         </StyledTextLink>
     );
 };
