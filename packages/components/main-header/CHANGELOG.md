@@ -1,5 +1,11 @@
 # @atlantum/main-header
 
+## 0.1.7
+
+### Patch Changes
+
+-   139c30a: top gradient fix
+
 ## 0.1.6
 
 ### Patch Changes
