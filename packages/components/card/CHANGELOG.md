@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.2.1
+
+### Patch Changes
+
+-   d495a2d: minor bug fixes
+
 ## 0.2.0
 
 ### Minor Changes
