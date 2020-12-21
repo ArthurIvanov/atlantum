@@ -1,5 +1,11 @@
 # @atlantum/group
 
+## 0.2.2
+
+### Patch Changes
+
+-   d495a2d: minor bug fixes
+
 ## 0.2.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @atlantum/product-banner
 
+## 0.0.3
+
+### Patch Changes
+
+-   d495a2d: minor bug fixes
+
 ## 0.0.2
 
 ### Patch Changes
