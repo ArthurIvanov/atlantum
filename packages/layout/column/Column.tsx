@@ -7,9 +7,13 @@ export interface ColumnProps {
     smallBP?: string;
     mediumBP?: string;
     largeBP?: string;
+    className?: string;
 }
 
 const StyledColumn = styled.div<ColumnProps>`
+    display: flex;
+    align-items: center;
+
     @media only screen and (min-width: 400px) {
         grid-column: ${(props) => props.smallBP};
     }
@@ -27,10 +31,11 @@ const Column: FC<ColumnProps> = ({
     smallBP = '1 / 12',
     mediumBP = '1 / 12',
     largeBP = '1 / 12',
+    className,
 }) => {
     return (
         <StyledColumn
-            className="atlantum-column"
+            className={className}
             smallBP={smallBP}
             mediumBP={mediumBP}
             largeBP={largeBP}

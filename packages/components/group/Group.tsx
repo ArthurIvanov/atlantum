@@ -9,9 +9,12 @@ export type RelationTypes =
     | 'separated'
     | 'far';
 
+export type Direction = 'row' | 'column';
+
 export interface GroupProps {
     children: ReactNode;
     relation: RelationTypes;
+    className?: string;
 }
 
 const StyledGroup = styled.div<GroupProps>`
@@ -55,8 +58,7 @@ const StyledGroup = styled.div<GroupProps>`
     }
         
     }
-            
-        
+      
     `}
 
     ${(props) =>
@@ -78,7 +80,7 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'separated' &&
         `
         & > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space16};
+            margin-bottom: ${props.theme.spacing.space32};
         }
         
     `}
@@ -93,8 +95,12 @@ const StyledGroup = styled.div<GroupProps>`
     `}
 `;
 
-const Group: FC<GroupProps> = ({ children, relation }) => {
-    return <StyledGroup relation={relation}>{children}</StyledGroup>;
+const Group: FC<GroupProps> = ({ children, relation, className }) => {
+    return (
+        <StyledGroup className={className} relation={relation}>
+            {children}
+        </StyledGroup>
+    );
 };
 
 export default Group;

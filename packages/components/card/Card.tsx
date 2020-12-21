@@ -9,7 +9,6 @@ export interface CardProps {
     size?: CardSize;
     withSeparator?: boolean;
     onDark?: boolean;
-    centered?: boolean;
 }
 
 const StyledCard = styled.section<CardProps>`
@@ -32,12 +31,6 @@ const StyledCard = styled.section<CardProps>`
     `};
 
     ${(props) =>
-        props.centered &&
-        `
-        justify-content: center;        
-    `};
-
-    ${(props) =>
         props.size === 'large' &&
         `
         padding: ${props.theme.spacing.space48}; 
@@ -50,20 +43,9 @@ const StyledCard = styled.section<CardProps>`
     `};
 `;
 
-const Card: FC<CardProps> = ({
-    withSeparator,
-    size,
-    onDark,
-    children,
-    centered,
-}) => {
+const Card: FC<CardProps> = ({ withSeparator, size, onDark, children }) => {
     return (
-        <StyledCard
-            size={size}
-            withSeparator={withSeparator}
-            onDark={onDark}
-            centered={centered}
-        >
+        <StyledCard size={size} withSeparator={withSeparator} onDark={onDark}>
             {children}
         </StyledCard>
     );

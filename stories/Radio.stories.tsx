@@ -2,47 +2,82 @@ import * as React from 'react';
 import Radio from '@atlantum/radio';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '@atlantum//theme';
+import GlobalStyles, { theme } from '@atlantum//theme';
 import './stories.styles.css';
+import Card from '@atlantum/card';
 
-const Radios = () => {
+const DefaultRadio = () => {
     return (
         <ThemeProvider theme={theme}>
-            <div className="flex margin-r-24">
-                <div>
+            <GlobalStyles />
+            <div className="atlantum-compact">
+                <Card size="standard">
                     <Radio
                         type={'radio'}
                         name={'radio'}
                         label={'Regular radio'}
                     />
-                </div>
-                <div>
+                </Card>
+            </div>
+        </ThemeProvider>
+    );
+};
+
+const DisabledRadio = () => {
+    return (
+        <ThemeProvider theme={theme}>
+            <GlobalStyles />
+            <div className="atlantum-compact">
+                <Card size="standard">
                     <Radio
                         disabled
                         type={'radio'}
                         name={'radio'}
                         label={'Disabled radio'}
                     />
-                </div>
-                <div>
-                    <Radio
-                        danger
-                        type={'radio'}
-                        name={'radio'}
-                        label={'Danger radio'}
-                    />
-                </div>
-                <div>
+                </Card>
+            </div>
+        </ThemeProvider>
+    );
+};
+
+const SuccessRadio = () => {
+    return (
+        <ThemeProvider theme={theme}>
+            <GlobalStyles />
+            <div className="atlantum-compact">
+                <Card size="standard">
                     <Radio
                         success
                         type={'radio'}
                         name={'radio'}
                         label={'Success radio'}
                     />
-                </div>
+                </Card>
             </div>
         </ThemeProvider>
     );
 };
 
-storiesOf('Radio', module).add('All radio buttons', () => <Radios />);
+const DangerRadio = () => {
+    return (
+        <ThemeProvider theme={theme}>
+            <GlobalStyles />
+            <div className="atlantum-compact">
+                <Card size="standard">
+                    <Radio
+                        success
+                        type={'radio'}
+                        name={'radio'}
+                        label={'Danger radio'}
+                    />
+                </Card>
+            </div>
+        </ThemeProvider>
+    );
+};
+
+storiesOf('Radio', module).add('Default', () => <DefaultRadio />);
+storiesOf('Radio', module).add('Disabled', () => <DisabledRadio />);
+storiesOf('Radio', module).add('Success', () => <SuccessRadio />);
+storiesOf('Radio', module).add('Danger', () => <DangerRadio />);

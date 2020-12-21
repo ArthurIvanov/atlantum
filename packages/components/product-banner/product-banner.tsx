@@ -45,9 +45,6 @@ const StyledProductBanner = styled.div<ProductBannerProps>`
         margin-bottom: ${(props) => props.theme.spacing.space24};
         color: ${(props) => props.theme.colors.textInverted};
     }
-
-    .atlantum-product-banner-content {
-    }
 `;
 
 const ProductBanner: FC<ProductBannerProps> = ({
