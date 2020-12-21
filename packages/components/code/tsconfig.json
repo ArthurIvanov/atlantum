@@ -1,10 +1,9 @@
 {
+    "include": ["*.tsx", "*.ts"],
+    "extends": "../../../tsconfig.json",
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "sourceMap": true
-    },
-    "exclude": [
-        "node_modules"
-    ]
+        "outDir": "dist",
+        "rootDir": ".",
+        "baseUrl": "."
+    }
 }

@@ -4,11 +4,12 @@ import { FC, ReactNode } from 'react';
 
 export type CardSize = 'compact' | 'standard' | 'large' | 'landing';
 
+// @TODO build box-shadow prop
 export interface CardProps {
     children: ReactNode;
     size?: CardSize;
-    withSeparator?: boolean;
-    onDark?: boolean;
+    isWithSeparator?: boolean;
+    isDark?: boolean;
 }
 
 const StyledCard = styled.section<CardProps>`
@@ -43,9 +44,13 @@ const StyledCard = styled.section<CardProps>`
     `};
 `;
 
-const Card: FC<CardProps> = ({ withSeparator, size, onDark, children }) => {
+const Card: FC<CardProps> = ({ isWithSeparator, size, isDark, children }) => {
     return (
-        <StyledCard size={size} withSeparator={withSeparator} onDark={onDark}>
+        <StyledCard
+            size={size}
+            isWithSeparator={isWithSeparator}
+            isDark={isDark}
+        >
             {children}
         </StyledCard>
     );

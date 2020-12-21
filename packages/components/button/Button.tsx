@@ -5,9 +5,9 @@ import { FC, ReactNode } from 'react';
 export interface ButtonProps {
     children: ReactNode;
     type?: 'button' | 'submit' | 'reset';
-    secondary?: boolean;
-    disabled?: boolean;
-    loading?: boolean;
+    isSecondary?: boolean;
+    isDisabled?: boolean;
+    isLoading?: boolean;
 
     onClick?: React.MouseEventHandler;
 }
@@ -40,7 +40,7 @@ const StyledButton = styled.button<ButtonProps>`
     }
 
     ${(props) =>
-        props.secondary &&
+        props.isSecondary &&
         `  
          color: ${props.theme.colors.text};
          background-color: ${props.theme.colors.neutralLight};
@@ -60,7 +60,7 @@ const StyledButton = styled.button<ButtonProps>`
              `}
 
     ${(props) =>
-        props.disabled &&
+        props.isDisabled &&
         `
          color: ${props.theme.colors.neutralBase};
          background-color: ${props.theme.colors.neutralLight};
@@ -76,7 +76,7 @@ const StyledButton = styled.button<ButtonProps>`
 `;
 
 const Button: FC<ButtonProps> = (props) => (
-    <StyledButton secondary={props.secondary} disabled={props.disabled}>
+    <StyledButton isSecondary={props.isSecondary} isDisabled={props.isDisabled}>
         {props.children}
     </StyledButton>
 );

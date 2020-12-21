@@ -7,8 +7,8 @@ export type AccordionSize = 'compact' | 'standard' | 'large';
 export interface AccordionProps {
     children: ReactNode;
     size?: AccordionSize;
-    withSeparator?: boolean;
-    horizontal?: boolean;
+    isWithSeparator?: boolean;
+    isHorizontal?: boolean;
 }
 
 const StyledAccordion = styled.ul<AccordionProps>`
@@ -39,13 +39,13 @@ const StyledAccordion = styled.ul<AccordionProps>`
 `;
 
 const Accordion: FC<AccordionProps> = ({
-    withSeparator,
+    isWithSeparator,
     size,
 
     children,
 }) => {
     return (
-        <StyledAccordion size={size} withSeparator={withSeparator}>
+        <StyledAccordion size={size} isWithSeparator={isWithSeparator}>
             {children}
         </StyledAccordion>
     );
