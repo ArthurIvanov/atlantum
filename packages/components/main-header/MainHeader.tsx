@@ -23,7 +23,7 @@ const StyledMainHeader = styled.div<MainHeaderProps>`
   content: '';
   height: ${(props) => props.theme.spacing.space72};
   width: 100%;
-  top: 0;
+  top: -${(props) => props.theme.spacing.space24};
   left: 0;
   z-index: 10;
   display: block;

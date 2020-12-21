@@ -9,6 +9,7 @@ import { ThemeProvider } from 'styled-components';
 
 import GlobalStyles, { theme } from '@atlantum/theme';
 import './stories.styles.css';
+import Container from '@atlantum/container';
 
 const UI = () => {
     return (

@@ -17,6 +17,9 @@ body.sb-show-main {
     width: 80%;
     padding: 48px;
 }
+.atlantum-full-view {
+    padding: 48px;
+}
 
 .atlantum-compact {
     width: 25%;
