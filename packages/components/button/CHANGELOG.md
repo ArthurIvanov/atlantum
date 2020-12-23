@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.1.7
+
+### Patch Changes
+
+-   aac1fa0: minor bugs
+
 ## 0.1.6
 
 ### Patch Changes
