@@ -25,7 +25,7 @@ const Secondary = () => {
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
-                    <Button secondary>I am Secondary</Button>
+                    <Button isSecondary>I am Secondary</Button>
                 </Card>
             </div>
         </ThemeProvider>

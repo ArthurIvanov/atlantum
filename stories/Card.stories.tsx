@@ -20,7 +20,7 @@ const Compact = () => {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'compact'} centered>
+                <Card size={'compact'} >
                     <Group relation={'far'}>
                         <Group relation={'closest'}>
                             <Heading as={'h5'} centered>
@@ -41,7 +41,7 @@ const Compact = () => {
                                     <Input
                                         type={'text'}
                                         name={'username'}
-                                        label={'Regular input'}
+                                        label={'First input'}
                                         input
                                         id={'text'}
                                         placeholder={'Please enter your name'}
@@ -66,7 +66,7 @@ const Compact = () => {
                             <Input
                                 type={'text'}
                                 name={'username'}
-                                label={'Regular input'}
+                                label={'Full width input'}
                                 input
                                 id={'text'}
                                 placeholder={'Please enter your name'}
@@ -84,7 +84,7 @@ const Standard = () => {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'standard'} centered>
+                <Card size={'standard'}>
                     <Group relation={'far'}>
                         <Group relation={'closest'}>
                             <Heading as={'h5'} centered>
@@ -148,7 +148,7 @@ const Large = () => {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'large'} centered>
+                <Card size={'large'} >
                     <Group relation={'far'}>
                         <Group relation={'closest'}>
                             <Heading as={'h5'} centered>
@@ -212,7 +212,7 @@ const Landing = () => {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'landing'} centered>
+                <Card size={'landing'} >
                     <Group relation={'far'}>
                         <Group relation={'closest'}>
                             <Heading as={'h5'} centered>

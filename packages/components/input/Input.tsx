@@ -25,8 +25,9 @@ export interface InputProps {
 }
 
 const StyledInput = styled.input<InputProps>`
-    display: block;
+    
     box-sizing: border-box;
+    display: block;
     width: 100%;
     margin: 0;
     border-radius: ${(props) => props.theme.borderRadius};

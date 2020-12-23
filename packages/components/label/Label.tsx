@@ -14,6 +14,7 @@ export interface LabelProps {
 const StyledLabel = styled.label<LabelProps>`
     display: flex;
     align-items: center;
+    width: 100%;
 
     span.input-label {
         color: ${(props) => props.theme.colors.text};
