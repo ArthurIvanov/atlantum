@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react';
 import * as React from 'react';
 import styled from 'styled-components';
 
-export type Gap = '0' | '2' | '4' | '8' | '12' | '16' | '24';
+export type Gap = '0' | '2' | '4' | '8' | '12' | '16' | '24' | '32' | '48';
 
 export interface GridProps {
     children: ReactNode;

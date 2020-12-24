@@ -16,6 +16,7 @@ const StyledCard = styled.section<CardProps>`
     border-radius: ${(props) => props.theme.borderRadius};
     background-color: ${(props) => props.theme.colors.neutralLighter};
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
 

@@ -75,6 +75,92 @@ const Compact = () => {
                         </Group>
                     </Group>
                 </Card>
+                <Card size="landing">
+                    <Content width="focus">
+                        <Group relation="separated">
+                            <Heading centered as="h4">
+                                We provide you
+                            </Heading>
+                            <Grid rowGap="24">
+                                <Column
+                                    smallBP="1 / 13"
+                                    mediumBP="1 / 13"
+                                    largeBP="1 / 5"
+                                >
+                                    <Card size="standard">
+                                        <Group relation="not-depend">
+                                            <img
+                                                className="image"
+                                                src="https://i.ibb.co/4wLDJpx/start.png"
+                                                alt="start"
+                                            />
+                                            <Group relation="closest">
+                                                <Heading centered as="h5">
+                                                    Start
+                                                </Heading>
+                                                <Text centered as="p">
+                                                    Start build products with
+                                                    carefuly builded Design
+                                                    library
+                                                </Text>
+                                            </Group>
+                                        </Group>
+                                    </Card>
+                                </Column>
+                                <Column
+                                    smallBP="1 / 13"
+                                    mediumBP="1 / 13"
+                                    largeBP="5 / 9"
+                                >
+                                    <Card size="standard">
+                                        <Group relation="not-depend">
+                                            <img
+                                                className="image"
+                                                src="https://i.ibb.co/DLm6C9n/accelerate.png"
+                                                alt="start"
+                                            />
+                                            <Group relation="closest">
+                                                <Heading centered as="h5">
+                                                    Start
+                                                </Heading>
+                                                <Text centered as="p">
+                                                    Accelerate your design
+                                                    process by shared library
+                                                    and documentation
+                                                </Text>
+                                            </Group>
+                                        </Group>
+                                    </Card>
+                                </Column>
+                                <Column
+                                    smallBP="1 / 13"
+                                    mediumBP="1 / 13"
+                                    largeBP="9 / 13"
+                                >
+                                    <Card size="standard">
+                                        <Group relation="not-depend">
+                                            <img
+                                                className="image"
+                                                src="https://i.ibb.co/YZMSZ42/connect.png"
+                                                alt="start"
+                                            />
+                                            <Group relation="closest">
+                                                <Heading centered as="h5">
+                                                    Start
+                                                </Heading>
+                                                <Text centered as="p">
+                                                    Develop product right after
+                                                    Design with our React
+                                                    Library
+                                                </Text>
+                                            </Group>
+                                        </Group>
+                                    </Card>
+                                </Column>
+                            </Grid>
+                        </Group>
+                    </Content>
+                </Card>
             </div>
         </ThemeProvider>
     );
