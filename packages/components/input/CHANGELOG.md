@@ -1,5 +1,13 @@
 # @atlantum/input
 
+## 0.1.9
+
+### Patch Changes
+
+-   aac1fa0: minor bugs
+-   Updated dependencies [aac1fa0]
+    -   @atlantum/label@0.1.5
+
 ## 0.1.8
 
 ### Patch Changes

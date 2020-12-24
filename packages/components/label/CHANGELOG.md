@@ -1,5 +1,11 @@
 # @atlantum/label
 
+## 0.1.5
+
+### Patch Changes
+
+-   aac1fa0: minor bugs
+
 ## 0.1.4
 
 ### Patch Changes
