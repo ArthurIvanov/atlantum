@@ -1,5 +1,11 @@
 # @atlantum/grid
 
+## 0.1.3
+
+### Patch Changes
+
+-   87817b7: bug fixes
+
 ## 0.1.2
 
 ### Patch Changes
