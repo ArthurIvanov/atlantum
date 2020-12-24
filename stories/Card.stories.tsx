@@ -6,6 +6,7 @@ import GlobalStyles from '@atlantum/theme';
 
 import Grid from '@atlantum/grid';
 import Column from '@atlantum/column';
+import Content from '@atlantum/content';
 
 import Card from '../packages/components/card';
 import Group from '../packages/components/group/Group';
@@ -20,7 +21,7 @@ const Compact = () => {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'compact'} >
+                <Card size={'compact'}>
                     <Group relation={'far'}>
                         <Group relation={'closest'}>
                             <Heading as={'h5'} centered>
@@ -32,7 +33,7 @@ const Compact = () => {
                             </Text>
                         </Group>
                         <Group relation={'one-of'}>
-                            <Grid columnGap={'24'}>
+                            <Grid columnGap={'24'} rowGap="8">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
@@ -55,7 +56,7 @@ const Compact = () => {
                                     <Input
                                         type={'text'}
                                         name={'username'}
-                                        label={'Regular input'}
+                                        label={'Second input'}
                                         input
                                         id={'text'}
                                         placeholder={'Please enter your name'}
@@ -96,7 +97,7 @@ const Standard = () => {
                             </Text>
                         </Group>
                         <Group relation={'one-of'}>
-                            <Grid columnGap={'24'}>
+                            <Grid columnGap={'24'} rowGap="8">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
@@ -148,7 +149,7 @@ const Large = () => {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'large'} >
+                <Card size={'large'}>
                     <Group relation={'far'}>
                         <Group relation={'closest'}>
                             <Heading as={'h5'} centered>
@@ -160,7 +161,7 @@ const Large = () => {
                             </Text>
                         </Group>
                         <Group relation={'one-of'}>
-                            <Grid columnGap={'24'}>
+                            <Grid columnGap={'24'} rowGap="8">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
@@ -212,7 +213,7 @@ const Landing = () => {
         <ThemeProvider theme={theme}>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'landing'} >
+                <Card size={'landing'}>
                     <Group relation={'far'}>
                         <Group relation={'closest'}>
                             <Heading as={'h5'} centered>
@@ -224,7 +225,7 @@ const Landing = () => {
                             </Text>
                         </Group>
                         <Group relation={'one-of'}>
-                            <Grid columnGap={'24'}>
+                            <Grid columnGap={'24'} rowGap="8">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}

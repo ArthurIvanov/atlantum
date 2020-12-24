@@ -14,7 +14,7 @@ const StyledColumn = styled.div<ColumnProps>`
     display: flex;
     align-items: center;
 
-    @media only screen and (min-width: 400px) {
+    @media only screen and (min-width: 100px) {
         grid-column: ${(props) => props.smallBP};
     }
 
@@ -28,9 +28,9 @@ const StyledColumn = styled.div<ColumnProps>`
 
 const Column: FC<ColumnProps> = ({
     children,
-    smallBP = '1 / 12',
-    mediumBP = '1 / 12',
-    largeBP = '1 / 12',
+    smallBP = '1 / 13',
+    mediumBP = '1 / 13',
+    largeBP = '1 / 13',
     className,
 }) => {
     return (
