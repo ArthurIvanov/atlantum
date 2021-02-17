@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { theme } from '@atlantum/theme';
+import GlobalStyles, { lightTheme } from '@atlantum/theme';
 import './stories.styles.css';
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
@@ -10,7 +10,7 @@ import Group from '@atlantum/group';
 
 const Headlines = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size={'standard'}>
@@ -30,7 +30,7 @@ const Headlines = () => {
 
 const Paragraph = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size={'standard'}>

@@ -34,7 +34,7 @@
 
 ### Patch Changes
 
--   25f5f00: Initialize toggle component, added patches to color theme and fixed small issues in input components
+-   25f5f00: Initialize toggle component, added patches to color lightTheme and fixed small issues in input components
 
 ## 0.2.1
 

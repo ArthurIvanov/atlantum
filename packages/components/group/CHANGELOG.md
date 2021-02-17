@@ -21,7 +21,7 @@
 ### Patch Changes
 
 -   Updated dependencies [39a5d54]
-    -   @atlantum/theme@0.1.12
+    -   @atlantum/lightTheme@0.1.12
 
 ## 0.1.2
 
@@ -29,7 +29,7 @@
 
 -   086b9ac: Fixed constraint values
 -   Updated dependencies [086b9ac]
-    -   @atlantum/theme@0.1.11
+    -   @atlantum/lightTheme@0.1.11
 
 ## 0.1.1
 
@@ -46,4 +46,4 @@
 ### Patch Changes
 
 -   Updated dependencies [f6fbe0e]
-    -   @atlantum/theme@0.1.9
+    -   @atlantum/lightTheme@0.1.9

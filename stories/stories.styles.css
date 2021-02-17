@@ -3,6 +3,26 @@ body.sb-show-main {
     padding: 0 !important;
 }
 
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+    padding: 48px;
+    background-color: #eeeeee;
+}
+
+.grid > div {
+    width: 24px;
+}
+
+.red {
+    color: #d60d0d;
+    width: 32px;
+    height: auto;
+    stroke-width: 2;
+}
+
 .flex {
     display: flex;
     width: 100%;

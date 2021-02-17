@@ -14,14 +14,17 @@ const StyledColumn = styled.div<ColumnProps>`
     display: flex;
     align-items: center;
 
-    @media only screen and (min-width: 100px) {
+    @media only screen and (min-width: ${(props) =>
+            props.theme.layout.smallBp}) {
         grid-column: ${(props) => props.smallBP};
     }
 
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: ${(props) =>
+            props.theme.layout.mediumBp}) {
         grid-column: ${(props) => props.mediumBP};
     }
-    @media only screen and (min-width: 1050px) {
+    @media only screen and (min-width: ${(props) =>
+            props.theme.layout.largeBp}) {
         grid-column: ${(props) => props.largeBP};
     }
 `;

@@ -19,21 +19,21 @@ const StyledContainer = styled.div<ContainerProps>`
     ${(props) =>
         props.align === 'sidebar' &&
         `
-        @media only screen and (min-width: 600px) {
+        @media only screen and (min-width: ${props.theme.layout.mediumBp}) {
         margin-left:0;
     }
-        @media only screen and (min-width: 1050px) {
+        @media only screen and (min-width: ${props.theme.layout.largeBp}) {
             margin-left: 280px;
         }
     `}
     ${(props) =>
         props.align === 'centered' &&
         `
-        @media only screen and (min-width: 600px) {
+        @media only screen and (min-width: ${props.theme.layout.mediumBp}) {
         margin-left: auto;
         margin-right: auto;
     }
-        @media only screen and (min-width: 1050px) {
+        @media only screen and (min-width: ${props.theme.layout.largeBp}) {
            margin-left: auto;
             margin-right: auto;
         }

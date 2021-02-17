@@ -33,7 +33,7 @@ const StyledCheckbox = styled.input<CheckboxProps>`
 
     &:checked,
     &:focus {
-        outline: none;
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
     }
 
     &:checked {

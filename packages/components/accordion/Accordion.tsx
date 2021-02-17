@@ -18,24 +18,9 @@ const StyledAccordion = styled.ul<AccordionProps>`
     font-weight: ${(props) => props.theme.typography.fontWeight.base};
     list-style: none;
     color: ${(props) => props.theme.colors.text};
-    padding: 0;
+    padding: ${(props) => props.theme.spacing.space12} 0;
     margin: 0;
     width: 100%;
-
-    .atlantum-accordion-icon {
-        color: ${(props) => props.theme.colors.text};
-    }
-
-    & > li:not(:last-child) {
-        margin-bottom: ${(props) => props.theme.spacing.space12};
-    }
-
-    a {
-        text-decoration: none;
-        color: ${(props) => props.theme.colors.text};
-        margin: 0;
-        padding: 0;
-    }
 `;
 
 const Accordion: FC<AccordionProps> = ({

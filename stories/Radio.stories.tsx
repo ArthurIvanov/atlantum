@@ -2,13 +2,13 @@ import * as React from 'react';
 import Radio from '@atlantum/radio';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { theme } from '@atlantum//theme';
+import GlobalStyles, { lightTheme } from '@atlantum/theme';
 import './stories.styles.css';
 import Card from '@atlantum/card';
 
 const DefaultRadio = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size="standard">
@@ -25,7 +25,7 @@ const DefaultRadio = () => {
 
 const DisabledRadio = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size="standard">
@@ -43,7 +43,7 @@ const DisabledRadio = () => {
 
 const SuccessRadio = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size="standard">
@@ -61,7 +61,7 @@ const SuccessRadio = () => {
 
 const DangerRadio = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size="standard">

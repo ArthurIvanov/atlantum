@@ -3,12 +3,12 @@ import Input from '@atlantum/input';
 import Card from '@atlantum/card';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { theme } from '@atlantum/theme';
+import GlobalStyles, { lightTheme } from '@atlantum/theme';
 import './stories.styles.css';
 
 const DefaultInput = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -28,7 +28,7 @@ const DefaultInput = () => {
 
 const DisabledInput = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -48,7 +48,7 @@ const DisabledInput = () => {
 
 const DangerInput = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -70,7 +70,7 @@ const DangerInput = () => {
 
 const SuccessInput = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>

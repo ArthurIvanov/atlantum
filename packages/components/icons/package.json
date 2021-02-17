@@ -1,0 +1,28 @@
+{
+    "name": "@atlantum/icons",
+    "version": "0.0.0",
+    "description": "Set of icons with type checking and auto-complete",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "keywords": [
+        "icons",
+        "react",
+        "typescript",
+        "svg",
+        "inline",
+        "ui",
+        "library"
+    ],
+    "dependencies": {
+        "html-react-parser": "^1.1.1"
+    },
+    "devDependencies": {
+        "react": "^16.13.1"
+    },
+    "peerDependencies": {
+        "react": "^16.13.1"
+    },
+    "repository": "https://github.com/ArthurIvanov/feather-icons-react-typescript"
+}

@@ -6,7 +6,7 @@
 
 -   39a5d54: added card and group components
 -   Updated dependencies [39a5d54]
-    -   @atlantum/theme@0.1.12
+    -   @atlantum/lightTheme@0.1.12
 
 ## 0.1.3
 
@@ -14,7 +14,7 @@
 
 -   086b9ac: Fixed constraint values
 -   Updated dependencies [086b9ac]
-    -   @atlantum/theme@0.1.11
+    -   @atlantum/lightTheme@0.1.11
 
 ## 0.1.2
 
@@ -28,7 +28,7 @@
 
 -   f6fbe0e: Added complete restyle
 -   Updated dependencies [f6fbe0e]
-    -   @atlantum/theme@0.1.9
+    -   @atlantum/lightTheme@0.1.9
 
 ## 0.1.0
 
@@ -39,4 +39,4 @@
 ### Patch Changes
 
 -   Updated dependencies [9398852]
-    -   @atlantum/theme@0.1.5
+    -   @atlantum/lightTheme@0.1.5

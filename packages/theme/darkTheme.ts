@@ -7,42 +7,47 @@ import {
     layout,
 } from '@atlantum/tokens';
 
-export const theme: DefaultTheme = {
+export const darkTheme: DefaultTheme = {
     borderRadius: spacing.s8,
     baseSpace: spacing.s24,
 
     colors: {
-        primaryLight: colors.blue.c500,
-        primaryBase: colors.blue.c700,
-        primaryDark: colors.blue.c900,
+        primary100: colors.blue.c500,
+        primary200: colors.blue.c400,
+        primary300: colors.blue.c300,
+        primary400: colors.blue.c200,
 
-        secondaryLight: colors.green.c500,
-        secondaryBase: colors.green.c700,
-        secondaryDark: colors.green.c900,
+        accent100: colors.yellow.c700,
+        accent200: colors.yellow.c600,
+        accent300: colors.yellow.c500,
+        accent400: colors.yellow.c300,
 
-        successLight: colors.green.c500,
-        successBase: colors.green.c700,
-        successDark: colors.green.c900,
+        neutralGlobalBG: colors.neutral.c1000,
+        neutralContentBG: colors.neutral.c900,
+        neutral100: colors.neutral.c800,
+        neutral200: colors.neutral.c700,
+        neutral300: colors.neutral.c400,
+        neutral400: colors.neutral.c100,
 
-        warningDark: colors.orange.c500,
-        warningBase: colors.orange.c700,
-        warningLight: colors.orange.c900,
+        dangerBG: colors.red.c900,
+        danger100: colors.red.c500,
+        danger200: colors.red.c400,
+        danger300: colors.red.c300,
 
-        dangerLight: colors.red.c500,
-        dangerBase: colors.red.c700,
-        dangerDark: colors.red.c900,
+        warningBG: colors.orange.c700,
+        warning100: colors.orange.c600,
+        warning200: colors.orange.c500,
+        warning300: colors.orange.c100,
 
-        text: colors.neutral.c1200,
-        textInverted: colors.neutral.c25,
+        successBG: colors.green.c700,
+        success100: colors.green.c600,
+        success200: colors.green.c500,
+        success300: colors.green.c100,
 
-        background: colors.neutral.c25,
-        backgroundInverted: colors.neutral.c1800,
-
-        neutralLighter: colors.neutral.c25,
-        neutralLight: colors.neutral.c50,
-        neutralBase: colors.neutral.c300,
-        neutralDark: colors.neutral.c700,
-        neutralDarker: colors.neutral.c900,
+        infoBG: colors.cyan.c700,
+        info100: colors.cyan.c600,
+        info200: colors.cyan.c500,
+        info300: colors.cyan.c100,
     },
 
     spacing: {
@@ -71,11 +76,16 @@ export const theme: DefaultTheme = {
         column: layout.column,
         columnGap: layout.columnGap,
         rowGap: layout.rowGap,
+        containerWidth: layout.containerWidth,
+        containerMaxWidth: layout.containerMaxWidth,
+        largeBp: layout.largeBp,
+        mediumBp: layout.mediumBp,
+        smallBp: layout.smallBp,
     },
 
     elevation: {
-        slight: elevation.slight,
-        medium: elevation.medium,
+        e100: elevation.slight,
+        e200: elevation.medium,
     },
 
     typography: {
@@ -85,6 +95,7 @@ export const theme: DefaultTheme = {
             monospace: `'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Consolas, Courier, monospace`,
         },
         fontSize: {
+            h0: typography.size.h0,
             h1: typography.size.h1,
             h2: typography.size.h2,
             h3: typography.size.h3,
@@ -94,9 +105,11 @@ export const theme: DefaultTheme = {
             base: typography.size.base,
             label: typography.size.label,
             subLabel: typography.size.subLabel,
+            helper: typography.size.helper,
         },
 
         lineHeight: {
+            h0: typography.lineHeight.h0,
             h1: typography.lineHeight.h1,
             h2: typography.lineHeight.h2,
             h3: typography.lineHeight.h3,
@@ -106,6 +119,7 @@ export const theme: DefaultTheme = {
             base: typography.lineHeight.base,
             label: typography.lineHeight.label,
             subLabel: typography.lineHeight.subLabel,
+            helper: typography.lineHeight.helper,
         },
 
         fontWeight: {

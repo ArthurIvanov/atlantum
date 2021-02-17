@@ -6,7 +6,7 @@
 
 -   f6fbe0e: Added complete restyle
 -   Updated dependencies [f6fbe0e]
-    -   @atlantum/theme@0.1.9
+    -   @atlantum/lightTheme@0.1.9
 
 ## 0.1.2
 
@@ -14,7 +14,7 @@
 
 -   9398852: Added sidebar and main header components
 -   Updated dependencies [9398852]
-    -   @atlantum/theme@0.1.5
+    -   @atlantum/lightTheme@0.1.5
 
 ## 0.1.1
 
@@ -31,4 +31,4 @@
 ### Patch Changes
 
 -   Updated dependencies [f779f46]
-    -   @atlantum/theme@0.1.4
+    -   @atlantum/lightTheme@0.1.4

@@ -3,14 +3,14 @@ import Grid from '@atlantum/grid';
 import Column from '@atlantum/column';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { theme } from '@atlantum/theme';
+import GlobalStyles, { lightTheme } from '@atlantum/theme';
 import Card from '@atlantum/card';
 import './stories.styles.css';
 import Content from '../packages/layout/content';
 
 const Narrow = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-full-view">
                 <Card size={'standard'}>
@@ -122,7 +122,7 @@ const Narrow = () => {
 
 const Full = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-full-view">
                 <Card size={'standard'}>

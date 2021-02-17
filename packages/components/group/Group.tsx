@@ -14,6 +14,7 @@ export type Direction = 'row' | 'column';
 export interface GroupProps {
     children: ReactNode;
     relation: RelationTypes;
+    isCentered?: boolean;
     className?: string;
 }
 
@@ -23,12 +24,18 @@ const StyledGroup = styled.div<GroupProps>`
     flex-direction: column;
 
     ${(props) =>
+        props.isCentered &&
+        `
+            align-items: center;
+    `}
+
+    ${(props) =>
         props.relation === 'closest' &&
         `
         &>*:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space8};
             
-            & div >.atlantum-column:not(:last-child) {
+            & * >.atlantum-column:not(:last-child) {
                 margin-bottom: ${props.theme.spacing.space8};
             }
         }
@@ -95,9 +102,18 @@ const StyledGroup = styled.div<GroupProps>`
     `}
 `;
 
-const Group: FC<GroupProps> = ({ children, relation, className }) => {
+const Group: FC<GroupProps> = ({
+    children,
+    relation,
+    className,
+    isCentered,
+}) => {
     return (
-        <StyledGroup className={className} relation={relation}>
+        <StyledGroup
+            className={className}
+            relation={relation}
+            isCentered={isCentered}
+        >
             {children}
         </StyledGroup>
     );

@@ -1,0 +1,21 @@
+{
+    "name": "@atlantum/navigation-link",
+    "version": "0.0.0",
+    "description": "navigation-link component",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "dependencies": {
+        "@atlantum/theme": "^0.1.12"
+    },
+    "devDependencies": {
+        "react": "^16.13.1",
+        "styled-components": "^5.2.0",
+        "react-feather": "^2.0.8"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    },
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/components/navigation-link"
+}

@@ -3,45 +3,50 @@ import Accordion from '@atlantum/accordion';
 import AccordionItem from '@atlantum/accordion-item';
 import { storiesOf } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { theme } from '@atlantum/theme';
+import GlobalStyles, { lightTheme } from '@atlantum/theme';
 import './stories.styles.css';
 import Card from '@atlantum/card';
+import NavigationLink from '../packages/components/navigation-link';
 
 const Accordions = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-compact">
-                <Card size={'standard'}>
+                <Card size={'full'}>
                     <Accordion>
                         <AccordionItem title={'Expandable item 1'}>
-                            <li>
-                                <a href="#">Nested item 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Nested item 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Nested item 3</a>
-                            </li>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 1
+                            </NavigationLink>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 2
+                            </NavigationLink>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 3
+                            </NavigationLink>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 4
+                            </NavigationLink>
                         </AccordionItem>
                         <AccordionItem title={'Expandable item 2'}>
-                            <li>
-                                <a href="#">Nested item 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Nested item 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Nested item 1</a>
-                            </li>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 1
+                            </NavigationLink>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 2
+                            </NavigationLink>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 3
+                            </NavigationLink>
+                            <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                                Navigation link 4
+                            </NavigationLink>
                         </AccordionItem>
 
-                        <li>
-                            <a href="https://github.com/ArthurIvanov">
-                                Nested item 1
-                            </a>
-                        </li>
+                        <NavigationLink href="https://github.com/kiwicom/orbit/tree/master/packages/orbit-components/src">
+                            Navigation link 4
+                        </NavigationLink>
                     </Accordion>
                 </Card>
             </div>

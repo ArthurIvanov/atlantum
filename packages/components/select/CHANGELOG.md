@@ -16,4 +16,4 @@
 
 -   Updated dependencies [f6fbe0e]
     -   @atlantum/input@0.1.7
-    -   @atlantum/theme@0.1.9
+    -   @atlantum/lightTheme@0.1.9

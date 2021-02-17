@@ -4,7 +4,7 @@ const GlobalStyles = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
     body {
-        background-color: ${(props) => props.theme.colors.neutralLight};
+        background-color: ${(props) => props.theme.colors.neutralGlobalBG};
         font-family: ${(props) => props.theme.typography.family.base};
         font-weight: ${(props) => props.theme.typography.fontWeight.regular};
         box-sizing: border-box;

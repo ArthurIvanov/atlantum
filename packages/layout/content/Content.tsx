@@ -9,10 +9,9 @@ export interface ContentProps {
     width?: ContentWidth;
 }
 
-const StyledContent = styled.div<ContentProps>`   
+const StyledContent = styled.div<ContentProps>`
     display: block;
     width: 100%;
-
 
     ${(props) =>
         props.width === 'full' &&
@@ -23,7 +22,7 @@ const StyledContent = styled.div<ContentProps>`
     ${(props) =>
         props.width === 'focus' &&
         `
-            max-width: 1050px;
+            max-width: 1032px;
             align-self: center;    
         `}
 `;

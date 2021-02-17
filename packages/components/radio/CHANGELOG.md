@@ -8,7 +8,7 @@
 -   Updated dependencies [f779f46]
     -   @atlantum/input@0.1.5
     -   @atlantum/label@0.1.4
-    -   @atlantum/theme@0.1.4
+    -   @atlantum/lightTheme@0.1.4
 
 ## 0.1.3
 
@@ -22,10 +22,10 @@
 
 ### Patch Changes
 
--   25f5f00: Initialize toggle component, added patches to color theme and fixed small issues in input components
+-   25f5f00: Initialize toggle component, added patches to color lightTheme and fixed small issues in input components
 -   Updated dependencies [25f5f00]
     -   @atlantum/input@0.1.3
-    -   @atlantum/theme@0.1.3
+    -   @atlantum/lightTheme@0.1.3
 
 ## 0.1.1
 
@@ -34,4 +34,4 @@
 -   9caacf9: bug fixes
 -   Updated dependencies [9caacf9]
     -   @atlantum/input@0.1.1
-    -   @atlantum/theme@0.1.1
+    -   @atlantum/lightTheme@0.1.1

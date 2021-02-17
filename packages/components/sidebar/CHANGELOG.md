@@ -6,7 +6,7 @@
 
 -   086b9ac: Fixed constraint values
 -   Updated dependencies [086b9ac]
-    -   @atlantum/theme@0.1.11
+    -   @atlantum/lightTheme@0.1.11
 
 ## 0.1.3
 
@@ -20,7 +20,7 @@
 
 -   3671796: fixing sidebar
 -   Updated dependencies [3671796]
-    -   @atlantum/theme@0.1.10
+    -   @atlantum/lightTheme@0.1.10
 
 ## 0.1.1
 
@@ -28,7 +28,7 @@
 
 -   f6fbe0e: Added complete restyle
 -   Updated dependencies [f6fbe0e]
-    -   @atlantum/theme@0.1.9
+    -   @atlantum/lightTheme@0.1.9
 
 ## 0.1.0
 
@@ -39,4 +39,4 @@
 ### Patch Changes
 
 -   Updated dependencies [9398852]
-    -   @atlantum/theme@0.1.5
+    -   @atlantum/lightTheme@0.1.5

@@ -10,32 +10,51 @@ export interface AccordionItemProps {
 }
 
 const StyledAccordionItem = styled.li<AccordionItemProps>`
-    outline: black;
-
-    ul {
-        margin-left: ${(props) => props.theme.spacing.space12};
-    }
-
-    ul > li:first-child {
-        margin-top: ${(props) => props.theme.spacing.space12};
-        margin-bottom: ${(props) => props.theme.spacing.space12};
-    }
-    ul > li:not(:last-child) {
-        margin-bottom: ${(props) => props.theme.spacing.space12};
+    ul > li {
+        padding: ${(props) => props.theme.spacing.space12};
+        padding-left: ${(props) => props.theme.spacing.space24};
+        a:hover {
+            color: ${(props) => props.theme.colors.primary200};
+        }
+        a:focus {
+            background-color: #d60d0d;
+        }
     }
     .atlantum-accordion-item--title {
+        outline: none;
         cursor: pointer;
+        border-radius: ${(props) => props.theme.borderRadius};
         font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
+        font-size: ${(props) => props.theme.typography.fontSize.base};
+        font-family: ${(props) => props.theme.typography.family.base};
         display: flex;
+        width: 100%;
+        border: none;
+        background-color: transparent;
         align-items: center;
         justify-content: space-between;
+        margin: 0;
+        padding: ${(props) => props.theme.spacing.space8}
+            ${(props) => props.theme.spacing.space24};
+        transition: 0.2s ease;
+
+        &:hover {
+            color: ${(props) => props.theme.colors.primary200};
+        }
+
+        &:focus {
+            box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+            color: ${(props) => props.theme.colors.primary200};
+        }
     }
 
     .atlantum-accordion-item--content {
         font-weight: ${(props) => props.theme.typography.fontWeight.regular};
         list-style: none;
         padding: 0;
-        margin-bottom: ${(props) => props.theme.spacing.space12};
+        & > a {
+            padding-left: ${(props) => props.theme.spacing.space24};
+        }
     }
 
     .atlantum-accordion-item--content__closed {
@@ -67,7 +86,10 @@ const AccordionItem: FC<AccordionItemProps> = ({
 
     return (
         <StyledAccordionItem title={title}>
-            <span className="atlantum-accordion-item--title" onClick={onClick}>
+            <button
+                className="atlantum-accordion-item--title"
+                onClick={onClick}
+            >
                 {title}
                 <ChevronDown
                     size={24}
@@ -77,7 +99,7 @@ const AccordionItem: FC<AccordionItemProps> = ({
                             : 'atlantum-accordion--icon'
                     }`}
                 />
-            </span>
+            </button>
             <ul
                 className={`${
                     open

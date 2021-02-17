@@ -1,16 +1,19 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
+
 import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { theme } from '@atlantum/theme';
-import './stories.styles.css';
+import GlobalStyles, { lightTheme } from '@atlantum/theme';
+import Group from '@atlantum/group';
+
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
 import TextLink from '@atlantum/text-link';
-import Group from '@atlantum/group';
+
+import './stories.styles.css';
 
 const Intro = () => {
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Group relation={'not-depend'}>

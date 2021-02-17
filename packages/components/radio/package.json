@@ -8,7 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "@atlantum/input": "^0.1.5",
-        "@atlantum/theme": "^0.1.4",
+        "@atlantum/theme": "^0.1.12",
         "@atlantum/label": "^0.1.4"
     },
     "devDependencies": {

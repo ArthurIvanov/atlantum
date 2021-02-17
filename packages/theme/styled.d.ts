@@ -6,37 +6,42 @@ declare module 'styled-components' {
         baseSpace: string;
 
         colors: {
-            readonly primaryLight: string;
-            readonly primaryBase: string;
-            readonly primaryDark: string;
+            readonly primary100: string;
+            readonly primary200: string;
+            readonly primary300: string;
+            readonly primary400: string;
 
-            readonly secondaryLight: string;
-            readonly secondaryBase: string;
-            readonly secondaryDark: string;
+            readonly accent100: string;
+            readonly accent200: string;
+            readonly accent300: string;
+            readonly accent400: string;
 
-            readonly successLight: string;
-            readonly successBase: string;
-            readonly successDark: string;
+            readonly dangerBG: string;
+            readonly danger100: string;
+            readonly danger200: string;
+            readonly danger300: string;
 
-            readonly warningLight: string;
-            readonly warningBase: string;
-            readonly warningDark: string;
+            readonly warningBG: string;
+            readonly warning100: string;
+            readonly warning200: string;
+            readonly warning300: string;
 
-            readonly dangerLight: string;
-            readonly dangerBase: string;
-            readonly dangerDark: string;
+            readonly successBG: string;
+            readonly success100: string;
+            readonly success200: string;
+            readonly success300: string;
 
-            readonly text: string;
-            readonly textInverted: string;
+            readonly infoBG: string;
+            readonly info100: string;
+            readonly info200: string;
+            readonly info300: string;
 
-            readonly background: string;
-            readonly backgroundInverted: string;
-
-            readonly neutralLighter: string;
-            readonly neutralLight: string;
-            readonly neutralBase: string;
-            readonly neutralDark: string;
-            readonly neutralDarker: string;
+            readonly neutralGlobalBG: string;
+            readonly neutralContentBG: string;
+            readonly neutral100: string;
+            readonly neutral200: string;
+            readonly neutral300: string;
+            readonly neutral400: string;
         };
 
         spacing: {
@@ -65,11 +70,16 @@ declare module 'styled-components' {
             column?: number;
             columnGap?: string;
             rowGap?: string;
+            containerWidth?: string;
+            containerMaxWidth?: string;
+            largeBp?: string;
+            mediumBp?: string;
+            smallBp?: string;
         };
 
         elevation?: {
-            slight?: string;
-            medium?: string;
+            e100?: string;
+            e200?: string;
         };
 
         typography: {
@@ -80,18 +90,21 @@ declare module 'styled-components' {
             };
 
             fontSize: {
-                h6: string;
-                h5: string;
-                h4: string;
-                h3: string;
-                h2: string;
+                h0: string;
                 h1: string;
+                h2: string;
+                h3: string;
+                h4: string;
+                h5: string;
+                h6: string;
                 base: string;
                 label: string;
                 subLabel: string;
+                helper: string;
             };
 
             lineHeight: {
+                readonly h0: string;
                 readonly h1: string;
                 readonly h2: string;
                 readonly h3: string;
@@ -101,6 +114,7 @@ declare module 'styled-components' {
                 readonly base: string;
                 readonly label: string;
                 readonly subLabel: string;
+                readonly helper: string;
             };
 
             fontWeight: {

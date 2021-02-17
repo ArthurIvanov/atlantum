@@ -15,7 +15,7 @@ const StyledHeading = styled(Fragment)<HeadingProps>`
     margin: 0;
     font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
     font-family: ${(props) => props.theme.typography.family.heading};
-    color: ${(props) => props.theme.colors.text};
+    color: ${(props) => props.theme.colors.neutral400};
 
     ${(props) =>
         props.centered &&
@@ -26,7 +26,7 @@ const StyledHeading = styled(Fragment)<HeadingProps>`
     ${(props) =>
         props.onDark &&
         `
-         color: ${props.theme.colors.textInverted};
+         color: ${props.theme.colors.neutralContentBG};
     `}
 
     ${(props) =>

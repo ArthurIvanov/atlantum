@@ -1,2 +1,3 @@
 export { default } from './global-styles';
-export { theme } from './theme';
+export { lightTheme } from './lightTheme';
+export { darkTheme } from './darkTheme';
