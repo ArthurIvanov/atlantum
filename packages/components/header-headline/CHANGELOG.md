@@ -1,5 +1,11 @@
 # header-headline
 
+## 1.1.2
+
+### Patch Changes
+
+-   dfd48dd: updated imports
+
 ## 1.1.1
 
 ### Patch Changes
