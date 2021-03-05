@@ -1,13 +1,13 @@
 {
     "name": "@atlantum/label",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "label component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.2.0"
+        "@atlantum/theme": "^0.2.1"
     },
     "devDependencies": {
         "react": "^16.13.1",
