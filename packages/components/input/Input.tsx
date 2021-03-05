@@ -25,18 +25,18 @@ export interface InputProps {
 }
 
 const StyledInput = styled.input<InputProps>`
-    
     box-sizing: border-box;
     display: block;
     width: 100%;
     margin: 0;
     border-radius: ${(props) => props.theme.borderRadius};
+    outline: 0;
 
     border: ${(props) => props.theme.spacing.space1} solid
-        ${(props) => props.theme.colors.neutralDark};
+        ${(props) => props.theme.colors.neutral400};
 
     color: ${(props) => props.theme.colors.text};
-    background-color: ${(props) => props.theme.colors.neutralLighter};
+    background-color: ${(props) => props.theme.colors.neutralContentBG};
     padding: ${(props) => props.theme.spacing.space7};
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-family: ${(props) => props.theme.typography.family.base};
@@ -44,20 +44,18 @@ const StyledInput = styled.input<InputProps>`
     line-height: ${(props) => props.theme.typography.lineHeight.base};
 
     &::placeholder {
-        color: ${(props) => props.theme.colors.neutralDark};
+        color: ${(props) => props.theme.colors.neutral300};
         font-family: ${(props) => props.theme.typography.family.base};
         font-size: ${(props) => props.theme.typography.fontSize.base};
         font-weight: ${(props) => props.theme.typography.fontWeight.regular};
     }
 
     &:hover {
-        border-color: ${(props) => props.theme.colors.primaryLight};
-        box-shadow: ${(props) => props.theme.elevation.slight};
+        border-color: ${(props) => props.theme.colors.primary200};
     }
     &:focus {
-        outline: 0;
-        border-color: ${(props) => props.theme.colors.primaryDark};
-        box-shadow: ${(props) => props.theme.elevation.slight};
+        border-color: ${(props) => props.theme.colors.primary300};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
     }
 
     transition: ${(props) => props.theme.animation.base};
@@ -66,15 +64,15 @@ const StyledInput = styled.input<InputProps>`
         props.disabled &&
         `
         &::placeholder {
-        color: ${props.theme.colors.neutralDark};
+        color: ${props.theme.colors.neutral200};
         }
-         color: ${props.theme.colors.neutralBase};
-         background-color: ${props.theme.colors.neutralLight};
-         border-color: ${props.theme.colors.neutralLight};
+         color: ${props.theme.colors.neutral200};
+         background-color: ${props.theme.colors.neutral100};
+         border-color: ${props.theme.colors.neutral100};
          cursor: not-allowed;
          &:hover {    
-            background-color: ${props.theme.colors.neutralLight};
-            border-color: ${props.theme.colors.neutralLight};
+            background-color: ${props.theme.colors.neutral100};
+            border-color: ${props.theme.colors.neutral100};
             box-shadow: none;
     }
     `}
@@ -82,24 +80,24 @@ const StyledInput = styled.input<InputProps>`
     ${(props) =>
         props.danger &&
         ` 
-        border-color: ${props.theme.colors.dangerBase};
+        border-color: ${props.theme.colors.danger300};
         &:focus {
-        border-color: ${props.theme.colors.dangerDark};
+        border-color: ${props.theme.colors.danger300};
         }
          &:hover {
-            border-color: ${props.theme.colors.dangerLight};         
+            border-color: ${props.theme.colors.danger200};         
     }
     `}
     
     ${(props) =>
         props.success &&
         `       
-         border-color: ${props.theme.colors.successBase};
+         border-color: ${props.theme.colors.success300};
          &:hover {
-            border-color: ${props.theme.colors.successLight};         
+            border-color: ${props.theme.colors.success200};         
     }
         &:focus {
-        border-color: ${props.theme.colors.successDark};
+        border-color: ${props.theme.colors.success300};
         }
     `}
 `;

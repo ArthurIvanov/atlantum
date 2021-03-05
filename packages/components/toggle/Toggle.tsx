@@ -16,11 +16,17 @@ const StyledToggle = styled.input<ToggleProps>`
     display: block;
     cursor: pointer;
     appearance: none;
+    outline: none;
+    border-radius: ${(props) => props.theme.spacing.space32};
 
     &:hover {
         &:before {
-            background-color: ${(props) => props.theme.colors.neutralBase};
+            background-color: ${(props) => props.theme.colors.neutral300};
         }
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
     }
 
     &:before,
@@ -36,7 +42,7 @@ const StyledToggle = styled.input<ToggleProps>`
         width: 100%;
         height: 100%;
         transition: 0.4s;
-        background-color: ${(props) => props.theme.colors.neutralDark};
+        background-color: ${(props) => props.theme.colors.neutral300};
     }
 
     &:after {
@@ -44,14 +50,13 @@ const StyledToggle = styled.input<ToggleProps>`
         height: ${(props) => props.theme.spacing.space12};
         transform: translate(2px, 2px);
         transition: 0.4s;
-        background-color: ${(props) => props.theme.colors.neutralLighter};
-        box-shadow: ${(props) => props.theme.elevation.medium};
+        background-color: ${(props) => props.theme.colors.neutralContentBG};
     }
 
     &:checked {
         &:hover {
             &:before {
-                background-color: ${(props) => props.theme.colors.successLight};
+                background-color: ${(props) => props.theme.colors.success200};
             }
         }
 
@@ -59,7 +64,7 @@ const StyledToggle = styled.input<ToggleProps>`
             transform: translate(16px, 2px);
         }
         &:before {
-            background-color: ${(props) => props.theme.colors.successBase};
+            background-color: ${(props) => props.theme.colors.success300};
         }
     }
 
@@ -68,24 +73,25 @@ const StyledToggle = styled.input<ToggleProps>`
         `
         cursor: not-allowed;
         &:before {
-            background-color: ${props.theme.colors.neutralLight};
+            background-color: ${props.theme.colors.neutral100};
         }
          &:hover {
             &:before {
-                background-color: ${props.theme.colors.neutralLight};
+                background-color: ${props.theme.colors.neutral100};
             }
     }
         &:after {
             box-shadow: none;
+            background-color: ${props.theme.colors.neutral200};
         }
          &:checked {
             &:hover {
                 &:before {
-                    background-color: ${props.theme.colors.neutralLight};
+                    background-color: ${props.theme.colors.neutral100};
                 }
             }
          &:before {
-            background-color: ${props.theme.colors.neutralLight};
+            background-color: ${props.theme.colors.neutral100};
          }
          &:after {
             box-shadow: none;
