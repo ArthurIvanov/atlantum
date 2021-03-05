@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import * as React from 'react';
 import { FC } from 'react';
-import { ButtonProps, StyledButton } from '@atlantum/Button';
+import { ButtonProps, StyledButton } from '@atlantum/button';
 
 const StyledIconButton = styled(StyledButton)<ButtonProps>`
     display: flex;
