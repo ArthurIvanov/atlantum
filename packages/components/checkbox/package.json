@@ -1,15 +1,15 @@
 {
     "name": "@atlantum/checkbox",
-    "version": "0.1.6",
+    "version": "0.2.0",
     "description": "checkbox component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/input": "^0.1.8",
-        "@atlantum/theme": "^0.1.12",
-        "@atlantum/label": "^0.1.3"
+        "@atlantum/input": "^0.2.0",
+        "@atlantum/theme": "^0.2.0",
+        "@atlantum/label": "^0.2.0"
     },
     "devDependencies": {
         "react": "^16.13.1",
