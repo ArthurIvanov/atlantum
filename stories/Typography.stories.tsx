@@ -6,7 +6,7 @@ import './stories.styles.css';
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
 import Card from '@atlantum/card';
-import Group from '@atlantum/group';
+import Group from '../packages/layout/group';
 
 const Headlines = () => {
     return (

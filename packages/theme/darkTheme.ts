@@ -84,8 +84,21 @@ export const darkTheme: DefaultTheme = {
     },
 
     elevation: {
-        e100: elevation.slight,
-        e200: elevation.medium,
+        soft: {
+            low: elevation.darkTheme.soft.low,
+            medium: elevation.darkTheme.soft.medium,
+            high: elevation.darkTheme.soft.high,
+        },
+        medium: {
+            low: elevation.darkTheme.soft.low,
+            medium: elevation.darkTheme.soft.medium,
+            high: elevation.darkTheme.soft.high,
+        },
+        hard: {
+            low: elevation.darkTheme.soft.low,
+            medium: elevation.darkTheme.soft.medium,
+            high: elevation.darkTheme.soft.high,
+        },
     },
 
     typography: {

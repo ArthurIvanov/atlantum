@@ -8,6 +8,7 @@ import Label from '@atlantum/label';
 export interface CheckboxProps extends InputProps {
     checked?: boolean;
     children?: ReactNode;
+    className?: string;
 }
 
 const StyledCheckbox = styled.input<CheckboxProps>`
@@ -21,23 +22,18 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     height: ${(props) => props.theme.spacing.space16};
     border-radius: ${(props) => props.theme.spacing.space2};
     border: ${(props) => props.theme.spacing.space2} solid
-        ${(props) => props.theme.colors.primaryBase};
+        ${(props) => props.theme.colors.neutral400};
 
     transition: 0.2s ease;
 
     &:hover {
-        color: ${(props) => props.theme.colors.textInverted};
-        border-color: ${(props) => props.theme.colors.primaryLight};
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.24);
-    }
-
-    &:checked,
-    &:focus {
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+        color: ${(props) => props.theme.colors.neutral400};
+        border-color: ${(props) => props.theme.colors.primary100};
     }
 
     &:checked {
-        background-color: ${(props) => props.theme.colors.primaryBase};
+        border-color: ${(props) => props.theme.colors.primary300};
+        background-color: ${(props) => props.theme.colors.primary300};
     }
 
     &:checked::after {
@@ -55,43 +51,44 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     ${(props) =>
         props.disabled &&
         `
-         border-color: ${props.theme.colors.neutralBase};
+         border-color: ${props.theme.colors.neutral100};
          cursor: not-allowed;
          &:hover {
-            border-color: ${props.theme.colors.neutralBase}; 
+            border-color: ${props.theme.colors.neutral100};
             box-shadow: none;
     }
     
     &:checked {
-        background-color: ${props.theme.colors.neutralBase};
+        background-color: ${props.theme.colors.neutralContentBG};       
+        border-color: ${props.theme.colors.neutral100};
     }
     `}
 
     ${(props) =>
         props.danger &&
         `
-         border-color: ${props.theme.colors.dangerBase};
+         border-color: ${props.theme.colors.danger300};
          &:hover {
-            border-color: ${props.theme.colors.dangerLight}; 
+            border-color: ${props.theme.colors.danger100}; 
          
     }
     
     &:checked::after {
-        background-color: ${props.theme.colors.dangerDark};
+        background-color: ${props.theme.colors.danger300};
     }
     `}
     
      ${(props) =>
         props.success &&
         `
-         border-color: ${props.theme.colors.successBase};
+         border-color: ${props.theme.colors.success300};
          &:hover {
-            border-color: ${props.theme.colors.successLight}; 
+            border-color: ${props.theme.colors.success100}; 
          
     }
     
     &:checked::after {
-        background-color: ${props.theme.colors.successDark};
+        background-color: ${props.theme.colors.success300};
     }
     `}
 `;
@@ -105,6 +102,7 @@ const Checkbox: FC<CheckboxProps> = (props) => {
             disabled={props.disabled}
         >
             <StyledCheckbox
+                className={props.className}
                 checked={props.checked}
                 disabled={props.disabled}
                 danger={props.danger}

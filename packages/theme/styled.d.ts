@@ -78,8 +78,21 @@ declare module 'styled-components' {
         };
 
         elevation?: {
-            e100?: string;
-            e200?: string;
+            soft: {
+                low: string;
+                medium: string;
+                high: string;
+            };
+            medium: {
+                low: string;
+                medium: string;
+                high: string;
+            };
+            hard: {
+                low: string;
+                medium: string;
+                high: string;
+            };
         };
 
         typography: {

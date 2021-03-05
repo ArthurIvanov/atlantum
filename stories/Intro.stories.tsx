@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles, { lightTheme } from '@atlantum/theme';
-import Group from '@atlantum/group';
+import Group from '../packages/layout/group';
 
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';

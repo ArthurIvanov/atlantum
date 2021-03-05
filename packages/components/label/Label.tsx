@@ -2,6 +2,8 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { FC, ReactNode } from 'react';
 
+type FontWeight = 'regular' | 'semiBold';
+
 export interface LabelProps {
     children: ReactNode;
     htmlFor?: string;
@@ -9,6 +11,7 @@ export interface LabelProps {
     input?: boolean;
     danger?: boolean;
     disabled?: boolean;
+    fontWeight?: FontWeight;
 }
 
 const StyledLabel = styled.label<LabelProps>`
@@ -19,14 +22,15 @@ const StyledLabel = styled.label<LabelProps>`
     span.input-label {
         color: ${(props) => props.theme.colors.text};
         margin-left: ${(props) => props.theme.spacing.space8};
+        font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
     }
 
     span {
         display: block;
         font-size: ${(props) => props.theme.typography.fontSize.label};
-        font-weight: ${(props) => props.theme.typography.fontWeight.regular};
         line-height: ${(props) => props.theme.typography.lineHeight.label};
         font-family: ${(props) => props.theme.typography.family.base};
+
         margin: 0;
     }
 
@@ -39,6 +43,7 @@ const StyledLabel = styled.label<LabelProps>`
                 color: ${props.theme.colors.text};
                 font-size: ${props.theme.typography.fontSize.subLabel};
                 line-height: ${props.theme.typography.lineHeight.subLabel};
+                font-weight: ${props.theme.typography.fontWeight.regular};
                 margin-top: ${props.theme.spacing.space4};
                 }
             span.input-label {
@@ -54,7 +59,7 @@ const StyledLabel = styled.label<LabelProps>`
         props.danger &&
         `      
             span.input-alert {
-            color: ${props.theme.colors.dangerBase};
+            color: ${props.theme.colors.danger300};
             }
                
     `};
@@ -63,13 +68,23 @@ const StyledLabel = styled.label<LabelProps>`
         props.disabled &&
         `      
             span.input-label {
-            color: ${props.theme.colors.neutralBase};
+            color: ${props.theme.colors.neutral200};
+            }
+            
+    `};
+
+    ${(props) =>
+        props.fontWeight === 'regular' &&
+        `      
+            span.input-label {
+            font-weight: ${props.theme.typography.fontWeight.regular};
+            color: red;
             }
             
     `};
 `;
 
-const Label: FC<LabelProps> = (props) => {
+const Label: FC<LabelProps> = (props, { fontWeight }) => {
     return (
         <StyledLabel
             htmlFor={props.htmlFor}
@@ -77,6 +92,7 @@ const Label: FC<LabelProps> = (props) => {
             input={props.input}
             danger={props.danger}
             disabled={props.disabled}
+            fontWeight={fontWeight}
         >
             {props.children}
         </StyledLabel>

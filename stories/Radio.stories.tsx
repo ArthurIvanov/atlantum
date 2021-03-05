@@ -31,6 +31,7 @@ const DisabledRadio = () => {
                 <Card size="standard">
                     <Radio
                         disabled
+                        checked
                         type={'radio'}
                         name={'radio'}
                         label={'Disabled radio'}
@@ -66,7 +67,7 @@ const DangerRadio = () => {
             <div className="atlantum-compact">
                 <Card size="standard">
                     <Radio
-                        success
+                        danger
                         type={'radio'}
                         name={'radio'}
                         label={'Danger radio'}

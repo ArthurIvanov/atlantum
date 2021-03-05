@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import * as React from 'react';
 import { FC } from 'react';
 import { InputProps } from '@atlantum/input';
+
 import Label from '@atlantum/label';
 
 export interface RadioProps extends InputProps {
@@ -9,6 +10,7 @@ export interface RadioProps extends InputProps {
 }
 
 const StyledRadio = styled.input<RadioProps>`
+    outline: none;
     appearance: none;
     position: relative;
     cursor: pointer;
@@ -19,26 +21,28 @@ const StyledRadio = styled.input<RadioProps>`
     height: ${(props) => props.theme.spacing.space16};
     border-radius: 50%;
     border: ${(props) => props.theme.spacing.space1} solid
-        ${(props) => props.theme.colors.primaryBase};
+        ${(props) => props.theme.colors.neutral300};
 
     transition: 0.2s ease;
 
     &:hover {
         color: ${(props) => props.theme.colors.textInverted};
-        border-color: ${(props) => props.theme.colors.primaryLight};
+        border-color: ${(props) => props.theme.colors.neutral400};
         box-shadow: ${(props) => props.theme.elevation.slight};
     }
 
-    &:checked,
+    &:checked {
+        background-color: ${(props) => props.theme.colors.primary300};
+    }
+
     &:focus {
-        outline: none;
-        background-color: ${(props) => props.theme.colors.primaryBase};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
     }
 
     &:checked::after {
         content: '';
         display: block;
-        background-color: ${(props) => props.theme.colors.textInverted};
+        background-color: ${(props) => props.theme.colors.neutralContentBG};
         border-radius: 50%;
         position: absolute;
         width: 4px;
@@ -50,67 +54,71 @@ const StyledRadio = styled.input<RadioProps>`
     ${(props) =>
         props.disabled &&
         `
-         border-color: ${props.theme.colors.neutralBase};
+         border-color: ${props.theme.colors.neutral100};
          cursor: not-allowed;
          &:hover {
-            border-color: ${props.theme.colors.neutralBase}; 
+            border-color: ${props.theme.colors.neutral100}; 
             box-shadow: none;
         }
+        &:checked::after{
+            background-color: ${props.theme.colors.neutral200};
+        }
         &:checked,
-    &:focus {
-        background-color: ${props.theme.colors.neutralBase};
-    }
-    &:checked::after {
-        background-color: ${props.theme.colors.textInverted};
-    }
-    \`}
+        
+        &:focus {
+            background-color: ${props.theme.colors.neutralGlobalBG};
+        }
+    
+
     
     `}
 
     ${(props) =>
         props.danger &&
         `
-         border-color: ${props.theme.colors.dangerBase};
+         border-color: ${props.theme.colors.danger300};
          &:hover {
-            border-color: ${props.theme.colors.dangerLight};          
+            border-color: ${props.theme.colors.danger300};          
     }
     &:checked,
     &:focus {
         outline: none;
-        background-color: ${props.theme.colors.dangerBase};
+        background-color: ${props.theme.colors.danger300};
     }
     
     &:checked::after {
-        background-color: ${props.theme.colors.textInverted};
+        background-color: ${props.theme.colors.neutralContentBG};
     }
     `}
     
      ${(props) =>
         props.success &&
         `
-         border-color: ${props.theme.colors.successBase};
+         border-color: ${props.theme.colors.success300};
          &:hover {
-            border-color: ${props.theme.colors.successLight};
+            border-color: ${props.theme.colors.success300};
         }
         &:checked,
         &:focus {
+
             outline: none;
-            background-color: ${props.theme.colors.successBase};
+            background-color: ${props.theme.colors.success300};
         }
     
         &:checked::after {
-            background-color: ${props.theme.colors.textInverted};
+            background-color: ${props.theme.colors.neutralContentBG};
         }
         `}
 `;
 
-const Radio: FC<RadioProps> = (props) => {
+const Radio: FC<RadioProps> = (props, { fontWeight }) => {
     return (
         <Label
             htmlFor={props.id}
             input={props.input}
             danger={props.danger}
             disabled={props.disabled}
+            fontWeight={fontWeight}
         >
             <StyledRadio
                 checked={props.checked}

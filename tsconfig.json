@@ -54,7 +54,7 @@
         { "path": "packages/components/button-group" },
         { "path": "packages/components/button-icon" },
         { "path": "packages/components/card" },
-        { "path": "packages/components/group" },
+        { "path": "packages/layout/group" },
         { "path": "packages/components/input" },
         { "path": "packages/components/image" },
         { "path": "packages/components/checkbox" },

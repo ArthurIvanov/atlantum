@@ -5,12 +5,11 @@ import GlobalStyles, { lightTheme } from '@atlantum/theme';
 
 import Grid from '@atlantum/grid';
 import Column from '@atlantum/column';
-import Content from '@atlantum/content';
 
 import Card from '@atlantum/card';
-import Group from '@atlantum/group';
+import Group from '../packages/layout/group';
 import Input from '@atlantum/input';
-import Image from '@atlantum/image';
+
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
 
@@ -34,8 +33,8 @@ const Compact = () => {
                                     from all sides.
                                 </Text>
                             </Group>
-                            <Group relation={'one-of'}>
-                                <Grid rowGap="8">
+                            <Group relation={'grouped'}>
+                                <Grid>
                                     <Column
                                         smallBP={'1 / 13'}
                                         mediumBP={'1 / 13'}
@@ -97,102 +96,6 @@ const Compact = () => {
                             </Group>
                         </Group>
                     </Card>
-                    <Card size="landing">
-                        <Content width="focus">
-                            <Group relation="separated">
-                                <Heading centered as="h4">
-                                    We provide you
-                                </Heading>
-                                <Grid rowGap="24">
-                                    <Column
-                                        smallBP="1 / 13"
-                                        mediumBP="1 / 13"
-                                        largeBP="1 / 5"
-                                    >
-                                        <Card size="standard">
-                                            <Group
-                                                relation="not-depend"
-                                                isCentered
-                                            >
-                                                <Image
-                                                    src="https://i.ibb.co/4wLDJpx/start.png"
-                                                    width="80%"
-                                                />
-
-                                                <Group relation="closest">
-                                                    <Heading centered as="h5">
-                                                        Start
-                                                    </Heading>
-                                                    <Text centered as="p">
-                                                        Start build products
-                                                        with carefuly builded
-                                                        Design library
-                                                    </Text>
-                                                </Group>
-                                            </Group>
-                                        </Card>
-                                    </Column>
-                                    <Column
-                                        smallBP="1 / 13"
-                                        mediumBP="1 / 13"
-                                        largeBP="5 / 9"
-                                    >
-                                        <Card size="standard">
-                                            <Group
-                                                relation="not-depend"
-                                                isCentered
-                                            >
-                                                <Image
-                                                    src="https://i.ibb.co/DLm6C9n/accelerate.png"
-                                                    width="80%"
-                                                />
-
-                                                <Group relation="closest">
-                                                    <Heading centered as="h5">
-                                                        Start
-                                                    </Heading>
-                                                    <Text centered as="p">
-                                                        Accelerate your design
-                                                        process by shared
-                                                        library and
-                                                        documentation
-                                                    </Text>
-                                                </Group>
-                                            </Group>
-                                        </Card>
-                                    </Column>
-                                    <Column
-                                        smallBP="1 / 13"
-                                        mediumBP="1 / 13"
-                                        largeBP="9 / 13"
-                                    >
-                                        <Card size="standard">
-                                            <Group
-                                                relation="not-depend"
-                                                isCentered
-                                            >
-                                                <Image
-                                                    src="https://i.ibb.co/YZMSZ42/connect.png"
-                                                    width="80%"
-                                                />
-
-                                                <Group relation="closest">
-                                                    <Heading centered as="h5">
-                                                        Start
-                                                    </Heading>
-                                                    <Text centered as="p">
-                                                        Develop product right
-                                                        after Design with our
-                                                        React Library
-                                                    </Text>
-                                                </Group>
-                                            </Group>
-                                        </Card>
-                                    </Column>
-                                </Grid>
-                            </Group>
-                        </Content>
-                    </Card>
                 </Container>
             </div>
         </ThemeProvider>
@@ -215,7 +118,7 @@ const Standard = () => {
                                 all sides.
                             </Text>
                         </Group>
-                        <Group relation={'one-of'}>
+                        <Group relation={'grouped'}>
                             <Grid columnGap={'24'} rowGap="8">
                                 <Column
                                     smallBP={'1 / 13'}
@@ -279,7 +182,7 @@ const Large = () => {
                                 all sides.
                             </Text>
                         </Group>
-                        <Group relation={'one-of'}>
+                        <Group relation={'separated'}>
                             <Grid columnGap={'24'} rowGap="8">
                                 <Column
                                     smallBP={'1 / 13'}
@@ -343,7 +246,7 @@ const Landing = () => {
                                 all sides.
                             </Text>
                         </Group>
-                        <Group relation={'one-of'}>
+                        <Group relation={'grouped'}>
                             <Grid columnGap={'24'} rowGap="8">
                                 <Column
                                     smallBP={'1 / 13'}

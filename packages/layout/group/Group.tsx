@@ -4,8 +4,8 @@ import { FC, ReactNode } from 'react';
 
 export type RelationTypes =
     | 'closest'
-    | 'one-of'
-    | 'not-depend'
+    | 'grouped'
+    | 'one-context'
     | 'separated'
     | 'far';
 
@@ -32,10 +32,10 @@ const StyledGroup = styled.div<GroupProps>`
     ${(props) =>
         props.relation === 'closest' &&
         `
-        &>*:not(:last-child) {
+        & > *:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space8};
             
-            & * >.atlantum-column:not(:last-child) {
+            & * > *:not(:last-child) {
                 margin-bottom: ${props.theme.spacing.space8};
             }
         }
@@ -43,23 +43,23 @@ const StyledGroup = styled.div<GroupProps>`
     `}
 
     ${(props) =>
-        props.relation === 'one-of' &&
+        props.relation === 'grouped' &&
         `
         &>*:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space16};  
         }
         @media only screen and (min-width: 400px) {
-        div.atlantum-grid > .atlantum-column:not(:last-child) {
+        * > *:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space16};
         }
         
         @media only screen and (min-width: 600px) {
-        div.atlantum-grid > .atlantum-column:not(:last-child) {
+        * > *:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space16};
         }
         
         @media only screen and (min-width: 1050px) {
-        div.atlantum-grid > .atlantum-column:not(:last-child) {
+        * > *:not(:last-child) {
             margin-bottom: 0;
         }
     }
@@ -69,36 +69,78 @@ const StyledGroup = styled.div<GroupProps>`
     `}
 
     ${(props) =>
-        props.relation === 'not-depend' &&
+        props.relation === 'one-context' &&
         `
-        & > *:not(:last-child) {
+        &>*:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space24};  
+        }
+        @media only screen and (min-width: 400px) {
+        * > *:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space24};
-            
         }
         
-        @media only screen and (min-width: 400px) {
-            & div.atlantum-grid > .atlantum-column:not(:last-child) {
-                margin-bottom: ${props.theme.spacing.space16};
-            }
+        @media only screen and (min-width: 600px) {
+        * > *:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space24};
+        }
         
+        @media only screen and (min-width: 1050px) {
+        * > *:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+        
+    }
     `}
     
     ${(props) =>
         props.relation === 'separated' &&
         `
-        & > *:not(:last-child) {
+        &>*:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space32};  
+        }
+        @media only screen and (min-width: 400px) {
+        * > *:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space32};
         }
         
+        @media only screen and (min-width: 600px) {
+        * > *:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space32};
+        }
+        
+        @media only screen and (min-width: 1050px) {
+        * > *:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+        
+    }
     `}
     
     ${(props) =>
         props.relation === 'far' &&
         `
-        & > *:not(:last-child) {
+        &>*:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space48};  
+        }
+        @media only screen and (min-width: 400px) {
+        * > *:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space48};
         }
         
+        @media only screen and (min-width: 600px) {
+        * > *:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space48};
+        }
+        
+        @media only screen and (min-width: 1050px) {
+        * > *:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+        
+    }
     `}
 `;
 

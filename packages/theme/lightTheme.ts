@@ -30,24 +30,24 @@ export const lightTheme: DefaultTheme = {
         neutral400: colors.neutral.c800,
 
         dangerBG: colors.red.c700,
-        danger100: colors.red.c600,
+        danger100: colors.red.c100,
         danger200: colors.red.c500,
-        danger300: colors.red.c100,
+        danger300: colors.red.c600,
 
         warningBG: colors.orange.c700,
-        warning100: colors.orange.c600,
+        warning100: colors.orange.c100,
         warning200: colors.orange.c500,
-        warning300: colors.orange.c100,
+        warning300: colors.orange.c600,
 
         successBG: colors.green.c700,
-        success100: colors.green.c600,
+        success100: colors.green.c100,
         success200: colors.green.c500,
-        success300: colors.green.c100,
+        success300: colors.green.c600,
 
         infoBG: colors.cyan.c700,
-        info100: colors.cyan.c600,
+        info100: colors.cyan.c100,
         info200: colors.cyan.c500,
-        info300: colors.cyan.c100,
+        info300: colors.cyan.c600,
     },
 
     spacing: {
@@ -84,8 +84,21 @@ export const lightTheme: DefaultTheme = {
     },
 
     elevation: {
-        e100: elevation.slight,
-        e200: elevation.medium,
+        soft: {
+            low: elevation.lightTheme.soft.low,
+            medium: elevation.lightTheme.soft.medium,
+            high: elevation.lightTheme.soft.high,
+        },
+        medium: {
+            low: elevation.lightTheme.soft.low,
+            medium: elevation.lightTheme.soft.medium,
+            high: elevation.lightTheme.soft.high,
+        },
+        hard: {
+            low: elevation.lightTheme.soft.low,
+            medium: elevation.lightTheme.soft.medium,
+            high: elevation.lightTheme.soft.high,
+        },
     },
 
     typography: {
