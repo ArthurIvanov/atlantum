@@ -1,5 +1,16 @@
 # @atlantum/lightTheme
 
+## 0.2.0
+
+### Minor Changes
+
+-   148f7f7: Massive update for all components, including theme and tokens scheme
+
+### Patch Changes
+
+-   Updated dependencies [148f7f7]
+    -   @atlantum/tokens@0.3.0
+
 ## 0.1.12
 
 ### Patch Changes

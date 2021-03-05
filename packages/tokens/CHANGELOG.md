@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.3.0
+
+### Minor Changes
+
+-   148f7f7: Massive update for all components, including theme and tokens scheme
+
 ## 0.2.7
 
 ### Patch Changes
