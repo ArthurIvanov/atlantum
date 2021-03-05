@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/button-icon",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "button icon component",
     "main": "dist/index.js",
     "module": "dist/index.js",

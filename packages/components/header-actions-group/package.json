@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/header-actions-group",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "header-actions-group component",
     "main": "dist/index.js",
     "module": "dist/index.js",

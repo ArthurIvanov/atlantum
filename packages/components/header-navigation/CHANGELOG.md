@@ -1,5 +1,11 @@
 # @atlantum/header-navigation
 
+## 0.1.2
+
+### Patch Changes
+
+-   dfd48dd: updated imports
+
 ## 0.1.1
 
 ### Patch Changes

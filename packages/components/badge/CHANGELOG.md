@@ -1,5 +1,11 @@
 # @atlantum/badge
 
+## 0.2.2
+
+### Patch Changes
+
+-   dfd48dd: updated imports
+
 ## 0.2.1
 
 ### Patch Changes
