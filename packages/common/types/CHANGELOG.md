@@ -1,5 +1,11 @@
 # @atlantum/types
 
+## 0.2.1
+
+### Patch Changes
+
+-   670aef2: update
+
 ## 0.2.0
 
 ### Minor Changes

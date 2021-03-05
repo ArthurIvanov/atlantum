@@ -1,5 +1,11 @@
 # header-headline
 
+## 1.1.1
+
+### Patch Changes
+
+-   670aef2: update
+
 ## 1.1.0
 
 ### Minor Changes

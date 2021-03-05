@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.3.1
+
+### Patch Changes
+
+-   670aef2: update
+
 ## 0.3.0
 
 ### Minor Changes
