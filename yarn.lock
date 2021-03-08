@@ -24,11 +24,6 @@
   dependencies:
     tunnel "0.0.6"
 
-"@atlantum/feather-react-ts@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@atlantum/feather-react-ts/-/feather-react-ts-1.0.2.tgz#5fd7cd8352941f7b5aff22c13441ffff38902249"
-  integrity sha512-W/lAFeXSDG05dW5xNZJdfHX0YM6Av5xQT3JbzkLzNaj10kqUXXdZ6VpcyUUMLxKK/FJ9cYNs7r+aOF41a8nPow==
-
 "@babel/code-frame@7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
