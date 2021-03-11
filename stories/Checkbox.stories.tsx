@@ -1,16 +1,15 @@
 import * as React from 'react';
 import Checkbox from '@atlantum/checkbox';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
+import GlobalStyles from '@atlantum/theme';
 import './stories.styles.css';
 import Card from '@atlantum/card';
 
 const Regular = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
-            <div className="atlantum-compact">
+            <div className="atlantum-view">
                 <Card size={'standard'}>
                     <Checkbox
                         type={'checkbox'}
@@ -19,14 +18,14 @@ const Regular = () => {
                     />
                 </Card>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 const Checked = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+        <>
             <GlobalStyles />
-            <div className="atlantum-compact">
+            <div className="atlantum-view">
                 <Card size={'standard'}>
                     <Checkbox
                         checked
@@ -36,15 +35,15 @@ const Checked = () => {
                     />
                 </Card>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 
 const Disabled = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+        <>
             <GlobalStyles />
-            <div className="atlantum-compact">
+            <div className="atlantum-view">
                 <Card size={'standard'}>
                     <Checkbox
                         checked
@@ -55,7 +54,7 @@ const Disabled = () => {
                     />
                 </Card>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 

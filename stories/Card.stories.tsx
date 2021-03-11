@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
+import GlobalStyles from '@atlantum/theme';
 
 import Grid from '@atlantum/grid';
 import Column from '@atlantum/column';
@@ -18,7 +17,7 @@ import Container from '@atlantum/container';
 
 const Compact = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+        <>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Container align={'centered'}>
@@ -98,13 +97,14 @@ const Compact = () => {
                     </Card>
                 </Container>
             </div>
-        </ThemeProvider>
+        </>
+
     );
 };
 
 const Standard = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size={'standard'}>
@@ -162,13 +162,13 @@ const Standard = () => {
                     </Group>
                 </Card>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 
 const Large = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size={'large'}>
@@ -226,13 +226,13 @@ const Large = () => {
                     </Group>
                 </Card>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 
 const Landing = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+      <>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size={'landing'}>
@@ -290,7 +290,7 @@ const Landing = () => {
                     </Group>
                 </Card>
             </div>
-        </ThemeProvider>
+      </>
     );
 };
 

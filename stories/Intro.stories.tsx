@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
+import GlobalStyles from '@atlantum/theme';
 import Group from '../packages/layout/group';
+import Image from "@atlantum/image";
 
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
@@ -13,14 +13,15 @@ import './stories.styles.css';
 
 const Intro = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+        <>
             <GlobalStyles />
+            <Image src={"https://i.ibb.co/xhWftv3/intro.png"} width={"100%"}  alt={"intro"} />
             <div className="atlantum-view">
-                <Group relation={'not-depend'}>
+                <Group relation={'separated'}>
                     <Heading as={'h3'}>
                         Welcome to Atlantum Design System storybook
                     </Heading>
-                    <Group relation={'one-of'}>
+                    <Group relation={'grouped'}>
                         <Text as={'p'}>
                             This is collection of UI components for building
                             great products with Atlantum.
@@ -34,7 +35,7 @@ const Intro = () => {
                     </Group>
                 </Group>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 
