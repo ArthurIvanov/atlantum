@@ -1,5 +1,5 @@
 <span align="center">
-  <img src="assets/logo-large.png" alt="atlantum logo" />
+  <img src="assets/intro.png" alt="atlantum logo" />
 </span>
 
 # Atlantum

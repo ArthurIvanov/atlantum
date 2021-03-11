@@ -3,8 +3,7 @@ import Button from '@atlantum/button';
 import ButtonIcon from '../packages/components/button-icon';
 import ButtonGroup from '../packages/components/button-group';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme, darkTheme } from '@atlantum/theme';
+import GlobalStyles from '@atlantum/theme';
 import Icon from '@atlantum/icons';
 
 import './stories.styles.css';
@@ -12,57 +11,57 @@ import Card from '@atlantum/card';
 
 const Primary = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+        <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
                     <Button>I am primary</Button>
                 </Card>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 const Secondary = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
                     <Button isSecondary>I am Secondary</Button>
                 </Card>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 const Disabled = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+     <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
                     <Button disabled>I am Disabled</Button>
                 </Card>
             </div>
-        </ThemeProvider>
+</>
     );
 };
 
 const BtnIcon = () => {
     return (
-        <ThemeProvider theme={darkTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <ButtonIcon isSecondary>
                     <Icon name={'terminal'} />
                 </ButtonIcon>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 
 const BtnGroup = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+      <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -80,7 +79,7 @@ const BtnGroup = () => {
                     </ButtonGroup>
                 </Card>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 

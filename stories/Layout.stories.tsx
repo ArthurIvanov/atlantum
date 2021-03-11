@@ -2,15 +2,15 @@ import * as React from 'react';
 import Grid from '@atlantum/grid';
 import Column from '@atlantum/column';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
+
+import GlobalStyles from '@atlantum/theme';
 import Card from '@atlantum/card';
 import './stories.styles.css';
 import Content from '../packages/layout/content';
 
 const Narrow = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+        <>
             <GlobalStyles />
             <div className="atlantum-full-view">
                 <Card size={'standard'}>
@@ -18,7 +18,7 @@ const Narrow = () => {
                         <Grid columnGap={'24'}>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 1'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'1 / 1'}
                                 largeBP={'1 / 1'}
                             >
@@ -26,7 +26,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 2'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'2 / 2'}
                                 largeBP={'2 / 2'}
                             >
@@ -34,7 +34,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 3'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'3 / 3'}
                                 largeBP={'3 / 3'}
                             >
@@ -42,7 +42,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 4'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'4 / 4'}
                                 largeBP={'4 / 4'}
                             >
@@ -50,7 +50,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 5'}
+                                smallBP={'1 / 12'}
                                 mediumBP={'5 / 5'}
                                 largeBP={'5 / 5'}
                             >
@@ -58,7 +58,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 6'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'6 / 6'}
                                 largeBP={'6 / 6'}
                             >
@@ -66,7 +66,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 7'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'7 / 7'}
                                 largeBP={'7 / 7'}
                             >
@@ -74,7 +74,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 8'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'8 / 8'}
                                 largeBP={'8 / 8'}
                             >
@@ -82,7 +82,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 9'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'9 / 9'}
                                 largeBP={'9 / 9'}
                             >
@@ -90,7 +90,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 10'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'10 / 10'}
                                 largeBP={'10 / 10'}
                             >
@@ -98,7 +98,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 11'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'11 / 11'}
                                 largeBP={'11 / 11'}
                             >
@@ -106,7 +106,7 @@ const Narrow = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 12'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'12 / 12'}
                                 largeBP={'12 / 12'}
                             >
@@ -116,13 +116,13 @@ const Narrow = () => {
                     </Content>
                 </Card>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 
 const Full = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-full-view">
                 <Card size={'standard'}>
@@ -130,7 +130,7 @@ const Full = () => {
                         <Grid columnGap={'24'}>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 1'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'1 / 1'}
                                 largeBP={'1 / 1'}
                             >
@@ -138,7 +138,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 2'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'2 / 2'}
                                 largeBP={'2 / 2'}
                             >
@@ -146,7 +146,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 3'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'3 / 3'}
                                 largeBP={'3 / 3'}
                             >
@@ -154,7 +154,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 4'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'4 / 4'}
                                 largeBP={'4 / 4'}
                             >
@@ -162,7 +162,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 5'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'5 / 5'}
                                 largeBP={'5 / 5'}
                             >
@@ -170,7 +170,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 6'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'6 / 6'}
                                 largeBP={'6 / 6'}
                             >
@@ -178,7 +178,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 7'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'7 / 7'}
                                 largeBP={'7 / 7'}
                             >
@@ -186,7 +186,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 8'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'8 / 8'}
                                 largeBP={'8 / 8'}
                             >
@@ -194,7 +194,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 9'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'9 / 9'}
                                 largeBP={'9 / 9'}
                             >
@@ -202,7 +202,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 10'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'10 / 10'}
                                 largeBP={'10 / 10'}
                             >
@@ -210,7 +210,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 11'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'11 / 11'}
                                 largeBP={'11 / 11'}
                             >
@@ -218,7 +218,7 @@ const Full = () => {
                             </Column>
                             <Column
                                 className="atlantum-div"
-                                smallBP={'1 / 12'}
+                                smallBP={'1 / 13'}
                                 mediumBP={'12 / 12'}
                                 largeBP={'12 / 12'}
                             >
@@ -228,7 +228,7 @@ const Full = () => {
                     </Content>
                 </Card>
             </div>
-        </ThemeProvider>
+        </>
     );
 };
 

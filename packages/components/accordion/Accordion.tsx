@@ -21,6 +21,7 @@ const StyledAccordion = styled.ul<AccordionProps>`
     padding: ${(props) => props.theme.spacing.space12} 0;
     margin: 0;
     width: 100%;
+  
 `;
 
 const Accordion: FC<AccordionProps> = ({

@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
+import GlobalStyles  from '@atlantum/theme';
 import './stories.styles.css';
 
 import Table from '../packages/components/table';
@@ -11,7 +10,7 @@ import TableRow from '../packages/components/table-row';
 
 const Basic = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Table>
@@ -32,7 +31,7 @@ const Basic = () => {
                     </TableRow>
                 </Table>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 

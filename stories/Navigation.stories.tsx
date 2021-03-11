@@ -9,15 +9,14 @@ import Accordion from '@atlantum/accordion';
 import AccordionItem from '@atlantum//accordion-item';
 import Heading from '@atlantum/heading';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
+import GlobalStyles from '@atlantum/theme';
 
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
 import './stories.styles.css';
 import Button from '@atlantum/button';
 
 const UI = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="">
                 <MainHeader>
@@ -56,13 +55,13 @@ const UI = () => {
                     </Accordion>
                 </Sidebar>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 
 const SideNav = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="">
                 <MainHeader>
@@ -115,7 +114,7 @@ const SideNav = () => {
                     </Accordion>
                 </SideNavigation>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 

@@ -1,14 +1,13 @@
 import * as React from 'react';
 import Toggle from '@atlantum/toggle';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
+import GlobalStyles from '@atlantum/theme';
 import './stories.styles.css';
 import Card from '@atlantum/card';
 
 const DefaultToggle = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -21,12 +20,12 @@ const DefaultToggle = () => {
                     </div>
                 </Card>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 const DisabledToggle = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -40,12 +39,12 @@ const DisabledToggle = () => {
                     </div>
                 </Card>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 const SwitchedToggle = () => {
     return (
-        <ThemeProvider theme={lightTheme}>
+       <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -59,7 +58,7 @@ const SwitchedToggle = () => {
                     </div>
                 </Card>
             </div>
-        </ThemeProvider>
+       </>
     );
 };
 

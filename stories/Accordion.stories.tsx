@@ -2,15 +2,19 @@ import * as React from 'react';
 import Accordion from '@atlantum/accordion';
 import AccordionItem from '@atlantum/accordion-item';
 import { storiesOf } from '@storybook/react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
+
+import GlobalStyles from '@atlantum/theme';
 import './stories.styles.css';
 import Card from '@atlantum/card';
 import NavigationLink from '../packages/components/navigation-link';
+import {Fragment} from "react";
 
 const Accordions = () => {
+
+
+
     return (
-        <ThemeProvider theme={lightTheme}>
+<Fragment>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'full'}>
@@ -50,7 +54,7 @@ const Accordions = () => {
                     </Accordion>
                 </Card>
             </div>
-        </ThemeProvider>
+</Fragment>
     );
 };
 
