@@ -4,7 +4,11 @@ module.exports = {
         '../stories/*.stories.mdx',
         '../stories/*.stories.@(js|jsx|ts|tsx)',
     ],
-    addons: ['@storybook/addon-storysource', '@storybook/addon-a11y', "@storybook/addon-contexts/register"],
+    addons: [
+        '@storybook/addon-storysource',
+        '@storybook/addon-a11y',
+        '@storybook/addon-contexts/register',
+    ],
     typescript: {
         check: false,
         checkOptions: {},

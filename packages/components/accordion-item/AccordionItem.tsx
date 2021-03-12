@@ -16,9 +16,6 @@ const StyledAccordionItem = styled.li<AccordionItemProps>`
         a:hover {
             color: ${(props) => props.theme.colors.primary200};
         }
-        a:focus {
-            background-color: #d60d0d;
-        }
     }
     .atlantum-accordion-item--title {
         outline: none;
@@ -37,6 +34,7 @@ const StyledAccordionItem = styled.li<AccordionItemProps>`
         padding: ${(props) => props.theme.spacing.space8}
             ${(props) => props.theme.spacing.space24};
         transition: 0.2s ease;
+        color: ${(props) => props.theme.colors.neutral400};
 
         &:hover {
             color: ${(props) => props.theme.colors.primary200};
@@ -56,7 +54,6 @@ const StyledAccordionItem = styled.li<AccordionItemProps>`
             padding-left: ${(props) => props.theme.spacing.space24};
         }
     }
-
     .atlantum-accordion-item--content__closed {
         display: none;
     }

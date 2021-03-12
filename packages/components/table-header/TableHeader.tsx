@@ -9,9 +9,9 @@ export interface TableHeaderProps {
 
 const StyledTableHeader = styled.th<TableHeaderProps>`
     padding: 12px;
-    font-weight: 600;
     text-align: left;
-    border: 1px solid #ddd;
+    border: 1px solid ${(props) => props.theme.colors.neutral300};
+    font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
 `;
 
 const TableHeader: FC<TableHeaderProps> = ({ children, id }) => {
