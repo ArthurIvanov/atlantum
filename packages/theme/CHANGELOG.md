@@ -1,5 +1,13 @@
 # @atlantum/lightTheme
 
+## 0.2.2
+
+### Patch Changes
+
+-   dec5d63: color remap fix
+-   Updated dependencies [dec5d63]
+    -   @atlantum/tokens@0.3.2
+
 ## 0.2.1
 
 ### Patch Changes
