@@ -1,5 +1,11 @@
 # header-headline
 
+## 1.1.3
+
+### Patch Changes
+
+-   dec5d63: color remap fix
+
 ## 1.1.2
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @atlantum/radio
 
+## 0.2.2
+
+### Patch Changes
+
+-   dec5d63: color remap fix
+-   Updated dependencies [dec5d63]
+    -   @atlantum/input@0.2.2
+    -   @atlantum/label@0.2.2
+    -   @atlantum/theme@0.2.2
+
 ## 0.2.1
 
 ### Patch Changes

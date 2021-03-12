@@ -1,5 +1,11 @@
 # @atlantum/icons
 
+## 0.1.3
+
+### Patch Changes
+
+-   dec5d63: color remap fix
+
 ## 0.1.2
 
 ### Patch Changes
