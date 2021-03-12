@@ -54,17 +54,11 @@ const StyledToggle = styled.input<ToggleProps>`
     }
 
     &:checked {
-        &:hover {
-            &:before {
-                background-color: ${(props) => props.theme.colors.success200};
-            }
-        }
-
         &:after {
             transform: translate(16px, 2px);
         }
         &:before {
-            background-color: ${(props) => props.theme.colors.success300};
+            background-color: ${(props) => props.theme.colors.success200};
         }
     }
 

@@ -10,9 +10,13 @@ export interface TableProps {
 const StyledTable = styled.table<TableProps>`
     width: 100%;
     border-collapse: collapse;
+    color: ${(props) => props.theme.colors.neutral400};
+    font-size: ${(props) => props.theme.typography.fontSize.label};
+    font-family: ${(props) => props.theme.typography.family.label};
+    line-height: ${(props) => props.theme.typography.lineHeight.label};
 
     tr:nth-child(even) {
-        background-color: #f2f2f2;
+        background-color: ${(props) => props.theme.colors.neutralGlobalBG};
     }
 `;
 

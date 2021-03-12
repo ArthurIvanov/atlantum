@@ -26,7 +26,7 @@ const StyledRadio = styled.input<RadioProps>`
     transition: 0.2s ease;
 
     &:hover {
-        color: ${(props) => props.theme.colors.textInverted};
+        color: ${(props) => props.theme.colors.neutral400};
         border-color: ${(props) => props.theme.colors.neutral400};
         box-shadow: ${(props) => props.theme.elevation.slight};
     }

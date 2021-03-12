@@ -33,9 +33,9 @@ const StyledInput = styled.input<InputProps>`
     outline: 0;
 
     border: ${(props) => props.theme.spacing.space1} solid
-        ${(props) => props.theme.colors.neutral400};
+        ${(props) => props.theme.colors.neutral300};
 
-    color: ${(props) => props.theme.colors.text};
+    color: ${(props) => props.theme.colors.neutral400};
     background-color: ${(props) => props.theme.colors.neutralContentBG};
     padding: ${(props) => props.theme.spacing.space7};
     font-size: ${(props) => props.theme.typography.fontSize.base};

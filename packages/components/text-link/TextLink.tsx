@@ -13,16 +13,16 @@ export interface TextLinkProps {
 const StyledTextLink = styled.button<TextLinkProps>`
     cursor: pointer;
     display: flex;
-    color: ${(props) => props.theme.colors.text};
+    color: ${(props) => props.theme.colors.primary200};
     text-decoration: none;
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.base};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
     &:hover {
-        color: ${(props) => props.theme.colors.primaryBase};
+        color: ${(props) => props.theme.colors.primary300};
         .atlantum-navlink-icon {
             &:hover {
-                color: ${(props) => props.theme.colors.primaryBase};
+                color: ${(props) => props.theme.colors.primary300};
             }
         }
     }
