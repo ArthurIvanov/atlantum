@@ -1,5 +1,11 @@
 # @atlantum/group
 
+## 0.3.3
+
+### Patch Changes
+
+-   03ad0f1: Fixed flexible layout breakpoints
+
 ## 0.3.2
 
 ### Patch Changes
