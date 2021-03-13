@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/group",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "group component",
     "main": "dist/index.js",
     "module": "dist/index.js",
