@@ -23,7 +23,7 @@ const Primary = () => {
 };
 const Secondary = () => {
     return (
-       <>
+        <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
@@ -35,20 +35,20 @@ const Secondary = () => {
 };
 const Disabled = () => {
     return (
-     <>
+        <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
                     <Button disabled>I am Disabled</Button>
                 </Card>
             </div>
-</>
+        </>
     );
 };
 
 const BtnIcon = () => {
     return (
-       <>
+        <>
             <GlobalStyles />
             <div className="atlantum-compact">
                 <ButtonIcon isSecondary>
@@ -61,9 +61,9 @@ const BtnIcon = () => {
 
 const BtnGroup = () => {
     return (
-      <>
+        <>
             <GlobalStyles />
-            <div className="atlantum-compact">
+            <div className="atlantum-view">
                 <Card size={'standard'}>
                     <ButtonGroup>
                         <Button
