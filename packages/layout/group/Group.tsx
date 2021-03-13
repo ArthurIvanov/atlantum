@@ -32,14 +32,27 @@ const StyledGroup = styled.div<GroupProps>`
     ${(props) =>
         props.relation === 'closest' &&
         `
-        & > *:not(:last-child) {
+        &>*:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space8};  
+        }
+        @media only screen and (min-width: 400px) {
+        * > *:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space8};
-            
-            & * > *:not(:last-child) {
-                margin-bottom: ${props.theme.spacing.space8};
-            }
         }
         
+        @media only screen and (min-width: 600px) {
+        * > *:not(:last-child) {
+            margin-bottom: ${props.theme.spacing.space8};
+        }
+        
+        @media only screen and (min-width: 1050px) {
+        * > *:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+        
+    }
+      
     `}
 
     ${(props) =>
@@ -96,7 +109,7 @@ const StyledGroup = styled.div<GroupProps>`
     ${(props) =>
         props.relation === 'separated' &&
         `
-        &>*:not(:last-child) {
+         &>*:not(:last-child) {
             margin-bottom: ${props.theme.spacing.space32};  
         }
         @media only screen and (min-width: 400px) {

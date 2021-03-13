@@ -30,8 +30,8 @@ const Full = () => {
                                 all sides.
                             </Text>
                         </Group>
-                        <Group relation={'separated'}>
-                            <Grid columnGap={'24'} rowGap="8">
+                        <Group relation={'one-context'}>
+                            <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
@@ -95,7 +95,7 @@ const Large = () => {
                             </Text>
                         </Group>
                         <Group relation={'separated'}>
-                            <Grid columnGap={'24'} rowGap="8">
+                            <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
@@ -154,12 +154,12 @@ const Standard = () => {
                                 I'm standard card headline
                             </Heading>
                             <Text as={'p'} centered>
-                                This is standard width card with padding in 24px
+                                This is large width card with padding in 24px
                                 from all sides.
                             </Text>
                         </Group>
                         <Group relation={'grouped'}>
-                            <Grid columnGap={'24'} rowGap="8">
+                            <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
@@ -223,16 +223,16 @@ const Compact = () => {
                             </Text>
                         </Group>
                         <Group relation={'grouped'}>
-                            <Grid>
+                            <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
-                                    largeBP={'1 / 5'}
+                                    largeBP={'1 / 7'}
                                 >
                                     <Input
                                         type={'text'}
                                         name={'username'}
-                                        label={'First input'}
+                                        label={'Regular input'}
                                         input
                                         id={'text'}
                                         placeholder={'Please enter your name'}
@@ -241,26 +241,12 @@ const Compact = () => {
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
-                                    largeBP={'5 / 9'}
+                                    largeBP={'7 / 13'}
                                 >
                                     <Input
                                         type={'text'}
                                         name={'username'}
-                                        label={'Second input'}
-                                        input
-                                        id={'text'}
-                                        placeholder={'Please enter your name'}
-                                    />
-                                </Column>
-                                <Column
-                                    smallBP={'1 / 13'}
-                                    mediumBP={'1 / 13'}
-                                    largeBP={'9 / 13'}
-                                >
-                                    <Input
-                                        type={'text'}
-                                        name={'username'}
-                                        label={'Second input'}
+                                        label={'Regular input'}
                                         input
                                         id={'text'}
                                         placeholder={'Please enter your name'}
@@ -271,7 +257,7 @@ const Compact = () => {
                             <Input
                                 type={'text'}
                                 name={'username'}
-                                label={'Full width input'}
+                                label={'Regular input'}
                                 input
                                 id={'text'}
                                 placeholder={'Please enter your name'}
@@ -301,7 +287,7 @@ const Landing = () => {
                             </Text>
                         </Group>
                         <Group relation={'grouped'}>
-                            <Grid columnGap={'24'} rowGap="8">
+                            <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
                                     mediumBP={'1 / 13'}
