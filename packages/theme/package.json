@@ -1,13 +1,13 @@
 {
     "name": "@atlantum/theme",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "atlantum theme",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/tokens": "^0.3.1"
+        "@atlantum/tokens": "^0.3.2"
     },
     "devDependencies": {
         "react": "^16.13.1",

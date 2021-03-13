@@ -1,5 +1,11 @@
 # @atlantum/types
 
+## 0.2.2
+
+### Patch Changes
+
+-   dec5d63: color remap fix
+
 ## 0.2.1
 
 ### Patch Changes

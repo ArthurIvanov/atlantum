@@ -1,5 +1,14 @@
 # @atlantum/side-navigation
 
+## 0.1.3
+
+### Patch Changes
+
+-   dec5d63: color remap fix
+-   Updated dependencies [dec5d63]
+    -   @atlantum/main-header@0.2.2
+    -   @atlantum/theme@0.2.2
+
 ## 0.1.2
 
 ### Patch Changes
