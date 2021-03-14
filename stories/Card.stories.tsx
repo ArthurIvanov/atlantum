@@ -94,7 +94,7 @@ const Large = () => {
                                 from all sides.
                             </Text>
                         </Group>
-                        <Group relation={'separated'}>
+                        <Group relation={'one-context'}>
                             <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
@@ -154,11 +154,11 @@ const Standard = () => {
                                 I'm standard card headline
                             </Heading>
                             <Text as={'p'} centered>
-                                This is large width card with padding in 24px
+                                This is standard width card with padding in 24px
                                 from all sides.
                             </Text>
                         </Group>
-                        <Group relation={'grouped'}>
+                        <Group relation={'one-context'}>
                             <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
@@ -222,7 +222,7 @@ const Compact = () => {
                                 from all sides.
                             </Text>
                         </Group>
-                        <Group relation={'grouped'}>
+                        <Group relation={'one-context'}>
                             <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
@@ -283,10 +283,10 @@ const Landing = () => {
                             </Heading>
                             <Text as={'p'} centered>
                                 This is landing width card with padding in 64px
-                                from all sides, it works with responsive layout.
+                                from all sides.
                             </Text>
                         </Group>
-                        <Group relation={'grouped'}>
+                        <Group relation={'one-context'}>
                             <Grid columnGap={'24'} rowGap="0">
                                 <Column
                                     smallBP={'1 / 13'}
