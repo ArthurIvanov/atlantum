@@ -1,5 +1,11 @@
 # @atlantum/table-cell
 
+## 0.1.4
+
+### Patch Changes
+
+-   57a8b15: fixed background color for cells
+
 ## 0.1.3
 
 ### Patch Changes
