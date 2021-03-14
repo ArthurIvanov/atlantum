@@ -9,7 +9,7 @@ export interface TableCellProps {
 
 const StyledTableCell = styled.td<TableCellProps>`
     padding: 12px;
-    border: 1px solid ${(props) => props.theme.colors.neutral300};
+    border: 1px solid ${(props) => props.theme.colors.neutral200};
 `;
 
 const TableCell: FC<TableCellProps> = ({ children, id }) => {

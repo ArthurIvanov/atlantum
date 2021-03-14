@@ -15,8 +15,8 @@ const StyledTable = styled.table<TableProps>`
     font-family: ${(props) => props.theme.typography.family.label};
     line-height: ${(props) => props.theme.typography.lineHeight.label};
 
-    tr:nth-child(even) {
-        background-color: ${(props) => props.theme.colors.neutralGlobalBG};
+    tr:nth-child(odd) {
+        background-color: ${(props) => props.theme.colors.neutral100};
     }
 `;
 
