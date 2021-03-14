@@ -9184,6 +9184,11 @@ joi@^17.3.0:
     "@sideway/formula" "^3.0.0"
     "@sideway/pinpoint" "^2.0.0"
 
+js-graph-algorithms@1.0.18:
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/js-graph-algorithms/-/js-graph-algorithms-1.0.18.tgz#f96ec87bf194f5c0a31365fa0e1d07b7b962d891"
+  integrity sha1-+W7Ie/GU9cCjE2X6Dh0Ht7li2JE=
+
 js-string-escape@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
@@ -9648,6 +9653,20 @@ looks-same@^4.0.0:
     lodash "^4.17.3"
     parse-color "^1.0.0"
     pngjs "^3.3.3"
+
+looks-same@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/looks-same/-/looks-same-7.3.0.tgz#146d57930ec35a893fbbe4e81e18343ec23ceb85"
+  integrity sha512-pOfwX2d0frSt7H1cuBjDbw9Kry5QwkrFri0qJvLwV1sI0cbWkwYkpd7fF7SqSIfYKAZhgeB8PM3fyhUYz7xgqA==
+  dependencies:
+    color-diff "^1.1.0"
+    concat-stream "^1.6.2"
+    fs-extra "^8.1.0"
+    js-graph-algorithms "1.0.18"
+    lodash "^4.17.3"
+    nested-error-stacks "^2.1.0"
+    parse-color "^1.0.0"
+    pngjs "^6.0.0"
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -11057,6 +11076,11 @@ pngjs@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-4.0.1.tgz#f803869bb2fc1bfe1bf99aa4ec21c108117cfdbe"
   integrity sha512-rf5+2/ioHeQxR6IxuYNYGFytUyG3lma/WW1nsmjeHlWwtb2aByla6dkVc8pmJ9nplzkTA0q2xx7mMWrOTqT4Gg==
+
+pngjs@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-6.0.0.tgz#ca9e5d2aa48db0228a52c419c3308e87720da821"
+  integrity sha512-TRzzuFRRmEoSW/p1KVAmiOgPco2Irlah+bGFCeNfJXxxYGwSw7YwAOAcd7X28K/m5bjBWKsC29KyoMfHbypayg==
 
 pnp-webpack-plugin@1.6.4:
   version "1.6.4"

@@ -283,7 +283,7 @@ const Landing = () => {
                             </Heading>
                             <Text as={'p'} centered>
                                 This is landing width card with padding in 64px
-                                from all sides.
+                                from all sides, it works with responsive layout.
                             </Text>
                         </Group>
                         <Group relation={'grouped'}>
