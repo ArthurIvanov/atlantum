@@ -1,5 +1,11 @@
 # @atlantum/table-row
 
+## 0.1.4
+
+### Patch Changes
+
+-   13973ad: fixed border
+
 ## 0.1.3
 
 ### Patch Changes

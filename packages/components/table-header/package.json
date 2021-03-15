@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/table-header",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "input table-header component",
     "main": "dist/index.js",
     "module": "dist/index.js",
