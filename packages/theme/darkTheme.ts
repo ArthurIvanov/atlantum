@@ -34,20 +34,20 @@ export const darkTheme: DefaultTheme = {
         danger200: colors.red.c400,
         danger300: colors.red.c300,
 
-        warningBG: colors.orange.c700,
-        warning100: colors.orange.c600,
-        warning200: colors.orange.c500,
-        warning300: colors.orange.c100,
+        warningBG: colors.orange.c900,
+        warning100: colors.orange.c500,
+        warning200: colors.orange.c400,
+        warning300: colors.orange.c300,
 
-        successBG: colors.green.c700,
-        success100: colors.green.c600,
-        success200: colors.green.c500,
-        success300: colors.green.c100,
+        successBG: colors.green.c900,
+        success100: colors.green.c500,
+        success200: colors.green.c400,
+        success300: colors.green.c300,
 
-        infoBG: colors.cyan.c700,
-        info100: colors.cyan.c600,
-        info200: colors.cyan.c500,
-        info300: colors.cyan.c100,
+        infoBG: colors.cyan.c900,
+        info100: colors.cyan.c500,
+        info200: colors.cyan.c400,
+        info300: colors.cyan.c300,
     },
 
     spacing: {
