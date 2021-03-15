@@ -1,5 +1,11 @@
 # @atlantum/table-header
 
+## 0.1.5
+
+### Patch Changes
+
+-   3ed3071: fixed border-radius
+
 ## 0.1.4
 
 ### Patch Changes
