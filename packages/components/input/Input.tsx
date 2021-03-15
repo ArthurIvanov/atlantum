@@ -94,10 +94,10 @@ const StyledInput = styled.input<InputProps>`
         `       
          border-color: ${props.theme.colors.success300};
          &:hover {
-            border-color: ${props.theme.colors.success200};         
+            border-color: ${props.theme.colors.success300};         
     }
         &:focus {
-        border-color: ${props.theme.colors.success300};
+        border-color: ${props.theme.colors.success200};
         }
     `}
 `;
@@ -108,6 +108,7 @@ const Input: FC<InputProps> = (props) => {
             htmlFor={props.id}
             input={props.input}
             danger={props.danger}
+            success={props.success}
             disabled={props.disabled}
         >
             <span className="input-label">{props.label}</span>

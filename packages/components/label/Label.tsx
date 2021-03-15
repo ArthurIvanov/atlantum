@@ -10,6 +10,7 @@ export interface LabelProps {
     className?: string;
     input?: boolean;
     danger?: boolean;
+    success?: boolean;
     disabled?: boolean;
     fontWeight?: FontWeight;
 }
@@ -65,6 +66,15 @@ const StyledLabel = styled.label<LabelProps>`
     `};
 
     ${(props) =>
+        props.success &&
+        `      
+            span.input-alert {
+            color: ${props.theme.colors.success300};
+            }
+               
+    `};
+
+    ${(props) =>
         props.disabled &&
         `      
             span.input-label {
@@ -80,9 +90,7 @@ const StyledLabel = styled.label<LabelProps>`
             font-weight: ${props.theme.typography.fontWeight.regular};
             color: red;
             }
-            
-            
-            
+       
     `};
 `;
 
@@ -93,6 +101,7 @@ const Label: FC<LabelProps> = (props, { fontWeight }) => {
             className={props.className}
             input={props.input}
             danger={props.danger}
+            success={props.success}
             disabled={props.disabled}
             fontWeight={fontWeight}
         >
