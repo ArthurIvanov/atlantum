@@ -1,5 +1,11 @@
 # @atlantum/label
 
+## 0.2.3
+
+### Patch Changes
+
+-   db6dbc3: changed success color
+
 ## 0.2.2
 
 ### Patch Changes

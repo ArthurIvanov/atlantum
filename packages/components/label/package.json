@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/label",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "label component",
     "main": "dist/index.js",
     "module": "dist/index.js",
