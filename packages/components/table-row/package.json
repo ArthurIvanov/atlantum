@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/table-row",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "input table-row component",
     "main": "dist/index.js",
     "module": "dist/index.js",
