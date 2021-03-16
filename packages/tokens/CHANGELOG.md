@@ -1,5 +1,11 @@
 # @atlantum/tokens
 
+## 0.3.3
+
+### Patch Changes
+
+-   47d1850: added statusBG color tokens
+
 ## 0.3.2
 
 ### Patch Changes
