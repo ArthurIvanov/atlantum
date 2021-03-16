@@ -1,5 +1,13 @@
 # @atlantum/lightTheme
 
+## 0.2.4
+
+### Patch Changes
+
+-   47d1850: added statusBG color tokens
+-   Updated dependencies [47d1850]
+    -   @atlantum/tokens@0.3.3
+
 ## 0.2.3
 
 ### Patch Changes
