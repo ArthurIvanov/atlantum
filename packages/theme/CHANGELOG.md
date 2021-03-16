@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.2.3
+
+### Patch Changes
+
+-   0edce20: fixed tokens map
+
 ## 0.2.2
 
 ### Patch Changes
