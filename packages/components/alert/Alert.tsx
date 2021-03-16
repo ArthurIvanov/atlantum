@@ -3,12 +3,13 @@ import * as React from 'react';
 import styled from 'styled-components';
 
 import Icon from '@atlantum/icons';
+import Heading from '@atlantum/heading';
 
 type Status = 'danger' | 'info' | 'success' | 'warning';
 
 export interface AlertProps {
     children?: ReactNode;
-    alertStatus: Status;
+    alertStatus?: Status;
 }
 
 const StyledAlert = styled.div<AlertProps>`
@@ -24,8 +25,21 @@ const StyledAlert = styled.div<AlertProps>`
         border-color: ${props.theme.colors.danger300};
         background-color: ${props.theme.colors.dangerBG}; 
         
-        .atlantum-status-icon {
+        .atlantum-status-content {
             color: ${props.theme.colors.danger300};
+        }
+             
+    }
+    `}
+
+    ${(props) =>
+        props.alertStatus === 'success' &&
+        ` 
+        border-color: ${props.theme.colors.success300};
+        background-color: ${props.theme.colors.successBG}; 
+        
+        .atlantum-status-content {
+            color: ${props.theme.colors.success300};
         }
              
     }
@@ -35,6 +49,7 @@ const StyledAlert = styled.div<AlertProps>`
 const Alert: FC<AlertProps> = ({ children, alertStatus }) => (
     <StyledAlert alertStatus={alertStatus}>
         <AlertIcon alertStatus={alertStatus} />
+        <AlertTitle>Headline</AlertTitle>
         {children}
     </StyledAlert>
 );
@@ -43,19 +58,26 @@ export const AlertIcon: FC<AlertProps> = ({ alertStatus }) => {
     return (
         <>
             {alertStatus === 'danger' && (
-                <Icon className="atlantum-status-icon" name="alert-triangle" />
+                <Icon
+                    className="atlantum-status-content"
+                    name="alert-triangle"
+                />
             )}
             {alertStatus === 'info' && (
-                <Icon className="atlantum-status-icon" name="info" />
+                <Icon className="atlantum-status-content" name="info" />
             )}
             {alertStatus === 'success' && (
-                <Icon className="atlantum-status-icon" name="check-circle" />
+                <Icon className="atlantum-status-content" name="check-circle" />
             )}
             {alertStatus === 'warning' && (
-                <Icon className="atlantum-status-icon" name="alert-circle" />
+                <Icon className="atlantum-status-content" name="alert-circle" />
             )}
         </>
     );
 };
+
+export const AlertTitle: FC<AlertProps> = ({ children }) => (
+    <Heading as="h6">{children}</Heading>
+);
 
 export default Alert;

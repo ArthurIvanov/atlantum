@@ -5,7 +5,16 @@ import GlobalStyles from '@atlantum/theme';
 import Alert from '@atlantum/alert';
 import './stories.styles.css';
 
-const AlertError = () => {
+const AlertSuccess = () => {
+    return (
+        <>
+            <GlobalStyles />
+            <Alert alertStatus={'success'}>Hold on</Alert>
+        </>
+    );
+};
+
+const AlertDanger = () => {
     return (
         <>
             <GlobalStyles />
@@ -14,4 +23,5 @@ const AlertError = () => {
     );
 };
 
-storiesOf('Alert', module).add('Alert danger', () => <AlertError />);
+storiesOf('Alert', module).add('Alert success', () => <AlertSuccess />);
+storiesOf('Alert', module).add('Alert danger', () => <AlertDanger />);

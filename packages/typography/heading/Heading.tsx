@@ -9,6 +9,7 @@ export interface HeadingProps {
     as: Headings;
     centered?: boolean;
     onDark?: boolean;
+    className?: string;
 }
 
 const StyledHeading = styled(Fragment)<HeadingProps>`
@@ -73,9 +74,14 @@ const StyledHeading = styled(Fragment)<HeadingProps>`
     `};
 `;
 
-const Heading: FC<HeadingProps> = ({ as = 'h1', children, centered }) => {
+const Heading: FC<HeadingProps> = ({
+    as = 'h1',
+    children,
+    centered,
+    className,
+}) => {
     return (
-        <StyledHeading as={as} centered={centered}>
+        <StyledHeading as={as} centered={centered} className={className}>
             {children}
         </StyledHeading>
     );
