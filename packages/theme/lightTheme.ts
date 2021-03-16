@@ -29,22 +29,22 @@ export const lightTheme: DefaultTheme = {
         neutral300: colors.neutral.c600,
         neutral400: colors.neutral.c800,
 
-        dangerBG: colors.red.c100,
+        dangerBG: colors.red.c50,
         danger100: colors.red.c500,
         danger200: colors.red.c600,
         danger300: colors.red.c700,
 
-        warningBG: colors.orange.c100,
+        warningBG: colors.orange.c50,
         warning100: colors.orange.c500,
         warning200: colors.orange.c600,
         warning300: colors.orange.c700,
 
-        successBG: colors.green.c100,
+        successBG: colors.green.c50,
         success100: colors.green.c500,
         success200: colors.green.c600,
         success300: colors.green.c700,
 
-        infoBG: colors.cyan.c100,
+        infoBG: colors.cyan.c50,
         info100: colors.cyan.c500,
         info200: colors.cyan.c600,
         info300: colors.cyan.c700,

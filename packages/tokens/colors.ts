@@ -1,5 +1,6 @@
 export const colors = {
     red: {
+        c50: '#FBF2F3',
         c100: '#FFF0F0',
         c200: '#FFD5D5',
         c300: '#FFB1B1',
@@ -10,9 +11,11 @@ export const colors = {
         c800: '#790022',
         c900: '#4e0017',
         c1000: '#240009',
+        c1100: '#2D0514',
     },
 
     orange: {
+        c50: '#FBF4F0',
         c100: '#FFF5EB',
         c200: '#FFE2C2',
         c300: '#FFCC96',
@@ -23,6 +26,7 @@ export const colors = {
         c800: '#9D500E',
         c900: '#692F03',
         c1000: '#3A1600',
+        c1100: '#281813',
     },
 
     yellow: {
@@ -39,6 +43,7 @@ export const colors = {
     },
 
     green: {
+        c50: '#EFFCF7',
         c100: '#E0FAEF',
         c200: '#ACF7DC',
         c300: '#6EEBC3',
@@ -49,6 +54,7 @@ export const colors = {
         c800: '#004E38',
         c900: '#002D1E',
         c1000: '#001008',
+        c1100: '#061B18',
     },
 
     teal: {
@@ -65,6 +71,7 @@ export const colors = {
     },
 
     cyan: {
+        c50: '#F0F4FB',
         c100: '#EDF4FF',
         c200: '#CBE0FF',
         c300: '#9DC8FF',
@@ -75,6 +82,7 @@ export const colors = {
         c800: '#003A71',
         c900: '#00224B',
         c1000: '#000C24',
+        c1100: '#06162E',
     },
 
     blue: {

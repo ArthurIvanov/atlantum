@@ -29,22 +29,22 @@ export const darkTheme: DefaultTheme = {
         neutral300: colors.neutral.c400,
         neutral400: colors.neutral.c100,
 
-        dangerBG: colors.red.c900,
+        dangerBG: colors.red.c1100,
         danger100: colors.red.c500,
         danger200: colors.red.c400,
         danger300: colors.red.c300,
 
-        warningBG: colors.orange.c900,
+        warningBG: colors.orange.c1100,
         warning100: colors.orange.c500,
         warning200: colors.orange.c400,
         warning300: colors.orange.c300,
 
-        successBG: colors.green.c900,
+        successBG: colors.green.c1100,
         success100: colors.green.c500,
         success200: colors.green.c400,
         success300: colors.green.c300,
 
-        infoBG: colors.cyan.c900,
+        infoBG: colors.cyan.c1100,
         info100: colors.cyan.c500,
         info200: colors.cyan.c400,
         info300: colors.cyan.c300,

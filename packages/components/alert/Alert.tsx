@@ -2,10 +2,7 @@ import { FC, ReactNode } from 'react';
 import * as React from 'react';
 import styled from 'styled-components';
 
-import { Info } from 'react-feather';
-import { AlertCircle } from 'react-feather';
-import { AlertTriangle } from 'react-feather';
-import { CheckCircle } from 'react-feather';
+import Icon from '@atlantum/icons';
 
 type Status = 'danger' | 'info' | 'success' | 'warning';
 
@@ -16,6 +13,23 @@ export interface AlertProps {
 
 const StyledAlert = styled.div<AlertProps>`
     max-width: 500px;
+    padding: 16px;
+    border: 1px solid;
+    border-radius: ${(props) => props.theme.borderRadius};
+    color: ${(props) => props.theme.colors.neutral400};
+
+    ${(props) =>
+        props.alertStatus === 'danger' &&
+        ` 
+        border-color: ${props.theme.colors.danger300};
+        background-color: ${props.theme.colors.dangerBG}; 
+        
+        .atlantum-status-icon {
+            color: ${props.theme.colors.danger300};
+        }
+             
+    }
+    `}
 `;
 
 const Alert: FC<AlertProps> = ({ children, alertStatus }) => (
@@ -28,10 +42,18 @@ const Alert: FC<AlertProps> = ({ children, alertStatus }) => (
 export const AlertIcon: FC<AlertProps> = ({ alertStatus }) => {
     return (
         <>
-            {alertStatus === 'danger' && <AlertTriangle size="24" />}
-            {alertStatus === 'info' && <Info size="24" />}
-            {alertStatus === 'success' && <CheckCircle size="24" />}
-            {alertStatus === 'warning' && <AlertCircle size="24" />}
+            {alertStatus === 'danger' && (
+                <Icon className="atlantum-status-icon" name="alert-triangle" />
+            )}
+            {alertStatus === 'info' && (
+                <Icon className="atlantum-status-icon" name="info" />
+            )}
+            {alertStatus === 'success' && (
+                <Icon className="atlantum-status-icon" name="check-circle" />
+            )}
+            {alertStatus === 'warning' && (
+                <Icon className="atlantum-status-icon" name="alert-circle" />
+            )}
         </>
     );
 };
