@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { ReactNode, FC } from 'react';
+import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
 import TextLink from '@atlantum/text-link';
 

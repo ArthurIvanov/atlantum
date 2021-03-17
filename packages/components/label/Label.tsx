@@ -1,6 +1,5 @@
-import * as React from 'react';
+import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
-import { FC, ReactNode } from 'react';
 
 type FontWeight = 'regular' | 'semiBold';
 

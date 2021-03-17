@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import * as React from 'react';
+import React from 'react';
 import { FC, ReactNode } from 'react';
 
 export type AccordionSize = 'compact' | 'standard' | 'large';
@@ -7,6 +7,7 @@ export type AccordionSize = 'compact' | 'standard' | 'large';
 export interface AccordionProps {
     children: ReactNode;
     size?: AccordionSize;
+    // @Todo Implement this style
     isWithSeparator?: boolean;
     isHorizontal?: boolean;
 }
@@ -23,12 +24,7 @@ const StyledAccordion = styled.ul<AccordionProps>`
     width: 100%;
 `;
 
-const Accordion: FC<AccordionProps> = ({
-    isWithSeparator,
-    size,
-
-    children,
-}) => {
+const Accordion: FC<AccordionProps> = ({ isWithSeparator, size, children }) => {
     return (
         <StyledAccordion size={size} isWithSeparator={isWithSeparator}>
             {children}

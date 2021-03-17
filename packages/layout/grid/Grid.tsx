@@ -1,5 +1,4 @@
-import { FC, ReactNode } from 'react';
-import * as React from 'react';
+import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
 
 export type Gap = '0' | '2' | '4' | '8' | '12' | '16' | '24' | '32' | '48';

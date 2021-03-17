@@ -1,6 +1,5 @@
+import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
-import * as React from 'react';
-import { FC, ReactNode } from 'react';
 import { ChevronDown } from 'react-feather';
 
 export interface TextLinkProps {

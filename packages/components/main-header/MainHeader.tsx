@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { ReactNode, FC, useState, useEffect } from 'react';
+import React, { ReactNode, FC, useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Menu } from 'react-feather';
 import { X } from 'react-feather';

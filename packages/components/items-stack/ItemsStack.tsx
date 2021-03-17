@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import * as React from 'react';
-import { FC, ReactNode } from 'react';
+import React, { FC, ReactNode } from 'react';
 
 export type Direction = 'row' | 'column';
 export type Space = '12px' | '24px' | '32px';
@@ -16,8 +15,8 @@ const StyledItemsStack = styled.ul<ItemsStackProps>`
     align-items: center;
 
     ${(props) =>
-    props.direction === 'column' &&
-    `    
+        props.direction === 'column' &&
+        `    
         flex-direction: column;
            
         
@@ -28,8 +27,8 @@ const StyledItemsStack = styled.ul<ItemsStackProps>`
     `}
 
     ${(props) =>
-    props.direction === 'row' &&
-    `
+        props.direction === 'row' &&
+        `
         flex-direction: row;
         & > *:not(:last-child) {
             margin-right: ${props.space};
@@ -39,10 +38,10 @@ const StyledItemsStack = styled.ul<ItemsStackProps>`
 `;
 
 const ItemsStack: FC<ItemsStackProps> = ({
-                                             children,
-                                             direction,
-                                             space = '24px',
-                                         }) => {
+    children,
+    direction,
+    space = '24px',
+}) => {
     return (
         <StyledItemsStack direction={direction} space={space}>
             {children}

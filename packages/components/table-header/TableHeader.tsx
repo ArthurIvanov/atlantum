@@ -1,5 +1,4 @@
-import { FC, ReactNode } from 'react';
-import * as React from 'react';
+import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
 
 export interface TableHeaderProps {

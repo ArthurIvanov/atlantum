@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import * as React from 'react';
-import { FC, ChangeEventHandler } from 'react';
+import React, { FC, ChangeEventHandler } from 'react';
 import InputTypes from '@atlantum/types';
 
 import Label from '@atlantum/label';

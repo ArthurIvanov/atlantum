@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import * as React from 'react';
-import { FC, ReactNode } from 'react';
+import React, { FC, ReactNode } from 'react';
 import { InputProps } from '@atlantum/input';
 import Label from '@atlantum/label';
 

@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import * as React from 'react';
-import { FC, ReactNode, Fragment } from 'react';
+import React, { FC, ReactNode, Fragment } from 'react';
 
 export interface ButtonProps {
     leftIcon?: ReactNode;

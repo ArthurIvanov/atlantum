@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import parse from 'html-react-parser';
 import myIcons from './set';
