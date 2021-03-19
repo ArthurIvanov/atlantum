@@ -1,5 +1,11 @@
 # @atlantum/label
 
+## 0.2.4
+
+### Patch Changes
+
+-   1f7b291: fixed imports
+
 ## 0.2.3
 
 ### Patch Changes

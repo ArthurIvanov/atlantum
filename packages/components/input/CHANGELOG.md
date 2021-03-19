@@ -1,5 +1,13 @@
 # @atlantum/input
 
+## 0.2.4
+
+### Patch Changes
+
+-   1f7b291: fixed imports
+-   Updated dependencies [1f7b291]
+    -   @atlantum/label@0.2.4
+
 ## 0.2.3
 
 ### Patch Changes
