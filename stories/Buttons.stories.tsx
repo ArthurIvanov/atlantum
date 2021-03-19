@@ -15,7 +15,9 @@ const Primary = () => {
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
-                    <Button>I am primary</Button>
+                    <div>
+                        <Button>I am primary</Button>
+                    </div>
                 </Card>
             </div>
         </>

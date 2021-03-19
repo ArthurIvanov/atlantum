@@ -13,66 +13,73 @@ import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
 
 import './stories.styles.css';
+import Container from '@atlantum/container';
 
 const Full = () => {
     return (
         <>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Card size={'full'}>
-                    <Group relation={'far'}>
-                        <Group relation={'closest'}>
-                            <Heading as={'h5'} centered>
-                                I'm large card headline
-                            </Heading>
-                            <Text as={'p'} centered>
-                                This is full width card with padding in 0 from
-                                all sides.
-                            </Text>
-                        </Group>
-                        <Group relation={'one-context'}>
-                            <Grid columnGap={'24'} rowGap="0">
-                                <Column
-                                    smallBP={'1 / 13'}
-                                    mediumBP={'1 / 13'}
-                                    largeBP={'1 / 7'}
-                                >
-                                    <Input
-                                        type={'text'}
-                                        name={'username'}
-                                        label={'Regular input'}
-                                        input
-                                        id={'text'}
-                                        placeholder={'Please enter your name'}
-                                    />
-                                </Column>
-                                <Column
-                                    smallBP={'1 / 13'}
-                                    mediumBP={'1 / 13'}
-                                    largeBP={'7 / 13'}
-                                >
-                                    <Input
-                                        type={'text'}
-                                        name={'username'}
-                                        label={'Regular input'}
-                                        input
-                                        id={'text'}
-                                        placeholder={'Please enter your name'}
-                                    />
-                                </Column>
-                            </Grid>
+                <Container align={'centered'}>
+                    <Card size={'full'}>
+                        <Group relation={'far'}>
+                            <Group relation={'closest'}>
+                                <Heading as={'h5'} centered>
+                                    I'm large card headline
+                                </Heading>
+                                <Text as={'p'} centered>
+                                    This is full width card with padding in 0
+                                    from all sides.
+                                </Text>
+                            </Group>
+                            <Group relation={'one-context'}>
+                                <Grid columnGap={'24'} rowGap="0">
+                                    <Column
+                                        smallBP={'1 / 13'}
+                                        mediumBP={'1 / 13'}
+                                        largeBP={'1 / 7'}
+                                    >
+                                        <Input
+                                            type={'text'}
+                                            name={'username'}
+                                            label={'Regular input'}
+                                            input
+                                            id={'text'}
+                                            placeholder={
+                                                'Please enter your name'
+                                            }
+                                        />
+                                    </Column>
+                                    <Column
+                                        smallBP={'1 / 13'}
+                                        mediumBP={'1 / 13'}
+                                        largeBP={'7 / 13'}
+                                    >
+                                        <Input
+                                            type={'text'}
+                                            name={'username'}
+                                            label={'Regular input'}
+                                            input
+                                            id={'text'}
+                                            placeholder={
+                                                'Please enter your name'
+                                            }
+                                        />
+                                    </Column>
+                                </Grid>
 
-                            <Input
-                                type={'text'}
-                                name={'username'}
-                                label={'Regular input'}
-                                input
-                                id={'text'}
-                                placeholder={'Please enter your name'}
-                            />
+                                <Input
+                                    type={'text'}
+                                    name={'username'}
+                                    label={'Regular input'}
+                                    input
+                                    id={'text'}
+                                    placeholder={'Please enter your name'}
+                                />
+                            </Group>
                         </Group>
-                    </Group>
-                </Card>
+                    </Card>
+                </Container>
             </div>
         </>
     );

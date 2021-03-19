@@ -10,6 +10,7 @@ export interface ContainerProps {
 
 const StyledContainer = styled.div<ContainerProps>`
     margin-top: 96px;
+    width: 100%;
 
     section:not(:last-child) {
         margin-bottom: 24px;

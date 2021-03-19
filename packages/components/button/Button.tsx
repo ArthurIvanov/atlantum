@@ -15,6 +15,7 @@ export interface ButtonProps {
 export const StyledButton = styled.button<ButtonProps>`
     outline: none;
     border: none;
+    display: inline-block;
     border-radius: ${(props) => props.theme.borderRadius};
     background-color: ${(props) => props.theme.colors.primary200};
     color: ${(props) => props.theme.colors.neutralContentBG};
