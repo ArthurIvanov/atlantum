@@ -1,5 +1,11 @@
 # @atlantum/column
 
+## 0.2.3
+
+### Patch Changes
+
+-   1f7b291: fixed imports
+
 ## 0.2.2
 
 ### Patch Changes

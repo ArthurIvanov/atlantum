@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/content",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "content layout",
     "main": "dist/index.js",
     "module": "dist/index.js",

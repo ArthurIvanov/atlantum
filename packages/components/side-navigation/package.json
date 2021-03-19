@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/side-navigation",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "side-navigation component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "@atlantum/theme": "^0.2.2",
-        "@atlantum/main-header": "0.2.2"
+        "@atlantum/main-header": "0.2.3"
     },
     "devDependencies": {
         "react": "^16.13.1",

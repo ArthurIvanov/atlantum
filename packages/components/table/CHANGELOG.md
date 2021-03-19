@@ -1,5 +1,11 @@
 # @atlantum/table
 
+## 0.1.6
+
+### Patch Changes
+
+-   1f7b291: fixed imports
+
 ## 0.1.5
 
 ### Patch Changes

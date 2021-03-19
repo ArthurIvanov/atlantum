@@ -1,5 +1,11 @@
 # @atlantum/image
 
+## 0.1.4
+
+### Patch Changes
+
+-   1f7b291: fixed imports
+
 ## 0.1.3
 
 ### Patch Changes
