@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import React, { FC, ReactNode, Fragment } from 'react';
+import React, { FC, ReactNode, Fragment, MouseEventHandler } from 'react';
 
 export interface ButtonProps {
     leftIcon?: ReactNode;
@@ -9,7 +9,7 @@ export interface ButtonProps {
     isSecondary?: boolean;
     disabled?: boolean;
     isLoading?: boolean;
-    onClick?: React.MouseEventHandler;
+    onClick?: MouseEventHandler;
 }
 
 export const StyledButton = styled.button<ButtonProps>`
@@ -101,6 +101,7 @@ const Button: FC<ButtonProps> = (props) => (
         disabled={props.disabled}
         leftIcon={props.leftIcon}
         rightIcon={props.rightIcon}
+        onClick={props.onClick}
     >
         {props.leftIcon && <Fragment>{props.leftIcon}</Fragment>}
         {props.children}
