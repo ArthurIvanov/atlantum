@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.3.0
+
+### Minor Changes
+
+-   08bc957: fixed layout
+
 ## 0.2.3
 
 ### Patch Changes

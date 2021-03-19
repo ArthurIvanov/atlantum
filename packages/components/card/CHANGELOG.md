@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.4.0
+
+### Minor Changes
+
+-   08bc957: fixed layout
+
 ## 0.3.3
 
 ### Patch Changes
