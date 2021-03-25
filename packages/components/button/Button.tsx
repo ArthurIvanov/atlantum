@@ -2,13 +2,48 @@ import styled from 'styled-components';
 import React, { FC, ReactNode, Fragment, MouseEventHandler } from 'react';
 
 export interface ButtonProps {
+    /**
+     * If `true`, the button will have icon before label text.
+     */
     leftIcon?: ReactNode;
+
+    /**
+     * If `true`, the button will have icon after label text.
+     */
     rightIcon?: ReactNode;
-    children: ReactNode;
-    type?: 'button' | 'submit' | 'reset';
+
+    /**
+     * If `true`, the button will have secondary look and appearance.
+     * If `false` or without declaration, button will have primary look and appearance.
+     */
     isSecondary?: boolean;
+
+    /**
+     * If `true`, the button will be disabled.
+     *
+     */
     disabled?: boolean;
+
+    /**
+     * Mandatory field, you need to type a button label.
+     */
+    children: ReactNode;
+
+    /**
+     * HTML type for button.
+     */
+    type?: 'button' | 'submit' | 'reset';
+
+    /**
+     * @private
+     * this prop are in development still...
+     *
+     */
     isLoading?: boolean;
+
+    /**
+     * Access to React event handler.
+     */
     onClick?: MouseEventHandler;
 }
 

@@ -16,7 +16,7 @@ const Primary = () => {
             <div className="atlantum-compact">
                 <Card size={'standard'}>
                     <div>
-                        <Button>I am primary</Button>
+                        <Button leftIcon>I am primary</Button>
                     </div>
                 </Card>
             </div>
