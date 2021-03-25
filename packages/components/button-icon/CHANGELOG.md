@@ -1,5 +1,12 @@
 # @atlantum/button
 
+## 0.1.6
+
+### Patch Changes
+
+-   Updated dependencies [1a88da5]
+    -   @atlantum/button@0.3.1
+
 ## 0.1.5
 
 ### Patch Changes
