@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.3.1
+
+### Patch Changes
+
+-   1a88da5: added doc comments to interface
+
 ## 0.3.0
 
 ### Minor Changes
