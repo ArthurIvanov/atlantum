@@ -14,7 +14,7 @@
         "packages/tokens"
     ],
     "scripts": {
-        "dev": "yarn build --watch --preserveWatchOutput",
+        "dev": "yarn tsc --watch --preserveWatchOutput",
         "build": "tsc --build",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",

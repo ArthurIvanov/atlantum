@@ -2,9 +2,24 @@ import styled from 'styled-components';
 import React, { FC } from 'react';
 
 export interface ImageProps {
+    /**
+     * source link to image
+     * */
     src?: string;
+
+    /**
+     * Alt text for an image
+     * */
     alt?: string;
+
+    /**
+     * width of image
+     * */
     width?: string;
+
+    /**
+     * height of image
+     * */
     height?: string;
 }
 

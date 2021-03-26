@@ -11,7 +11,10 @@ const Simple = () => {
         <>
             <GlobalStyles />
             <div className="atlantum-view">
-                <Image src="https://i.ibb.co/DLtL9b8/atlantum-bg.png" />
+                <Image
+                    src="https://i.ibb.co/DLtL9b8/atlantum-bg.png"
+                    alt={'image-example'}
+                />
             </div>
         </>
     );

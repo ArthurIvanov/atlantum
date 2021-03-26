@@ -1,12 +1,18 @@
 import styled from 'styled-components';
-import React, { FC, ReactNode } from 'react';
+import React, { FC } from 'react';
 
 import { InputProps } from '@atlantum/input';
 import Label from '@atlantum/label';
 
 export interface CheckboxProps extends InputProps {
+    /**
+     * if `true` change checkbox on check
+     * */
     checked?: boolean;
-    children?: ReactNode;
+
+    /**
+     * Allow to add classes to component
+     * */
     className?: string;
 }
 
