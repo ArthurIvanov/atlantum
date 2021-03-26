@@ -1,5 +1,11 @@
 # @atlantum/accordion-item
 
+## 0.2.4
+
+### Patch Changes
+
+-   107ae55: added typedoc for accordion-item
+
 ## 0.2.3
 
 ### Patch Changes
