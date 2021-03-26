@@ -4,8 +4,19 @@ import { FC, ReactNode, useState } from 'react';
 import { ChevronDown } from 'react-feather';
 
 export interface AccordionItemProps {
+    /**
+     * Mandatory field, you need to enter a button label.
+     */
     children?: ReactNode;
+
+    /**
+     * Accordion title `string`.
+     */
     title: string;
+
+    /**
+     * Access to React event handler.
+     */
     onClick?: React.MouseEventHandler;
 }
 
