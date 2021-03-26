@@ -3,12 +3,32 @@ import React, { FC, ReactNode } from 'react';
 
 export type CardSize = 'full' | 'large' | 'standard' | 'compact' | 'landing';
 
-// @TODO build box-shadow prop
 export interface CardProps {
+    /**
+     * Mandatory field, you need to enter a button label.
+     */
     children: ReactNode;
+
+    /**
+     * Define padding inside card component.
+     * full is no-padding,
+     * large is paddings-12px,
+     * standard is paddings-24px,
+     * compact is padding-48px,
+     * landing is paddings-64px
+     */
     size?: CardSize;
+
+    // @TODO build with-separator prop
+    /**
+     * This prop in development
+     * */
     isWithSeparator?: boolean;
-    isDark?: boolean;
+
+    // @TODO build box-shadow prop
+    /**
+     * This prop in development
+     * */
     isShadow?: boolean;
 }
 
@@ -51,16 +71,8 @@ const StyledCard = styled.section<CardProps>`
     `};
 `;
 
-const Card: FC<CardProps> = ({ isWithSeparator, size, isDark, children }) => {
-    return (
-        <StyledCard
-            size={size}
-            isWithSeparator={isWithSeparator}
-            isDark={isDark}
-        >
-            {children}
-        </StyledCard>
-    );
+const Card: FC<CardProps> = ({ size, children }) => {
+    return <StyledCard size={size}>{children}</StyledCard>;
 };
 
 export default Card;

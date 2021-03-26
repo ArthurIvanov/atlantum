@@ -8,13 +8,14 @@ export interface ButtonProps {
     leftIcon?: ReactNode;
 
     /**
-     * If `true`, the button will have icon after label text.
+     * You need to pass Icon component to make it work
+     * Example: `leftIcon={<Icon name={'git-commit'} size={20} />}`
      */
     rightIcon?: ReactNode;
 
     /**
-     * If `true`, the button will have secondary look and appearance.
-     * If `false` or without declaration, button will have primary look and appearance.
+     * You need to pass Icon component to make it work
+     * Example: `rightIcon={<Icon name={'git-commit'} size={20} />}`
      */
     isSecondary?: boolean;
 
@@ -25,7 +26,7 @@ export interface ButtonProps {
     disabled?: boolean;
 
     /**
-     * Mandatory field, you need to type a button label.
+     * Mandatory field, you need to enter a button label.
      */
     children: ReactNode;
 
@@ -35,9 +36,7 @@ export interface ButtonProps {
     type?: 'button' | 'submit' | 'reset';
 
     /**
-     * @private
-     * this prop are in development still...
-     *
+     * this prop are in development...
      */
     isLoading?: boolean;
 

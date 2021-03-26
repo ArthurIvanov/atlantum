@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import React, { FC, ReactNode } from 'react';
 
 export interface ButtonGroupProps {
+    /**
+     * Mandatory field, you need to enter a button label.
+     */
     children: ReactNode;
 }
 
