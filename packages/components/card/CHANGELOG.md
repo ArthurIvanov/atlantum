@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.4.1
+
+### Patch Changes
+
+-   b4e167f: added typedocs
+
 ## 0.4.0
 
 ### Minor Changes
