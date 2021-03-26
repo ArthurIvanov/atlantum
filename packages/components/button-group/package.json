@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/button-group",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "button group component",
     "main": "dist/index.js",
     "module": "dist/index.js",

@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.3.2
+
+### Patch Changes
+
+-   b4e167f: added typedocs
+
 ## 0.3.1
 
 ### Patch Changes
