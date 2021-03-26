@@ -1,5 +1,11 @@
 # @atlantum/image
 
+## 0.1.5
+
+### Patch Changes
+
+-   7e70d96: added typedocs
+
 ## 0.1.4
 
 ### Patch Changes
