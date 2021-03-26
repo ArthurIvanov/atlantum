@@ -21,7 +21,7 @@
         "test": "jest",
         "test:watch": "jest --watch",
         "update": "yarn changeset",
-        "release": "yarn compile && yarn changeset publish",
+        "release": "yarn build && yarn changeset publish",
         "monorepo:check": "manypkg check",
         "monorepo:fix": "manypkg fix"
     },

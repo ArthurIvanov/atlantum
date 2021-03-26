@@ -5,10 +5,18 @@ import { FC, ReactNode } from 'react';
 export type AccordionSize = 'compact' | 'standard' | 'large';
 
 export interface AccordionProps {
+    /**
+     * Mandatory field, you need to enter a button label.
+     */
     children: ReactNode;
+
+    // @Todo Implement accordion size prop
     size?: AccordionSize;
-    // @Todo Implement this style
+
+    // @Todo Implement with-separator prop
     isWithSeparator?: boolean;
+
+    // @Todo Implement horizontal| vertical alignment prop
     isHorizontal?: boolean;
 }
 
@@ -24,12 +32,8 @@ const StyledAccordion = styled.ul<AccordionProps>`
     width: 100%;
 `;
 
-const Accordion: FC<AccordionProps> = ({ isWithSeparator, size, children }) => {
-    return (
-        <StyledAccordion size={size} isWithSeparator={isWithSeparator}>
-            {children}
-        </StyledAccordion>
-    );
+const Accordion: FC<AccordionProps> = ({ children }) => {
+    return <StyledAccordion>{children}</StyledAccordion>;
 };
 
 export default Accordion;
