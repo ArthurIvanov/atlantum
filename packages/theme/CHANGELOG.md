@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.2.5
+
+### Patch Changes
+
+-   3861ca1: updated global-styles
+
 ## 0.2.4
 
 ### Patch Changes
