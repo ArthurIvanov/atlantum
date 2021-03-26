@@ -1,5 +1,11 @@
 # @atlantum/checkbox
 
+## 0.2.4
+
+### Patch Changes
+
+-   7e70d96: added typedocs
+
 ## 0.2.3
 
 ### Patch Changes
