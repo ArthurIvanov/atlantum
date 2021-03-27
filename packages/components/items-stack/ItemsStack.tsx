@@ -5,8 +5,20 @@ export type Direction = 'row' | 'column';
 export type Space = '12px' | '24px' | '32px';
 
 export interface ItemsStackProps {
+    /**
+     * Required field, you need to pass here component or any valid value
+     * */
     children: ReactNode;
+
+    /**
+     * Flex direction for stack elements, can be `vertical` or `horizontal` value
+     * */
     direction: Direction;
+
+    /**
+     * Space between elements in stack.
+     * Can be 12px | 24px | 32px
+     * */
     space?: Space;
 
     /**
