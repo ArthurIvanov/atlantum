@@ -12,28 +12,24 @@ export interface ItemsStackProps {
 
 const StyledItemsStack = styled.ul<ItemsStackProps>`
     display: flex;
-    align-items: center;
 
     ${(props) =>
         props.direction === 'column' &&
         `    
         flex-direction: column;
-           
-        
         & > *:not(:last-child) {
             margin-bottom: ${props.space};
-        }
-        
+        }              
     `}
 
     ${(props) =>
         props.direction === 'row' &&
         `
+        align-items: center;
         flex-direction: row;
         & > *:not(:last-child) {
             margin-right: ${props.space};
         }
-        
     `}
 `;
 

@@ -69,6 +69,7 @@
         { "path": "packages/components/navigation-link" },
         { "path": "packages/components/table" },
         { "path": "packages/components/icons" },
+        { "path": "packages/components/items-stack" },
         { "path": "packages/components/table-cell" },
         { "path": "packages/components/table-header" },
         { "path": "packages/components/table-row" },
