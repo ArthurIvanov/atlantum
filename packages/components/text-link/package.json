@@ -8,6 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "@atlantum/theme": "^0.2.2",
+        "@atlantum/icons": "^0.1.4",
         "styled-components": "^5.2.0"
     },
     "devDependencies": {

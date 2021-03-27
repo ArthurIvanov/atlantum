@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
-import { ChevronDown } from 'react-feather';
+import Icon from '@atlantum/icons';
 
 export interface TextLinkProps {
     children: ReactNode;
@@ -45,7 +45,11 @@ const TextLink: FC<TextLinkProps> = ({ children, onClick, isIcon, href }) => {
         >
             {children}
             {isIcon && (
-                <ChevronDown className="atlantum-navlink-icon" size={20} />
+                <Icon
+                    name="chevron-down"
+                    className="atlantum-navlink-icon"
+                    size={20}
+                />
             )}
         </StyledTextLink>
     );

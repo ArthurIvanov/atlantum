@@ -7,10 +7,6 @@ const GlobalStyles = createGlobalStyle`
         background-color: ${(props) => props.theme.colors.neutralGlobalBG};
         font-family: ${(props) => props.theme.typography.family.base};
         font-weight: ${(props) => props.theme.typography.fontWeight.regular};
-        box-sizing: border-box;
-        display: block;
-        margin: 0;
-        padding: 0;
         position: relative;
               
     }
