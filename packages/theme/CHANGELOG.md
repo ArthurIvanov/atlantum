@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.2.6
+
+### Patch Changes
+
+-   d5b9ba6: updated dependencies
+
 ## 0.2.5
 
 ### Patch Changes

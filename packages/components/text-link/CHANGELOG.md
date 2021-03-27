@@ -1,5 +1,13 @@
 # @atlantum/text-link
 
+## 0.2.4
+
+### Patch Changes
+
+-   d5b9ba6: updated dependencies
+-   Updated dependencies [d5b9ba6]
+    -   @atlantum/theme@0.2.6
+
 ## 0.2.3
 
 ### Patch Changes
