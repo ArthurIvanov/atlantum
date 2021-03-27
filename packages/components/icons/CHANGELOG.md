@@ -1,5 +1,11 @@
 # @atlantum/icons
 
+## 0.1.5
+
+### Patch Changes
+
+-   f45a85c: updated prop
+
 ## 0.1.4
 
 ### Patch Changes
