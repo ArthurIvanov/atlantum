@@ -1,5 +1,11 @@
 # @atlantum/items-stack
 
+## 0.1.5
+
+### Patch Changes
+
+-   be90594: updated layout logic
+
 ## 0.1.4
 
 ### Patch Changes
