@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import GlobalStyles from '@atlantum/theme';
 import Group from '../packages/layout/group';
-import Image from "@atlantum/image";
+import Image from '@atlantum/image';
 
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
@@ -15,7 +15,12 @@ const Intro = () => {
     return (
         <>
             <GlobalStyles />
-            <Image src={"https://i.ibb.co/xhWftv3/intro.png"} width={"100%"}  alt={"intro"} />
+            <Image
+                src={'https://i.ibb.co/xhWftv3/intro.png'}
+                width={'100%'}
+                alt={'intro'}
+                isRounded={false}
+            />
             <div className="atlantum-view">
                 <Group relation={'separated'}>
                     <Heading as={'h3'}>

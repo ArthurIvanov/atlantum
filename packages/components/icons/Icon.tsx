@@ -4,7 +4,7 @@ import parse from 'html-react-parser';
 import myIcons from './set';
 import { IconComponentProps } from './types';
 
-const StyledIcon = ({ name, color, ...props }: IconComponentProps) => {
+const StyledIcon = ({ name, ...props }: IconComponentProps) => {
     const myParse = parse(myIcons[name]);
     const { size = 24, strokeWidth = 2, onClick, ...otherProps } = props;
 

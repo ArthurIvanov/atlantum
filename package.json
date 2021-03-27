@@ -23,7 +23,8 @@
         "update": "yarn changeset",
         "release": "yarn build && yarn changeset publish",
         "monorepo:check": "manypkg check",
-        "monorepo:fix": "manypkg fix"
+        "monorepo:fix": "manypkg fix",
+        "lint": "eslint packages --ext .js,.ts,.jsx,.tsx"
     },
     "dependencies": {
         "react": "^16.13.1",
