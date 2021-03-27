@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/input",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "input component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "@atlantum/theme": "^0.2.2",
-        "@atlantum/label": "^0.2.4"
+        "@atlantum/label": "^0.2.5"
     },
     "devDependencies": {
         "react": "^16.13.1",

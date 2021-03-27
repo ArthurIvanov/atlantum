@@ -1,5 +1,11 @@
 # @atlantum/table-cell
 
+## 0.1.7
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+
 ## 0.1.6
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/product-banner",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "product-banner component",
     "main": "dist/index.js",
     "module": "dist/index.js",

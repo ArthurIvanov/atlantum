@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/button-icon",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "button icon component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "@atlantum/theme": "^0.2.2",
-        "@atlantum/button": "0.3.2"
+        "@atlantum/button": "0.3.3"
     },
     "devDependencies": {
         "react": "^16.13.1",

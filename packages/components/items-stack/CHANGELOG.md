@@ -1,5 +1,11 @@
 # @atlantum/items-stack
 
+## 0.1.6
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+
 ## 0.1.5
 
 ### Patch Changes

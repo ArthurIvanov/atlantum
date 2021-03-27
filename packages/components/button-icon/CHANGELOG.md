@@ -1,5 +1,13 @@
 # @atlantum/button
 
+## 0.1.8
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+-   Updated dependencies [d2c7d4c]
+    -   @atlantum/button@0.3.3
+
 ## 0.1.7
 
 ### Patch Changes

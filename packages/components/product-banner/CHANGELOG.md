@@ -1,5 +1,11 @@
 # @atlantum/product-banner
 
+## 0.1.4
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+
 ## 0.1.3
 
 ### Patch Changes

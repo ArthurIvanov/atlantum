@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.3.3
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+
 ## 0.3.2
 
 ### Patch Changes
