@@ -6,12 +6,16 @@ type FontWeight = 'regular' | 'semiBold';
 export interface LabelProps {
     children: ReactNode;
     htmlFor?: string;
-    className?: string;
     input?: boolean;
     danger?: boolean;
     success?: boolean;
     disabled?: boolean;
     fontWeight?: FontWeight;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledLabel = styled.label<LabelProps>`

@@ -8,6 +8,11 @@ export interface ItemsStackProps {
     children: ReactNode;
     direction: Direction;
     space?: Space;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledItemsStack = styled.ul<ItemsStackProps>`
@@ -37,9 +42,14 @@ const ItemsStack: FC<ItemsStackProps> = ({
     children,
     direction,
     space = '24px',
+    className,
 }) => {
     return (
-        <StyledItemsStack direction={direction} space={space}>
+        <StyledItemsStack
+            direction={direction}
+            space={space}
+            className={className}
+        >
             {children}
         </StyledItemsStack>
     );

@@ -18,6 +18,11 @@ export interface AccordionProps {
 
     // @Todo Implement horizontal| vertical alignment prop
     isHorizontal?: boolean;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledAccordion = styled.ul<AccordionProps>`
@@ -32,8 +37,8 @@ const StyledAccordion = styled.ul<AccordionProps>`
     width: 100%;
 `;
 
-const Accordion: FC<AccordionProps> = ({ children }) => {
-    return <StyledAccordion>{children}</StyledAccordion>;
+const Accordion: FC<AccordionProps> = ({ children, className }) => {
+    return <StyledAccordion className={className}>{children}</StyledAccordion>;
 };
 
 export default Accordion;

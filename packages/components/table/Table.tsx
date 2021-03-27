@@ -4,6 +4,11 @@ import styled from 'styled-components';
 export interface TableProps {
     children: ReactNode;
     id?: string | number;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledTable = styled.table<TableProps>`
@@ -19,8 +24,8 @@ const StyledTable = styled.table<TableProps>`
     }
 `;
 
-const Table: FC<TableProps> = ({ children }) => {
-    return <StyledTable>{children}</StyledTable>;
+const Table: FC<TableProps> = ({ children, className }) => {
+    return <StyledTable className={className}>{children}</StyledTable>;
 };
 
 export default Table;

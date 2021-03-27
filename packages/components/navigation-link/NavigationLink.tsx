@@ -6,6 +6,11 @@ export interface NavigationLinkProps {
     onClick?: React.MouseEventHandler;
     as?: string;
     href?: string;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledNavigationLink = styled.button<NavigationLinkProps>`
@@ -26,9 +31,13 @@ const StyledNavigationLink = styled.button<NavigationLinkProps>`
     }
 `;
 
-const NavigationLink: FC<NavigationLinkProps> = ({ children, href }) => {
+const NavigationLink: FC<NavigationLinkProps> = ({
+    children,
+    href,
+    className,
+}) => {
     return (
-        <StyledNavigationLink as={'a'} href={href}>
+        <StyledNavigationLink as={'a'} href={href} className={className}>
             {children}
         </StyledNavigationLink>
     );

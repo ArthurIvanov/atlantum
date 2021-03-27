@@ -18,6 +18,11 @@ export interface AccordionItemProps {
      * Access to React event handler.
      */
     onClick?: React.MouseEventHandler;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledAccordionItem = styled.li<AccordionItemProps>`
@@ -85,6 +90,7 @@ const AccordionItem: FC<AccordionItemProps> = ({
     title,
     children,
     onClick,
+    className,
 }) => {
     const [open, setOpen] = useState(false);
 
@@ -93,7 +99,7 @@ const AccordionItem: FC<AccordionItemProps> = ({
     };
 
     return (
-        <StyledAccordionItem title={title}>
+        <StyledAccordionItem title={title} className={className}>
             <button
                 className="atlantum-accordion-item--title"
                 onClick={onClick}

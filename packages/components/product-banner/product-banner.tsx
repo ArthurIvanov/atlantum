@@ -7,6 +7,10 @@ export interface ProductBannerProps {
     children: ReactNode;
     backgroundImage: string;
     size?: BannerSizes;
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledProductBanner = styled.div<ProductBannerProps>`
@@ -50,9 +54,14 @@ const ProductBanner: FC<ProductBannerProps> = ({
     children,
     backgroundImage,
     size = 'regular',
+    className,
 }) => {
     return (
-        <StyledProductBanner backgroundImage={backgroundImage} size={size}>
+        <StyledProductBanner
+            backgroundImage={backgroundImage}
+            size={size}
+            className={className}
+        >
             <div className="atlantum-product-banner-content">{children}</div>
         </StyledProductBanner>
     );

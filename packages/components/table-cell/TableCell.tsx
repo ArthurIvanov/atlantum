@@ -4,6 +4,11 @@ import styled from 'styled-components';
 export interface TableCellProps {
     children: ReactNode;
     id?: string;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledTableCell = styled.td<TableCellProps>`
@@ -11,8 +16,12 @@ const StyledTableCell = styled.td<TableCellProps>`
     border: 1px solid ${(props) => props.theme.colors.neutral200};
 `;
 
-const TableCell: FC<TableCellProps> = ({ children, id }) => {
-    return <StyledTableCell id={id}>{children}</StyledTableCell>;
+const TableCell: FC<TableCellProps> = ({ children, id, className }) => {
+    return (
+        <StyledTableCell id={id} className={className}>
+            {children}
+        </StyledTableCell>
+    );
 };
 
 export default TableCell;

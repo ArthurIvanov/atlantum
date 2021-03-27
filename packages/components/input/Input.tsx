@@ -5,7 +5,6 @@ import InputTypes from '@atlantum/types';
 import Label from '@atlantum/label';
 
 export interface InputProps {
-    className?: string;
     disabled?: boolean;
     danger?: boolean;
     success?: boolean;
@@ -21,6 +20,11 @@ export interface InputProps {
     id?: string;
     input?: boolean;
     onChange?: ChangeEventHandler<HTMLInputElement>;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledInput = styled.input<InputProps>`

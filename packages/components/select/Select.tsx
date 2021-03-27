@@ -7,6 +7,11 @@ export interface SelectProps extends InputProps {
     checked?: boolean;
     children: ReactNode;
     placeholder?: string;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledSelect = styled.select<SelectProps>`
@@ -30,19 +35,30 @@ const StyledSelect = styled.select<SelectProps>`
     line-height: ${(props) => props.theme.typography.lineHeight.base};
 `;
 
-const Select: FC<SelectProps> = (props) => {
+const Select: FC<SelectProps> = ({
+    id,
+    input,
+    danger,
+    disabled,
+    name,
+    placeholder,
+    children,
+    label,
+    className,
+}) => {
     return (
         <Label
-            htmlFor={props.id}
-            input={props.input}
-            danger={props.danger}
-            disabled={props.disabled}
+            htmlFor={id}
+            input={input}
+            danger={danger}
+            disabled={disabled}
+            className={className}
         >
-            <StyledSelect name={props.name} type={'text'} id={props.id}>
-                <option>{props.placeholder}</option>
-                <optgroup>{props.children}</optgroup>
+            <StyledSelect name={name} type={'text'} id={id}>
+                <option>{placeholder}</option>
+                <optgroup>{children}</optgroup>
             </StyledSelect>
-            <span className="input-label">{props.label}</span>
+            <span className="input-label">{label}</span>
         </Label>
     );
 };

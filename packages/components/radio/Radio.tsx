@@ -6,6 +6,11 @@ import Label from '@atlantum/label';
 
 export interface RadioProps extends InputProps {
     checked?: boolean;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledRadio = styled.input<RadioProps>`
@@ -128,6 +133,7 @@ const Radio: FC<RadioProps> = (props, { fontWeight }) => {
                 type={'radio'}
                 id={props.id}
                 onChange={props.onChange}
+                className={props.className}
             />
             <span className="input-label">{props.label}</span>
         </Label>

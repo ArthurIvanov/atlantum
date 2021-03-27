@@ -5,6 +5,11 @@ import Label from '@atlantum/label';
 
 export interface ToggleProps extends InputProps {
     checked?: boolean;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledToggle = styled.input<ToggleProps>`
@@ -111,6 +116,7 @@ const Toggle: FC<ToggleProps> = (props) => {
                 type={'checkbox'}
                 id={props.id}
                 onChange={props.onChange}
+                className={props.className}
             />
             <span className="input-label">{props.label}</span>
         </Label>

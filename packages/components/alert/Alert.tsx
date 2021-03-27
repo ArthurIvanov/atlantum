@@ -10,6 +10,11 @@ type Status = 'danger' | 'info' | 'success' | 'warning';
 export interface AlertProps {
     children?: ReactNode;
     alertStatus?: Status;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledAlert = styled.div<AlertProps>`
@@ -46,8 +51,8 @@ const StyledAlert = styled.div<AlertProps>`
     `}
 `;
 
-const Alert: FC<AlertProps> = ({ children, alertStatus }) => (
-    <StyledAlert alertStatus={alertStatus}>
+const Alert: FC<AlertProps> = ({ children, alertStatus, className }) => (
+    <StyledAlert alertStatus={alertStatus} className={className}>
         <AlertIcon alertStatus={alertStatus} />
         <AlertTitle>Headline</AlertTitle>
         {children}

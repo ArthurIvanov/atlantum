@@ -21,11 +21,26 @@ export interface ImageProps {
      * height of image
      * */
     height?: string;
+
+    /**
+     * If `true` creates corner radius
+     * */
+    isRounded?: boolean;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledImage = styled.img<ImageProps>`
     width: ${(props) => props.width};
     height: ${(props) => props.height};
+    ${(props) =>
+        props.isRounded &&
+        `
+        border-radius: ${props.theme.borderRadius};
+    `}
 `;
 
 const Image: FC<ImageProps> = ({
@@ -33,6 +48,17 @@ const Image: FC<ImageProps> = ({
     alt,
     width = '100%',
     height = '100%',
-}) => <StyledImage alt={alt} src={src} width={width} height={height} />;
+    isRounded = true,
+    className,
+}) => (
+    <StyledImage
+        alt={alt}
+        src={src}
+        width={width}
+        height={height}
+        isRounded={isRounded}
+        className={className}
+    />
+);
 
 export default Image;

@@ -44,6 +44,11 @@ export interface ButtonProps {
      * Access to React event handler.
      */
     onClick?: MouseEventHandler;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 export const StyledButton = styled.button<ButtonProps>`
@@ -137,6 +142,7 @@ const Button: FC<ButtonProps> = (props) => (
         leftIcon={props.leftIcon}
         rightIcon={props.rightIcon}
         onClick={props.onClick}
+        className={props.className}
     >
         {props.leftIcon && <Fragment>{props.leftIcon}</Fragment>}
         {props.children}

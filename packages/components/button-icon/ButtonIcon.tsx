@@ -8,7 +8,11 @@ const StyledIconButton = styled(StyledButton)<ButtonProps>`
 `;
 
 const ButtonIcon: FC<ButtonProps> = (props) => (
-    <StyledIconButton isSecondary={props.isSecondary} disabled={props.disabled}>
+    <StyledIconButton
+        isSecondary={props.isSecondary}
+        disabled={props.disabled}
+        className={props.className}
+    >
         {props.children}
     </StyledIconButton>
 );

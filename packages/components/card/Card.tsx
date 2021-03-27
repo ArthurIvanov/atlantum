@@ -30,6 +30,11 @@ export interface CardProps {
      * This prop in development
      * */
     isShadow?: boolean;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledCard = styled.section<CardProps>`
@@ -70,8 +75,12 @@ const StyledCard = styled.section<CardProps>`
     `};
 `;
 
-const Card: FC<CardProps> = ({ size, children }) => {
-    return <StyledCard size={size}>{children}</StyledCard>;
+const Card: FC<CardProps> = ({ size, children, className }) => {
+    return (
+        <StyledCard size={size} className={className}>
+            {children}
+        </StyledCard>
+    );
 };
 
 export default Card;

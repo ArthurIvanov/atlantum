@@ -7,6 +7,11 @@ export interface TextLinkProps {
     onClick?: React.MouseEventHandler;
     isIcon?: boolean;
     href?: string;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledTextLink = styled.button<TextLinkProps>`
@@ -35,13 +40,19 @@ const StyledTextLink = styled.button<TextLinkProps>`
     }
 `;
 
-const TextLink: FC<TextLinkProps> = ({ children, onClick, isIcon, href }) => {
+const TextLink: FC<TextLinkProps> = ({
+    children,
+    onClick,
+    isIcon,
+    href,
+    className,
+}) => {
     return (
         <StyledTextLink
             as="a"
             href={href}
             onClick={onClick}
-            className="atlantum-navlink"
+            className={`${className} "atlantum-navlink"`}
         >
             {children}
             {isIcon && (
