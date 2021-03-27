@@ -1,5 +1,13 @@
 # @atlantum/input
 
+## 0.2.5
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+-   Updated dependencies [d2c7d4c]
+    -   @atlantum/label@0.2.5
+
 ## 0.2.4
 
 ### Patch Changes

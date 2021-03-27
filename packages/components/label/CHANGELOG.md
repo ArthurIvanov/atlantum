@@ -1,5 +1,11 @@
 # @atlantum/label
 
+## 0.2.5
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+
 ## 0.2.4
 
 ### Patch Changes

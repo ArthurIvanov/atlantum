@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.4.2
+
+### Patch Changes
+
+-   d2c7d4c: added className prop
+
 ## 0.4.1
 
 ### Patch Changes
