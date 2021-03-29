@@ -1,5 +1,11 @@
 # @atlantum/items-stack
 
+## 0.1.8
+
+### Patch Changes
+
+-   e9eeafe: added typedocs
+
 ## 0.1.7
 
 ### Patch Changes
