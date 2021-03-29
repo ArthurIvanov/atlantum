@@ -2,7 +2,7 @@ import * as React from 'react';
 import { FC, Fragment, ReactNode } from 'react';
 import styled from 'styled-components';
 
-export type TextSize = 'subLabel' | 'label';
+export type TextSize = 'label' | 'subLabel';
 
 export type TextTags =
     | 'p'
@@ -25,9 +25,28 @@ export type TextTags =
 
 export interface TextProps {
     children?: ReactNode;
+
+    /**
+     *  Choose which html markup text should be
+     * */
     as?: TextTags;
+
+    /**
+     *  Change size from base `16px`
+     *  to label `14px`
+     *  or sublabel `12px`
+     * */
     size?: TextSize;
+
+    /**
+     *  If `true` text-align:center rule are applied
+     * */
     centered?: boolean;
+
+    /**
+     * Allow apply custom classes to component
+     */
+    className?: string;
 }
 
 const StyledText = styled(Fragment)<TextProps>`
@@ -58,9 +77,14 @@ const StyledText = styled(Fragment)<TextProps>`
     `}
 `;
 
-const Text: FC<TextProps> = ({ as, children, size, centered }) => {
+const Text: FC<TextProps> = ({ as, children, size, centered, className }) => {
     return (
-        <StyledText as={as} size={size} centered={centered}>
+        <StyledText
+            as={as}
+            size={size}
+            centered={centered}
+            className={className}
+        >
             {children}
         </StyledText>
     );

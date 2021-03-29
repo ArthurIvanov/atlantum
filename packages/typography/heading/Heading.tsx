@@ -5,10 +5,25 @@ import { FC, ReactNode, Fragment } from 'react';
 type Headings = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
 export interface HeadingProps {
+    /**
+     * Required field, value should be passed here
+     * */
     children: ReactNode;
+
+    /**
+     * Choose the level of heading which you need to
+     * available type is 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+     * */
     as: Headings;
+
+    /**
+     *  If `true` text-align:center rule are applid
+     * */
     centered?: boolean;
-    onDark?: boolean;
+
+    /**
+     * Allow apply custom classes to component
+     */
     className?: string;
 }
 
@@ -22,12 +37,6 @@ const StyledHeading = styled(Fragment)<HeadingProps>`
         props.centered &&
         `
          text-align: center;
-    `}
-
-    ${(props) =>
-        props.onDark &&
-        `
-         color: ${props.theme.colors.neutralContentBG};
     `}
 
     ${(props) =>
