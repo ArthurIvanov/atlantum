@@ -1,5 +1,11 @@
 # @atlantum/text
 
+## 0.2.3
+
+### Patch Changes
+
+-   e9eeafe: added typedocs
+
 ## 0.2.2
 
 ### Patch Changes
