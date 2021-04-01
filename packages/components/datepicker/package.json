@@ -1,14 +1,14 @@
 {
     "name": "@atlantum/datepicker",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "datepicker component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/input": "^0.2.4",
-        "@atlantum/theme": "^0.2.2",
+        "@atlantum/input": "^0.2.6",
+        "@atlantum/theme": "^0.2.7",
         "@atlantum/label": "^0.2.4"
     },
     "devDependencies": {
