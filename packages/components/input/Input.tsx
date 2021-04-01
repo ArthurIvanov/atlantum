@@ -15,7 +15,6 @@ export interface InputProps {
     value?: string;
     label?: string;
     alert?: string;
-
     defaultValue?: string;
     id?: string;
     input?: boolean;

@@ -34,7 +34,7 @@ body.sb-show-main {
 }
 
 .atlantum-view {
-    width: 80%;
+    max-width: 700px;
     padding: 48px;
 }
 .atlantum-full-view {
@@ -42,7 +42,7 @@ body.sb-show-main {
 }
 
 .atlantum-compact {
-    width: 25%;
+    max-width: 400px;
     padding: 48px;
 }
 

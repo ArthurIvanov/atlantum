@@ -12,7 +12,6 @@ export interface TableProps {
 }
 
 const StyledTable = styled.table<TableProps>`
-    width: 100%;
     border-collapse: collapse;
     color: ${(props) => props.theme.colors.neutral400};
     font-size: ${(props) => props.theme.typography.fontSize.label};
