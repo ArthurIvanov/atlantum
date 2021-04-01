@@ -1,5 +1,13 @@
 # @atlantum/input
 
+## 0.2.6
+
+### Patch Changes
+
+-   df6f518: minor fixes
+-   Updated dependencies [df6f518]
+    -   @atlantum/theme@0.2.7
+
 ## 0.2.5
 
 ### Patch Changes
