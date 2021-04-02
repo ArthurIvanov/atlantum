@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/theme",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "description": "atlantum theme",
     "main": "dist/index.js",
     "module": "dist/index.js",

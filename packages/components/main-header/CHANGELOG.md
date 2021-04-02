@@ -1,5 +1,13 @@
 # @atlantum/main-header
 
+## 0.2.4
+
+### Patch Changes
+
+-   4922dd7: minor fixes
+-   Updated dependencies [4922dd7]
+    -   @atlantum/theme@0.2.8
+
 ## 0.2.3
 
 ### Patch Changes

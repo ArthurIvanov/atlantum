@@ -1,5 +1,13 @@
 # @atlantum/navigation-link
 
+## 0.1.6
+
+### Patch Changes
+
+-   4922dd7: minor fixes
+-   Updated dependencies [4922dd7]
+    -   @atlantum/theme@0.2.8
+
 ## 0.1.5
 
 ### Patch Changes

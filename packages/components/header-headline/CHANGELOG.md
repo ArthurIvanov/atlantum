@@ -1,5 +1,11 @@
 # header-headline
 
+## 1.1.4
+
+### Patch Changes
+
+-   4922dd7: minor fixes
+
 ## 1.1.3
 
 ### Patch Changes
