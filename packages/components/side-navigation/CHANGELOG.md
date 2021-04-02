@@ -1,5 +1,14 @@
 # @atlantum/side-navigation
 
+## 0.1.5
+
+### Patch Changes
+
+-   4922dd7: minor fixes
+-   Updated dependencies [4922dd7]
+    -   @atlantum/main-header@0.2.4
+    -   @atlantum/theme@0.2.8
+
 ## 0.1.4
 
 ### Patch Changes

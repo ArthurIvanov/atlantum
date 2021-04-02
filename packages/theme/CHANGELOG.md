@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.2.8
+
+### Patch Changes
+
+-   4922dd7: minor fixes
+
 ## 0.2.7
 
 ### Patch Changes
