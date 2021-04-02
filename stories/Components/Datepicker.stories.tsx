@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Datepicker from '@atlantum/datepicker';
-import Card from '@atlantum/card';
+import Card from '../../packages/layout/card';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
-import './stories.styles.css';
+import '../stories.styles.css';
 
 const DefaultInput = () => {
     return (
@@ -23,4 +23,6 @@ const DefaultInput = () => {
     );
 };
 
-storiesOf('Datepicker', module).add('Default', () => <DefaultInput />);
+storiesOf('Components/Datepicker', module).add('Default', () => (
+    <DefaultInput />
+));

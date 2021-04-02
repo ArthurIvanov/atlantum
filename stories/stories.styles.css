@@ -9,7 +9,6 @@ body.sb-show-main {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 24px;
     padding: 48px;
-    background-color: #eeeeee;
 }
 
 .grid > div {

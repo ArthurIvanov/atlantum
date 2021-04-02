@@ -1,9 +1,9 @@
 import * as React from 'react';
-import Select from '../packages/components/select';
+import Select from '@atlantum/select';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles  from '@atlantum/theme';
-import './stories.styles.css';
-import Card from '@atlantum/card';
+import GlobalStyles from '@atlantum/theme';
+import '../stories.styles.css';
+import Card from '../../packages/layout/card';
 
 const DefaultSelect = () => {
     return (
@@ -26,4 +26,4 @@ const DefaultSelect = () => {
     );
 };
 
-storiesOf('Select', module).add('Default', () => <DefaultSelect />);
+storiesOf('Components/Select', module).add('Default', () => <DefaultSelect />);

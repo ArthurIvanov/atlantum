@@ -7,8 +7,8 @@
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.2.2",
-        "@atlantum/main-header": "0.2.3"
+        "@atlantum/main-header": "0.2.3",
+        "@atlantum/theme": "^0.2.2"
     },
     "devDependencies": {
         "react": "^16.13.1",

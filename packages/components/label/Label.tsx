@@ -26,7 +26,7 @@ const StyledLabel = styled.label<LabelProps>`
     span.input-label {
         color: ${(props) => props.theme.colors.neutral400};
         margin-left: ${(props) => props.theme.spacing.space8};
-        font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
+        font-weight: ${(props) => props.theme.typography.fontWeight.regular};
     }
 
     span {
@@ -53,6 +53,7 @@ const StyledLabel = styled.label<LabelProps>`
             span.input-label {
                 color: ${props.theme.colors.neutral400};
                 margin-bottom: ${props.theme.spacing.space4};
+                font-weight: ${props.theme.typography.fontWeight.semiBold};
                 margin-left: 0;
             }
  

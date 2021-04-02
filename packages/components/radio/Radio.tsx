@@ -49,10 +49,10 @@ const StyledRadio = styled.input<RadioProps>`
         background-color: ${(props) => props.theme.colors.neutralContentBG};
         border-radius: 50%;
         position: absolute;
-        width: 4px;
-        height: 4px;
-        top: 5px;
-        left: 5px;
+        width: 8px;
+        height: 8px;
+        top: 3px;
+        left: 3px;
     }
 
     ${(props) =>

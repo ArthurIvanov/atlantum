@@ -2,7 +2,7 @@ import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import Icon from '@atlantum/icons';
 
-import './stories.styles.css';
+import '../stories.styles.css';
 
 const Icons = () => {
     const color = '#1e1e35';
@@ -573,4 +573,4 @@ const Icons = () => {
     );
 };
 
-storiesOf('Icons', module).add('Icons', () => <Icons />);
+storiesOf('Fundamentals/Icons', module).add('Icons', () => <Icons />);

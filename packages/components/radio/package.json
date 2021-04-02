@@ -8,8 +8,8 @@
     "license": "MIT",
     "dependencies": {
         "@atlantum/input": "^0.2.5",
-        "@atlantum/theme": "^0.2.2",
-        "@atlantum/label": "^0.2.5"
+        "@atlantum/label": "^0.2.5",
+        "@atlantum/theme": "^0.2.2"
     },
     "devDependencies": {
         "react": "^16.13.1",

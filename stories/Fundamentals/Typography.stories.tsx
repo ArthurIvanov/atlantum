@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles  from '@atlantum/theme';
-import './stories.styles.css';
+import GlobalStyles from '@atlantum/theme';
+import '../stories.styles.css';
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
-import Card from '@atlantum/card';
-import Group from '../packages/layout/group';
+import Card from '../../packages/layout/card';
+import Group from '@atlantum/group';
 
 const Headlines = () => {
     return (
@@ -29,7 +29,7 @@ const Headlines = () => {
 
 const Paragraph = () => {
     return (
-       <>
+        <>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size={'standard'}>
@@ -49,9 +49,13 @@ const Paragraph = () => {
                     </Group>
                 </Card>
             </div>
-       </>
+        </>
     );
 };
 
-storiesOf('Typography', module).add('Heading', () => <Headlines />);
-storiesOf('Typography', module).add('Paragraph', () => <Paragraph />);
+storiesOf('Fundamentals/Typography', module).add('Heading', () => (
+    <Headlines />
+));
+storiesOf('Fundamentals/Typography', module).add('Paragraph', () => (
+    <Paragraph />
+));

@@ -4,9 +4,9 @@ import Column from '@atlantum/column';
 import { storiesOf } from '@storybook/react';
 
 import GlobalStyles from '@atlantum/theme';
-import Card from '@atlantum/card';
-import './stories.styles.css';
-import Content from '../packages/layout/content';
+import Card from '../../packages/layout/card';
+import '../stories.styles.css';
+import Content from '@atlantum/content';
 
 const Narrow = () => {
     return (
@@ -122,7 +122,7 @@ const Narrow = () => {
 
 const Full = () => {
     return (
-       <>
+        <>
             <GlobalStyles />
             <div className="atlantum-full-view">
                 <Card size={'standard'}>
@@ -232,5 +232,5 @@ const Full = () => {
     );
 };
 
-storiesOf('Layout', module).add('Narrow Content', () => <Narrow />);
-storiesOf('Layout', module).add('Full Content', () => <Full />);
+storiesOf('Layout/Grid', module).add('Narrow Content', () => <Narrow />);
+storiesOf('Layout/Grid', module).add('Full Content', () => <Full />);

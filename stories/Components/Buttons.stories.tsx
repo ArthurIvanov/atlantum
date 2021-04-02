@@ -1,13 +1,37 @@
 import * as React from 'react';
 import Button from '@atlantum/button';
-import ButtonIcon from '../packages/components/button-icon';
-import ButtonGroup from '../packages/components/button-group';
+import ButtonIcon from '@atlantum/button-icon';
+import ButtonGroup from '@atlantum/button-group';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import Icon from '@atlantum/icons';
 
-import './stories.styles.css';
-import Card from '@atlantum/card';
+import '../stories.styles.css';
+import Card from '../../packages/layout/card';
+import ItemsStack from '../../packages/layout/items-stack';
+
+const Design = () => {
+    return (
+        <div className="atlantum-full-view">
+            <ItemsStack direction={'row'}>
+                <iframe
+                    style={{ borderRadius: '4px', border: 'none' }}
+                    width="100%"
+                    height="300"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5CdA4Nbd80vV0fy43Or0kZ%2FAtlantum-Examples%3Fnode-id%3D96%253A3192"
+                    allowFullScreen
+                />
+                <iframe
+                    style={{ borderRadius: '4px', border: 'none' }}
+                    width="100%"
+                    height="300"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5CdA4Nbd80vV0fy43Or0kZ%2FAtlantum-Examples%3Fnode-id%3D96%253A3183"
+                    allowFullScreen
+                />
+            </ItemsStack>
+        </div>
+    );
+};
 
 const Primary = () => {
     return (
@@ -83,8 +107,9 @@ const BtnGroup = () => {
     );
 };
 
-storiesOf('Button', module).add('Primary', () => <Primary />);
-storiesOf('Button', module).add('Secondary', () => <Secondary />);
-storiesOf('Button', module).add('Disabled', () => <Disabled />);
-storiesOf('Button', module).add('Icon', () => <BtnIcon />);
-storiesOf('Button', module).add('Group', () => <BtnGroup />);
+storiesOf('Components/Button', module).add('Design', () => <Design />);
+storiesOf('Components/Button', module).add('Primary', () => <Primary />);
+storiesOf('Components/Button', module).add('Secondary', () => <Secondary />);
+storiesOf('Components/Button', module).add('Disabled', () => <Disabled />);
+storiesOf('Components/Button', module).add('Icon', () => <BtnIcon />);
+storiesOf('Components/Button', module).add('Group', () => <BtnGroup />);

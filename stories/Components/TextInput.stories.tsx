@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Input from '@atlantum/input';
-import Card from '@atlantum/card';
+import Card from '../../packages/layout/card';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
-import './stories.styles.css';
+import '../stories.styles.css';
 
 const DefaultInput = () => {
     return (
@@ -89,7 +89,13 @@ const SuccessInput = () => {
     );
 };
 
-storiesOf('Text-input', module).add('Default', () => <DefaultInput />);
-storiesOf('Text-input', module).add('Disabled', () => <DisabledInput />);
-storiesOf('Text-input', module).add('Danger', () => <DangerInput />);
-storiesOf('Text-input', module).add('Success', () => <SuccessInput />);
+storiesOf('Components/Text-input', module).add('Default', () => (
+    <DefaultInput />
+));
+storiesOf('Components/Text-input', module).add('Disabled', () => (
+    <DisabledInput />
+));
+storiesOf('Components/Text-input', module).add('Danger', () => <DangerInput />);
+storiesOf('Components/Text-input', module).add('Success', () => (
+    <SuccessInput />
+));

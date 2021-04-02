@@ -62,7 +62,7 @@ const StyledToggle = styled.input<ToggleProps>`
             transform: translate(16px, 2px);
         }
         &:before {
-            background-color: ${(props) => props.theme.colors.success200};
+            background-color: ${(props) => props.theme.colors.primary200};
         }
     }
 

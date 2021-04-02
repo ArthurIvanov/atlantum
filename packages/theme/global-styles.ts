@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
 	small, strike, strong, sub, sup, tt, var,
 	dl, dt, dd, ol, ul, li,
 	fieldset, form, label, legend,
-	table, caption, tbody, tfoot, thead {
+	table, caption {
 		margin: 0;
 		padding: 0;
 		border: 0;

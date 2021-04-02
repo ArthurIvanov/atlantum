@@ -1,8 +1,10 @@
 module.exports = {
     stories: [
         '../stories/Intro.stories.tsx',
-        '../stories/Colors.stories.tsx',
         '../stories/*.stories.mdx',
+        '../stories/Fundamentals/*.stories.@(js|jsx|ts|tsx)',
+        '../stories/Components/*.stories.@(js|jsx|ts|tsx)',
+        '../stories/Layout/*.stories.@(js|jsx|ts|tsx)',
         '../stories/*.stories.@(js|jsx|ts|tsx)',
     ],
     addons: [

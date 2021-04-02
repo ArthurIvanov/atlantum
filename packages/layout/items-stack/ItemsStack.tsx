@@ -13,7 +13,7 @@ export interface ItemsStackProps {
     /**
      * Flex direction for stack elements, can be `vertical` or `horizontal` value
      * */
-    direction: Direction;
+    direction?: Direction;
 
     /**
      * Space between elements in stack.
@@ -52,7 +52,7 @@ const StyledItemsStack = styled.ul<ItemsStackProps>`
 
 const ItemsStack: FC<ItemsStackProps> = ({
     children,
-    direction,
+    direction = 'row',
     space = '24px',
     className,
 }) => {

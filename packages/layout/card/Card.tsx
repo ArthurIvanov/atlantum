@@ -42,7 +42,7 @@ const StyledCard = styled.section<CardProps>`
     background-color: ${(props) => props.theme.colors.neutralContentBG};
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 16px ${(props) => props.theme.colors.neutral400}04;
 
     ${(props) =>
         props.size === 'full' &&
