@@ -37,8 +37,8 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     }
 
     &:checked {
-        border-color: ${(props) => props.theme.colors.primary300};
-        background-color: ${(props) => props.theme.colors.primary300};
+        border-color: ${(props) => props.theme.colors.primary200};
+        background-color: ${(props) => props.theme.colors.primary200};
     }
 
     &:checked::after {
