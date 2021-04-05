@@ -5,6 +5,8 @@ import GlobalStyles from '@atlantum/theme';
 import Alert from '@atlantum/alert';
 import '../stories.styles.css';
 import ItemsStack from '../../packages/layout/items-stack';
+import Card from '../../packages/layout/card/Card';
+import Heading from '@atlantum/heading';
 
 const Design = () => {
     return (
@@ -33,7 +35,14 @@ const AlertSuccess = () => {
     return (
         <>
             <GlobalStyles />
-            <Alert alertStatus={'success'}>Hold on</Alert>
+            <div className="atlantum-view">
+                <Card size="standard">
+                    <ItemsStack direction="column">
+                        <Heading as={'h4'}>In development</Heading>
+                        <Alert alertStatus={'success'}>Hold on</Alert>
+                    </ItemsStack>
+                </Card>
+            </div>
         </>
     );
 };
@@ -42,7 +51,14 @@ const AlertDanger = () => {
     return (
         <>
             <GlobalStyles />
-            <Alert alertStatus={'danger'}>Hold on</Alert>
+            <div className="atlantum-view">
+                <Card size="standard">
+                    <ItemsStack direction="column">
+                        <Heading as={'h4'}>In development</Heading>
+                        <Alert alertStatus={'danger'}>Hold on</Alert>
+                    </ItemsStack>
+                </Card>
+            </div>
         </>
     );
 };
