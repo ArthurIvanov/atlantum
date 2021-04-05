@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/items-stack",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "items-stack component",
     "main": "dist/index.js",
     "module": "dist/index.js",
