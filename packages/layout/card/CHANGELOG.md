@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.4.4
+
+### Patch Changes
+
+-   3b11c71: fixed tsconfig file
+
 ## 0.4.3
 
 ### Patch Changes

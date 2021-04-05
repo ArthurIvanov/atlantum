@@ -1,5 +1,11 @@
 # @atlantum/group
 
+## 0.3.6
+
+### Patch Changes
+
+-   3b11c71: fixed tsconfig file
+
 ## 0.3.5
 
 ### Patch Changes

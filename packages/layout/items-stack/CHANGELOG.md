@@ -1,5 +1,11 @@
 # @atlantum/items-stack
 
+## 0.1.10
+
+### Patch Changes
+
+-   3b11c71: fixed tsconfig file
+
 ## 0.1.9
 
 ### Patch Changes
