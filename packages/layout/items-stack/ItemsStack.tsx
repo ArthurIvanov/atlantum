@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React, { FC, ReactNode } from 'react';
 
 export type Direction = 'row' | 'column';
-export type Space = '12px' | '24px' | '32px';
+export type Space = '4px' | '8px' | '12px' | '24px' | '32px';
 
 export interface ItemsStackProps {
     /**

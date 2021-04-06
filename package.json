@@ -16,7 +16,7 @@
     "scripts": {
         "dev": "yarn tsc --watch --preserveWatchOutput",
         "build": "tsc --build",
-        "storybook": "start-storybook -p 6006",
+        "story": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
         "test": "jest",
         "test:watch": "jest --watch",
