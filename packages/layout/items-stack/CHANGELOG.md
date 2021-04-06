@@ -1,5 +1,11 @@
 # @atlantum/items-stack
 
+## 0.1.11
+
+### Patch Changes
+
+-   147924d: Updated alert UI, added 4px and 8px step size for items-stack
+
 ## 0.1.10
 
 ### Patch Changes

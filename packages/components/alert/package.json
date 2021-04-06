@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/alert",
-    "version": "0.1.5",
+    "version": "0.2.0",
     "description": "input alert component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "@atlantum/theme": "^0.2.2",
         "@atlantum/icons": "^0.1.6",
         "@atlantum/heading": "^0.2.3",
-        "@atlantum/items-stack": "^0.1.10"
+        "@atlantum/items-stack": "^0.1.11"
     },
     "devDependencies": {
         "react": "^16.13.1",
