@@ -8,11 +8,14 @@ module.exports = {
         'gatsby-plugin-react-helmet',
         'gatsby-plugin-mdx',
         {
-            resolve: 'gatsby-source-filesystem',
+            resolve: `gatsby-source-filesystem`,
             options: {
-                name: 'pages',
-                path: './src/pages/',
+                name: `pages`,
+                // eslint-disable-next-line no-undef
+                path: `${__dirname}/website/src/pages/`,
             },
+        },
+        {
             __key: 'pages',
         },
     ],
