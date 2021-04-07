@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
     siteMetadata: {
         title: 'website',
@@ -8,14 +9,11 @@ module.exports = {
         'gatsby-plugin-react-helmet',
         'gatsby-plugin-mdx',
         {
-            resolve: `gatsby-source-filesystem`,
+            resolve: 'gatsby-source-filesystem',
             options: {
-                name: `pages`,
-                // eslint-disable-next-line no-undef
+                name: 'pages',
                 path: './website/src/pages/',
             },
-        },
-        {
             __key: 'pages',
         },
     ],
