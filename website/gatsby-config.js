@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires,no-undef
+const path = require('path');
+
 // eslint-disable-next-line no-undef
 module.exports = {
     siteMetadata: {
@@ -9,12 +12,21 @@ module.exports = {
         'gatsby-plugin-react-helmet',
         'gatsby-plugin-mdx',
         {
-            resolve: 'gatsby-source-filesystem',
+            resolve: `gatsby-source-filesystem`,
             options: {
-                name: 'pages',
-                path: './website/src/pages/',
+                name: `pages`,
+                // eslint-disable-next-line no-undef
+                path: `${__dirname}/website/src/pages/`,
             },
-            __key: 'pages',
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `data`,
+                // eslint-disable-next-line no-undef
+                path: `${__dirname}/website/src/data/`,
+                ignore: [`**/\.*`], // ignore files starting with a dot
+            },
         },
     ],
 };
