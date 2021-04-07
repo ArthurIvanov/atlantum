@@ -12,7 +12,7 @@ module.exports = {
             options: {
                 name: `pages`,
                 // eslint-disable-next-line no-undef
-                path: `${__dirname}/website/src/pages/`,
+                path: './website/src/pages/',
             },
         },
         {
