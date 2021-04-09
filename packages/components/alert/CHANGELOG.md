@@ -1,5 +1,11 @@
 # @atlantum/alert
 
+## 0.3.0
+
+### Minor Changes
+
+-   99e7062: Changed directory structure and import
+
 ## 0.2.0
 
 ### Minor Changes
