@@ -3,10 +3,8 @@ import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import '../stories.styles.css';
 
-import Table from '@atlantum/table';
-import TableCell from '@atlantum/table-cell';
-import TableHeader from '@atlantum/table-header';
-import TableRow from '@atlantum/table-row';
+import { Table, TableCell, TableHeader, TableRow } from '@atlantum/table';
+
 import Card from '../../packages/layout/card';
 import ItemsStack from '../../packages/layout/items-stack';
 

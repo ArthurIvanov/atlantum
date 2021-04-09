@@ -1,10 +1,9 @@
 import * as React from 'react';
-import Button from '@atlantum/button';
-import ButtonIcon from '@atlantum/button-icon';
-import ButtonGroup from '@atlantum/button-group';
+import { Button, ButtonIcon, ButtonGroup } from '@atlantum/button';
+
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
-import Icon from '@atlantum/icons';
+import { Icon } from '../../packages/components/icons/src';
 
 import '../stories.styles.css';
 import Card from '../../packages/layout/card';

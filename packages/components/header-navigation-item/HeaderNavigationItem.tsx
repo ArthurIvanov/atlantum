@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
-import TextLink from '@atlantum/text-link';
+import { TextLink } from '@atlantum/text-link';
 
 export interface StyledHeaderNavigationItemProps {
     children: ReactNode;

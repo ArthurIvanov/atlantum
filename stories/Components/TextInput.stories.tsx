@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Input from '@atlantum/input';
+import { TextInput } from '../../packages/components/text-input/src';
 import Card from '../../packages/layout/card';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
@@ -37,7 +37,7 @@ const DefaultInput = () => {
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
-                    <Input
+                    <TextInput
                         type={'text'}
                         name={'username'}
                         label={'Default input'}
@@ -57,7 +57,7 @@ const DisabledInput = () => {
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
-                    <Input
+                    <TextInput
                         disabled
                         input
                         label={'Disabled input'}
@@ -77,7 +77,7 @@ const DangerInput = () => {
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
-                    <Input
+                    <TextInput
                         danger
                         input
                         label={'Danger input'}
@@ -99,7 +99,7 @@ const SuccessInput = () => {
             <GlobalStyles />
             <div className="atlantum-compact">
                 <Card size={'standard'}>
-                    <Input
+                    <TextInput
                         input
                         success
                         label={'Success input'}

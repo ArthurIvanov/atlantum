@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Datepicker from '@atlantum/datepicker';
+import { Datepicker } from '../../packages/components/datepicker/src';
 import Card from '../../packages/layout/card';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';

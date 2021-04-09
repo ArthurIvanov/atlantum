@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import '../stories.styles.css';
 
-import Image from '@atlantum/image';
+import { Image } from '../../packages/components/image/src';
 import Card from '../../packages/layout/card/Card';
 
 const Simple = () => {

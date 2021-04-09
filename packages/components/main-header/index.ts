@@ -1,1 +1,1 @@
-export { default, MainHeaderProps } from './MainHeader';
+export * from './main-navigation';

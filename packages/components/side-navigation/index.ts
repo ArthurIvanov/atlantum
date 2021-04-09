@@ -1,1 +1,1 @@
-export { default, SideNavigationProps } from './SideNavigation';
+export * from './side-navigation';

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Radio from '@atlantum/radio';
+import { Radio } from '@atlantum/radio';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import '../stories.styles.css';

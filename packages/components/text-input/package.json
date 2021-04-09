@@ -1,0 +1,21 @@
+{
+    "name": "@atlantum/text-input",
+    "version": "0.0.0",
+    "description": "text-input component",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "dependencies": {
+        "@atlantum/label": "^0.2.6",
+        "@atlantum/theme": "^0.2.8"
+    },
+    "devDependencies": {
+        "react": "^16.13.1",
+        "styled-components": "^5.2.0"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    },
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/components/text-input"
+}

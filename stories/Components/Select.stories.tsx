@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Select from '@atlantum/select';
+import { Select } from '../../packages/components/select/src';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import '../stories.styles.css';

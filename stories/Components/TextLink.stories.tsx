@@ -1,5 +1,5 @@
 import * as React from 'react';
-import TextLink from '@atlantum/text-link';
+import { TextLink } from '../../packages/components/text-link/src';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import '../stories.styles.css';

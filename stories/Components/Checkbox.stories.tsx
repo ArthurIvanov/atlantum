@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Checkbox from '@atlantum/checkbox';
+import { Checkbox } from '@atlantum/checkbox';
 import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import '../stories.styles.css';
