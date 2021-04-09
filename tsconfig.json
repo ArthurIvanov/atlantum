@@ -43,34 +43,5 @@
         "**/*.spec*"
     ],
 
-    "references": [
-        { "path": "packages/components/accordion" },
-        { "path": "packages/components/alert" },
-        { "path": "packages/components/button" },
-        { "path": "packages/components/text-input" },
-        { "path": "packages/components/image" },
-        { "path": "packages/components/checkbox" },
-        { "path": "packages/components/toggle" },
-        { "path": "packages/components/label" },
-        { "path": "packages/components/radio" },
-        { "path": "packages/components/product-banner" },
-        { "path": "packages/components/select" },
-        { "path": "packages/components/side-navigation" },
-        { "path": "packages/components/navigation-link" },
-        { "path": "packages/components/table" },
-        { "path": "packages/components/icons" },
-        { "path": "packages/tokens" },
-        { "path": "packages/theme" },
-        { "path": "packages/common/types" },
-        { "path": "packages/layout/card" },
-        { "path": "packages/layout/group" },
-        { "path": "packages/layout/grid" },
-        { "path": "packages/layout/items-stack" },
-        { "path": "packages/layout/content" },
-        { "path": "packages/layout/column" },
-        { "path": "packages/layout/container" },
-        { "path": "packages/typography/heading" },
-        { "path": "packages/typography/text" },
-        { "path": "packages/components/text-link" }
-    ]
+    "references": [{ "path": "packages/components/icons" }]
 }
