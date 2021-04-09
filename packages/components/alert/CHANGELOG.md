@@ -1,5 +1,12 @@
 # @atlantum/alert
 
+## 0.3.1
+
+### Patch Changes
+
+-   Updated dependencies [35d53dc]
+    -   @atlantum/icons@0.2.0
+
 ## 0.3.0
 
 ### Minor Changes
