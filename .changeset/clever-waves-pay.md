@@ -1,5 +1,0 @@
----
-'@atlantum/icons': minor
----
-
-update

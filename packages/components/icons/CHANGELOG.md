@@ -1,5 +1,11 @@
 # @atlantum/icons
 
+## 0.3.0
+
+### Minor Changes
+
+-   f2db2bf: update
+
 ## 0.2.0
 
 ### Minor Changes
