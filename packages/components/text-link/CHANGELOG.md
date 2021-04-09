@@ -1,5 +1,16 @@
 # @atlantum/text-link
 
+## 0.3.0
+
+### Minor Changes
+
+-   35d53dc: updated inputs
+
+### Patch Changes
+
+-   Updated dependencies [35d53dc]
+    -   @atlantum/icons@0.2.0
+
 ## 0.2.6
 
 ### Patch Changes
