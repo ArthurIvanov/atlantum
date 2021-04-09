@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.4.0
+
+### Minor Changes
+
+-   99e7062: Changed directory structure and import
+
 ## 0.3.3
 
 ### Patch Changes

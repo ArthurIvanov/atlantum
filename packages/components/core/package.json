@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/core",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "description": "all components bundle",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -9,7 +9,7 @@
     "dependencies": {
         "@atlantum/accordion": "^0.2.4",
         "@atlantum/input": "^0.2.7",
-        "@atlantum/button": "^0.3.3",
+        "@atlantum/button": "^0.4.0",
         "@atlantum/label": "^0.2.6",
         "@atlantum/theme": "^0.2.8"
     },
