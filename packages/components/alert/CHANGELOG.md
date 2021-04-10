@@ -1,5 +1,13 @@
 # @atlantum/alert
 
+## 0.3.3
+
+### Patch Changes
+
+-   Updated dependencies [e9a3770]
+    -   @atlantum/items-stack@0.2.0
+    -   @atlantum/heading@0.3.0
+
 ## 0.3.2
 
 ### Patch Changes

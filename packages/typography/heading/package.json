@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/heading",
-    "version": "0.2.3",
+    "version": "0.3.0",
     "description": "heading",
     "main": "dist/index.js",
     "module": "dist/index.js",

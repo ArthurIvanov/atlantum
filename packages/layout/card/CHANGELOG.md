@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.5.0
+
+### Minor Changes
+
+-   e9a3770: Updated component structure
+
 ## 0.4.4
 
 ### Patch Changes
