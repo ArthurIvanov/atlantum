@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/header-navigation-item",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "header-navigation-item component",
     "main": "dist/index.js",
     "module": "dist/index.js",

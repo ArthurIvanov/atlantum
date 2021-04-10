@@ -1,5 +1,11 @@
 # @atlantum/sidebar
 
+## 0.2.4
+
+### Patch Changes
+
+-   666f78d: Monorepo fix
+
 ## 0.2.3
 
 ### Patch Changes

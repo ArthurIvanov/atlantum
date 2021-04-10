@@ -1,5 +1,11 @@
 # @atlantum/header-navigation-item
 
+## 0.1.5
+
+### Patch Changes
+
+-   666f78d: Monorepo fix
+
 ## 0.1.4
 
 ### Patch Changes

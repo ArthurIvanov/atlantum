@@ -1,5 +1,13 @@
 # @atlantum/alert
 
+## 0.3.4
+
+### Patch Changes
+
+-   666f78d: Monorepo fix
+-   Updated dependencies [666f78d]
+    -   @atlantum/heading@0.3.1
+
 ## 0.3.3
 
 ### Patch Changes
