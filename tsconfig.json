@@ -61,7 +61,7 @@
         { "path": "packages/layout/column" },
         { "path": "packages/layout/container" },
         // THEME
-        { "path": "packages/theme/" },
+        { "path": "packages/theme/theming" },
         // TYPOGRAPHY
         { "path": "packages/typography/heading" },
         { "path": "packages/typography/text" }

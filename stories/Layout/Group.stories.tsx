@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { GlobalStyles } from '@atlantum/theme';
+import GlobalStyles from '@atlantum/theme';
 
 import { Grid } from '@atlantum/grid';
 import { Column } from '@atlantum/column';
