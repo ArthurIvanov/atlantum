@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemsStack from '../../packages/layout/items-stack/src';
+import { ItemsStack } from '@atlantum/items-stack';
 import { storiesOf } from '@storybook/react';
 
 const Neutral = () => {

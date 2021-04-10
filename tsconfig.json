@@ -27,7 +27,7 @@
                 "packages/common/*/",
                 "packages/components/*/",
                 "packages/layout/*/",
-                "packages/theme/*/",
+                "packages/theme/*",
                 "packages/tokens/*",
                 "packages/typography/*"
             ]
@@ -50,6 +50,7 @@
         { "path": "packages/components/badge" },
         { "path": "packages/components/button" },
         { "path": "packages/components/checkbox" },
+        { "path": "packages/components/datepicker" },
         { "path": "packages/components/icons" },
         // LAYOUT
         { "path": "packages/layout/card" },

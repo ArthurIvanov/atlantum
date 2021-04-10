@@ -7,10 +7,10 @@
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.2.2",
-        "@atlantum/icons": "^0.3.0",
         "@atlantum/heading": "^0.3.0",
-        "@atlantum/items-stack": "^0.2.0"
+        "@atlantum/icons": "^0.3.0",
+        "@atlantum/items-stack": "^0.2.0",
+        "@atlantum/theme": "^0.2.8"
     },
     "devDependencies": {
         "react": "^16.13.1",

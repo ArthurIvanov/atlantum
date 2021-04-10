@@ -7,7 +7,7 @@
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.2.2",
+        "@atlantum/theme": "^0.2.8",
         "styled-components": "^5.2.0"
     },
     "devDependencies": {

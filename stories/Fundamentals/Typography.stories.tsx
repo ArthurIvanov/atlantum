@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles from '@atlantum/theme';
+import { GlobalStyles } from '@atlantum/theme';
 import '../stories.styles.css';
-import Heading from '@atlantum/heading';
-import Text from '@atlantum/text';
-import Card from '../../packages/layout/card';
-import Group from '@atlantum/group';
+import { Heading } from '@atlantum/heading';
+import { Text } from '@atlantum/text';
+import { Card } from '@atlantum/card';
+import { Group } from '@atlantum/group';
 
 const Design = () => {
     return (

@@ -2,6 +2,26 @@
 # yarn lockfile v1
 
 
+"@atlantum/input@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@atlantum/input/-/input-0.2.7.tgz#d4b5158e754bb27d0d92e1db342a02893eb29e4a"
+  integrity sha512-NtfsRZFknyurjonrpMrDO6L6HeuW2RMKCoV2UBcUkgKexz1OW9iLTcVQUecL0+EcHBZlyZ62TeaR+6WZhKIr4g==
+  dependencies:
+    "@atlantum/label" "^0.2.6"
+    "@atlantum/theme" "^0.2.8"
+
+"@atlantum/theme@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@atlantum/theme/-/theme-0.2.8.tgz#81bca41cc4b750f7b55490531fa7881723c202dd"
+  integrity sha512-rZL5BZu5rUmlCQYAYPnsctqbHcEInDvKTw2QG263h9ul9dXkVX2Tvoba1nsjH4ngQwJRwcT06WR8Cgb3DPC2Mg==
+  dependencies:
+    "@atlantum/tokens" "^0.3.3"
+
+"@atlantum/tokens@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@atlantum/tokens/-/tokens-0.3.3.tgz#d544314fa0b50467d78915b818271b42b431475a"
+  integrity sha512-HNoUe1xgQRnu23NTWQjC/9uoqHXLTuOgkam11xUTYUNyD/KywIfiVp30gDf9/ocPiO4zenvktVoM2WJveWrCoQ==
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
