@@ -1,2 +1,2 @@
-export * from './accordion';
-export * from './accordion-item';
+export * from './src/accordion';
+export * from './src/accordion-item';

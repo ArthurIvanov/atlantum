@@ -2,11 +2,11 @@ import * as React from 'react';
 import { Accordion, AccordionItem } from '@atlantum/accordion';
 import { storiesOf } from '@storybook/react';
 
-import GlobalStyles from '@atlantum/theme';
+import { GlobalStyles } from '@atlantum/theme';
 import '../stories.styles.css';
-import Card from '../../packages/layout/card';
+import { Card } from '@atlantum/card';
 import { NavigationLink } from '@atlantum/navigation-link';
-import ItemsStack from '../../packages/layout/items-stack';
+import { ItemsStack } from '@atlantum/items-stack';
 
 const Design = () => {
     return (

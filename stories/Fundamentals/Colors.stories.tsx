@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemsStack from '../../packages/layout/items-stack';
+import ItemsStack from '../../packages/layout/items-stack/src';
 import { storiesOf } from '@storybook/react';
 
 const Neutral = () => {

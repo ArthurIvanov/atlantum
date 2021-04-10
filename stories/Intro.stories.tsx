@@ -2,12 +2,12 @@ import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import GlobalStyles from '@atlantum/theme';
-import Group from '../packages/layout/group';
-import Image from '../packages/components/image/src';
+import Group from '@atlantum/group';
+import { Image } from '@atlantum/image';
 
 import Heading from '@atlantum/heading';
 import Text from '@atlantum/text';
-import TextLink from '../packages/components/text-link/src';
+import { TextLink } from '@atlantum/text-link';
 
 import './stories.styles.css';
 

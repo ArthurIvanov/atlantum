@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import GlobalStyles from '@atlantum/theme';
 import '../stories.styles.css';
 
-import ItemsStack from '../../packages/layout/items-stack';
+import ItemsStack from '../../packages/layout/items-stack/src';
 import Text from '@atlantum/text';
 import Card from '../../packages/layout/card';
 

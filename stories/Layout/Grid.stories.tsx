@@ -1,12 +1,12 @@
 import * as React from 'react';
-import Grid from '@atlantum/grid';
-import Column from '@atlantum/column';
+import { Grid } from '@atlantum/grid';
+import { Column } from '@atlantum/column';
 import { storiesOf } from '@storybook/react';
 
-import GlobalStyles from '@atlantum/theme';
-import Card from '../../packages/layout/card';
+import { GlobalStyles } from '@atlantum/theme';
+import { Card } from '@atlantum/card';
+import { Content } from '@atlantum/content';
 import '../stories.styles.css';
-import Content from '@atlantum/content';
 
 const Narrow = () => {
     return (

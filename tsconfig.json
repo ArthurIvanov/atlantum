@@ -43,5 +43,26 @@
         "**/*.spec*"
     ],
 
-    "references": [{ "path": "packages/components/icons" }]
+    "references": [
+        //COMPONENTS
+        { "path": "packages/components/accordion" },
+        { "path": "packages/components/alert" },
+        { "path": "packages/components/badge" },
+        { "path": "packages/components/button" },
+        { "path": "packages/components/checkbox" },
+        { "path": "packages/components/icons" },
+        // LAYOUT
+        { "path": "packages/layout/card" },
+        { "path": "packages/layout/group" },
+        { "path": "packages/layout/grid" },
+        { "path": "packages/layout/items-stack" },
+        { "path": "packages/layout/content" },
+        { "path": "packages/layout/column" },
+        { "path": "packages/layout/container" },
+        // THEME
+        { "path": "packages/theme/" },
+        // TYPOGRAPHY
+        { "path": "packages/typography/heading" },
+        { "path": "packages/typography/text" }
+    ]
 }

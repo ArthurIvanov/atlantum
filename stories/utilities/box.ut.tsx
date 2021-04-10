@@ -21,7 +21,7 @@ export const StyledBox = styled.div<BoxProps>`
     justify-content: center;
 `;
 
-const Box: FC<BoxProps> = ({
+export const Box: FC<BoxProps> = ({
     children,
     className,
     width = '100%',
@@ -31,5 +31,3 @@ const Box: FC<BoxProps> = ({
         {children}
     </StyledBox>
 );
-
-export default Box;
