@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/text",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "text",
     "main": "dist/index.js",
     "module": "dist/index.js",

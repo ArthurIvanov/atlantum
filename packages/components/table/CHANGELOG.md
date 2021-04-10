@@ -1,5 +1,11 @@
 # @atlantum/table
 
+## 0.1.9
+
+### Patch Changes
+
+-   666f78d: Monorepo fix
+
 ## 0.1.8
 
 ### Patch Changes

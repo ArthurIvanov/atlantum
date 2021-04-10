@@ -1,13 +1,13 @@
 {
     "name": "@atlantum/alert",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "input alert component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/heading": "^0.3.0",
+        "@atlantum/heading": "^0.3.1",
         "@atlantum/icons": "^0.3.0",
         "@atlantum/items-stack": "^0.2.0",
         "@atlantum/theme": "^0.2.8"

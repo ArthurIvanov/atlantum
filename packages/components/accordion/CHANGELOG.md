@@ -1,5 +1,11 @@
 # @atlantum/accordion
 
+## 0.3.1
+
+### Patch Changes
+
+-   666f78d: Monorepo fix
+
 ## 0.3.0
 
 ### Minor Changes
