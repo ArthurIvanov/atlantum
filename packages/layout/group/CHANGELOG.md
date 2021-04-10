@@ -1,5 +1,11 @@
 # @atlantum/group
 
+## 0.4.0
+
+### Minor Changes
+
+-   e9a3770: Updated component structure
+
 ## 0.3.6
 
 ### Patch Changes

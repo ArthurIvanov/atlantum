@@ -1,5 +1,11 @@
 # @atlantum/text
 
+## 0.3.0
+
+### Minor Changes
+
+-   e9a3770: Updated component structure
+
 ## 0.2.3
 
 ### Patch Changes
