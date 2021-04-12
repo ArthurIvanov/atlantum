@@ -1,5 +1,11 @@
 # @atlantum/text-link
 
+## 0.4.0
+
+### Minor Changes
+
+-   35716d1: updated props
+
 ## 0.3.1
 
 ### Patch Changes
