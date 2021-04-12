@@ -1,5 +1,19 @@
 # @atlantum/core
 
+## 0.3.0
+
+### Minor Changes
+
+-   35716d1: updated props
+
+### Patch Changes
+
+-   35716d1: minor fixes plus updated core package
+-   Updated dependencies [35716d1]
+-   Updated dependencies [35716d1]
+    -   @atlantum/text-link@0.4.0
+    -   @atlantum/content@0.3.2
+
 ## 0.2.8
 
 ### Patch Changes

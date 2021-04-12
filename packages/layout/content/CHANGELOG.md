@@ -1,5 +1,11 @@
 # @atlantum/content
 
+## 0.3.2
+
+### Patch Changes
+
+-   35716d1: minor fixes plus updated core package
+
 ## 0.3.1
 
 ### Patch Changes
