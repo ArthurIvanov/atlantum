@@ -27,8 +27,7 @@
                 "packages/common/*/",
                 "packages/components/*/",
                 "packages/layout/*/",
-                "packages/theme/*",
-                "packages/tokens/*",
+                "packages/theme/*/",
                 "packages/typography/*"
             ]
         }
@@ -52,6 +51,14 @@
         { "path": "packages/components/checkbox" },
         { "path": "packages/components/datepicker" },
         { "path": "packages/components/icons" },
+        { "path": "packages/components/image" },
+        { "path": "packages/components/label" },
+        { "path": "packages/components/radio" },
+        { "path": "packages/components/select" },
+        { "path": "packages/components/table" },
+        { "path": "packages/components/text-input" },
+        { "path": "packages/components/text-link" },
+        { "path": "packages/components/toggle" },
         // LAYOUT
         { "path": "packages/layout/card" },
         { "path": "packages/layout/group" },

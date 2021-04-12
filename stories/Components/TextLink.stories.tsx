@@ -1,10 +1,11 @@
-import * as React from 'react';
-import { TextLink } from '../../packages/components/text-link/src';
+import React from 'react';
+import { TextLink } from '@atlantum/text-link';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles from '@atlantum/theme';
+import { GlobalStyles } from '@atlantum/theme';
+import { Card } from '@atlantum/card';
+import { ItemsStack } from '@atlantum/items-stack';
+import { Icon } from '@atlantum/icons';
 import '../stories.styles.css';
-import Card from '../../packages/layout/card';
-import ItemsStack from '../../packages/layout/items-stack';
 
 const Design = () => {
     return (
@@ -50,7 +51,10 @@ const WIthIcon = () => {
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size={'standard'}>
-                    <TextLink href={'#'} isIcon>
+                    <TextLink
+                        href={'#'}
+                        Icon={<Icon name={'arrow-up-left'} size={20} />}
+                    >
                         Link 1
                     </TextLink>
                 </Card>

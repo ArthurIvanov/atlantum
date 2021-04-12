@@ -16,13 +16,20 @@
         "@atlantum/column": "^0.3.1",
         "@atlantum/container": "^0.3.1",
         "@atlantum/content": "^0.3.1",
+        "@atlantum/datepicker": "^0.2.5",
         "@atlantum/grid": "^0.3.1",
         "@atlantum/group": "^0.4.0",
         "@atlantum/icons": "^0.3.0",
+        "@atlantum/image": "0.1.7",
         "@atlantum/items-stack": "^0.2.0",
         "@atlantum/label": "^0.2.6",
+        "@atlantum/radio": "0.2.5",
+        "@atlantum/select": "0.2.5",
+        "@atlantum/table": "0.1.9",
         "@atlantum/text-input": "^0.2.0",
-        "@atlantum/theme": "^0.2.8"
+        "@atlantum/text-link": "0.3.1",
+        "@atlantum/theme": "^0.2.8",
+        "@atlantum/toggle": "0.2.5"
     },
     "devDependencies": {
         "react": "^16.13.1",

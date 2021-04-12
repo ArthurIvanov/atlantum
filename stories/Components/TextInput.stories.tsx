@@ -1,10 +1,10 @@
-import * as React from 'react';
-import { TextInput } from '../../packages/components/text-input/src';
-import Card from '../../packages/layout/card';
+import React from 'react';
+import { GlobalStyles } from '@atlantum/theme';
+import { TextInput } from '@atlantum/text-input';
+import { Card } from '../../packages/layout/card';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles from '@atlantum/theme';
+import { ItemsStack } from '@atlantum/items-stack';
 import '../stories.styles.css';
-import ItemsStack from '../../packages/layout/items-stack';
 
 const Design = () => {
     return (

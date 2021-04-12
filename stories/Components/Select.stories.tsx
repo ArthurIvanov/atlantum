@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Select } from '../../packages/components/select/src';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles from '@atlantum/theme';
+import { GlobalStyles } from '@atlantum/theme';
+import { Card } from '@atlantum/card';
+import { Select } from '@atlantum/select';
 import '../stories.styles.css';
-import Card from '../../packages/layout/card';
 
 const DefaultSelect = () => {
     return (

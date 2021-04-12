@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Radio } from '@atlantum/radio';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles from '@atlantum/theme';
+import { GlobalStyles } from '@atlantum/theme';
+import { Card } from '@atlantum/card';
+import { ItemsStack } from '@atlantum/items-stack';
 import '../stories.styles.css';
-import Card from '../../packages/layout/card';
-import ItemsStack from '../../packages/layout/items-stack';
 
 const Design = () => {
     return (
@@ -38,7 +38,6 @@ const DefaultRadio = () => {
             <div className="atlantum-compact">
                 <Card size="standard">
                     <Radio
-                        fontWeight={'regular'}
                         type={'radio'}
                         name={'radio'}
                         label={'Regular radio'}

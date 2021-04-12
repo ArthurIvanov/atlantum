@@ -1,13 +1,11 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-
-import GlobalStyles from '@atlantum/theme';
+import { GlobalStyles } from '@atlantum/theme';
+import { Image } from '@atlantum/image';
+import { Card } from '@atlantum/card';
 import '../stories.styles.css';
 
-import { Image } from '../../packages/components/image/src';
-import Card from '../../packages/layout/card/Card';
-
-const Simple = () => {
+const Default = () => {
     return (
         <>
             <GlobalStyles />
@@ -23,4 +21,4 @@ const Simple = () => {
     );
 };
 
-storiesOf('Components/Image', module).add('Simple', () => <Simple />);
+storiesOf('Components/Image', module).add('Default', () => <Default />);

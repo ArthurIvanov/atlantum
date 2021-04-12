@@ -1,12 +1,10 @@
-import * as React from 'react';
+import React from 'react';
 import { storiesOf } from '@storybook/react';
-import GlobalStyles from '@atlantum/theme';
-import '../stories.styles.css';
-
+import { GlobalStyles } from '@atlantum/theme';
+import { Card } from '@atlantum/card';
+import { ItemsStack } from '@atlantum/items-stack';
 import { Table, TableCell, TableHeader, TableRow } from '@atlantum/table';
-
-import Card from '../../packages/layout/card';
-import ItemsStack from '../../packages/layout/items-stack';
+import '../stories.styles.css';
 
 const Design = () => {
     return (
