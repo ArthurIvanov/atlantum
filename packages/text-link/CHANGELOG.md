@@ -1,5 +1,11 @@
 # @atlantum/text-link
 
+## 0.4.1
+
+### Patch Changes
+
+-   50a3afd: export
+
 ## 0.4.0
 
 ### Minor Changes
