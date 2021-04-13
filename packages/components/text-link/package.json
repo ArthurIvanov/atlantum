@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/text-link",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "text-link component",
     "main": "dist/index.js",
     "module": "dist/index.js",
