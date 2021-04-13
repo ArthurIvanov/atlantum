@@ -1,5 +1,11 @@
 # @atlantum/accordion
 
+## 0.3.3
+
+### Patch Changes
+
+-   33b842b: import
+
 ## 0.3.2
 
 ### Patch Changes
