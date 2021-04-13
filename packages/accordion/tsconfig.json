@@ -1,10 +1,9 @@
 {
+    "include": ["*.tsx", "*.ts"],
     "extends": "../../tsconfig.json",
     "compilerOptions": {
-        "baseUrl": "./",
-        "rootDir": "src",
-        "outDir": "dist"
-    },
-    "include": ["src"],
-    "files": []
+        "outDir": "dist",
+        "rootDir": ".",
+        "baseUrl": "."
+    }
 }

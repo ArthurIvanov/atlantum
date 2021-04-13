@@ -1,0 +1,5 @@
+---
+'@atlantum/accordion': patch
+---
+
+import
