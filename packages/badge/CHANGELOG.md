@@ -1,5 +1,11 @@
 # @atlantum/badge
 
+## 0.3.2
+
+### Patch Changes
+
+-   a9721f4: import
+
 ## 0.3.1
 
 ### Patch Changes
