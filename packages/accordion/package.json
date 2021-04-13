@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/accordion",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "accordion component",
     "main": "dist/index.js",
     "module": "dist/index.js",

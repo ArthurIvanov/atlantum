@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.4.2
+
+### Patch Changes
+
+-   a9721f4: import
+
 ## 0.4.1
 
 ### Patch Changes

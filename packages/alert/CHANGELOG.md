@@ -1,5 +1,11 @@
 # @atlantum/alert
 
+## 0.3.5
+
+### Patch Changes
+
+-   a9721f4: import
+
 ## 0.3.4
 
 ### Patch Changes
