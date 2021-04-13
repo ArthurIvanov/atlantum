@@ -6,11 +6,11 @@
     "private": true,
     "repository": "https://github.com/ArthurIvanov/atlantum",
     "workspaces": [
-        "packages/components/*",
+        "packages/*",
         "packages/layout/*",
         "packages/theme/*",
         "packages/typography/*",
-        "packages/common/types"
+        "packages/common/types/*"
     ],
     "scripts": {
         "dev": "yarn tsc --watch --preserveWatchOutput",

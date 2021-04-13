@@ -1,10 +1,10 @@
 import React from 'react';
-import { TextLink } from '@atlantum/text-link';
+import { TextLink } from '../../packages/text-link';
 import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
 import { Card } from '@atlantum/card';
 import { ItemsStack } from '@atlantum/items-stack';
-import { Icon } from '@atlantum/icons';
+import { Icon } from '../../packages/icons';
 import '../stories.styles.css';
 
 const Design = () => {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Toggle } from '@atlantum/toggle';
+import { Toggle } from '../../packages/toggle';
 import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
 import { Card } from '@atlantum/card';

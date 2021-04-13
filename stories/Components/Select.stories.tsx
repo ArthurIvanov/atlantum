@@ -2,7 +2,7 @@ import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
 import { Card } from '@atlantum/card';
-import { Select } from '@atlantum/select';
+import { Select } from '../../packages/select';
 import '../stories.styles.css';
 
 const DefaultSelect = () => {

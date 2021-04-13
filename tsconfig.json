@@ -24,8 +24,8 @@
         "forceConsistentCasingInFileNames": true,
         "paths": {
             "@atlantum/*": [
+                "packages/*",
                 "packages/common/*/",
-                "packages/components/*/",
                 "packages/layout/*/",
                 "packages/theme/*/",
                 "packages/typography/*"
@@ -44,21 +44,22 @@
 
     "references": [
         //COMPONENTS
-        { "path": "packages/components/accordion" },
-        { "path": "packages/components/alert" },
-        { "path": "packages/components/badge" },
-        { "path": "packages/components/button" },
-        { "path": "packages/components/checkbox" },
-        { "path": "packages/components/datepicker" },
-        { "path": "packages/components/icons" },
-        { "path": "packages/components/image" },
-        { "path": "packages/components/label" },
-        { "path": "packages/components/radio" },
-        { "path": "packages/components/select" },
-        { "path": "packages/components/table" },
-        { "path": "packages/components/text-input" },
-        { "path": "packages/components/text-link" },
-        { "path": "packages/components/toggle" },
+        { "path": "packages/accordion" },
+        { "path": "packages/alert" },
+        { "path": "packages/badge" },
+        { "path": "packages/button" },
+        //{ "path": "packages/checkbox" },
+        // { "path": "packages/datepicker" },
+        { "path": "packages/icons" },
+        { "path": "packages/image" },
+        { "path": "packages/label" },
+        //{ "path": "packages/radio" },
+        { "path": "packages/select" },
+        { "path": "packages/table" },
+        { "path": "packages/types" },
+        //{ "path": "packages/text-input" },
+        { "path": "packages/text-link" },
+        { "path": "packages/toggle" },
         // LAYOUT
         { "path": "packages/layout/card" },
         { "path": "packages/layout/group" },

@@ -3,11 +3,11 @@ import { storiesOf } from '@storybook/react';
 
 import { GlobalStyles } from '@atlantum/theme';
 import { Group } from '@atlantum/group';
-import { Image } from '@atlantum/image';
+import { Image } from '../packages/image';
 
 import { Heading } from '@atlantum/heading';
 import { Text } from '@atlantum/text';
-import { TextLink } from '@atlantum/text-link';
+import { TextLink } from '../packages/text-link';
 
 import './stories.styles.css';
 

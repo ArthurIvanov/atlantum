@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
 import { Card } from '@atlantum/card';
 import { ItemsStack } from '@atlantum/items-stack';
-import { Table, TableCell, TableHeader, TableRow } from '@atlantum/table';
+import { Table, TableCell, TableHeader, TableRow } from '../../packages/table';
 import '../stories.styles.css';
 
 const Design = () => {
