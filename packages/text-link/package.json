@@ -17,5 +17,5 @@
     "peerDependencies": {
         "react": ">=16.8.0"
     },
-    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/components/text-link"
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/text-link"
 }

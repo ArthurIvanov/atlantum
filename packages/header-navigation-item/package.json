@@ -16,5 +16,5 @@
     "peerDependencies": {
         "react": ">=16.8.0"
     },
-    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/components/header-navigation-item"
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/header-navigation-item"
 }

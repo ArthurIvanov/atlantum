@@ -16,5 +16,5 @@
     "peerDependencies": {
         "react": ">=16.8.0"
     },
-    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/components/sidebar"
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/sidebar"
 }

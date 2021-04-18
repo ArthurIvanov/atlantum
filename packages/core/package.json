@@ -38,5 +38,5 @@
     "peerDependencies": {
         "react": ">=16.8.0"
     },
-    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/components/core"
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/core"
 }
