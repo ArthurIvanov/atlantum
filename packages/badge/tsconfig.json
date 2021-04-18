@@ -1,10 +1,10 @@
 {
     "extends": "../../tsconfig.json",
     "compilerOptions": {
-        "baseUrl": "./",
+        "composite": true,
+        "outDir": "dist",
         "rootDir": "src",
-        "outDir": "dist"
+        "jsx": "react"
     },
-    "include": ["src"],
-    "files": []
+    "include": ["src"]
 }
