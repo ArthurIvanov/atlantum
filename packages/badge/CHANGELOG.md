@@ -1,5 +1,11 @@
 # @atlantum/badge
 
+## 1.0.0
+
+### Major Changes
+
+-   31208f9: update
+
 ## 0.4.1
 
 ### Patch Changes
