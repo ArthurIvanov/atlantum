@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.5.0
+
+### Minor Changes
+
+-   ec129f0: update
+
 ## 0.4.2
 
 ### Patch Changes

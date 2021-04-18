@@ -1,5 +1,11 @@
 # @atlantum/badge
 
+## 0.4.0
+
+### Minor Changes
+
+-   ec129f0: update
+
 ## 0.3.2
 
 ### Patch Changes
