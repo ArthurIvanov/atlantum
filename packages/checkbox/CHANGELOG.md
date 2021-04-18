@@ -1,5 +1,11 @@
 # @atlantum/checkbox
 
+## 0.4.1
+
+### Patch Changes
+
+-   0fe1aeb: added files array to the package json
+
 ## 0.4.0
 
 ### Minor Changes

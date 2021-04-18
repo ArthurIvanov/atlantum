@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 0.5.1
+
+### Patch Changes
+
+-   0fe1aeb: added files array to the package json
+
 ## 0.5.0
 
 ### Minor Changes
