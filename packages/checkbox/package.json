@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/checkbox",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "checkbox component",
     "main": "dist/index.js",
     "module": "dist/index.js",

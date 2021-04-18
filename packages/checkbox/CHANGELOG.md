@@ -1,5 +1,11 @@
 # @atlantum/checkbox
 
+## 0.4.0
+
+### Minor Changes
+
+-   ec129f0: update
+
 ## 0.3.0
 
 ### Minor Changes

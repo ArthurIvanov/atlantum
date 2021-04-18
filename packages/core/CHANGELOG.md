@@ -1,5 +1,16 @@
 # @atlantum/core
 
+## 0.3.2
+
+### Patch Changes
+
+-   Updated dependencies [ec129f0]
+    -   @atlantum/alert@0.4.0
+    -   @atlantum/badge@0.4.0
+    -   @atlantum/accordion@0.4.0
+    -   @atlantum/button@0.5.0
+    -   @atlantum/checkbox@0.4.0
+
 ## 0.3.1
 
 ### Patch Changes
