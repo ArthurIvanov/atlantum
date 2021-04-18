@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 1.0.0
+
+### Major Changes
+
+-   31208f9: update
+
 ## 0.5.1
 
 ### Patch Changes
