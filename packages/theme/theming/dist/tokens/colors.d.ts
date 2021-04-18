@@ -1,0 +1,134 @@
+export declare const colors: {
+    red: {
+        c50: string;
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+        c1100: string;
+    };
+    orange: {
+        c50: string;
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+        c1100: string;
+    };
+    yellow: {
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+    };
+    green: {
+        c50: string;
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+        c1100: string;
+    };
+    teal: {
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+    };
+    cyan: {
+        c50: string;
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+        c1100: string;
+    };
+    blue: {
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+    };
+    indigo: {
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+    };
+    purple: {
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+    };
+    neutral: {
+        white: string;
+        c50: string;
+        c100: string;
+        c200: string;
+        c300: string;
+        c400: string;
+        c500: string;
+        c600: string;
+        c700: string;
+        c800: string;
+        c900: string;
+        c1000: string;
+        black: string;
+    };
+};
+//# sourceMappingURL=colors.d.ts.map

@@ -1,13 +1,11 @@
 node_modules
-src
 public
 _storage
 npm-debug.log
 yarn-error.log
 package-lock.json
 coverage
-lib
-dist
+
 .site
 .DS_Store
 .vscode
