@@ -1,5 +1,11 @@
 # @atlantum/content
 
+## 0.3.4
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 0.3.3
 
 ### Patch Changes

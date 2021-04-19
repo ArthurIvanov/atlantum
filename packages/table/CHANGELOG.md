@@ -1,5 +1,11 @@
 # @atlantum/table
 
+## 0.1.10
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 0.1.9
 
 ### Patch Changes

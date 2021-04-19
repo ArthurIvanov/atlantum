@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.6.1
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 0.6.0
 
 ### Minor Changes

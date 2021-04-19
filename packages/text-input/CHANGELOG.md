@@ -1,5 +1,11 @@
 # @atlantum/text-input
 
+## 0.2.2
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 0.2.1
 
 ### Patch Changes
