@@ -37,17 +37,17 @@
     "references": [
         //COMPONENTS
         { "path": "packages/accordion" },
-        //        { "path": "packages/alert" },
+        { "path": "packages/alert" },
         { "path": "packages/badge" },
         { "path": "packages/button" },
         { "path": "packages/icons" },
         { "path": "packages/image" },
         { "path": "packages/label" },
-        //{ "path": "packages/radio" },
+        //        { "path": "packages/radio" },
         //        { "path": "packages/select" },
         //        { "path": "packages/table" },
         { "path": "packages/types" },
-        //{ "path": "packages/text-input" },
+        { "path": "packages/text-input" },
         { "path": "packages/text-link" },
         //        { "path": "packages/toggle" },
         // LAYOUT
@@ -55,9 +55,9 @@
         //        { "path": "packages/layout/group" },
         //        { "path": "packages/layout/grid" },
         { "path": "packages/items-stack" },
-        //        { "path": "packages/layout/content" },
-        //        { "path": "packages/layout/column" },
-        //        { "path": "packages/layout/container" },
+        { "path": "packages/content" },
+        { "path": "packages/column" },
+        { "path": "packages/container" },
         // THEME
         { "path": "packages/theme/theming" },
         // TYPOGRAPHY

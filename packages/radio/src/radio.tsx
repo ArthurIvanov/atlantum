@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import React, { FC } from 'react';
-import { InputProps } from '../../text-input';
+import { InputProps } from '@atlantum/text-input';
 
 import { Label } from '@atlantum/label';
 

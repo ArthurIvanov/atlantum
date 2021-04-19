@@ -2,57 +2,6 @@
 # yarn lockfile v1
 
 
-"@atlantum/card@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@atlantum/card/-/card-0.5.0.tgz#506a9b6ca98e20676e92ae52126e227943491478"
-  integrity sha512-eaP9Sd6DlCN1AdBeXilyLjdM4Ko9m5yL6296qA/jNNolhRNP7/yhr3SfTrOWGweRUk9fvV+UjXSiEGJCl9mKAg==
-  dependencies:
-    "@atlantum/theme" "^0.2.8"
-
-"@atlantum/column@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@atlantum/column/-/column-0.3.1.tgz#4e1d3dd8dc7bb215af02466795f50566752a72af"
-  integrity sha512-B+RmhjgRxCer6Z7EkBNJTOegUJR0hoc2XRHwTYheJSUk8/0TueFUkxByyOjW1FmVwNc7YkpFp4uJwvwR0IGBPQ==
-  dependencies:
-    "@atlantum/theme" "^0.2.8"
-
-"@atlantum/container@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@atlantum/container/-/container-0.3.1.tgz#d85196306ad47ddf7b5298d74d4a3b95c046d55d"
-  integrity sha512-oPMh3MoorelzHS4FnRW+t1ikuh8uJTbxSnT05+nVB7R2aRisYJySVSDmI/Sd5E+WJx2tTFZ1XUnIUIJ7Mr3L6w==
-  dependencies:
-    "@atlantum/theme" "^0.2.8"
-    styled-components "^5.2.0"
-
-"@atlantum/content@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@atlantum/content/-/content-0.3.2.tgz#f9afde4fd84e7cea27864f7c80341c6c0a195bd5"
-  integrity sha512-mayLyOR+Vu7imoCqVFpTtfziFg+EqCj0I7U6q1JTPKm1cr2OMwixWy2d9ri2QVBnhbIa/5W0dTFyGbD0tidWSg==
-  dependencies:
-    "@atlantum/theme" "^0.2.8"
-    styled-components "^5.2.0"
-
-"@atlantum/grid@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@atlantum/grid/-/grid-0.3.1.tgz#cd8ef0d3180bffb1784d9819dc2552472bf89e8f"
-  integrity sha512-Vw9E9d9w6Q9wggFvC6RTtSob8xZR0SNv8o+K/k+7v1dobJX+DReZ8UvACNHAyRpTCVefJAvvDEqn0vJWJWWKqw==
-  dependencies:
-    "@atlantum/theme" "^0.2.8"
-
-"@atlantum/group@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@atlantum/group/-/group-0.4.0.tgz#45025d5ec76218fcba5ec8441cad4befd89145c7"
-  integrity sha512-4zmyD33YL5EDcXlgJabNeT4dN3s+neZ8vnF6+ss6WtGi4RsKJ5+46caYlpigo0g5QgOdcoNNl+MoWhgRYtXncA==
-  dependencies:
-    "@atlantum/theme" "^0.2.8"
-
-"@atlantum/heading@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@atlantum/heading/-/heading-0.3.1.tgz#3ee865ea5e383332018b77aabcba3edc2d0a6422"
-  integrity sha512-IOaS9BtFZaPti68LgS9Wrwr2t4a2BvUYg2gpLRBCNm+75ATabQ0ohgYp08o3Acf0cltBZfa9ctW1VAhFvrnIog==
-  dependencies:
-    "@atlantum/theme" "^0.2.8"
-
 "@atlantum/input@^0.2.7":
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/@atlantum/input/-/input-0.2.7.tgz#d4b5158e754bb27d0d92e1db342a02893eb29e4a"
@@ -61,20 +10,12 @@
     "@atlantum/label" "^0.2.6"
     "@atlantum/theme" "^0.2.8"
 
-"@atlantum/items-stack@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@atlantum/items-stack/-/items-stack-0.2.0.tgz#6ac7ab521919c4b7c214db7a465af26ff89353c9"
-  integrity sha512-zfmpXIcViP48Oxq9xu5py2GebZLa8rcGVrubua137GOBwGZMlrpS7G7BaiBT8/Qg9Y3qqhOr6dXx4dWKFvERCA==
+"@atlantum/label@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@atlantum/label/-/label-0.2.6.tgz#bece3b0ee68d9b0520f537460d8165a48b5e2bfc"
+  integrity sha512-G5hxuIrcov+XD5Kt6KuOzV4owC6aA0nUmBqizma7hqUJoNEMAD7mBjjPJzMTCRILUItoI7XLu2bV8vQIKzHquw==
   dependencies:
     "@atlantum/theme" "^0.2.8"
-    styled-components "^5.2.0"
-
-"@atlantum/theme@^0.2.8":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@atlantum/theme/-/theme-0.2.9.tgz#6ad3948aa99a1cdec6b5765ea34255946247624e"
-  integrity sha512-G1HgR39slwbBxYHV+jVlcxXkb4DDInq6p9OzcaS9T6BQYSV8oMAzuJH/ifehpqxwc2CISsvJ8RKTMb4dC4diLA==
-  dependencies:
-    "@atlantum/tokens" "^0.3.3"
 
 "@atlantum/tokens@^0.3.3":
   version "0.3.3"

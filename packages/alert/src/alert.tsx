@@ -3,8 +3,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Icon } from '@atlantum/icons';
-import { Heading } from '../../typography/heading';
-import { ItemsStack } from '../../items-stack';
+import { Heading } from '@atlantum/heading';
+import { ItemsStack } from '@atlantum/items-stack';
 
 type Status = 'info' | 'success' | 'warning' | 'danger';
 
