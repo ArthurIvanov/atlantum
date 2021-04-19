@@ -9,7 +9,7 @@ const StyledDatepicker = styled.input<InputProps>`
     display: block;
     width: 100%;
     border-radius: ${(props) => props.theme.borderRadius};
-    outline: 0;
+    outline: none;
 
     border: ${(props) => props.theme.spacing.space1} solid
         ${(props) => props.theme.colors.neutral300};
