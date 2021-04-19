@@ -1,5 +1,13 @@
 # @atlantum/alert
 
+## 1.0.1
+
+### Patch Changes
+
+-   Updated dependencies [701e597]
+    -   @atlantum/icons@0.4.0
+    -   @atlantum/items-stack@0.3.0
+
 ## 1.0.0
 
 ### Major Changes

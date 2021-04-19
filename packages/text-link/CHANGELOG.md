@@ -1,5 +1,16 @@
 # @atlantum/text-link
 
+## 0.5.0
+
+### Minor Changes
+
+-   701e597: updated imports
+
+### Patch Changes
+
+-   Updated dependencies [701e597]
+    -   @atlantum/icons@0.4.0
+
 ## 0.4.1
 
 ### Patch Changes

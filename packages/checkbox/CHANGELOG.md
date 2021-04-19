@@ -1,5 +1,12 @@
 # @atlantum/checkbox
 
+## 1.0.1
+
+### Patch Changes
+
+-   Updated dependencies [701e597]
+    -   @atlantum/label@0.3.0
+
 ## 1.0.0
 
 ### Major Changes
