@@ -43,6 +43,7 @@
         { "path": "packages/icons" },
         { "path": "packages/image" },
         { "path": "packages/label" },
+        { "path": "packages/navigation-link" },
         { "path": "packages/radio" },
         { "path": "packages/select" },
         { "path": "packages/table" },
