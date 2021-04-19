@@ -12,7 +12,7 @@ import { ItemsStack } from '@atlantum/items-stack';
 const Design = () => {
     return (
         <div className="atlantum-full-view">
-            <ItemsStack direction={'row'}>
+            <ItemsStack direction={'column'}>
                 <iframe
                     style={{ borderRadius: '4px', border: 'none' }}
                     width="100%"

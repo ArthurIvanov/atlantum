@@ -3,10 +3,10 @@ import { Accordion, AccordionItem } from '@atlantum/accordion';
 import { storiesOf } from '@storybook/react';
 
 import { GlobalStyles } from '@atlantum/theme';
-import '../stories.styles.css';
 import { Card } from '@atlantum/card';
 import { NavigationLink } from '@atlantum/navigation-link';
 import { ItemsStack } from '@atlantum/items-stack';
+import '../stories.styles.css';
 
 const Design = () => {
     return (

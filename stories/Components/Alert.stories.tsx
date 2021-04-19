@@ -3,15 +3,15 @@ import { storiesOf } from '@storybook/react';
 
 import { GlobalStyles } from '@atlantum/theme';
 import { Alert } from '@atlantum/alert';
-import '../stories.styles.css';
 import { ItemsStack } from '@atlantum/items-stack';
 import { Card } from '@atlantum/card';
 import { Heading } from '@atlantum/heading';
+import '../stories.styles.css';
 
 const Design = () => {
     return (
         <div className="atlantum-full-view">
-            <ItemsStack direction={'row'}>
+            <ItemsStack direction={'column'}>
                 <iframe
                     style={{ borderRadius: '4px', border: 'none' }}
                     width="100%"
