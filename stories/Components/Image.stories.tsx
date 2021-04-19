@@ -5,7 +5,7 @@ import { Image } from '@atlantum/image';
 import { Card } from '@atlantum/card';
 import '../stories.styles.css';
 
-const Rounded = () => {
+const Flat = () => {
     return (
         <>
             <GlobalStyles />
@@ -21,4 +21,4 @@ const Rounded = () => {
     );
 };
 
-storiesOf('Components/Image', module).add('Rounded', () => <Rounded />);
+storiesOf('Components/Image', module).add('Flat', () => <Flat />);
