@@ -5,7 +5,7 @@ export interface SelectProps extends InputProps {
     children: ReactNode;
     placeholder?: string;
     /**
-     * Allow apply custom classes to component
+     * Allow apply custom classes to component.
      */
     className?: string;
 }

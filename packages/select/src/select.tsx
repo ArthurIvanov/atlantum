@@ -9,7 +9,7 @@ export interface SelectProps extends InputProps {
     placeholder?: string;
 
     /**
-     * Allow apply custom classes to component
+     * Allow apply custom classes to component.
      */
     className?: string;
 }

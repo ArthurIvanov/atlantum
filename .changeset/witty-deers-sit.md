@@ -1,5 +1,0 @@
----
-'@atlantum/select': patch
----
-
-update
