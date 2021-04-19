@@ -1,5 +1,11 @@
 # @atlantum/datepicker
 
+## 0.3.0
+
+### Minor Changes
+
+-   bd6d076: imports update
+
 ## 0.2.7
 
 ### Patch Changes

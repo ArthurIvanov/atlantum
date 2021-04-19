@@ -1,5 +1,11 @@
 # @atlantum/navigation-link
 
+## 0.2.0
+
+### Minor Changes
+
+-   f75bb96: update
+
 ## 0.1.8
 
 ### Patch Changes
