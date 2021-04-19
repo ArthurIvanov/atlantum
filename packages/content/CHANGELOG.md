@@ -1,5 +1,11 @@
 # @atlantum/content
 
+## 0.3.3
+
+### Patch Changes
+
+-   d95c566: updated imports
+
 ## 0.3.2
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @atlantum/alert
 
+## 1.0.2
+
+### Patch Changes
+
+-   d95c566: updated imports
+
 ## 1.0.1
 
 ### Patch Changes
