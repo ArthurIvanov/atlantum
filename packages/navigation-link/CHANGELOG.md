@@ -1,5 +1,11 @@
 # @atlantum/navigation-link
 
+## 0.1.8
+
+### Patch Changes
+
+-   0fe9391: added to compiled lib
+
 ## 0.1.7
 
 ### Patch Changes
