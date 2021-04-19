@@ -1,5 +1,11 @@
 # @atlantum/button
 
+## 1.1.2
+
+### Patch Changes
+
+-   4469acf: updated side padding for button icon and button group
+
 ## 1.1.1
 
 ### Patch Changes
