@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/column",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "column layout",
     "main": "dist/index.js",
     "module": "dist/index.js",

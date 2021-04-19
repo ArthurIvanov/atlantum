@@ -1,5 +1,11 @@
 # @atlantum/container
 
+## 0.3.2
+
+### Patch Changes
+
+-   d95c566: updated imports
+
 ## 0.3.1
 
 ### Patch Changes

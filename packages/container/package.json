@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/container",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "container layout",
     "main": "dist/index.js",
     "module": "dist/index.js",
