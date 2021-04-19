@@ -27,6 +27,7 @@ const DefaultInput = () => {
                         label={'Choose your date'}
                         id={'datepicker'}
                         input
+                        type={'date'}
                     />
                 </Card>
             </div>

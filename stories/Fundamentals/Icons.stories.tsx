@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Icon } from '../../packages/icons';
+import { Icon } from '@atlantum/icons';
 
 import '../stories.styles.css';
 

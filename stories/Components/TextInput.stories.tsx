@@ -1,7 +1,7 @@
 import React from 'react';
 import { GlobalStyles } from '@atlantum/theme';
-import { TextInput } from '../../packages/text-input';
-import { Card } from '../../packages/layout/card';
+import { TextInput } from '@atlantum/text-input';
+import { Card } from '@atlantum/card';
 import { storiesOf } from '@storybook/react';
 import { ItemsStack } from '@atlantum/items-stack';
 import '../stories.styles.css';

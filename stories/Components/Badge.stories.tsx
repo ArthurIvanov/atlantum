@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
 import { ItemsStack } from '@atlantum/items-stack';
-import { Badge } from '../../packages/badge';
+import { Badge } from '@atlantum/badge';
 import { Card } from '@atlantum/card';
 import '../stories.styles.css';
 

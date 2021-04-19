@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
-import { Image } from '../../packages/image';
+import { Image } from '@atlantum/image';
 import { Card } from '@atlantum/card';
 import '../stories.styles.css';
 

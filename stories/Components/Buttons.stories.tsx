@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, ButtonIcon, ButtonGroup } from '../../packages/button';
+import { Button, ButtonIcon, ButtonGroup } from '@atlantum/button';
 
 import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
-import { Icon } from '../../packages/icons';
+import { Icon } from '@atlantum/icons';
 
 import '../stories.styles.css';
 import { Card } from '@atlantum/card';

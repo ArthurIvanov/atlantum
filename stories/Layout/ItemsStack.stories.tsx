@@ -38,21 +38,21 @@ const Horizontal = () => {
             <div className="atlantum-view">
                 <ItemsStack direction={'row'}>
                     <Card size={'standard'}>
-                        <ItemsStack direction={'row'} space="12px">
+                        <ItemsStack direction={'row'} distance="12px">
                             <Text as={'p'}>Distance</Text>
                             <Text as={'p'}>Between</Text>
                             <Text as={'p'}>12px</Text>
                         </ItemsStack>
                     </Card>
                     <Card size={'standard'}>
-                        <ItemsStack direction={'row'} space="24px">
+                        <ItemsStack direction={'row'} distance="24px">
                             <Text as={'p'}>Distance</Text>
                             <Text as={'p'}>Between</Text>
                             <Text as={'p'}>24px</Text>
                         </ItemsStack>
                     </Card>
                     <Card size={'standard'}>
-                        <ItemsStack direction={'row'} space="32px">
+                        <ItemsStack direction={'row'} distance="32px">
                             <Text as={'p'}>Distance</Text>
                             <Text as={'p'}>Between</Text>
                             <Text as={'p'}>32px</Text>
@@ -71,21 +71,21 @@ const Vertical = () => {
             <div className="atlantum-view">
                 <ItemsStack direction={'column'}>
                     <Card size={'standard'}>
-                        <ItemsStack direction={'row'} space="12px">
+                        <ItemsStack direction={'row'} distance="12px">
                             <Text as={'p'}>Distance</Text>
                             <Text as={'p'}>Between</Text>
                             <Text as={'p'}>12px</Text>
                         </ItemsStack>
                     </Card>
                     <Card size={'standard'}>
-                        <ItemsStack direction={'row'} space="24px">
+                        <ItemsStack direction={'row'} distance="24px">
                             <Text as={'p'}>Distance</Text>
                             <Text as={'p'}>Between</Text>
                             <Text as={'p'}>24px</Text>
                         </ItemsStack>
                     </Card>
                     <Card size={'standard'}>
-                        <ItemsStack direction={'row'} space="32px">
+                        <ItemsStack direction={'row'} distance="32px">
                             <Text as={'p'}>Distance</Text>
                             <Text as={'p'}>Between</Text>
                             <Text as={'p'}>32px</Text>
