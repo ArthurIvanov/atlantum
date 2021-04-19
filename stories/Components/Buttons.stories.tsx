@@ -78,7 +78,7 @@ const BtnIcon = () => {
                     <ItemsStack direction="row">
                         <div>
                             <ButtonIcon>
-                                <Icon name={'terminal'} />
+                                <Icon name={'terminal'} size={24} />
                             </ButtonIcon>
                         </div>
                         <div>
@@ -102,13 +102,13 @@ const BtnGroup = () => {
                     <ButtonGroup>
                         <Button
                             isSecondary
-                            leftIcon={<Icon name={'git-commit'} size={20} />}
+                            leftIcon={<Icon name={'git-commit'} size={24} />}
                         >
                             First
                         </Button>
                         <Button>Second</Button>
                         <ButtonIcon>
-                            <Icon name={'git-pull-request'} size={20} />
+                            <Icon name={'git-pull-request'} size={24} />
                         </ButtonIcon>
                     </ButtonGroup>
                 </Card>
