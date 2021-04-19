@@ -1,5 +1,12 @@
 # @atlantum/core
 
+## 0.3.7
+
+### Patch Changes
+
+-   Updated dependencies [bd6d076]
+    -   @atlantum/datepicker@0.3.0
+
 ## 0.3.6
 
 ### Patch Changes
