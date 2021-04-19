@@ -1,5 +1,14 @@
 # @atlantum/text-link
 
+## 0.5.1
+
+### Patch Changes
+
+-   938bc32: updated imports scheme
+-   Updated dependencies [938bc32]
+    -   @atlantum/icons@0.4.1
+    -   @atlantum/theme@0.2.10
+
 ## 0.5.0
 
 ### Minor Changes
