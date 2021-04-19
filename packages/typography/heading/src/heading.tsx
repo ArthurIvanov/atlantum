@@ -6,7 +6,7 @@ type Headings = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
 export interface HeadingProps {
     /**
-     * Required field, value should be passed here
+     * Required field, value should be passed here.
      * */
     children: ReactNode;
 
@@ -17,7 +17,7 @@ export interface HeadingProps {
     as: Headings;
 
     /**
-     *  If `true` text-align:center rule are applid
+     *  If `true` text-align:center rule are applied.
      * */
     centered?: boolean;
 

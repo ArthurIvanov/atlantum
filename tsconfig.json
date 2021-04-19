@@ -25,9 +25,8 @@
         "paths": {
             "@atlantum/*": [
                 "packages/*",
-                "packages/common/*/",
-                "packages/layout/*/",
-                "packages/theme/*/",
+
+                "packages/theme/*",
                 "packages/typography/*"
             ]
         }

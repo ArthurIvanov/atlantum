@@ -19,5 +19,5 @@
     "peerDependencies": {
         "react": ">=16.8.0"
     },
-    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/layout/column"
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/column"
 }

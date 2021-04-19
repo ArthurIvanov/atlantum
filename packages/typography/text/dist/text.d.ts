@@ -4,7 +4,7 @@ export declare type TextTags = 'p' | 'i' | 'u' | 'abbr' | 'cite' | 'del' | 'em' 
 export interface TextProps {
     children?: ReactNode;
     /**
-     *  Choose which html markup text should be
+     *  Choose which html markup text should be.
      * */
     as?: TextTags;
     /**
@@ -14,7 +14,7 @@ export interface TextProps {
      * */
     size?: TextSize;
     /**
-     *  If `true` text-align:center rule are applied
+     *  If `true` text-align:center rule are applied.
      * */
     centered?: boolean;
     /**

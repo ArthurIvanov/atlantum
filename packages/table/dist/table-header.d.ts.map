@@ -1,1 +1,0 @@
-{"version":3,"file":"table-header.d.ts","sourceRoot":"","sources":["../src/table-header.tsx"],"names":[],"mappings":"AAAA,OAAc,EAAE,EAAE,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAG7C,MAAM,WAAW,gBAAgB;IAC7B,QAAQ,EAAE,SAAS,CAAC;IACpB,EAAE,CAAC,EAAE,MAAM,CAAC;IAEZ;;OAEG;IACH,SAAS,CAAC,EAAE,MAAM,CAAC;CACtB;AAQD,eAAO,MAAM,WAAW,EAAE,EAAE,CAAC,gBAAgB,CAU5C,CAAC"}
