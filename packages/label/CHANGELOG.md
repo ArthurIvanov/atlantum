@@ -1,5 +1,11 @@
 # @atlantum/label
 
+## 0.3.0
+
+### Minor Changes
+
+-   701e597: updated imports
+
 ## 0.2.6
 
 ### Patch Changes

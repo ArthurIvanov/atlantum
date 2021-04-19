@@ -1,5 +1,11 @@
 # @atlantum/card
 
+## 0.6.0
+
+### Minor Changes
+
+-   701e597: updated imports
+
 ## 0.5.0
 
 ### Minor Changes

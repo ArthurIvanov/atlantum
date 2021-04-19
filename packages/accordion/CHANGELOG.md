@@ -1,5 +1,11 @@
 # @atlantum/accordion
 
+## 1.1.0
+
+### Minor Changes
+
+-   701e597: updated imports
+
 ## 1.0.0
 
 ### Major Changes

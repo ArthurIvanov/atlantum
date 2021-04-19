@@ -1,5 +1,12 @@
 # @atlantum/select
 
+## 0.2.6
+
+### Patch Changes
+
+-   Updated dependencies [701e597]
+    -   @atlantum/label@0.3.0
+
 ## 0.2.5
 
 ### Patch Changes

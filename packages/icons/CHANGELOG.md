@@ -1,5 +1,11 @@
 # @atlantum/icons
 
+## 0.4.0
+
+### Minor Changes
+
+-   701e597: updated imports
+
 ## 0.3.0
 
 ### Minor Changes

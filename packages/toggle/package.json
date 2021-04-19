@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/toggle",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "description": "radio component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -11,7 +11,7 @@
     ],
     "dependencies": {
         "@atlantum/input": "^0.2.7",
-        "@atlantum/label": "^0.2.6",
+        "@atlantum/label": "^0.3.0",
         "@atlantum/theme": "^0.2.8"
     },
     "devDependencies": {
