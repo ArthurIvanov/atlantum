@@ -6,6 +6,9 @@
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
+    "files": [
+        "dist"
+    ],
     "dependencies": {
         "@atlantum/input": "^0.2.7",
         "@atlantum/label": "^0.2.6",

@@ -1,1 +1,1 @@
-// This package allow you to donwload all packages at once
+// This package allow you to download all packages at once
