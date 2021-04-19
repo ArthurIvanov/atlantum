@@ -1,5 +1,11 @@
 # @atlantum/grid
 
+## 0.3.2
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 0.3.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @atlantum/toggle
 
+## 0.2.7
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 0.2.6
 
 ### Patch Changes

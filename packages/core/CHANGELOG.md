@@ -1,5 +1,26 @@
 # @atlantum/core
 
+## 0.3.6
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+-   Updated dependencies [ea4fa41]
+    -   @atlantum/alert@1.0.3
+    -   @atlantum/card@0.6.1
+    -   @atlantum/checkbox@1.0.2
+    -   @atlantum/column@0.3.3
+    -   @atlantum/container@0.3.3
+    -   @atlantum/content@0.3.4
+    -   @atlantum/datepicker@0.2.7
+    -   @atlantum/grid@0.3.2
+    -   @atlantum/group@0.4.1
+    -   @atlantum/radio@0.2.7
+    -   @atlantum/select@0.2.7
+    -   @atlantum/table@0.1.10
+    -   @atlantum/text-input@0.2.2
+    -   @atlantum/toggle@0.2.7
+
 ## 0.3.5
 
 ### Patch Changes

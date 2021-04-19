@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/navigation-link",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "navigation-link component",
     "main": "dist/index.js",
     "module": "dist/index.js",

@@ -1,5 +1,13 @@
 # @atlantum/alert
 
+## 1.0.3
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+-   Updated dependencies [ea4fa41]
+    -   @atlantum/heading@0.3.3
+
 ## 1.0.2
 
 ### Patch Changes

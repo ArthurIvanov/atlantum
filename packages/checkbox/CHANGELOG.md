@@ -1,5 +1,11 @@
 # @atlantum/checkbox
 
+## 1.0.2
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 1.0.1
 
 ### Patch Changes

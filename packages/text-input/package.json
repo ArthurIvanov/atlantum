@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/text-input",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "text-input component",
     "main": "dist/index.js",
     "module": "dist/index.js",

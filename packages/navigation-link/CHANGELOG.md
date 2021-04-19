@@ -1,5 +1,11 @@
 # @atlantum/navigation-link
 
+## 0.1.7
+
+### Patch Changes
+
+-   ea4fa41: updated imports
+
 ## 0.1.6
 
 ### Patch Changes
