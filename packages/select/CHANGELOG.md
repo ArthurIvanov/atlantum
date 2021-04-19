@@ -1,5 +1,11 @@
 # @atlantum/select
 
+## 0.3.0
+
+### Minor Changes
+
+-   d3d2da3: new version
+
 ## 0.2.7
 
 ### Patch Changes
