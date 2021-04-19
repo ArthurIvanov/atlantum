@@ -3,4 +3,4 @@
 '@atlantum/select': minor
 ---
 
-import update
+update
