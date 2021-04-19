@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/core",
-    "version": "0.3.6",
+    "version": "0.3.7",
     "description": "all components bundle",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -16,7 +16,7 @@
         "@atlantum/column": "^0.3.3",
         "@atlantum/container": "^0.3.3",
         "@atlantum/content": "^0.3.4",
-        "@atlantum/datepicker": "^0.2.7",
+        "@atlantum/datepicker": "^0.3.0",
         "@atlantum/grid": "^0.3.2",
         "@atlantum/group": "^0.4.1",
         "@atlantum/icons": "^0.4.1",
