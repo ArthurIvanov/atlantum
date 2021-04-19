@@ -1,5 +1,12 @@
 # @atlantum/core
 
+## 0.3.8
+
+### Patch Changes
+
+-   Updated dependencies [d3d2da3]
+    -   @atlantum/select@0.3.0
+
 ## 0.3.7
 
 ### Patch Changes

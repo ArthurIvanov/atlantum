@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/select",
-    "version": "0.2.7",
+    "version": "0.3.0",
     "description": "input select component",
     "main": "dist/index.js",
     "module": "dist/index.js",
