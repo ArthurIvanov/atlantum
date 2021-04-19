@@ -1,5 +1,13 @@
 # @atlantum/accordion
 
+## 1.1.1
+
+### Patch Changes
+
+-   938bc32: updated imports scheme
+-   Updated dependencies [938bc32]
+    -   @atlantum/theme@0.2.10
+
 ## 1.1.0
 
 ### Minor Changes

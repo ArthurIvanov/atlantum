@@ -1,5 +1,11 @@
 # @atlantum/icons
 
+## 0.4.1
+
+### Patch Changes
+
+-   938bc32: updated imports scheme
+
 ## 0.4.0
 
 ### Minor Changes

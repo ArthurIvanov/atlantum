@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.2.10
+
+### Patch Changes
+
+-   938bc32: updated imports scheme
+
 ## 0.2.9
 
 ### Patch Changes

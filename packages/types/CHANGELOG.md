@@ -1,5 +1,11 @@
 # @atlantum/types
 
+## 0.3.1
+
+### Patch Changes
+
+-   938bc32: updated imports scheme
+
 ## 0.3.0
 
 ### Minor Changes

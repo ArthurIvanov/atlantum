@@ -1,5 +1,20 @@
 # @atlantum/core
 
+## 0.3.5
+
+### Patch Changes
+
+-   Updated dependencies [938bc32]
+    -   @atlantum/accordion@1.1.1
+    -   @atlantum/badge@1.1.1
+    -   @atlantum/button@1.1.1
+    -   @atlantum/icons@0.4.1
+    -   @atlantum/image@0.2.1
+    -   @atlantum/items-stack@0.3.1
+    -   @atlantum/label@0.3.1
+    -   @atlantum/text-link@0.5.1
+    -   @atlantum/theme@0.2.10
+
 ## 0.3.4
 
 ### Patch Changes
