@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.2.11
+
+### Patch Changes
+
+-   8bed09a: updated layout tokens
+
 ## 0.2.10
 
 ### Patch Changes
