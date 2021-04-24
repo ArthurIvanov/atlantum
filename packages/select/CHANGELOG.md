@@ -1,5 +1,11 @@
 # @atlantum/select
 
+## 0.3.1
+
+### Patch Changes
+
+-   a8bfcc3: Fixed styling, theming for select component
+
 ## 0.3.0
 
 ### Minor Changes

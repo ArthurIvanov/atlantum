@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/core",
-    "version": "0.3.10",
+    "version": "0.3.11",
     "description": "all components bundle",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -24,7 +24,7 @@
         "@atlantum/items-stack": "^0.3.1",
         "@atlantum/label": "^0.3.1",
         "@atlantum/radio": "0.2.7",
-        "@atlantum/select": "0.3.0",
+        "@atlantum/select": "0.3.1",
         "@atlantum/table": "0.1.10",
         "@atlantum/text-input": "^0.2.2",
         "@atlantum/text-link": "0.5.1",
