@@ -36,6 +36,7 @@ export interface ImageProps {
 const StyledImage = styled.img<ImageProps>`
     width: ${(props) => props.width};
     height: ${(props) => props.height};
+    border-radius: 0;
     ${(props) =>
         props.isRounded &&
         `
