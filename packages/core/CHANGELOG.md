@@ -1,5 +1,12 @@
 # @atlantum/core
 
+## 0.3.10
+
+### Patch Changes
+
+-   Updated dependencies [d409fa2]
+    -   @atlantum/image@0.2.3
+
 ## 0.3.9
 
 ### Patch Changes

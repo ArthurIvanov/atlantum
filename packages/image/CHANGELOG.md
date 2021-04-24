@@ -1,5 +1,11 @@
 # @atlantum/image
 
+## 0.2.3
+
+### Patch Changes
+
+-   d409fa2: fixed image prop
+
 ## 0.2.2
 
 ### Patch Changes

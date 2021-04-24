@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/core",
-    "version": "0.3.9",
+    "version": "0.3.10",
     "description": "all components bundle",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -20,7 +20,7 @@
         "@atlantum/grid": "^0.3.2",
         "@atlantum/group": "^0.4.1",
         "@atlantum/icons": "^0.4.1",
-        "@atlantum/image": "0.2.2",
+        "@atlantum/image": "0.2.3",
         "@atlantum/items-stack": "^0.3.1",
         "@atlantum/label": "^0.3.1",
         "@atlantum/radio": "0.2.7",
