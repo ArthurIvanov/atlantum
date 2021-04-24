@@ -1,5 +1,11 @@
 # @atlantum/image
 
+## 0.2.2
+
+### Patch Changes
+
+-   f9a8aaf: updated border radius prop
+
 ## 0.2.1
 
 ### Patch Changes
