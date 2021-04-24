@@ -2,4 +2,4 @@
 '@atlantum/content': patch
 ---
 
-updated fluid | fixed width prop
+update fixed | fluid content width
