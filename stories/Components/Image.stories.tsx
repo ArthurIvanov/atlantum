@@ -5,7 +5,23 @@ import { Image } from '@atlantum/image';
 import { Card } from '@atlantum/card';
 import '../stories.styles.css';
 
-const Flat = () => {
+const Rounded = () => {
+    return (
+        <>
+            <GlobalStyles />
+            <div className="atlantum-view">
+                <Card size="standard">
+                    <Image
+                        isRounded
+                        src="https://i.ibb.co/DLtL9b8/atlantum-bg.png"
+                        alt={'image-example'}
+                    />
+                </Card>
+            </div>
+        </>
+    );
+};
+const NonRounded = () => {
     return (
         <>
             <GlobalStyles />
@@ -21,4 +37,5 @@ const Flat = () => {
     );
 };
 
-storiesOf('Components/Image', module).add('Flat', () => <Flat />);
+storiesOf('Components/Image', module).add('Rounded', () => <Rounded />);
+storiesOf('Components/Image', module).add('NonRounded', () => <NonRounded />);

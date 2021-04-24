@@ -12,6 +12,8 @@ const DefaultSelect = () => {
             <div className="atlantum-compact">
                 <Card size={'standard'}>
                     <Select
+                        input
+                        label={'Sample label'}
                         name={'select'}
                         type={'text'}
                         placeholder={'Please select and option'}

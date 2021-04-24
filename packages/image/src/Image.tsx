@@ -49,7 +49,7 @@ export const Image: FC<ImageProps> = ({
     alt,
     width = '100%',
     height = '100%',
-    isRounded = true,
+    isRounded,
     className,
 }) => (
     <StyledImage
