@@ -70,8 +70,8 @@ declare module 'styled-components' {
             column?: number;
             columnGap?: string;
             rowGap?: string;
-            containerWidth?: string;
-            containerMaxWidth?: string;
+            fluidWidth?: string;
+            fixedWidth?: string;
             largeBp?: string;
             mediumBp?: string;
             smallBp?: string;

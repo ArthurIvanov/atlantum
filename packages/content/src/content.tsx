@@ -1,30 +1,31 @@
 import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
 
-export type ContentWidth = 'full' | 'focus';
+export type ContentWidth = 'fluid' | 'fixed';
 
 export interface ContentProps {
     children: ReactNode;
-    width?: ContentWidth;
+    contentWidth: ContentWidth;
 }
 
 const StyledContent = styled.div<ContentProps>`
     width: 100%;
-
     ${(props) =>
-        props.width === 'full' &&
+        props.contentWidth === 'fluid' &&
         `
-            max-width: 100%;
+            max-width: ${props.theme.layout.fluidWidth};
         `};
 
     ${(props) =>
-        props.width === 'focus' &&
+        props.contentWidth === 'fixed' &&
         `
-            max-width: 1032px;
+            max-width: ${props.theme.layout.fixedWidth};
             align-self: center;    
         `}
 `;
 
-export const Content: FC<ContentProps> = ({ children, width }) => {
-    return <StyledContent width={width}>{children}</StyledContent>;
+export const Content: FC<ContentProps> = ({ children, contentWidth }) => {
+    return (
+        <StyledContent contentWidth={contentWidth}>{children}</StyledContent>
+    );
 };
