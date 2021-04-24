@@ -1,5 +1,12 @@
 # @atlantum/core
 
+## 0.3.11
+
+### Patch Changes
+
+-   Updated dependencies [a8bfcc3]
+    -   @atlantum/select@0.3.1
+
 ## 0.3.10
 
 ### Patch Changes
