@@ -1,5 +1,11 @@
 # @atlantum/content
 
+## 0.3.5
+
+### Patch Changes
+
+-   138a6d2: update fixed | fluid content width
+
 ## 0.3.4
 
 ### Patch Changes
