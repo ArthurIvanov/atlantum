@@ -14,6 +14,7 @@ const DefaultSelect = () => {
                     <Select
                         input
                         label={'Sample label'}
+                        alert={'Alert validation as additional text'}
                         name={'select'}
                         type={'text'}
                         placeholder={'Please select and option'}
