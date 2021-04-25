@@ -1,5 +1,11 @@
 # @atlantum/content
 
+## 0.3.6
+
+### Patch Changes
+
+-   3a5ea4c: Avatar component was initialized
+
 ## 0.3.5
 
 ### Patch Changes
