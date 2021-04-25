@@ -1,0 +1,24 @@
+{
+    "name": "@atlantum/avatar",
+    "version": "0.0.1",
+    "description": "input avatar component",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@atlantum/icons": "^0.4.0",
+        "@atlantum/theme": "^0.2.8"
+    },
+    "devDependencies": {
+        "react": "^16.13.1",
+        "styled-components": "^5.2.0"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    },
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/avatar"
+}
