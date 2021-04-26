@@ -1,0 +1,23 @@
+{
+    "name": "@atlantum/divider",
+    "version": "0.0.1",
+    "description": "input divider component",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@atlantum/theme": "^0.2.8"
+    },
+    "devDependencies": {
+        "react": "^16.13.1",
+        "styled-components": "^5.2.0"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    },
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/divider"
+}

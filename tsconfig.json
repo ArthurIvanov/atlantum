@@ -42,6 +42,7 @@
         { "path": "packages/badge" },
         { "path": "packages/button" },
         { "path": "packages/datepicker" },
+        { "path": "packages/divider" },
         { "path": "packages/icons" },
         { "path": "packages/image" },
         { "path": "packages/label" },

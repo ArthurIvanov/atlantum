@@ -13,7 +13,7 @@ var StyledAvatar = styled.div(templateObject_1 || (templateObject_1 = __makeTemp
         "\n        width: " + props.theme.spacing.space32 + ";\n        height: " + props.theme.spacing.space32 + ";\n        font-size: " + props.theme.typography.fontSize.base + ";\n        line-height: " + props.theme.typography.lineHeight.base + ";\n    ";
 }, function (props) {
     return props.size === 'large' &&
-        "\n        width: " + props.theme.spacing.space48 + ";\n        height: " + props.theme.spacing.space48 + ";\n        font-size: " + props.theme.typography.fontSize.h5 + ";\n        line-height: " + props.theme.typography.lineHeight.h5 + ";\n        .atlantum-avatar-icon {\n        width: 32px;\n        height: 32px;\n        }\n    ";
+        "\n        width: " + props.theme.spacing.space48 + ";\n        height: " + props.theme.spacing.space48 + ";\n        font-size: " + props.theme.typography.fontSize.h5 + ";\n        line-height: " + props.theme.typography.lineHeight.h5 + ";\n        .atlantum-avatar-icon {\n        width: " + props.theme.spacing.space32 + ";\n        height: " + props.theme.spacing.space32 + ";\n        }\n    ";
 }, function (props) {
     return props.src &&
         "\n        background-color: none;\n        background-image: url(" + props.src + ");\n        background-position: center; \n        background-repeat: no-repeat; \n        background-size: cover;\n    \n    ";
