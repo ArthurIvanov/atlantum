@@ -1,0 +1,1 @@
+{"version":3,"file":"tab-list.d.ts","sourceRoot":"","sources":["../src/tab-list.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,EAAE,EAAE,EAAE,MAAM,OAAO,CAAC;AAGlC,MAAM,WAAW,YAAY;IACzB,QAAQ,CAAC,EAAE,KAAK,CAAC,SAAS,CAAC;IAC3B,KAAK,CAAC,EAAE,MAAM,CAAC;CAClB;AAOD,eAAO,MAAM,OAAO,EAAE,EAAE,CAAC,YAAY,CAMpC,CAAC"}
