@@ -1,5 +1,12 @@
 # @atlantum/content
 
+## 0.3.7
+
+### Patch Changes
+
+-   Updated dependencies [62cbfa2]
+    -   @atlantum/theme@0.3.0
+
 ## 0.3.6
 
 ### Patch Changes
