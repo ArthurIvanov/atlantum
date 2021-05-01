@@ -1,13 +1,13 @@
 {
     "name": "@atlantum/product-banner",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "product-banner component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
     "license": "MIT",
     "dependencies": {
-        "@atlantum/theme": "^0.2.8",
+        "@atlantum/theme": "^0.3.0",
         "styled-components": "^5.2.0"
     },
     "devDependencies": {

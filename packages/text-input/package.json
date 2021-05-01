@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/text-input",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "text-input component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,8 +10,8 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/label": "^0.3.0",
-        "@atlantum/theme": "^0.2.8"
+        "@atlantum/label": "^0.3.2",
+        "@atlantum/theme": "^0.3.0"
     },
     "devDependencies": {
         "react": "^16.13.1",

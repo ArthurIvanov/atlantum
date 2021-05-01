@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/code",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "code component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/theme": "^0.2.8"
+        "@atlantum/theme": "^0.3.0"
     },
     "devDependencies": {
         "react": "^16.13.1",
