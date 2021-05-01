@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { storiesOf } from '@storybook/react';
-import { GlobalStyles } from '@atlantum/theme';
 import '../stories.styles.css';
 import { Card } from '@atlantum/card';
 import { Tab, Tabs, TabList, TabPanel } from '../../packages/tabs';
+import { GlobalStyles } from '@atlantum/theme';
 
 const TabStories = () => {
     return (
         <>
             <GlobalStyles />
-            <div hidden>
+            <div>
                 <Card size={'standard'}>
                     <Tabs defaultActive="Foo">
                         <TabList label="Entertainment">
@@ -18,7 +18,7 @@ const TabStories = () => {
                             <Tab id="Baz">Baz</Tab>
                         </TabList>
                         <TabPanel id="Foo">
-                            <div hidden={true}>
+                            <div>
                                 Nils Frahm is a German musician, composer and
                                 record producer based in Berlin. He is known for
                                 combining classical and electronic music and for
