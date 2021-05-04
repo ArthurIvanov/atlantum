@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/tabs",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "input tabs component",
     "main": "dist/index.js",
     "module": "dist/index.js",

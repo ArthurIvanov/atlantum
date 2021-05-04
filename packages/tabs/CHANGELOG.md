@@ -1,5 +1,11 @@
 # @atlantum/tabs
 
+## 0.1.0
+
+### Minor Changes
+
+-   d4e37a6: update design for tabs
+
 ## 0.0.3
 
 ### Patch Changes
