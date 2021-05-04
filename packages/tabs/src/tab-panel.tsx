@@ -1,23 +1,27 @@
 import React, { FC, ReactNode, useContext } from 'react';
 import TabsContext from './tabs-context';
+import styled from 'styled-components';
 
 export interface TabPanelProps {
     id: string;
     children: ReactNode;
 }
 
+const StyledTabPanel = styled.div`
+    padding: ${(props) => props.theme.spacing.space24};
+`;
+
 export const TabPanel: FC<TabPanelProps> = ({ children, id }) => {
     const { active } = useContext(TabsContext);
-    console.log(id);
     return (
-        <div
+        <StyledTabPanel
             tabIndex={0}
             role="tabpanel"
             id={`panel-${id}`}
             aria-labelledby={`tab-${id}`}
             hidden={active !== id}
         >
-            <div>{children}</div>
-        </div>
+            {children}
+        </StyledTabPanel>
     );
 };

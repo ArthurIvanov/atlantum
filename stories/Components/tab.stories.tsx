@@ -4,6 +4,7 @@ import '../stories.styles.css';
 import { Card } from '@atlantum/card';
 import { Tab, Tabs, TabList, TabPanel } from '../../packages/tabs';
 import { GlobalStyles } from '@atlantum/theme';
+import { Text } from '@atlantum/text';
 
 const TabStories = () => {
     return (
@@ -11,36 +12,26 @@ const TabStories = () => {
             <GlobalStyles />
             <div>
                 <Card size={'standard'}>
-                    <Tabs defaultActive="Foo">
+                    <Tabs defaultActive="tab-1">
                         <TabList label="Entertainment">
-                            <Tab id="Foo">Foo</Tab>
-                            <Tab id="Bar">Bar</Tab>
-                            <Tab id="Baz">Baz</Tab>
+                            <Tab id="tab-1">Tab 1</Tab>
+                            <Tab id="tab-2">Tab 2</Tab>
+                            <Tab id="tab-3">Tab 3</Tab>
                         </TabList>
-                        <TabPanel id="Foo">
-                            <div>
-                                Nils Frahm is a German musician, composer and
-                                record producer based in Berlin. He is known for
-                                combining classical and electronic music and for
-                                an unconventional approach to the piano in which
-                                he mixes a grand piano, upright piano, Roland
-                                Juno-60, Rhodes piano, drum machine, and Moog
-                                Taurus.
-                            </div>
+                        <TabPanel id="tab-1">
+                            <Text as={'p'}>
+                                Content for first tab goes here.
+                            </Text>
                         </TabPanel>
-                        <TabPanel id="Bar">
-                            Agnes Caroline Thaarup Obel is a Danish
-                            singer/songwriter. Her first album, Philharmonics,
-                            was released by PIAS Recordings on 4 October 2010 in
-                            Europe. Philharmonics was certified gold in June
-                            2011 by the Belgian Entertainment Association (BEA)
-                            for sales of 10,000 Copies.
+                        <TabPanel id="tab-2">
+                            <Text as={'p'}>
+                                Content for second tab goes here.
+                            </Text>
                         </TabPanel>
-                        <TabPanel id="Baz">
-                            was released by PIAS Recordings on 4 October 2010 in
-                            Europe. Philharmonics was certified gold in June
-                            2011 by the Belgian Entertainment Association (BEA)
-                            for sales of 10,000 Copies.
+                        <TabPanel id="tab-3">
+                            <Text as={'p'}>
+                                Content for third tab goes here.
+                            </Text>
                         </TabPanel>
                     </Tabs>
                 </Card>
@@ -49,4 +40,4 @@ const TabStories = () => {
     );
 };
 
-storiesOf('Components/Tab', module).add('Default', () => <TabStories />);
+storiesOf('Components/Tabs', module).add('Default', () => <TabStories />);

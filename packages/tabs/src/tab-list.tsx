@@ -7,8 +7,7 @@ export interface TabListProps {
 }
 
 const StyledTab = styled.div<TabListProps>`
-    display: block;
-    border-radius: 8px;
+    display: flex;
 `;
 
 export const TabList: FC<TabListProps> = ({ children, label }) => {
