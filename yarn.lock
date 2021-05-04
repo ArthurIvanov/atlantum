@@ -17,6 +17,13 @@
   dependencies:
     "@atlantum/theme" "^0.2.8"
 
+"@atlantum/theme@^0.2.8":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@atlantum/theme/-/theme-0.2.11.tgz#0bc33ff900c40bec4c19c4adf3bf277baf853641"
+  integrity sha512-p18nLskOm69IcJKvblBAoAR4kmMfMwj8twk4DGcJu7cNZN6sA7bs+fmGJv1LsO6xmO+L3tHTJK65guOhPkIF2w==
+  dependencies:
+    "@atlantum/tokens" "^0.3.3"
+
 "@atlantum/tokens@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@atlantum/tokens/-/tokens-0.3.3.tgz#d544314fa0b50467d78915b818271b42b431475a"

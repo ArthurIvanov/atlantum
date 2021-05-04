@@ -1,4 +1,5 @@
 import { FC, ReactNode, MouseEventHandler } from 'react';
+export declare type Themed = `danger` | `success` | `warning` | 'info';
 export interface ButtonProps {
     /**
      * If `true`, the button will have icon before label text.
@@ -39,6 +40,10 @@ export interface ButtonProps {
      * Allow apply custom classes to component
      */
     className?: string;
+    /**
+     * Allow apply custom color theming to button
+     */
+    themed?: Themed;
 }
 export declare const StyledButton: import("styled-components").StyledComponent<"button", any, ButtonProps, never>;
 export declare const Button: FC<ButtonProps>;

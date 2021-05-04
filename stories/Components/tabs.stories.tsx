@@ -2,7 +2,7 @@ import * as React from 'react';
 import { storiesOf } from '@storybook/react';
 import '../stories.styles.css';
 import { Card } from '@atlantum/card';
-import { Tab, Tabs, TabList, TabPanel } from '../../packages/tabs';
+import { Tab, Tabs, TabList, TabPanel } from '@atlantum/tabs';
 import { GlobalStyles } from '@atlantum/theme';
 import { Text } from '@atlantum/text';
 

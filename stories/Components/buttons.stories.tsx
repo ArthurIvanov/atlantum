@@ -69,6 +69,24 @@ const Disabled = () => {
     );
 };
 
+const Custom = () => {
+    return (
+        <>
+            <GlobalStyles />
+            <div className="atlantum-compact">
+                <Card size={'standard'}>
+                    <ItemsStack direction={'column'} distance={'24px'}>
+                        <Button themed={`danger`}>Danger</Button>
+                        <Button themed={`warning`}>Warning</Button>
+                        <Button themed={`success`}>Success</Button>
+                        <Button themed={`info`}>Info</Button>
+                    </ItemsStack>
+                </Card>
+            </div>
+        </>
+    );
+};
+
 const BtnIcon = () => {
     return (
         <>
@@ -121,5 +139,6 @@ storiesOf('Components/Button', module).add('Design', () => <Design />);
 storiesOf('Components/Button', module).add('Primary', () => <Primary />);
 storiesOf('Components/Button', module).add('Secondary', () => <Secondary />);
 storiesOf('Components/Button', module).add('Disabled', () => <Disabled />);
+storiesOf('Components/Button', module).add('Custom', () => <Custom />);
 storiesOf('Components/Button', module).add('Icon', () => <BtnIcon />);
 storiesOf('Components/Button', module).add('Group', () => <BtnGroup />);

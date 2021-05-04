@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import React, { FC, ReactNode, Fragment, MouseEventHandler } from 'react';
 
+export type Themed = `danger` | `success` | `warning` | 'info';
+
 export interface ButtonProps {
     /**
      * If `true`, the button will have icon before label text.
@@ -49,6 +51,11 @@ export interface ButtonProps {
      * Allow apply custom classes to component
      */
     className?: string;
+
+    /**
+     * Allow apply custom color theming to button
+     */
+    themed?: Themed;
 }
 
 export const StyledButton = styled.button<ButtonProps>`
@@ -64,6 +71,19 @@ export const StyledButton = styled.button<ButtonProps>`
     font-family: ${(props) => props.theme.typography.family.base};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.regular};
+    cursor: pointer;
+
+    transition: 0.2s ease;
+    &:hover {
+        background-color: ${(props) => props.theme.colors.primary300};
+    }
+    &:focus {
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+    }
+
+    &:active {
+        background-color: ${(props) => props.theme.colors.primary400};
+    }
 
     ${(props) =>
         props.leftIcon &&
@@ -85,19 +105,7 @@ export const StyledButton = styled.button<ButtonProps>`
         }
     `}
 
-    cursor: pointer;
-
-    transition: 0.2s ease;
-    &:hover {
-        background-color: ${(props) => props.theme.colors.primary300};
-    }
-    &:focus {
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
-    }
-
-    &:active {
-        background-color: ${(props) => props.theme.colors.primary400};
-    }
+    
 
     ${(props) =>
         props.isSecondary &&
@@ -133,6 +141,74 @@ export const StyledButton = styled.button<ButtonProps>`
 
     }
     `}
+    
+    ${(props) =>
+        props.themed === 'danger' &&
+        `   
+        background-color: ${props.theme.colors.danger200};
+        &:hover {
+        background-color: ${props.theme.colors.danger300};
+    }
+        &:focus {
+            box-shadow: 0 0 0 2px ${props.theme.colors.danger100};
+        }
+    
+        &:active {
+            background-color: ${props.theme.colors.danger400};
+        }
+    
+    `}
+
+	${(props) =>
+        props.themed === 'success' &&
+        `   
+        background-color: ${props.theme.colors.success200};
+        &:hover {
+        background-color: ${props.theme.colors.success300};
+    }
+        &:focus {
+            box-shadow: 0 0 0 2px ${props.theme.colors.success100};
+        }
+    
+        &:active {
+            background-color: ${props.theme.colors.success400};
+        }
+    
+    `}
+
+	${(props) =>
+        props.themed === 'warning' &&
+        `   
+        background-color: ${props.theme.colors.warning200};
+        &:hover {
+        background-color: ${props.theme.colors.warning300};
+    }
+        &:focus {
+            box-shadow: 0 0 0 2px ${props.theme.colors.warning100};
+        }
+    
+        &:active {
+            background-color: ${props.theme.colors.warning400};
+        }
+    
+    `}
+
+	${(props) =>
+        props.themed === 'info' &&
+        `   
+        background-color: ${props.theme.colors.info200};
+        &:hover {
+        background-color: ${props.theme.colors.info300};
+    }
+        &:focus {
+            box-shadow: 0 0 0 2px ${props.theme.colors.info100};
+        }
+    
+        &:active {
+            background-color: ${props.theme.colors.info400};
+        }
+    
+    `}
 `;
 
 export const Button: FC<ButtonProps> = (props) => (
@@ -143,6 +219,7 @@ export const Button: FC<ButtonProps> = (props) => (
         rightIcon={props.rightIcon}
         onClick={props.onClick}
         className={props.className}
+        themed={props.themed}
     >
         {props.leftIcon && <Fragment>{props.leftIcon}</Fragment>}
         {props.children}
