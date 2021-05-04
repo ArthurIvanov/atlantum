@@ -1,5 +1,13 @@
 # @atlantum/button
 
+## 1.1.4
+
+### Patch Changes
+
+-   45c5811: updated custom button design
+-   Updated dependencies [45c5811]
+    -   @atlantum/theme@0.3.1
+
 ## 1.1.3
 
 ### Patch Changes
