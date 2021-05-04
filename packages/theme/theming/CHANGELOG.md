@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.3.0
+
+### Minor Changes
+
+-   62cbfa2: Fixed global-styles
+
 ## 0.2.11
 
 ### Patch Changes

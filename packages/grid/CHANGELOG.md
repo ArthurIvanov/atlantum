@@ -1,5 +1,12 @@
 # @atlantum/grid
 
+## 0.3.3
+
+### Patch Changes
+
+-   Updated dependencies [62cbfa2]
+    -   @atlantum/theme@0.3.0
+
 ## 0.3.2
 
 ### Patch Changes

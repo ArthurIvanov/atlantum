@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/column",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "column layout",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/theme": "^0.2.8"
+        "@atlantum/theme": "^0.3.0"
     },
     "devDependencies": {
         "react": "^16.13.1",

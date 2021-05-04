@@ -1,5 +1,12 @@
 # @atlantum/header-navigation-item
 
+## 0.1.6
+
+### Patch Changes
+
+-   Updated dependencies [62cbfa2]
+    -   @atlantum/theme@0.3.0
+
 ## 0.1.5
 
 ### Patch Changes

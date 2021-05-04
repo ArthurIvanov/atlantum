@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/image",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "image component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/theme": "^0.2.10"
+        "@atlantum/theme": "^0.3.0"
     },
     "devDependencies": {
         "react": "^16.13.1",
