@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.3.1
+
+### Patch Changes
+
+-   45c5811: updated custom button design
+
 ## 0.3.0
 
 ### Minor Changes
