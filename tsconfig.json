@@ -50,6 +50,7 @@
         { "path": "packages/radio" },
         { "path": "packages/select" },
         { "path": "packages/tabs" },
+        { "path": "packages/tag" },
         { "path": "packages/table" },
         { "path": "packages/types" },
         { "path": "packages/text-input" },
