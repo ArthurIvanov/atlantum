@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/tag",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "input tag component",
     "main": "dist/index.js",
     "module": "dist/index.js",
