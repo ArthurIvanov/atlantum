@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/spinner",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "input spinner component",
     "main": "dist/index.js",
     "module": "dist/index.js",
