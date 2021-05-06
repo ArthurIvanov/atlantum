@@ -69,6 +69,10 @@
         { "path": "packages/theme/theming" },
         // TYPOGRAPHY
         { "path": "packages/typography/heading" },
-        { "path": "packages/typography/text" }
+        { "path": "packages/typography/text" },
+        // UTILITIES
+        {
+            "path": "stories/utilities"
+        }
     ]
 }

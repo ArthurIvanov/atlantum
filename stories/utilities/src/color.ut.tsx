@@ -2,32 +2,29 @@
 import styled from 'styled-components';
 import React, { FC, ReactNode } from 'react';
 
-export interface BoxProps {
+export interface ColorProps {
     children?: ReactNode;
     className?: string;
-    width?: string;
-    height?: string;
+    color: string;
 }
 
-export const StyledBox = styled.div<BoxProps>`
+export const StyledColor = styled.div<ColorProps>`
     display: flex;
     background-color: ${(props) => props.theme.colors.neutral200};
     color: ${(props) => props.theme.colors.neutralContentBG};
-    width: ${(props) => props.width};
-    height: ${(props) => props.height};
+    width: 64px;
+    height: 64px;
     font-size: 20px;
     border-radius: 8px;
     align-items: center;
     justify-content: center;
+    background-color: ${(props) => props.color};
 `;
 
-export const Box: FC<BoxProps> = ({
-    children,
-    className,
-    width = '100%',
-    height = '200px',
-}) => (
-    <StyledBox className={className} width={width} height={height}>
+const Box: FC<ColorProps> = ({ children, className, color }) => (
+    <StyledColor color={color} className={className}>
         {children}
-    </StyledBox>
+    </StyledColor>
 );
+
+export default Box;
