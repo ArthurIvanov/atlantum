@@ -2,21 +2,21 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
 import { ItemsStack } from '@atlantum/items-stack';
-import { Badge } from '@atlantum/badge';
+import { Spinner } from '../../packages/spinner';
 import { Card } from '@atlantum/card';
 import '../stories.styles.css';
 
-const BadgesFilled = () => {
+const Spinners = () => {
     return (
         <>
             <GlobalStyles />
             <div className="atlantum-view">
                 <Card size="standard">
                     <ItemsStack direction={'row'}>
-                        <Badge isInfo>Info</Badge>
-                        <Badge isSuccess>Success</Badge>
-                        <Badge isWarning>Warning</Badge>
-                        <Badge isDanger>Danger</Badge>
+                        <Spinner size={'16px'} />
+                        <Spinner size={'24px'} />
+                        <Spinner size={'32px'} />
+                        <Spinner size={'64px'} />
                     </ItemsStack>
                 </Card>
             </div>
@@ -24,4 +24,6 @@ const BadgesFilled = () => {
     );
 };
 
-storiesOf('Components/Badge', module).add('Default', () => <BadgesFilled />);
+storiesOf('Components/Spinner', module).add('Spinner variations', () => (
+    <Spinners />
+));

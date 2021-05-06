@@ -1,7 +1,7 @@
 {
-    "name": "@atlantum/tag",
-    "version": "0.0.2",
-    "description": "tag component",
+    "name": "@atlantum/spinner",
+    "version": "0.0.1",
+    "description": "input spinner component",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -19,5 +19,5 @@
     "peerDependencies": {
         "react": ">=16.8.0"
     },
-    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/tag"
+    "repository": "https://github.com/ArthurIvanov/atlantum/tree/master/packages/spinner"
 }
