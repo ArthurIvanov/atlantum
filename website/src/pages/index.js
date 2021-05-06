@@ -9,6 +9,7 @@ const IndexPage = () => {
         <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
             <Heading as="h1">Atlantum</Heading>
+            <Heading as={'h5'}>Composable design system</Heading>
         </ThemeProvider>
     );
 };
