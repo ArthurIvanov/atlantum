@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { ThemeProvider } from 'styled-components';
-import GlobalStyles, { lightTheme } from '@atlantum/theme';
-import Heading from '@atlantum/heading';
 
-// markup
-const DocumentationPage = () => {
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles, lightTheme } from '@atlantum/theme';
+import { Heading } from '@atlantum/heading';
+
+const Docs = () => {
     return (
         <ThemeProvider theme={lightTheme}>
             <GlobalStyles />
@@ -14,4 +14,4 @@ const DocumentationPage = () => {
     );
 };
 
-export default DocumentationPage;
+export default Docs;

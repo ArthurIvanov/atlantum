@@ -30,9 +30,9 @@
         "styled-components": "^5.2.3"
     },
     "devDependencies": {
-        "@atlantum/button": "^0.3.3",
-        "@atlantum/heading": "^0.2.3",
-        "@atlantum/items-stack": "^0.1.11",
-        "@atlantum/theme": "^0.2.8"
+        "@atlantum/button": "^0.4.2",
+        "@atlantum/heading": "0.3.4",
+        "@atlantum/items-stack": "^0.2.0",
+        "@atlantum/theme": "^0.3.1"
     }
 }

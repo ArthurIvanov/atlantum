@@ -9,32 +9,39 @@
   dependencies:
     tslib "~2.0.1"
 
-"@atlantum/button@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@atlantum/button/-/button-0.3.3.tgz#d68d55cb29907ef791c60a5b5f3f89f6622ab6a4"
-  integrity sha512-4FTVjPd+jtbxSce/7uw8HJRqkrx9DNs4RHjbLOMaiMMRmrR7wGY2GKiSdKx7N6307TQYHUv/YLAENwAbfb4wxQ==
+"@atlantum/button@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/button/-/button-0.4.2.tgz#12853e1d0bb822009437265f319a6be4c6abb740"
+  integrity sha512-OyVIz5IHkFKon89vTVjlytleZepirnMDC/r8v0sUVqXmGIlBjrMPPSIy+lAQnIbMUhdxBRY3sCKqOnYotTt0rQ==
   dependencies:
-    "@atlantum/theme" "^0.2.2"
+    "@atlantum/theme" "^0.2.8"
 
-"@atlantum/heading@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@atlantum/heading/-/heading-0.2.3.tgz#40acd8e3adb1929277cb643f3b9eb2d319a33d2c"
-  integrity sha512-58t6hLhdRP+3n5Wz4FPoAgijlTzI3Iti3UKCooBE2WdAUnAY+cTbjodXe2NQskaRL4SH0k2t329WMQm3pYqc/A==
+"@atlantum/heading@0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/heading/-/heading-0.3.4.tgz#5a7e1ca28093fab8078f0aa351df637bd3212e69"
+  integrity sha512-WC9PE4sD0drjQqecAOj28VCn1KbpFYOMMToRfaIJ14fo5QSiSwUcTUVsgzcBE0ugXMnwZonG9tb//9M+gcpN2g==
   dependencies:
-    "@atlantum/theme" "^0.2.2"
+    "@atlantum/theme" "^0.3.0"
 
-"@atlantum/items-stack@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@atlantum/items-stack/-/items-stack-0.1.11.tgz#3c50f965911be9f46ffa458a64075210f79f6d20"
-  integrity sha512-6O0lYQG44QZ+OLo0WG182+pqS71sf3aVz80zF5Q4IzxQSYXIuKUtOaESSKs8pb2d979jQabjKuapt0wcyj2Afw==
+"@atlantum/items-stack@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@atlantum/items-stack/-/items-stack-0.2.0.tgz#6ac7ab521919c4b7c214db7a465af26ff89353c9"
+  integrity sha512-zfmpXIcViP48Oxq9xu5py2GebZLa8rcGVrubua137GOBwGZMlrpS7G7BaiBT8/Qg9Y3qqhOr6dXx4dWKFvERCA==
   dependencies:
     "@atlantum/theme" "^0.2.8"
     styled-components "^5.2.0"
 
-"@atlantum/theme@^0.2.2", "@atlantum/theme@^0.2.8":
+"@atlantum/theme@^0.2.8":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@atlantum/theme/-/theme-0.2.8.tgz#81bca41cc4b750f7b55490531fa7881723c202dd"
   integrity sha512-rZL5BZu5rUmlCQYAYPnsctqbHcEInDvKTw2QG263h9ul9dXkVX2Tvoba1nsjH4ngQwJRwcT06WR8Cgb3DPC2Mg==
+  dependencies:
+    "@atlantum/tokens" "^0.3.3"
+
+"@atlantum/theme@^0.3.0", "@atlantum/theme@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@atlantum/theme/-/theme-0.3.1.tgz#0a7f4f7448e4af4f51b5f57561bc13106ee4902b"
+  integrity sha512-BD+rOmm9L01Jop9wdosu5mCoQqjSOM1xkwQzYFaVUW0hnTW/MpRMbhJY0eRgVHZqWds5UizHRfEY2wpHtqF42w==
   dependencies:
     "@atlantum/tokens" "^0.3.3"
 
