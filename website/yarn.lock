@@ -9,6 +9,38 @@
   dependencies:
     tslib "~2.0.1"
 
+"@atlantum/accordion@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/accordion/-/accordion-1.1.2.tgz#062fd14d0d42f21930dab4197caa47a197a631c0"
+  integrity sha512-d9d8cx5dMsbfs9XX8URV0ccMz1m0ehNRFTkw6vw6x/eBlY6cxtemno2fCGLPdsnw57zG/Txzvr6SMNlbsn5sLg==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/alert@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/alert/-/alert-1.0.4.tgz#0b23fc1dfb638db1f536d6837e2a2a1414bda83e"
+  integrity sha512-sXomaAqs1G3WvkOwwuIZ8aU5AcDl8xA3uGsDgrfDzyTCMM3t8m0Ns3pEa3H8JPD4tkpqwHqoEBU8kS/U82cbJg==
+  dependencies:
+    "@atlantum/heading" "^0.3.4"
+    "@atlantum/icons" "^0.4.0"
+    "@atlantum/items-stack" "^0.3.2"
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/avatar@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/avatar/-/avatar-0.0.4.tgz#83000780aa0bf380e2030a42ecaaaefeeb2fbfa1"
+  integrity sha512-mAlar7GxfIjWro1eUh9UriXw/vHq7lcTsdCObZtpxe46YcFMFY2NAjY/aMxt3jsOe07fyCKptJNMCk195mb+Yg==
+  dependencies:
+    "@atlantum/icons" "^0.4.0"
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/badge@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/badge/-/badge-1.1.2.tgz#612d6251e41488f07bb4d9344f021f29822893f5"
+  integrity sha512-3SZwug8fbAGDH/BHdVuc2XT5Phlk5k6EAPahdJu+u+A6ZcGWObBFQEyV42LFwC3ikYm8IeiS6arUHm7ozsI3Vw==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
 "@atlantum/button@^0.4.2":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@atlantum/button/-/button-0.4.2.tgz#12853e1d0bb822009437265f319a6be4c6abb740"
@@ -16,12 +48,145 @@
   dependencies:
     "@atlantum/theme" "^0.2.8"
 
-"@atlantum/heading@0.3.4":
+"@atlantum/button@^1.1.3":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/button/-/button-1.1.4.tgz#3941be53cae01a868382764f17aa03bce8fecb7b"
+  integrity sha512-ytXB9wBGUIYAmc2M2Dwml9mU2pHPsVGMt/VBS8+R5gPy7jGkL+1tTIrCcRukm2S3ColQZgmsIgXQ/uLWF2HPIA==
+  dependencies:
+    "@atlantum/theme" "^0.3.1"
+
+"@atlantum/card@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/card/-/card-0.6.2.tgz#79e1ae10edd42a9255ba9d89461db1f4341d297e"
+  integrity sha512-R6CqQQdrQ/Jf0igLDh97h1aBNy8wSBfI1TBXBca/b+csBy3lLF/FlmIeJd1Rnl2DYRAg7csar8iqPHeP9AmJIQ==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/checkbox@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@atlantum/checkbox/-/checkbox-1.0.3.tgz#fc5186404948ab4641aaa66af66726f1109d0dff"
+  integrity sha512-+GrGHOtZm5R54NqeOIQZwbCOZgV0EALGJYpYPgZTK9J5wyeCvGqgoFIsnsG02NggdrZyYXGJzXstsucvhOyCPA==
+  dependencies:
+    "@atlantum/input" "^0.2.7"
+    "@atlantum/label" "^0.3.2"
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/column@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/column/-/column-0.3.4.tgz#b27845da61c9c2b80e2238a06b8d6a5d98ae8908"
+  integrity sha512-bYwQnCejZ/Cyw1EkYG2zJje5q/5ElCL4jEMarDzGyKp/2t2tPvzE6a+LN9z7n90hDGDqNHHsDd4lBDlo0BAJ0g==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/container@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/container/-/container-0.3.4.tgz#80d7eca70e8bb366b04dae23b5498338bef3e1a1"
+  integrity sha512-vj56UnH8dqIiGcvyLQELX+RRNR5Vu07rtDS1m3VZL0gjTpInfpkRjNmEEhrIjP7Ob84SztvX3VUtc/uXDMRAnw==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+    styled-components "^5.2.0"
+
+"@atlantum/content@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@atlantum/content/-/content-0.3.7.tgz#4be6acf48b74634c66066c1784dd10ae3fe68255"
+  integrity sha512-b8QepYWZC2h+j9Y7mnFOOr+CvS7xVU+gfTHIfaZCNUfckVNSc8aoxifXJLVk4xoLLzkHOQLVXhBWtcJtXW7cNw==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+    styled-components "^5.2.0"
+
+"@atlantum/core@^0.3.13":
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@atlantum/core/-/core-0.3.13.tgz#ec0f543ab25a0dbfa3da9740df6816d6e83d9543"
+  integrity sha512-gEC8MKm5J7LrFPt8jMc76DilDn/Omt+CymdUrqgpI4UmYvM44kD6T2Nf21IUp/T3aGFMierFJbk/bfyzb6qsww==
+  dependencies:
+    "@atlantum/accordion" "^1.1.2"
+    "@atlantum/alert" "^1.0.4"
+    "@atlantum/avatar" "^0.0.4"
+    "@atlantum/badge" "^1.1.2"
+    "@atlantum/button" "^1.1.3"
+    "@atlantum/card" "^0.6.2"
+    "@atlantum/checkbox" "^1.0.3"
+    "@atlantum/column" "^0.3.4"
+    "@atlantum/container" "^0.3.4"
+    "@atlantum/content" "^0.3.7"
+    "@atlantum/datepicker" "^0.3.2"
+    "@atlantum/divider" "^0.0.4"
+    "@atlantum/grid" "^0.3.3"
+    "@atlantum/group" "^0.4.2"
+    "@atlantum/heading" "^0.3.4"
+    "@atlantum/icons" "^0.4.1"
+    "@atlantum/image" "^0.2.4"
+    "@atlantum/items-stack" "^0.3.2"
+    "@atlantum/label" "^0.3.2"
+    "@atlantum/radio" "0.2.8"
+    "@atlantum/select" "0.3.2"
+    "@atlantum/spinner" "^0.1.0"
+    "@atlantum/table" "0.1.11"
+    "@atlantum/text" "^0.3.4"
+    "@atlantum/text-input" "^0.2.3"
+    "@atlantum/text-link" "0.5.2"
+    "@atlantum/theme" "^0.3.0"
+    "@atlantum/toggle" "0.2.8"
+    "@atlantum/types" "^0.3.1"
+
+"@atlantum/datepicker@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/datepicker/-/datepicker-0.3.2.tgz#486308a0baff8bfa49a67fc4695532c5994ea399"
+  integrity sha512-dxPVLxH+0XY2kVHJAB1dtRs25+F5rd6S/XtxbKg7scyWU5AvTsUgTk0zOBtb6gs5lgVT0vd+bs6wEaUn4DSpPA==
+  dependencies:
+    "@atlantum/input" "^0.2.7"
+    "@atlantum/label" "^0.3.2"
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/divider@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/divider/-/divider-0.0.4.tgz#cad8bd894914ac106eba9ea905a15237e02bafa5"
+  integrity sha512-fJvAXS1745MyjZvJwYSwqjd61xyej5kz8ansqslbF9Wv1kFjsRH5TCXHcJHbnTNJ98fxzklX0wiCJsMd2l+Ikw==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/grid@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@atlantum/grid/-/grid-0.3.3.tgz#9c83e288183ebe9d3bd828f70519a309fdb441e8"
+  integrity sha512-S6TvWyEPfVYwPDVv94lqjKk6vXiIVIxk2BnHg3JB1lEXM3ZzE6ZX78qsZzjuqxMAA4JGuOco/mGZFT4+i+MALA==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/group@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/group/-/group-0.4.2.tgz#4030fbd9c6ccf90065e72345c5b5e57ab61d3b14"
+  integrity sha512-LfZsRmFzTnFde3LY+p6++cvTDVZO4Obi1qesz5hULHt6q5c7a9DawelrFHJ0aWKy3yZpdYUMgCtpY3D6HVaHaA==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/heading@0.3.4", "@atlantum/heading@^0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@atlantum/heading/-/heading-0.3.4.tgz#5a7e1ca28093fab8078f0aa351df637bd3212e69"
   integrity sha512-WC9PE4sD0drjQqecAOj28VCn1KbpFYOMMToRfaIJ14fo5QSiSwUcTUVsgzcBE0ugXMnwZonG9tb//9M+gcpN2g==
   dependencies:
     "@atlantum/theme" "^0.3.0"
+
+"@atlantum/icons@^0.4.0", "@atlantum/icons@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@atlantum/icons/-/icons-0.4.1.tgz#bf21b13c80bcb32de39a9cf4bbf39a0eaf044c3b"
+  integrity sha512-Cb6B2/G1dw+pSVWacJR4wH9fI1DJ0iRy/9sbGlzUfJrJzxxz3Lvik11MpxGNfhobnlUvGNoUHNO75Y75t+mqMA==
+  dependencies:
+    html-react-parser "^1.1.1"
+
+"@atlantum/image@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/image/-/image-0.2.4.tgz#9964793761bd48bf28af5f7aba832f5331917a4d"
+  integrity sha512-A0psrhQ6wtZZ1x8QrRGBTDr1+uAj44/0arHoisjl6mHNiSxIQ4rXIrzFyJherjUaQcYldVMLyN96FFImF+6IfA==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/input@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@atlantum/input/-/input-0.2.7.tgz#d4b5158e754bb27d0d92e1db342a02893eb29e4a"
+  integrity sha512-NtfsRZFknyurjonrpMrDO6L6HeuW2RMKCoV2UBcUkgKexz1OW9iLTcVQUecL0+EcHBZlyZ62TeaR+6WZhKIr4g==
+  dependencies:
+    "@atlantum/label" "^0.2.6"
+    "@atlantum/theme" "^0.2.8"
 
 "@atlantum/items-stack@^0.2.0":
   version "0.2.0"
@@ -30,6 +195,84 @@
   dependencies:
     "@atlantum/theme" "^0.2.8"
     styled-components "^5.2.0"
+
+"@atlantum/items-stack@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/items-stack/-/items-stack-0.3.2.tgz#2a07b52c8343baf5a29845b7477f87d67b98a591"
+  integrity sha512-dcAS6HQgl35vE/yY+yWY7nuushsByCQ9oeEavkfOnyDXNqQmZTQugkOfFKn77RIMn1iLraom4JVB7GUeXPBF3w==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+    styled-components "^5.2.0"
+
+"@atlantum/label@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@atlantum/label/-/label-0.2.6.tgz#bece3b0ee68d9b0520f537460d8165a48b5e2bfc"
+  integrity sha512-G5hxuIrcov+XD5Kt6KuOzV4owC6aA0nUmBqizma7hqUJoNEMAD7mBjjPJzMTCRILUItoI7XLu2bV8vQIKzHquw==
+  dependencies:
+    "@atlantum/theme" "^0.2.8"
+
+"@atlantum/label@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/label/-/label-0.3.2.tgz#99ddf26f83890a948e29df5545994f34fdf6749a"
+  integrity sha512-SSbWUBj7e+9SVdmmuZOcES6hdLlA/QWatO+JwTMdBTwOZwEeN7TVy54QaSwflMc2xv9ubgdOVCf8flTt9LqIAA==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/radio@0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@atlantum/radio/-/radio-0.2.8.tgz#4b9b4897b78a130bcd08e12c905e6e92883d94d7"
+  integrity sha512-/V67ahXO5GbuTgeXHCQhPgqnpo+i+VFHPYNTcBGxfuvXmVPW9tjHDwXYxaTI4d25/gntDfjgEJQ2TmQKDOKvVw==
+  dependencies:
+    "@atlantum/input" "^0.2.7"
+    "@atlantum/label" "^0.3.2"
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/select@0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/select/-/select-0.3.2.tgz#fae98ad38f14eba55b660c3fe8bcd97d3f01dd17"
+  integrity sha512-2JQQpwbdRLd/401iSniska7M6Yimc7ztadEfUXWk0h1kJ10RHQoWNaDvF3vJNLhbCiJR8E6kJIuh7l8SXUyS5Q==
+  dependencies:
+    "@atlantum/input" "^0.2.7"
+    "@atlantum/label" "^0.3.2"
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/spinner@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@atlantum/spinner/-/spinner-0.1.0.tgz#61dd5020fe8a7ef18f953662e87bee114e144a73"
+  integrity sha512-8OeKTjTw0pD+349vZPQrpnoq3tvomPlej2o4oJGhTDHpMu3FR2Xev92y5iDVSpa8ve1q2iYfDa5aZJLZ/9rDXQ==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/table@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@atlantum/table/-/table-0.1.11.tgz#9c0b4674ae9b23cf66e397c0363d85863eb73df0"
+  integrity sha512-rVioq1/9sZxkqUmIflsZwrqGLjv605USz1oSIQNc+qAWG46FzC2R5eL5iQGbZps2sse1IldScsMUrQp1kchVlg==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/text-input@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@atlantum/text-input/-/text-input-0.2.3.tgz#a2705be1379491ace06d4b052079e5ce9e85d9a6"
+  integrity sha512-npUVpo3RRv3EiTGW+5MeJ0qyahoSsdPLfogXRV1s3QtUHLPzmIoMIJdpmOIg2jFGQJ1JIF2ERqMzaoF3YrW44w==
+  dependencies:
+    "@atlantum/label" "^0.3.2"
+    "@atlantum/theme" "^0.3.0"
+
+"@atlantum/text-link@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@atlantum/text-link/-/text-link-0.5.2.tgz#1395c1c8ce2db1e98b3bc85721a700e235f3852c"
+  integrity sha512-i5BjZkmQH+42Ktw0yOgygs/YL0gKjSADR4FvFlapqcB85HoTcx6dfFOAIy04XiZpLh6V6Gv73o6e915Cexh6Mg==
+  dependencies:
+    "@atlantum/icons" "^0.4.1"
+    "@atlantum/theme" "^0.3.0"
+    styled-components "^5.2.0"
+
+"@atlantum/text@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@atlantum/text/-/text-0.3.4.tgz#1f46dea6e114d76f5ee4f3f34d3ead206f29709c"
+  integrity sha512-lbiG8LGPl4Z6FpiGzTgzyy+KQ13S+3pdL29se5GXzEgi0Enj7QVQu7B5rvPilrpTruJO+YZD5Dmk3ETxb7arrw==
+  dependencies:
+    "@atlantum/theme" "^0.3.0"
 
 "@atlantum/theme@^0.2.8":
   version "0.2.8"
@@ -45,10 +288,24 @@
   dependencies:
     "@atlantum/tokens" "^0.3.3"
 
+"@atlantum/toggle@0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@atlantum/toggle/-/toggle-0.2.8.tgz#bcb4c6135ee7d4efdff480ad11ef741674cbce96"
+  integrity sha512-00v12Uuuzd1t5uF0AHA2sLjZwW3NgDY8XxkyoO39gvNyGJkNj/CNYyjbAxihYR9G2a2JGqi+iszk1zmvwDwKuA==
+  dependencies:
+    "@atlantum/input" "^0.2.7"
+    "@atlantum/label" "^0.3.2"
+    "@atlantum/theme" "^0.3.0"
+
 "@atlantum/tokens@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@atlantum/tokens/-/tokens-0.3.3.tgz#d544314fa0b50467d78915b818271b42b431475a"
   integrity sha512-HNoUe1xgQRnu23NTWQjC/9uoqHXLTuOgkam11xUTYUNyD/KywIfiVp30gDf9/ocPiO4zenvktVoM2WJveWrCoQ==
+
+"@atlantum/types@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@atlantum/types/-/types-0.3.1.tgz#6458fa7d97b826252ada1635c4063c42520ed06e"
+  integrity sha512-J5Jmwgf4cRz50lNAbynshRaMDPD9e1USHqLKUxXJHlNqkaYZXB6S6ZrS0t9Qm8Tq+nkWIHrvU2VETUO/+Ddm6Q==
 
 "@babel/code-frame@7.10.4":
   version "7.10.4"
@@ -4005,6 +4262,15 @@ dom-serializer@0:
     domelementtype "^2.0.1"
     entities "^2.0.0"
 
+dom-serializer@^1.0.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-1.3.1.tgz#d845a1565d7c041a95e5dab62184ab41e3a519be"
+  integrity sha512-Pv2ZluG5ife96udGgEDovOOOA5UELkltfJpnIExPrAk1LTvecolUGn6lIaoLh86d83GiB86CjzciMd9BuRB71Q==
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.0.0"
+    entities "^2.0.0"
+
 dom-serializer@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.1.1.tgz#1ec4059e284babed36eec2941d4a970a189ce7c0"
@@ -4018,10 +4284,17 @@ domelementtype@1, domelementtype@^1.3.0, domelementtype@^1.3.1:
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-1.3.1.tgz#d048c44b37b0d10a7f2a3d5fee3f4333d790481f"
   integrity sha512-BSKB+TSpMpFI/HOxCNr1O8aMOTZ8hT3pM3GQ0w/mWRmkhEDSFJkkyzz4XQsBV44BChwGkrDfMyjVD0eA2aFV3w==
 
-domelementtype@^2.0.1:
+domelementtype@^2.0.1, domelementtype@^2.1.0, domelementtype@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
   integrity sha512-DtBMo82pv1dFtUmHyr48beiuq792Sxohr+8Hm9zoxklYPfa6n0Z3Byjj2IV7bmr2IyqClnqEQhfgHJJ5QF0R5A==
+
+domhandler@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.0.0.tgz#01ea7821de996d85f69029e81fa873c21833098e"
+  integrity sha512-KPTbnGQ1JeEMQyO1iYXoagsI6so/C96HZiFyByU3T6iAzpXn8EGEvct6unm1ZGoed8ByO2oirxgwxBmqKF9haA==
+  dependencies:
+    domelementtype "^2.1.0"
 
 domhandler@^2.3.0:
   version "2.4.2"
@@ -4029,6 +4302,13 @@ domhandler@^2.3.0:
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
+
+domhandler@^4.0.0, domhandler@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.2.0.tgz#f9768a5f034be60a89a27c2e4d0f74eba0d8b059"
+  integrity sha512-zk7sgt970kzPks2Bf+dwT/PLzghLnsivb9CcxkvR8Mzr66Olr0Ofd8neSbglHJHaHa2MadfoSdNlKYAaafmWfA==
+  dependencies:
+    domelementtype "^2.2.0"
 
 domutils@1.5.1:
   version "1.5.1"
@@ -4045,6 +4325,15 @@ domutils@^1.5.1, domutils@^1.7.0:
   dependencies:
     dom-serializer "0"
     domelementtype "1"
+
+domutils@^2.4.4:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.6.0.tgz#2e15c04185d43fb16ae7057cb76433c6edb938b7"
+  integrity sha512-y0BezHuy4MDYxh6OvolXYsH+1EMGmFbwv5FKW7ovwMG6zTPWqNPq3WF9ayZssFq+UlKdffGLbOEaghNdaOm1WA==
+  dependencies:
+    dom-serializer "^1.0.1"
+    domelementtype "^2.2.0"
+    domhandler "^4.2.0"
 
 dot-case@^2.1.0:
   version "2.1.1"
@@ -6085,6 +6374,14 @@ hsla-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
   integrity sha1-wc56MWjIxmFAM6S194d/OyJfnDg=
 
+html-dom-parser@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/html-dom-parser/-/html-dom-parser-1.0.0.tgz#00d42aa3ecfc1a965a91293ca60973c08205fad0"
+  integrity sha512-1lKgZW6TccI5OMxRB+5+B3urj62oFB8bRx5cJPgOSHAPk9B5V+k2NM/2z7FuIwOgopnPP/KlgBMNnX/2nKy0lA==
+  dependencies:
+    domhandler "4.0.0"
+    htmlparser2 "6.0.0"
+
 html-entities@^1.2.1, html-entities@^1.3.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.4.0.tgz#cfbd1b01d2afaf9adca1b10ae7dffab98c71d2dc"
@@ -6095,10 +6392,30 @@ html-entities@^2.1.0:
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-2.3.2.tgz#760b404685cb1d794e4f4b744332e3b00dcfe488"
   integrity sha512-c3Ab/url5ksaT0WyleslpBEthOzWhrjQbg75y7XUsfSzi3Dgzt0l8w5e7DylRn15MTlMMD58dTfzddNS2kcAjQ==
 
+html-react-parser@^1.1.1:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/html-react-parser/-/html-react-parser-1.2.6.tgz#610b9bbcdcf51cdfabf644a83ac3815b1d485436"
+  integrity sha512-C1bm5OwmXxv1KJg5EqDMUCDO3lVsMNCfc1H/aEk8iJb4qek7ZzdYy9dUR0ciuPoRZBsGJpyHa/UzZ0Lw3DHnMQ==
+  dependencies:
+    domhandler "4.0.0"
+    html-dom-parser "1.0.0"
+    react-property "1.0.1"
+    style-to-js "1.1.0"
+
 html-void-elements@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-1.0.5.tgz#ce9159494e86d95e45795b166c2021c2cfca4483"
   integrity sha512-uE/TxKuyNIcx44cIWnjr/rfIATDH7ZaOMmstu0CwhFG1Dunhlp4OC6/NMbhiwoq5BpW0ubi303qnEk/PZj614w==
+
+htmlparser2@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-6.0.0.tgz#c2da005030390908ca4c91e5629e418e0665ac01"
+  integrity sha512-numTQtDZMoh78zJpaNdJ9MXb2cv5G3jwUoe3dMQODubZvLoGvTE/Ofp6sHvH8OGKcN/8A47pGLi/k58xHP/Tfw==
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.0.0"
+    domutils "^2.4.4"
+    entities "^2.0.0"
 
 htmlparser2@^3.10.1, htmlparser2@^3.9.1:
   version "3.10.1"
@@ -9436,6 +9753,11 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-property@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-property/-/react-property-1.0.1.tgz#4ae4211557d0a0ae050a71aa8ad288c074bea4e6"
+  integrity sha512-1tKOwxFn3dXVomH6pM9IkLkq2Y8oh+fh/lYW3MJ/B03URswUTqttgckOlbxY2XHF3vPG6uanSc4dVsLW/wk3wQ==
+
 react-refresh@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
@@ -10766,6 +11088,13 @@ style-loader@^2.0.0:
   dependencies:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
+
+style-to-js@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/style-to-js/-/style-to-js-1.1.0.tgz#631cbb20fce204019b3aa1fcb5b69d951ceac4ac"
+  integrity sha512-1OqefPDxGrlMwcbfpsTVRyzwdhr4W0uxYQzeA2F1CBc8WG04udg2+ybRnvh3XYL4TdHQrCahLtax2jc8xaE6rA==
+  dependencies:
+    style-to-object "0.3.0"
 
 style-to-object@0.3.0, style-to-object@^0.3.0:
   version "0.3.0"
