@@ -1,5 +1,11 @@
 # @atlantum/lightTheme
 
+## 0.4.0
+
+### Minor Changes
+
+-   8995300: updated color theme
+
 ## 0.3.1
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @atlantum/text-input
 
+## 0.3.0
+
+### Minor Changes
+
+-   8995300: updated color theme
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/label@0.4.0
+    -   @atlantum/theme@0.4.0
+
 ## 0.2.3
 
 ### Patch Changes

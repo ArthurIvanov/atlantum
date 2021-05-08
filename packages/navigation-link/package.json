@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/navigation-link",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "navigation-link component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/theme": "^0.3.0"
+        "@atlantum/theme": "^0.4.0"
     },
     "devDependencies": {
         "react": "^16.13.1",

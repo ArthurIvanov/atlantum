@@ -1,5 +1,17 @@
 # @atlantum/checkbox
 
+## 1.1.0
+
+### Minor Changes
+
+-   8995300: updated color theme
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/label@0.4.0
+    -   @atlantum/theme@0.4.0
+
 ## 1.0.3
 
 ### Patch Changes

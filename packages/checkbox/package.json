@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/checkbox",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "checkbox component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -11,8 +11,8 @@
     ],
     "dependencies": {
         "@atlantum/input": "^0.2.7",
-        "@atlantum/label": "^0.3.2",
-        "@atlantum/theme": "^0.3.0"
+        "@atlantum/label": "^0.4.0",
+        "@atlantum/theme": "^0.4.0"
     },
     "devDependencies": {
         "react": "^16.13.1",

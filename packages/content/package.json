@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/content",
-    "version": "0.3.7",
+    "version": "0.3.8",
     "description": "content layout",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/theme": "^0.3.0",
+        "@atlantum/theme": "^0.4.0",
         "styled-components": "^5.2.0"
     },
     "devDependencies": {
