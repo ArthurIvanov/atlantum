@@ -4,7 +4,7 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
 };
 import React from 'react';
 import styled from 'styled-components';
-var StyledTableRow = styled.tr(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    padding: 12px;\n"], ["\n    padding: 12px;\n"])));
+var StyledTableRow = styled.tr(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    padding: ", ";\n"], ["\n    padding: ", ";\n"])), function (props) { return props.theme.spacing[12]; });
 export var TableRow = function (_a) {
     var children = _a.children, id = _a.id, className = _a.className;
     return (React.createElement(StyledTableRow, { id: id, className: className }, children));

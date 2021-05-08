@@ -15,19 +15,19 @@ export interface NavigationLinkProps {
 
 const StyledNavigationLink = styled.button<NavigationLinkProps>`
     display: flex;
-    padding: ${(props) => props.theme.spacing.space8}
-        ${(props) => props.theme.spacing.space24};
+    padding: ${(props) => props.theme.spacing[8]}
+        ${(props) => props.theme.spacing[24]};
     text-decoration: none;
     cursor: pointer;
     border-radius: ${(props) => props.theme.borderRadius};
-    color: ${(props) => props.theme.colors.neutral400};
+    color: ${(props) => props.theme.colors.neutral[400]};
     transition: 0.2s ease;
     &:hover {
-        color: ${(props) => props.theme.colors.primary200};
+        color: ${(props) => props.theme.colors.primary[200]};
     }
     &:focus {
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
-        color: ${(props) => props.theme.colors.primary200};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary[100]};
+        color: ${(props) => props.theme.colors.primary[200]};
     }
 `;
 

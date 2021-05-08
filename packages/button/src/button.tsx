@@ -63,10 +63,10 @@ export const StyledButton = styled.button<ButtonProps>`
     border: none;
     display: inline-block;
     border-radius: ${(props) => props.theme.borderRadius};
-    background-color: ${(props) => props.theme.colors.primary200};
-    color: ${(props) => props.theme.colors.neutralContentBG};
-    padding: ${(props) => props.theme.spacing.space8}
-        ${(props) => props.theme.spacing.space16};
+    background-color: ${(props) => props.theme.colors.primary[200]};
+    color: ${(props) => props.theme.colors.neutral[500]};
+    padding: ${(props) => props.theme.spacing[8]}
+        ${(props) => props.theme.spacing[16]};
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-family: ${(props) => props.theme.typography.family.base};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
@@ -75,14 +75,14 @@ export const StyledButton = styled.button<ButtonProps>`
 
     transition: 0.2s ease;
     &:hover {
-        background-color: ${(props) => props.theme.colors.primary300};
+        background-color: ${(props) => props.theme.colors.primary[300]};
     }
     &:focus {
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary[100]};
     }
 
     &:active {
-        background-color: ${(props) => props.theme.colors.primary400};
+        background-color: ${(props) => props.theme.colors.primary[400]};
     }
 
     ${(props) =>
@@ -91,7 +91,7 @@ export const StyledButton = styled.button<ButtonProps>`
         display: inline-flex;
         align-items: center;
         & > * {
-            margin-right: 8px;
+            margin-right: ${props.theme.spacing[8]}px;
         }  
     `}
 
@@ -101,7 +101,7 @@ export const StyledButton = styled.button<ButtonProps>`
         display: inline-flex;
         align-items: center; 
         & > * {
-            margin-left: 8px;
+            margin-left: ${props.theme.spacing[8]}px;
         }
     `}
 
@@ -110,34 +110,34 @@ export const StyledButton = styled.button<ButtonProps>`
     ${(props) =>
         props.isSecondary &&
         `  
-         color: ${props.theme.colors.neutral400};
-         background-color: ${props.theme.colors.neutral100};
+         color: ${props.theme.colors.neutral[400]};
+         background-color: ${props.theme.colors.neutral[100]};
          
         &:hover {   
-            color: ${props.theme.colors.primary300};
-            background-color: ${props.theme.colors.neutral100};      
+            color: ${props.theme.colors.primary[300]};
+            background-color: ${props.theme.colors.neutral[100]};      
         }
          
         
         &:focus {
-            color: ${props.theme.colors.neutral400};
-            background-color: ${props.theme.colors.neutralLight};
+            color: ${props.theme.colors.neutral[400]};
+            background-color: ${props.theme.colors.neutral[100]};
         }
     
         &:active {
-            color: ${props.theme.colors.neutralContentBG};
-            background-color: ${props.theme.colors.neutral300};
+            color: ${props.theme.colors.neutral[500]};
+            background-color: ${props.theme.colors.neutral[300]};
         }
     `}
 
     ${(props) =>
         props.disabled &&
         `
-         color: ${props.theme.colors.neutral200};
-         background-color: ${props.theme.colors.neutral100};
+         color: ${props.theme.colors.neutral[200]};
+         background-color: ${props.theme.colors.neutral[100]};
          cursor: not-allowed;
          &:hover {           
-         background-color: ${props.theme.colors.neutral100};
+         background-color: ${props.theme.colors.neutral[100]};
 
     }
     `}
@@ -145,16 +145,16 @@ export const StyledButton = styled.button<ButtonProps>`
     ${(props) =>
         props.themed === 'danger' &&
         `   
-        background-color: ${props.theme.colors.danger200};
+        background-color: ${props.theme.colors.danger[200]};
         &:hover {
-        background-color: ${props.theme.colors.danger300};
+        background-color: ${props.theme.colors.danger[300]};
     }
         &:focus {
-            box-shadow: 0 0 0 2px ${props.theme.colors.danger100};
+            box-shadow: 0 0 0 2px ${props.theme.colors.danger[100]};
         }
     
         &:active {
-            background-color: ${props.theme.colors.danger400};
+            background-color: ${props.theme.colors.danger[400]};
         }
     
     `}
@@ -162,16 +162,16 @@ export const StyledButton = styled.button<ButtonProps>`
 	${(props) =>
         props.themed === 'success' &&
         `   
-        background-color: ${props.theme.colors.success200};
+        background-color: ${props.theme.colors.success[200]};
         &:hover {
-        background-color: ${props.theme.colors.success300};
+        background-color: ${props.theme.colors.success[300]};
     }
         &:focus {
-            box-shadow: 0 0 0 2px ${props.theme.colors.success100};
+            box-shadow: 0 0 0 2px ${props.theme.colors.success[100]};
         }
     
         &:active {
-            background-color: ${props.theme.colors.success400};
+            background-color: ${props.theme.colors.success[400]};
         }
     
     `}
@@ -179,16 +179,16 @@ export const StyledButton = styled.button<ButtonProps>`
 	${(props) =>
         props.themed === 'warning' &&
         `   
-        background-color: ${props.theme.colors.warning200};
+        background-color: ${props.theme.colors.warning[200]};
         &:hover {
-        background-color: ${props.theme.colors.warning300};
+        background-color: ${props.theme.colors.warning[300]};
     }
         &:focus {
-            box-shadow: 0 0 0 2px ${props.theme.colors.warning100};
+            box-shadow: 0 0 0 2px ${props.theme.colors.warning[100]};
         }
     
         &:active {
-            background-color: ${props.theme.colors.warning400};
+            background-color: ${props.theme.colors.warning[400]};
         }
     
     `}
@@ -196,16 +196,16 @@ export const StyledButton = styled.button<ButtonProps>`
 	${(props) =>
         props.themed === 'info' &&
         `   
-        background-color: ${props.theme.colors.info200};
+        background-color: ${props.theme.colors.info[200]};
         &:hover {
-        background-color: ${props.theme.colors.info300};
+        background-color: ${props.theme.colors.info[300]};
     }
         &:focus {
-            box-shadow: 0 0 0 2px ${props.theme.colors.info100};
+            box-shadow: 0 0 0 2px ${props.theme.colors.info[100]};
         }
     
         &:active {
-            background-color: ${props.theme.colors.info400};
+            background-color: ${props.theme.colors.info[400]};
         }
     
     `}

@@ -12,9 +12,9 @@ export interface TableHeaderProps {
 }
 
 const StyledTableHeader = styled.th<TableHeaderProps>`
-    padding: 12px;
+    padding: ${(props) => props.theme.spacing[12]}px;
     text-align: left;
-    border: 1px solid ${(props) => props.theme.colors.neutral200};
+    border: 1px solid ${(props) => props.theme.colors.neutral[200]};
 `;
 
 export const TableHeader: FC<TableHeaderProps> = ({

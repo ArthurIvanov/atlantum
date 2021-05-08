@@ -24,23 +24,23 @@ const StyledSelect = styled.select<SelectProps>`
     border-radius: ${(props) => props.theme.borderRadius};
     outline: 0;
 
-    border: ${(props) => props.theme.spacing.space1} solid
-        ${(props) => props.theme.colors.neutral300};
+    border: ${(props) => props.theme.spacing[1]} solid
+        ${(props) => props.theme.colors.neutral[300]};
 
-    color: ${(props) => props.theme.colors.neutral400};
-    background-color: ${(props) => props.theme.colors.neutralContentBG};
-    padding: ${(props) => props.theme.spacing.space7};
+    color: ${(props) => props.theme.colors.neutral[400]};
+    background-color: ${(props) => props.theme.colors.neutral[500]};
+    padding: ${(props) => props.theme.spacing[7]};
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-family: ${(props) => props.theme.typography.family.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.regular};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
 
     &:hover {
-        border-color: ${(props) => props.theme.colors.primary200};
+        border-color: ${(props) => props.theme.colors.primary[200]};
     }
     &:focus {
-        border-color: ${(props) => props.theme.colors.primary300};
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+        border-color: ${(props) => props.theme.colors.primary[300]};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary[100]};
     }
 
     transition: ${(props) => props.theme.animation.base};
@@ -49,15 +49,15 @@ const StyledSelect = styled.select<SelectProps>`
         props.disabled &&
         `
         &::placeholder {
-        color: ${props.theme.colors.neutral200};
+        color: ${props.theme.colors.neutral[200]};
         }
-         color: ${props.theme.colors.neutral200};
-         background-color: ${props.theme.colors.neutral100};
-         border-color: ${props.theme.colors.neutral100};
+         color: ${props.theme.colors.neutral[200]};
+         background-color: ${props.theme.colors.neutral[100]};
+         border-color: ${props.theme.colors.neutral[100]};
          cursor: not-allowed;
          &:hover {    
-            background-color: ${props.theme.colors.neutral100};
-            border-color: ${props.theme.colors.neutral100};
+            background-color: ${props.theme.colors.neutral[100]};
+            border-color: ${props.theme.colors.neutral[100]};
             box-shadow: none;
     }
     `}
@@ -65,24 +65,24 @@ const StyledSelect = styled.select<SelectProps>`
     ${(props) =>
         props.danger &&
         ` 
-        border-color: ${props.theme.colors.danger300};
+        border-color: ${props.theme.colors.danger[300]};
         &:focus {
-        border-color: ${props.theme.colors.danger300};
+        border-color: ${props.theme.colors.danger[300]};
         }
          &:hover {
-            border-color: ${props.theme.colors.danger200};         
+            border-color: ${props.theme.colors.danger[200]};         
     }
     `}
 
 	${(props) =>
         props.success &&
         `       
-         border-color: ${props.theme.colors.success300};
+         border-color: ${props.theme.colors.success[300]};
          &:hover {
-            border-color: ${props.theme.colors.success300};         
+            border-color: ${props.theme.colors.success[300]};         
     }
         &:focus {
-        border-color: ${props.theme.colors.success200};
+        border-color: ${props.theme.colors.success[200]};
         }
     `}
 `;

@@ -9,18 +9,18 @@ var StyledLabel = styled.label(templateObject_1 || (templateObject_1 = __makeTem
     ";\n\n    ",
     ";\n\n    ",
     ";\n\n    ",
-    ";\n"])), function (props) { return props.theme.colors.neutral400; }, function (props) { return props.theme.spacing.space8; }, function (props) { return props.theme.typography.fontWeight.regular; }, function (props) { return props.theme.typography.fontSize.label; }, function (props) { return props.theme.typography.lineHeight.label; }, function (props) { return props.theme.typography.family.base; }, function (props) {
+    ";\n"])), function (props) { return props.theme.colors.neutral[400]; }, function (props) { return props.theme.spacing[8]; }, function (props) { return props.theme.typography.fontWeight.regular; }, function (props) { return props.theme.typography.fontSize.label; }, function (props) { return props.theme.typography.lineHeight.label; }, function (props) { return props.theme.typography.family.base; }, function (props) {
     return props.input &&
-        "      \n            flex-direction: column;\n            align-items: flex-start;\n            span.input-alert {\n                color: " + props.theme.colors.neutral400 + ";\n                font-size: " + props.theme.typography.fontSize.subLabel + ";\n                line-height: " + props.theme.typography.lineHeight.subLabel + ";\n                font-weight: " + props.theme.typography.fontWeight.regular + ";\n                margin-top: " + props.theme.spacing.space4 + ";\n                }\n            span.input-label {\n                color: " + props.theme.colors.neutral400 + ";\n                margin-bottom: " + props.theme.spacing.space4 + ";\n                font-weight: " + props.theme.typography.fontWeight.semiBold + ";\n                margin-left: 0;\n            }\n \n            \n    ";
+        "      \n            flex-direction: column;\n            align-items: flex-start;\n            span.input-alert {\n                color: " + props.theme.colors.neutral[400] + ";\n                font-size: " + props.theme.typography.fontSize.subLabel + ";\n                line-height: " + props.theme.typography.lineHeight.subLabel + ";\n                font-weight: " + props.theme.typography.fontWeight.regular + ";\n                margin-top: " + props.theme.spacing[4] + ";\n                }\n            span.input-label {\n                color: " + props.theme.colors.neutral[400] + ";\n                margin-bottom: " + props.theme.spacing[4] + ";\n                font-weight: " + props.theme.typography.fontWeight.semiBold + ";\n                margin-left: 0;\n            }\n \n            \n    ";
 }, function (props) {
     return props.danger &&
-        "      \n            span.input-alert {\n            color: " + props.theme.colors.danger300 + ";\n            }\n               \n    ";
+        "      \n            span.input-alert {\n            color: " + props.theme.colors.danger[300] + ";\n            }\n               \n    ";
 }, function (props) {
     return props.success &&
-        "      \n            span.input-alert {\n            color: " + props.theme.colors.success300 + ";\n            }\n               \n    ";
+        "      \n            span.input-alert {\n            color: " + props.theme.colors.success[300] + ";\n            }\n               \n    ";
 }, function (props) {
     return props.disabled &&
-        "      \n            span.input-label {\n            color: " + props.theme.colors.neutral200 + ";\n            }\n            \n    ";
+        "      \n            span.input-label {\n            color: " + props.theme.colors.neutral[200] + ";\n            }\n            \n    ";
 }, function (props) {
     return props.fontWeight === 'regular' &&
         "      \n            span.input-label {\n            font-weight: " + props.theme.typography.fontWeight.regular + ";\n            color: red;\n            }\n       \n    ";

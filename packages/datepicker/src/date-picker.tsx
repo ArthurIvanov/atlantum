@@ -11,12 +11,12 @@ const StyledDatepicker = styled.input<InputProps>`
     border-radius: ${(props) => props.theme.borderRadius};
     outline: none;
 
-    border: ${(props) => props.theme.spacing.space1} solid
-        ${(props) => props.theme.colors.neutral300};
+    border: ${(props) => props.theme.spacing[1]} solid
+        ${(props) => props.theme.colors.neutral[300]};
 
-    color: ${(props) => props.theme.colors.neutral400};
-    background-color: ${(props) => props.theme.colors.neutralContentBG};
-    padding: ${(props) => props.theme.spacing.space7};
+    color: ${(props) => props.theme.colors.neutral[400]};
+    background-color: ${(props) => props.theme.colors.neutral[500]};
+    padding: ${(props) => props.theme.spacing[7]};
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-family: ${(props) => props.theme.typography.family.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.regular};

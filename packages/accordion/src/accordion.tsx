@@ -31,8 +31,8 @@ const StyledAccordion = styled.ul<AccordionProps>`
     line-height: ${(props) => props.theme.typography.lineHeight.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.base};
     list-style: none;
-    color: ${(props) => props.theme.colors.neutral400};
-    padding: ${(props) => props.theme.spacing.space12} 0;
+    color: ${(props) => props.theme.colors.neutral[400]};
+    padding: ${(props) => props.theme.spacing[12]} 0;
     margin: 0;
     width: 100%;
 `;

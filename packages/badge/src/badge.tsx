@@ -13,10 +13,10 @@ export interface BadgeProps {
 export const StyledBadge = styled.div<BadgeProps>`
     border-radius: ${(props) => props.theme.borderRadius};
     border: 1px solid transparent;
-    background-color: ${(props) => props.theme.colors.primary200};
-    color: ${(props) => props.theme.colors.neutralContentBG};
-    padding: ${(props) => props.theme.spacing.space4}
-        ${(props) => props.theme.spacing.space8};
+    background-color: ${(props) => props.theme.colors.primary[200]};
+    color: ${(props) => props.theme.colors.neutral[500]};
+    padding: ${(props) => props.theme.spacing[4]}
+        ${(props) => props.theme.spacing[8]};
     font-size: ${(props) => props.theme.typography.fontSize.subLabel};
     font-family: ${(props) => props.theme.typography.family.base};
     line-height: ${(props) => props.theme.typography.lineHeight.subLabel};
@@ -26,8 +26,8 @@ export const StyledBadge = styled.div<BadgeProps>`
         props.isInfo &&
         `
         border: none;
-    background-color: ${props.theme.colors.infoBG};
-    color: ${props.theme.colors.info300};
+    background-color: ${props.theme.colors.info[500]};
+    color: ${props.theme.colors.info[300]};
     
     `}
 
@@ -35,8 +35,8 @@ export const StyledBadge = styled.div<BadgeProps>`
         props.isSuccess &&
         `
         border: none;
-    background-color: ${props.theme.colors.successBG};
-    color: ${props.theme.colors.success300};
+    background-color: ${props.theme.colors.success[500]};
+    color: ${props.theme.colors.success[300]};
     
     `}
     
@@ -44,8 +44,8 @@ export const StyledBadge = styled.div<BadgeProps>`
         props.isWarning &&
         `
         border: none;
-    background-color: ${props.theme.colors.warningBG};
-    color: ${props.theme.colors.warning300};
+    background-color: ${props.theme.colors.warning[500]};
+    color: ${props.theme.colors.warning[300]};
     
     `}
     
@@ -53,8 +53,8 @@ export const StyledBadge = styled.div<BadgeProps>`
         props.isDanger &&
         `
         border: none;
-    background-color: ${props.theme.colors.dangerBG};
-    color: ${props.theme.colors.danger300};
+    background-color: ${props.theme.colors.danger[500]};
+    color: ${props.theme.colors.danger[300]};
     
     `}
 `;

@@ -41,7 +41,7 @@ const StyledSpinner = styled.div<SpinnerProps>`
         `}
         
         
-		border-color: ${(props) => props.theme.colors.primary200} transparent;
+		border-color: ${(props) => props.theme.colors.primary[200]} transparent;
         animation: atlantum-spinner 1.2s linear infinite;
     }
 

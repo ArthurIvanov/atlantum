@@ -11,7 +11,7 @@ export interface TableRowProps {
 }
 
 const StyledTableRow = styled.tr<TableRowProps>`
-    padding: 12px;
+    padding: ${(props) => props.theme.spacing[12]};
 `;
 
 export const TableRow: FC<TableRowProps> = ({ children, id, className }) => {

@@ -9,21 +9,21 @@ var StyledTag = styled.div(templateObject_1 || (templateObject_1 = __makeTemplat
     "\n\n\t",
     "\n\n\t",
     "\n\n\t",
-    "\n"])), function (props) { return props.theme.spacing.space4; }, function (props) { return props.theme.spacing.space8; }, function (props) { return props.theme.typography.fontSize.subLabel; }, function (props) { return props.theme.typography.fontWeight.semiBold; }, function (props) { return props.theme.typography.lineHeight.subLabel; }, function (props) {
+    "\n"])), function (props) { return props.theme.spacing[4]; }, function (props) { return props.theme.spacing[8]; }, function (props) { return props.theme.typography.fontSize.subLabel; }, function (props) { return props.theme.typography.fontWeight.semiBold; }, function (props) { return props.theme.typography.lineHeight.subLabel; }, function (props) {
     return props.tagColor === 'neutral' &&
-        "\n        color: " + props.theme.colors.neutral400 + ";\n        background-color: " + props.theme.colors.neutralGlobalBG + ";\n    ";
+        "\n        color: " + props.theme.colors.neutral[400] + ";\n        background-color: " + props.theme.colors.neutral[600] + ";\n    ";
 }, function (props) {
     return props.tagColor === 'red' &&
-        "\n        color: " + props.theme.colors.danger300 + ";\n        background-color: " + props.theme.colors.dangerBG + ";\n    ";
+        "\n        color: " + props.theme.colors.danger[300] + ";\n        background-color: " + props.theme.colors.danger[400] + ";\n    ";
 }, function (props) {
     return props.tagColor === 'blue' &&
-        "\n        color: " + props.theme.colors.info300 + ";\n        background-color: " + props.theme.colors.infoBG + ";\n    ";
+        "\n        color: " + props.theme.colors.info300 + ";\n        background-color: " + props.theme.colors.info[400] + ";\n    ";
 }, function (props) {
     return props.tagColor === 'green' &&
-        "\n        color: " + props.theme.colors.success300 + ";\n        background-color: " + props.theme.colors.successBG + ";\n    ";
+        "\n        color: " + props.theme.colors.success[300] + ";\n        background-color: " + props.theme.colors.success[400] + ";\n    ";
 }, function (props) {
     return props.tagColor === 'orange' &&
-        "\n        color: " + props.theme.colors.warning300 + ";\n        background-color: " + props.theme.colors.warningBG + ";\n    ";
+        "\n        color: " + props.theme.colors.warning[300] + ";\n        background-color: " + props.theme.colors.warning[400] + ";\n    ";
 });
 export var Tag = function (_a) {
     var children = _a.children, tagColor = _a.tagColor;

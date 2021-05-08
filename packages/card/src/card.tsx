@@ -39,10 +39,10 @@ export interface CardProps {
 
 const StyledCard = styled.section<CardProps>`
     border-radius: ${(props) => props.theme.borderRadius};
-    background-color: ${(props) => props.theme.colors.neutralContentBG};
+    background-color: ${(props) => props.theme.colors.neutral[500]};
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 16px ${(props) => props.theme.colors.neutral400}04;
+    box-shadow: 0 0 16px ${(props) => props.theme.colors.neutral[400]}024;
 
     ${(props) =>
         props.size === 'full' &&
@@ -53,25 +53,25 @@ const StyledCard = styled.section<CardProps>`
     ${(props) =>
         props.size === 'large' &&
         `
-        padding: ${props.theme.spacing.space12}; 
+        padding: ${props.theme.spacing[12]}; 
     `};
 
     ${(props) =>
         props.size === 'standard' &&
         `
-        padding: ${props.theme.spacing.space24}; 
+        padding: ${props.theme.spacing[24]}; 
     `};
 
     ${(props) =>
         props.size === 'compact' &&
         `
-        padding: ${props.theme.spacing.space48}; 
+        padding: ${props.theme.spacing[48]}; 
     `};
 
     ${(props) =>
         props.size === 'landing' &&
         `
-        padding: ${props.theme.spacing.space64}; 
+        padding: ${props.theme.spacing[64]}; 
     `};
 `;
 

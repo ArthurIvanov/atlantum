@@ -15,7 +15,7 @@ const StyledDivider = styled.hr<DividerProps>`
     border: none;
 
     height: 1px;
-    background-color: ${(props) => props.theme.colors.neutral300};
+    background-color: ${(props) => props.theme.colors.neutral[300]};
 
     ${(props) =>
         props.orientation === 'horizontal' &&

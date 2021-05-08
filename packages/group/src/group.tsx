@@ -34,16 +34,16 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'closest' &&
         `
         &>*:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space8};  
+            margin-bottom: ${props.theme.spacing[8]};  
         }
         @media only screen and (min-width: 400px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space8};
+            margin-bottom: ${props.theme.spacing[8]};
         }
         
         @media only screen and (min-width: 600px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space8};
+            margin-bottom: ${props.theme.spacing[8]};
         }
         
         @media only screen and (min-width: 1050px) {
@@ -60,16 +60,16 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'grouped' &&
         `
         &>*:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space16};  
+            margin-bottom: ${props.theme.spacing[16]};  
         }
         @media only screen and (min-width: 400px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space16};
+            margin-bottom: ${props.theme.spacing[16]};
         }
         
         @media only screen and (min-width: 600px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space16};
+            margin-bottom: ${props.theme.spacing[16]};
         }
         
         @media only screen and (min-width: 1050px) {
@@ -86,16 +86,16 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'one-context' &&
         `
         &>*:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space24};  
+            margin-bottom: ${props.theme.spacing[24]};  
         }
         @media only screen and (min-width: 400px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space24};
+            margin-bottom: ${props.theme.spacing[24]};
         }
         
         @media only screen and (min-width: 600px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space24};
+            margin-bottom: ${props.theme.spacing[24]};
         }
         
         @media only screen and (min-width: 1050px) {
@@ -111,16 +111,16 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'separated' &&
         `
          &>*:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space32};  
+            margin-bottom: ${props.theme.spacing[32]};  
         }
         @media only screen and (min-width: 400px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space32};
+            margin-bottom: ${props.theme.spacing[32]};
         }
         
         @media only screen and (min-width: 600px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space32};
+            margin-bottom: ${props.theme.spacing[32]};
         }
         
         @media only screen and (min-width: 1050px) {
@@ -136,16 +136,16 @@ const StyledGroup = styled.div<GroupProps>`
         props.relation === 'far' &&
         `
         &>*:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space48};  
+            margin-bottom: ${props.theme.spacing[48]};  
         }
         @media only screen and (min-width: 400px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space48};
+            margin-bottom: ${props.theme.spacing[48]};
         }
         
         @media only screen and (min-width: 600px) {
         * > *:not(:last-child) {
-            margin-bottom: ${props.theme.spacing.space48};
+            margin-bottom: ${props.theme.spacing[48]};
         }
         
         @media only screen and (min-width: 1050px) {

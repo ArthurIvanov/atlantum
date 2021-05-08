@@ -15,15 +15,15 @@ export interface ProductBannerProps {
 
 const StyledProductBanner = styled.div<ProductBannerProps>`
     border: none;
-    border-radius: ${(props) => props.theme.spacing.space8};
-    margin-bottom: ${(props) => props.theme.spacing.space24};
+    border-radius: ${(props) => props.theme.spacing.space[8]};
+    margin-bottom: ${(props) => props.theme.spacing.space[24]};
     background-size: auto;
     background: url(${(props) => props.backgroundImage}) no-repeat center;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    padding: ${(props) => props.theme.spacing.space24};
+    padding: ${(props) => props.theme.spacing.space[24]};
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
 
     ${(props) =>
@@ -43,11 +43,6 @@ const StyledProductBanner = styled.div<ProductBannerProps>`
         `
         height: 540px;
     `}
-    
-    h1,h2,h3,h4,h5,h6 {
-        margin-bottom: ${(props) => props.theme.spacing.space24};
-        color: ${(props) => props.theme.colors.textInverted};
-    }
 `;
 
 export const ProductBanner: FC<ProductBannerProps> = ({

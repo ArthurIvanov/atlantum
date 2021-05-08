@@ -25,20 +25,20 @@ export interface AvatarProps {
 
 const StyledAvatar = styled.div<AvatarProps>`
     border-radius: 50%;
-    border: 1px solid ${(props) => props.theme.colors.primary200};
+    border: 1px solid ${(props) => props.theme.colors.primary[200]};
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    color: ${(props) => props.theme.colors.neutralGlobalBG};
-    background: ${(props) => props.theme.colors.primary200};
+    color: ${(props) => props.theme.colors.neutral[600]};
+    background: ${(props) => props.theme.colors.primary[200]};
     font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
 
     ${(props) =>
         props.size === 'default' &&
         `
-        width: ${props.theme.spacing.space32};
-        height: ${props.theme.spacing.space32};
+        width: ${props.theme.spacing[32]};
+        height: ${props.theme.spacing[32]};
         font-size: ${props.theme.typography.fontSize.base};
         line-height: ${props.theme.typography.lineHeight.base};
     `}
@@ -46,13 +46,13 @@ const StyledAvatar = styled.div<AvatarProps>`
     ${(props) =>
         props.size === 'large' &&
         `
-        width: ${props.theme.spacing.space48};
-        height: ${props.theme.spacing.space48};
+        width: ${props.theme.spacing[48]};
+        height: ${props.theme.spacing[48]};
         font-size: ${props.theme.typography.fontSize.h5};
         line-height: ${props.theme.typography.lineHeight.h5};
         .atlantum-avatar-icon {
-        width: ${props.theme.spacing.space32};
-        height: ${props.theme.spacing.space32};
+        width: ${props.theme.spacing[32]};
+        height: ${props.theme.spacing[32]};
         }
     `}
 

@@ -8,7 +8,7 @@ export interface TabPanelProps {
 }
 
 const StyledTabPanel = styled.div`
-    padding: ${(props) => props.theme.spacing.space24};
+    padding: ${(props) => props.theme.spacing[24]};
 `;
 
 export const TabPanel: FC<TabPanelProps> = ({ children, id }) => {

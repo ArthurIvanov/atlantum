@@ -53,7 +53,7 @@ const StyledText = styled(Fragment)<TextProps>`
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.base};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
-    color: ${(props) => props.theme.colors.neutral400};
+    color: ${(props) => props.theme.colors.neutral[400]};
     margin: 0;
 
     ${(props) =>

@@ -27,10 +27,10 @@ export interface AccordionItemProps {
 
 const StyledAccordionItem = styled.li<AccordionItemProps>`
     ul > li {
-        padding: ${(props) => props.theme.spacing.space12};
-        padding-left: ${(props) => props.theme.spacing.space24};
+        padding: ${(props) => props.theme.spacing[12]};
+        padding-left: ${(props) => props.theme.spacing[24]};
         a:hover {
-            color: ${(props) => props.theme.colors.primary200};
+            color: ${(props) => props.theme.colors.primary[200]};
         }
     }
     .atlantum-accordion-item--title {
@@ -47,18 +47,18 @@ const StyledAccordionItem = styled.li<AccordionItemProps>`
         align-items: center;
         justify-content: space-between;
         margin: 0;
-        padding: ${(props) => props.theme.spacing.space8}
-            ${(props) => props.theme.spacing.space24};
+        padding: ${(props) => props.theme.spacing[8]}
+            ${(props) => props.theme.spacing[24]};
         transition: 0.2s ease;
-        color: ${(props) => props.theme.colors.neutral400};
+        color: ${(props) => props.theme.colors.neutral[400]};
 
         &:hover {
-            color: ${(props) => props.theme.colors.primary200};
+            color: ${(props) => props.theme.colors.primary[200]};
         }
 
         &:focus {
-            box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
-            color: ${(props) => props.theme.colors.primary200};
+            box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary[100]};
+            color: ${(props) => props.theme.colors.primary[200]};
         }
     }
 
@@ -67,7 +67,7 @@ const StyledAccordionItem = styled.li<AccordionItemProps>`
         list-style: none;
         padding: 0;
         & > a {
-            padding-left: ${(props) => props.theme.spacing.space24};
+            padding-left: ${(props) => props.theme[24]};
         }
     }
     .atlantum-accordion-item--content__closed {

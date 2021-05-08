@@ -9,8 +9,8 @@ export interface TagProps {
 }
 
 const StyledTag = styled.div<TagProps>`
-    padding: ${(props) => props.theme.spacing.space4}
-        ${(props) => props.theme.spacing.space8};
+    padding: ${(props) => props.theme.spacing[4]}
+        ${(props) => props.theme.spacing[8]};
     border-radius: 32px;
     font-size: ${(props) => props.theme.typography.fontSize.subLabel};
     font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
@@ -19,36 +19,36 @@ const StyledTag = styled.div<TagProps>`
     ${(props) =>
         props.tagColor === 'neutral' &&
         `
-        color: ${props.theme.colors.neutral400};
-        background-color: ${props.theme.colors.neutralGlobalBG};
+        color: ${props.theme.colors.neutral[400]};
+        background-color: ${props.theme.colors.neutral[600]};
     `}
 
     ${(props) =>
         props.tagColor === 'red' &&
         `
-        color: ${props.theme.colors.danger300};
-        background-color: ${props.theme.colors.dangerBG};
+        color: ${props.theme.colors.danger[300]};
+        background-color: ${props.theme.colors.danger[400]};
     `}
 
 	${(props) =>
         props.tagColor === 'blue' &&
         `
         color: ${props.theme.colors.info300};
-        background-color: ${props.theme.colors.infoBG};
+        background-color: ${props.theme.colors.info[400]};
     `}
 
 	${(props) =>
         props.tagColor === 'green' &&
         `
-        color: ${props.theme.colors.success300};
-        background-color: ${props.theme.colors.successBG};
+        color: ${props.theme.colors.success[300]};
+        background-color: ${props.theme.colors.success[400]};
     `}
 
 	${(props) =>
         props.tagColor === 'orange' &&
         `
-        color: ${props.theme.colors.warning300};
-        background-color: ${props.theme.colors.warningBG};
+        color: ${props.theme.colors.warning[300]};
+        background-color: ${props.theme.colors.warning[400]};
     `}
 `;
 

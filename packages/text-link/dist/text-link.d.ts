@@ -8,6 +8,7 @@ export interface TextLinkProps {
      * Allow apply custom classes to component
      */
     className?: string;
+    as?: string;
 }
 export declare const TextLink: FC<TextLinkProps>;
 //# sourceMappingURL=text-link.d.ts.map

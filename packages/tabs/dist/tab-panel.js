@@ -5,7 +5,7 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
 import React, { useContext } from 'react';
 import TabsContext from './tabs-context';
 import styled from 'styled-components';
-var StyledTabPanel = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    padding: ", ";\n"], ["\n    padding: ", ";\n"])), function (props) { return props.theme.spacing.space24; });
+var StyledTabPanel = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    padding: ", ";\n"], ["\n    padding: ", ";\n"])), function (props) { return props.theme.spacing[24]; });
 export var TabPanel = function (_a) {
     var children = _a.children, id = _a.id;
     var active = useContext(TabsContext).active;

@@ -4,26 +4,26 @@ var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cook
 };
 import styled from 'styled-components';
 import React from 'react';
-var StyledCard = styled.section(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    border-radius: ", ";\n    background-color: ", ";\n    display: flex;\n    flex-direction: column;\n    box-shadow: 0 0 16px ", "04;\n\n    ", ";\n\n    ", ";\n\n    ", ";\n\n    ", ";\n\n    ", ";\n"], ["\n    border-radius: ", ";\n    background-color: ", ";\n    display: flex;\n    flex-direction: column;\n    box-shadow: 0 0 16px ", "04;\n\n    ",
+var StyledCard = styled.section(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    border-radius: ", ";\n    background-color: ", ";\n    display: flex;\n    flex-direction: column;\n    box-shadow: 0 0 16px ", "024;\n\n    ", ";\n\n    ", ";\n\n    ", ";\n\n    ", ";\n\n    ", ";\n"], ["\n    border-radius: ", ";\n    background-color: ", ";\n    display: flex;\n    flex-direction: column;\n    box-shadow: 0 0 16px ", "024;\n\n    ",
     ";\n\n    ",
     ";\n\n    ",
     ";\n\n    ",
     ";\n\n    ",
-    ";\n"])), function (props) { return props.theme.borderRadius; }, function (props) { return props.theme.colors.neutralContentBG; }, function (props) { return props.theme.colors.neutral400; }, function (props) {
+    ";\n"])), function (props) { return props.theme.borderRadius; }, function (props) { return props.theme.colors.neutral[500]; }, function (props) { return props.theme.colors.neutral[400]; }, function (props) {
     return props.size === 'full' &&
         "\n        padding: 0; \n    ";
 }, function (props) {
     return props.size === 'large' &&
-        "\n        padding: " + props.theme.spacing.space12 + "; \n    ";
+        "\n        padding: " + props.theme.spacing[12] + "; \n    ";
 }, function (props) {
     return props.size === 'standard' &&
-        "\n        padding: " + props.theme.spacing.space24 + "; \n    ";
+        "\n        padding: " + props.theme.spacing[24] + "; \n    ";
 }, function (props) {
     return props.size === 'compact' &&
-        "\n        padding: " + props.theme.spacing.space48 + "; \n    ";
+        "\n        padding: " + props.theme.spacing[48] + "; \n    ";
 }, function (props) {
     return props.size === 'landing' &&
-        "\n        padding: " + props.theme.spacing.space64 + "; \n    ";
+        "\n        padding: " + props.theme.spacing[64] + "; \n    ";
 });
 export var Card = function (_a) {
     var size = _a.size, children = _a.children, className = _a.className;

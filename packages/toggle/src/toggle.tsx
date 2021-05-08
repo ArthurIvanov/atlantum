@@ -13,24 +13,24 @@ export interface ToggleProps extends InputProps {
 }
 
 const StyledToggle = styled.input<ToggleProps>`
-    width: ${(props) => props.theme.spacing.space30};
-    height: ${(props) => props.theme.spacing.space16};
+    width: ${(props) => props.theme.spacing[30]};
+    height: ${(props) => props.theme.spacing[16]};
     margin: 0;
     position: relative;
     display: block;
     cursor: pointer;
     appearance: none;
     outline: none;
-    border-radius: ${(props) => props.theme.spacing.space32};
+    border-radius: ${(props) => props.theme.spacing[32]};
 
     &:hover {
         &:before {
-            background-color: ${(props) => props.theme.colors.neutral300};
+            background-color: ${(props) => props.theme.colors.neutral[300]};
         }
     }
 
     &:focus {
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary[100]};
     }
 
     &:before,
@@ -38,7 +38,7 @@ const StyledToggle = styled.input<ToggleProps>`
         position: absolute;
         display: block;
         content: '';
-        border-radius: ${(props) => props.theme.spacing.space32};
+        border-radius: ${(props) => props.theme.spacing[32]};
         top: 0;
     }
 
@@ -46,15 +46,15 @@ const StyledToggle = styled.input<ToggleProps>`
         width: 100%;
         height: 100%;
         transition: 0.4s;
-        background-color: ${(props) => props.theme.colors.neutral300};
+        background-color: ${(props) => props.theme.colors.neutral[300]};
     }
 
     &:after {
-        width: ${(props) => props.theme.spacing.space12};
-        height: ${(props) => props.theme.spacing.space12};
+        width: ${(props) => props.theme.spacing[12]};
+        height: ${(props) => props.theme.spacing[12]};
         transform: translate(2px, 2px);
         transition: 0.4s;
-        background-color: ${(props) => props.theme.colors.neutralContentBG};
+        background-color: ${(props) => props.theme.colors.neutral[500]};
     }
 
     &:checked {
@@ -62,7 +62,7 @@ const StyledToggle = styled.input<ToggleProps>`
             transform: translate(16px, 2px);
         }
         &:before {
-            background-color: ${(props) => props.theme.colors.primary200};
+            background-color: ${(props) => props.theme.colors.primary[200]};
         }
     }
 
@@ -71,25 +71,25 @@ const StyledToggle = styled.input<ToggleProps>`
         `
         cursor: not-allowed;
         &:before {
-            background-color: ${props.theme.colors.neutral100};
+            background-color: ${props.theme.colors.neutral[100]};
         }
          &:hover {
             &:before {
-                background-color: ${props.theme.colors.neutral100};
+                background-color: ${props.theme.colors.neutral[100]};
             }
     }
         &:after {
             box-shadow: none;
-            background-color: ${props.theme.colors.neutral200};
+            background-color: ${props.theme.colors.neutral[200]};
         }
          &:checked {
             &:hover {
                 &:before {
-                    background-color: ${props.theme.colors.neutral100};
+                    background-color: ${props.theme.colors.neutral[100]};
                 }
             }
          &:before {
-            background-color: ${props.theme.colors.neutral100};
+            background-color: ${props.theme.colors.neutral[100]};
          }
          &:after {
             box-shadow: none;

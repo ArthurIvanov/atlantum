@@ -23,33 +23,33 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     display: block;
     margin: 0;
     padding: 0;
-    width: ${(props) => props.theme.spacing.space16};
-    height: ${(props) => props.theme.spacing.space16};
-    border-radius: ${(props) => props.theme.spacing.space2};
-    border: ${(props) => props.theme.spacing.space2} solid
-        ${(props) => props.theme.colors.neutral400};
+    width: ${(props) => props.theme.spacing[16]}px;
+    height: ${(props) => props.theme.spacing[16]}px;
+    border-radius: ${(props) => props.theme.spacing[2]}px;
+    border: ${(props) => props.theme.spacing[2]}px solid
+        ${(props) => props.theme.colors.neutral[400]};
 
     transition: 0.2s ease;
 
     &:hover {
-        color: ${(props) => props.theme.colors.neutral400};
-        border-color: ${(props) => props.theme.colors.primary100};
+        color: ${(props) => props.theme.colors.neutral[400]};
+        border-color: ${(props) => props.theme.colors.primary[100]};
     }
 
     &:checked {
-        border-color: ${(props) => props.theme.colors.primary200};
-        background-color: ${(props) => props.theme.colors.primary200};
+        border-color: ${(props) => props.theme.colors.primary[200]};
+        background-color: ${(props) => props.theme.colors.primary[200]};
     }
 
     &:checked::after {
         content: '';
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
         display: block;
-        border-radius: ${(props) => props.theme.spacing.space2};
+        border-radius: ${(props) => props.theme.spacing[2]}px;
         position: absolute;
-        width: ${(props) => props.theme.spacing.space16};
-        height: ${(props) => props.theme.spacing.space16};
-        color: ${(props) => props.theme.colors.dangerl100};
+        width: ${(props) => props.theme.spacing[16]}px;
+        height: ${(props) => props.theme.spacing[16]}px;
+        color: ${(props) => props.theme.colors.neutral[100]};
         top: -2px;
         left: -2px;
     }
@@ -57,44 +57,44 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     ${(props) =>
         props.disabled &&
         `
-         border-color: ${props.theme.colors.neutral100};
+         border-color: ${props.theme.colors.neutral[100]};
          cursor: not-allowed;
          &:hover {
-            border-color: ${props.theme.colors.neutral100};
+            border-color: ${props.theme.colors.neutral[100]};
             box-shadow: none;
     }
     
     &:checked {
-        background-color: ${props.theme.colors.neutralContentBG};       
-        border-color: ${props.theme.colors.neutral100};
+        background-color: ${props.theme.colors.neutral[500]};       
+        border-color: ${props.theme.colors.neutral[100]};
     }
     `}
 
     ${(props) =>
         props.danger &&
         `
-         border-color: ${props.theme.colors.danger300};
+         border-color: ${props.theme.colors.danger[300]};
          &:hover {
-            border-color: ${props.theme.colors.danger100}; 
+            border-color: ${props.theme.colors.danger[100]}; 
          
     }
     
     &:checked::after {
-        background-color: ${props.theme.colors.danger300};
+        background-color: ${props.theme.colors.danger[300]};
     }
     `}
     
      ${(props) =>
         props.success &&
         `
-         border-color: ${props.theme.colors.success300};
+         border-color: ${props.theme.colors.success[300]};
          &:hover {
-            border-color: ${props.theme.colors.success100}; 
+            border-color: ${props.theme.colors.success[100]}; 
          
     }
     
     &:checked::after {
-        background-color: ${props.theme.colors.success300};
+        background-color: ${props.theme.colors.success[300]};
     }
     `}
 `;

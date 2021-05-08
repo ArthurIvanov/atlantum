@@ -13,13 +13,13 @@ export interface TableProps {
 
 const StyledTable = styled.table<TableProps>`
     border-collapse: collapse;
-    color: ${(props) => props.theme.colors.neutral400};
+    color: ${(props) => props.theme.colors.neutral[400]};
     font-size: ${(props) => props.theme.typography.fontSize.label};
     font-family: ${(props) => props.theme.typography.family.label};
     line-height: ${(props) => props.theme.typography.lineHeight.label};
 
     tr:nth-child(odd) {
-        background-color: ${(props) => props.theme.colors.neutral100};
+        background-color: ${(props) => props.theme.colors.neutral[100]};
     }
 `;
 

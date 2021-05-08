@@ -11,18 +11,18 @@ const StyledMainHeader = styled.div<MainHeaderProps>`
 
   right: 0;
   left: 0;
-  top: ${(props) => props.theme.spacing.space24};
-  height: ${(props) => props.theme.spacing.space72};
-  padding: 0  ${(props) => props.theme.spacing.space24};
+  top: ${(props) => props.theme.spacing.space[24]};
+  height: ${(props) => props.theme.spacing.space[72]};
+  padding: 0  ${(props) => props.theme.spacing.space[24]};
   position: fixed;
   
   &::before {
   position:absolute;
   background: linear-gradient(180deg, rgba(245, 245, 247, 1) 50%, rgba(245, 245, 247, 0) 100%);
   content: '';
-  height: ${(props) => props.theme.spacing.space72};
+  height: ${(props) => props.theme.spacing.space[72]};
   width: 100%;
-  top: -${(props) => props.theme.spacing.space24};
+  top: -${(props) => props.theme.spacing.space[24]};
   left: 0;
   z-index: 10;
   display: block;
@@ -31,8 +31,8 @@ const StyledMainHeader = styled.div<MainHeaderProps>`
 
     .atlantum-main-header {
         border-radius: ${(props) => props.theme.borderRadius};
-        color: ${(props) => props.theme.colors.text};   
-        padding: ${(props) => props.theme.spacing.space24};
+        color: ${(props) => props.theme.colors.neutral[400]};   
+        padding: ${(props) => props.theme.spacing.space[24]};
         display: flex;
         position: relative;
         z-index: 100;

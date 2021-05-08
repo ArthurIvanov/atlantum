@@ -14,7 +14,7 @@ const Regular = () => {
                     <Checkbox
                         type={'checkbox'}
                         name={'username'}
-                        label={'Label'}
+                        label={'Checkbox label'}
                     />
                 </Card>
             </div>

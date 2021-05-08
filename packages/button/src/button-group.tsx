@@ -11,7 +11,7 @@ export interface ButtonGroupProps {
 const StyledButtonGroup = styled.div<ButtonGroupProps>`
     display: inline-flex;
     button {
-        padding: ${(props) => props.theme.spacing.space8};
+        padding: ${(props) => props.theme.spacing[8]};
     }
 
     & > button:first-child {

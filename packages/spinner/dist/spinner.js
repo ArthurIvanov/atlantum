@@ -20,7 +20,7 @@ var StyledSpinner = styled.div(templateObject_1 || (templateObject_1 = __makeTem
 }, function (props) {
     return props.size === '64px' &&
         "\n        border-width: 4px;\n        ";
-}, function (props) { return props.theme.colors.primary200; });
+}, function (props) { return props.theme.colors.primary[200]; });
 export var Spinner = function (_a) {
     var _b = _a.size, size = _b === void 0 ? '64px' : _b;
     return (React.createElement(StyledSpinner, { size: size },

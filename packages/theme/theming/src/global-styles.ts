@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
         -webkit-text-size-adjust: 100%;
     }
     body {
-			background-color: ${(props) => props.theme.colors.neutralGlobalBG};
+			background-color: ${(props) => props.theme.colors.neutral[600]};
 			font-family: ${(props) => props.theme.typography.family.base};
 			font-weight: ${(props) => props.theme.typography.fontWeight.regular};
 			position: relative;

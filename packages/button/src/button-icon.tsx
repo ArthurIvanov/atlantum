@@ -5,7 +5,7 @@ import { ButtonProps, StyledButton } from './button';
 const StyledIconButton = styled(StyledButton)<ButtonProps>`
     display: flex;
     align-items: center;
-    padding: ${(props) => props.theme.spacing.space8};
+    padding: ${(props) => props.theme.spacing[8]};
 `;
 
 export const ButtonIcon: FC<ButtonProps> = ({

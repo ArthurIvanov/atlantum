@@ -31,7 +31,7 @@ const StyledHeading = styled(Fragment)<HeadingProps>`
     margin: 0;
     font-weight: ${(props) => props.theme.typography.fontWeight.semiBold};
     font-family: ${(props) => props.theme.typography.family.heading};
-    color: ${(props) => props.theme.colors.neutral400};
+    color: ${(props) => props.theme.colors.neutral[400]};
 
     ${(props) =>
         props.centered &&

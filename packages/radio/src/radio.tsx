@@ -21,32 +21,32 @@ const StyledRadio = styled.input<RadioProps>`
     display: block;
     margin: 0;
     padding: 0;
-    width: ${(props) => props.theme.spacing.space16};
-    height: ${(props) => props.theme.spacing.space16};
+    width: ${(props) => props.theme.spacing[16]};
+    height: ${(props) => props.theme.spacing[16]};
     border-radius: 50%;
-    border: ${(props) => props.theme.spacing.space1} solid
-        ${(props) => props.theme.colors.neutral300};
+    border: ${(props) => props.theme.spacing[1]} solid
+        ${(props) => props.theme.colors.neutral[300]};
 
     transition: 0.2s ease;
 
     &:hover {
-        color: ${(props) => props.theme.colors.neutral400};
-        border-color: ${(props) => props.theme.colors.neutral400};
+        color: ${(props) => props.theme.colors.neutral[400]};
+        border-color: ${(props) => props.theme.colors.neutral[400]};
         box-shadow: ${(props) => props.theme.elevation.slight};
     }
 
     &:checked {
-        background-color: ${(props) => props.theme.colors.primary300};
+        background-color: ${(props) => props.theme.colors.primary[300]};
     }
 
     &:focus {
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary[100]};
     }
 
     &:checked::after {
         content: '';
         display: block;
-        background-color: ${(props) => props.theme.colors.neutralContentBG};
+        background-color: ${(props) => props.theme.colors.neutral[500]};
         border-radius: 50%;
         position: absolute;
         width: 8px;
@@ -58,19 +58,19 @@ const StyledRadio = styled.input<RadioProps>`
     ${(props) =>
         props.disabled &&
         `
-         border-color: ${props.theme.colors.neutral100};
+         border-color: ${props.theme.colors.neutral[100]};
          cursor: not-allowed;
          &:hover {
-            border-color: ${props.theme.colors.neutral100}; 
+            border-color: ${props.theme.colors.neutral[100]}; 
             box-shadow: none;
         }
         &:checked::after{
-            background-color: ${props.theme.colors.neutral200};
+            background-color: ${props.theme.colors.neutral[200]};
         }
         &:checked,
         
         &:focus {
-            background-color: ${props.theme.colors.neutralGlobalBG};
+            background-color: ${props.theme.colors.neutral[600]};
         }
     
 
@@ -80,37 +80,37 @@ const StyledRadio = styled.input<RadioProps>`
     ${(props) =>
         props.danger &&
         `
-         border-color: ${props.theme.colors.danger300};
+         border-color: ${props.theme.colors.danger[300]};
          &:hover {
-            border-color: ${props.theme.colors.danger300};          
+            border-color: ${props.theme.colors.danger[300]};          
     }
     &:checked,
     &:focus {
         outline: none;
-        background-color: ${props.theme.colors.danger300};
+        background-color: ${props.theme.colors.danger[300]};
     }
     
     &:checked::after {
-        background-color: ${props.theme.colors.neutralContentBG};
+        background-color: ${props.theme.colors.neutral[500]};
     }
     `}
     
      ${(props) =>
         props.success &&
         `
-         border-color: ${props.theme.colors.success300};
+         border-color: ${props.theme.colors.success[300]};
          &:hover {
-            border-color: ${props.theme.colors.success300};
+            border-color: ${props.theme.colors.success[300]};
         }
         &:checked,
         &:focus {
 
             outline: none;
-            background-color: ${props.theme.colors.success300};
+            background-color: ${props.theme.colors.success[300]};
         }
     
         &:checked::after {
-            background-color: ${props.theme.colors.neutralContentBG};
+            background-color: ${props.theme.colors.neutral[500]};
         }
         `}
 `;

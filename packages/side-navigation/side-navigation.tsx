@@ -7,18 +7,17 @@ export interface SideNavigationProps {
 
 const StyledSideNavigation = styled.div<SideNavigationProps>`
     border-radius: ${(props) => props.theme.borderRadius};
-    color: ${(props) => props.theme.colors.text};
-    display: flex;
+    color: ${(props) => props.theme.colors.neutral[400]};
     flex-direction: row;
     position: fixed;
-    left: ${(props) => props.theme.spacing.space24};
-    bottom: ${(props) => props.theme.spacing.space24};
+    left: ${(props) => props.theme.spacing.space[24]};
+    bottom: ${(props) => props.theme.spacing.space[24]};
     transform: translateX(0px);
-    padding: ${(props) => props.theme.spacing.space24};
+    padding: ${(props) => props.theme.spacing.space[24]};
     top: 120px;
     width: 256px;
 
-    background-color: ${(props) => props.theme.colors.neutralLighter};
+    background-color: ${(props) => props.theme.colors.neutral[500]};
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
     display: none;
 

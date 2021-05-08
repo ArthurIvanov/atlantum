@@ -15,31 +15,31 @@ const StyledTab = styled.div<TabProps>`
     outline: none;
     text-align: center;
     background-color: transparent;
-    border-bottom: ${(props) => props.theme.spacing.space2} solid;
-    border-bottom-color: ${(props) => props.theme.colors.neutral200};
-    padding: ${(props) => props.theme.spacing.space8}
-        ${(props) => props.theme.spacing.space12}
-        ${(props) => props.theme.spacing.space6}
-        ${(props) => props.theme.spacing.space12};
-    color: ${(props) => props.theme.colors.neutral300};
+    border-bottom: ${(props) => props.theme.spacing[2]} solid;
+    border-bottom-color: ${(props) => props.theme.colors.neutral[200]};
+    padding: ${(props) => props.theme.spacing[8]}
+        ${(props) => props.theme.spacing[12]}
+        ${(props) => props.theme.spacing[6]}
+        ${(props) => props.theme.spacing[12]};
+    color: ${(props) => props.theme.colors.neutral[300]};
     font-size: ${(props) => props.theme.typography.fontSize.base};
     font-weight: ${(props) => props.theme.typography.fontWeight.base};
     line-height: ${(props) => props.theme.typography.lineHeight.base};
-    border-radius: ${(props) => props.theme.spacing.space8}
-        ${(props) => props.theme.spacing.space8} 0 0;
+    border-radius: ${(props) => props.theme.spacing[8]}
+        ${(props) => props.theme.spacing[8]} 0 0;
     transition: 0.2s ease;
 
     &:hover {
-        border-bottom-color: ${(props) => props.theme.colors.neutral300};
+        border-bottom-color: ${(props) => props.theme.colors.neutral[300]};
     }
 
     &:focus {
-        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary100};
+        box-shadow: 0 0 0 2px ${(props) => props.theme.colors.primary[100]};
     }
 
     &.atlantum-tab-selected {
-        border-bottom-color: ${(props) => props.theme.colors.primary200};
-        color: ${(props) => props.theme.colors.neutral400};
+        border-bottom-color: ${(props) => props.theme.colors.primary[200]};
+        color: ${(props) => props.theme.colors.neutral[400]};
     }
 `;
 

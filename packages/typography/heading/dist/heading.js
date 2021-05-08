@@ -12,7 +12,7 @@ var StyledHeading = styled(Fragment)(templateObject_1 || (templateObject_1 = __m
     ";\n\n    ",
     ";\n\n    ",
     ";\n\n    ",
-    ";\n"])), function (props) { return props.theme.typography.fontWeight.semiBold; }, function (props) { return props.theme.typography.family.heading; }, function (props) { return props.theme.colors.neutral400; }, function (props) {
+    ";\n"])), function (props) { return props.theme.typography.fontWeight.semiBold; }, function (props) { return props.theme.typography.family.heading; }, function (props) { return props.theme.colors.neutral[400]; }, function (props) {
     return props.centered &&
         "\n         text-align: center;\n    ";
 }, function (props) {

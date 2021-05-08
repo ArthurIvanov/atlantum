@@ -12,8 +12,8 @@ export interface TableCellProps {
 }
 
 const StyledTableCell = styled.td<TableCellProps>`
-    padding: 12px;
-    border: 1px solid ${(props) => props.theme.colors.neutral200};
+    padding: ${(props) => props.theme.spacing[12]}px;
+    border: 1px solid ${(props) => props.theme.colors.neutral[200]};
 `;
 
 export const TableCell: FC<TableCellProps> = ({ children, id, className }) => {

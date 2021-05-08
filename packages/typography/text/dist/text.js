@@ -8,7 +8,7 @@ import styled from 'styled-components';
 var StyledText = styled(Fragment)(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    font-size: ", ";\n    font-weight: ", ";\n    line-height: ", ";\n    color: ", ";\n    margin: 0;\n\n    ", "\n\n    ", "\n\n    ", "\n"], ["\n    font-size: ", ";\n    font-weight: ", ";\n    line-height: ", ";\n    color: ", ";\n    margin: 0;\n\n    ",
     "\n\n    ",
     "\n\n    ",
-    "\n"])), function (props) { return props.theme.typography.fontSize.base; }, function (props) { return props.theme.typography.fontWeight.base; }, function (props) { return props.theme.typography.lineHeight.base; }, function (props) { return props.theme.colors.neutral400; }, function (props) {
+    "\n"])), function (props) { return props.theme.typography.fontSize.base; }, function (props) { return props.theme.typography.fontWeight.base; }, function (props) { return props.theme.typography.lineHeight.base; }, function (props) { return props.theme.colors.neutral[400]; }, function (props) {
     return props.centered &&
         "\n        text-align: center;\n    ";
 }, function (props) {
