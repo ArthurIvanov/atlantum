@@ -1,5 +1,12 @@
 # @atlantum/sidebar
 
+## 0.2.6
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/theme@0.4.0
+
 ## 0.2.5
 
 ### Patch Changes

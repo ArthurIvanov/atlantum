@@ -1,5 +1,16 @@
 # @atlantum/group
 
+## 0.5.0
+
+### Minor Changes
+
+-   8995300: updated color theme
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/theme@0.4.0
+
 ## 0.4.2
 
 ### Patch Changes

@@ -1,5 +1,16 @@
 # @atlantum/navigation-link
 
+## 0.3.0
+
+### Minor Changes
+
+-   8995300: updated color theme
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/theme@0.4.0
+
 ## 0.2.1
 
 ### Patch Changes
