@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React, { FC } from 'react';
 
-import { InputProps } from '../../text-input';
+import { InputProps } from '@atlantum/text-input';
 import { Label } from '@atlantum/label';
 
 export interface CheckboxProps extends InputProps {
@@ -23,10 +23,10 @@ const StyledCheckbox = styled.input<CheckboxProps>`
     display: block;
     margin: 0;
     padding: 0;
-    width: ${(props) => props.theme.spacing[16]}px;
-    height: ${(props) => props.theme.spacing[16]}px;
-    border-radius: ${(props) => props.theme.spacing[2]}px;
-    border: ${(props) => props.theme.spacing[2]}px solid
+    width: ${(props) => props.theme.spacing[16]};
+    height: ${(props) => props.theme.spacing[16]};
+    border-radius: ${(props) => props.theme.spacing[2]};
+    border: ${(props) => props.theme.spacing[2]} solid
         ${(props) => props.theme.colors.neutral[400]};
 
     transition: 0.2s ease;
@@ -45,10 +45,10 @@ const StyledCheckbox = styled.input<CheckboxProps>`
         content: '';
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
         display: block;
-        border-radius: ${(props) => props.theme.spacing[2]}px;
+        border-radius: ${(props) => props.theme.spacing[2]};
         position: absolute;
-        width: ${(props) => props.theme.spacing[16]}px;
-        height: ${(props) => props.theme.spacing[16]}px;
+        width: ${(props) => props.theme.spacing[16]};
+        height: ${(props) => props.theme.spacing[16]};
         color: ${(props) => props.theme.colors.neutral[100]};
         top: -2px;
         left: -2px;

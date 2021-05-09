@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { InputProps } from '../../text-input';
+import { InputProps } from '@atlantum/text-input';
 export interface CheckboxProps extends InputProps {
     /**
      * if `true` change checkbox on check
