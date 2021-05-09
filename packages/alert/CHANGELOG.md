@@ -1,5 +1,18 @@
 # @atlantum/alert
 
+## 1.1.0
+
+### Minor Changes
+
+-   8995300: updated color theme
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/theme@0.4.0
+    -   @atlantum/heading@0.4.0
+    -   @atlantum/items-stack@0.3.3
+
 ## 1.0.4
 
 ### Patch Changes

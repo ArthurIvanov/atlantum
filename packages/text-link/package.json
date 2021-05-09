@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/text-link",
-    "version": "0.5.2",
+    "version": "0.6.0",
     "description": "text-link component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -11,7 +11,7 @@
     ],
     "dependencies": {
         "@atlantum/icons": "^0.4.1",
-        "@atlantum/theme": "^0.3.0",
+        "@atlantum/theme": "^0.4.0",
         "styled-components": "^5.2.0"
     },
     "devDependencies": {

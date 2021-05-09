@@ -1,5 +1,16 @@
 # @atlantum/card
 
+## 0.7.0
+
+### Minor Changes
+
+-   8995300: updated color theme
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/theme@0.4.0
+
 ## 0.6.2
 
 ### Patch Changes

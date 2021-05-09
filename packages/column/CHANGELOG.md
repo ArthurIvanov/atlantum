@@ -1,5 +1,12 @@
 # @atlantum/column
 
+## 0.3.5
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/theme@0.4.0
+
 ## 0.3.4
 
 ### Patch Changes

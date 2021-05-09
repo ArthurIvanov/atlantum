@@ -1,5 +1,12 @@
 # @atlantum/code
 
+## 0.1.8
+
+### Patch Changes
+
+-   Updated dependencies [8995300]
+    -   @atlantum/theme@0.4.0
+
 ## 0.1.7
 
 ### Patch Changes
