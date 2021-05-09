@@ -1,5 +1,11 @@
 # @atlantum/checkbox
 
+## 1.2.0
+
+### Minor Changes
+
+-   1f425fb: updated ui for checkbox
+
 ## 1.1.0
 
 ### Minor Changes
