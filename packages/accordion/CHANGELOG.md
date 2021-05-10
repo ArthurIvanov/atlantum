@@ -1,5 +1,11 @@
 # @atlantum/accordion
 
+## 1.2.1
+
+### Patch Changes
+
+-   2cbe1bc: updated ui for code component
+
 ## 1.2.0
 
 ### Minor Changes

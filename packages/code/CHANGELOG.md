@@ -1,5 +1,11 @@
 # @atlantum/code
 
+## 0.1.9
+
+### Patch Changes
+
+-   2cbe1bc: updated ui for code component
+
 ## 0.1.8
 
 ### Patch Changes
