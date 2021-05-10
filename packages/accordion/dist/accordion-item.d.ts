@@ -2,7 +2,7 @@ import React from 'react';
 import { FC, ReactNode } from 'react';
 export interface AccordionItemProps {
     /**
-     * Mandatory field, you need to enter a button label.
+     * Required field, you need to pass content here.
      */
     children?: ReactNode;
     /**

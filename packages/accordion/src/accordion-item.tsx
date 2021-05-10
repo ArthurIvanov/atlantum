@@ -5,7 +5,7 @@ import { ChevronDown } from 'react-feather';
 
 export interface AccordionItemProps {
     /**
-     * Mandatory field, you need to enter a button label.
+     * Required field, you need to pass content here.
      */
     children?: ReactNode;
 

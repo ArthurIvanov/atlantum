@@ -1,1 +1,1 @@
-export { default, CodeProps } from './code';
+export * from './code';

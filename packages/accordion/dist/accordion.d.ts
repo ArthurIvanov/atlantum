@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react';
 export declare type AccordionSize = 'compact' | 'standard' | 'large';
 export interface AccordionProps {
     /**
-     * Mandatory field, you need to enter a button label.
+     * Required field, you need to pass there accordion-item component.
      */
     children: ReactNode;
     size?: AccordionSize;
