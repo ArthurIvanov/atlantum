@@ -52,5 +52,4 @@ const Responsive = () => {
     );
 };
 
-storiesOf('Layout/Group', module).add('Design', () => <Design />);
 storiesOf('Layout/Group', module).add('Group', () => <Responsive />);
