@@ -21,6 +21,7 @@
         "@atlantum/divider": "^0.1.0",
         "@atlantum/grid": "^0.3.4",
         "@atlantum/group": "^0.5.0",
+        "@atlantum/heading": "^0.4.0",
         "@atlantum/icons": "^0.4.1",
         "@atlantum/image": "^0.2.5",
         "@atlantum/items-stack": "^0.3.3",
@@ -29,12 +30,11 @@
         "@atlantum/select": "0.4.0",
         "@atlantum/spinner": "^0.2.0",
         "@atlantum/table": "0.2.0",
+        "@atlantum/text": "^0.4.0",
         "@atlantum/text-input": "^0.3.0",
         "@atlantum/text-link": "0.6.0",
         "@atlantum/theme": "^0.4.0",
         "@atlantum/toggle": "0.3.0",
-        "@atlantum/heading": "^0.4.0",
-        "@atlantum/text": "^0.4.0",
         "@atlantum/types": "^0.3.1"
     },
     "devDependencies": {
