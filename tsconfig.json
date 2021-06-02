@@ -25,7 +25,6 @@
         "paths": {
             "@atlantum/*": [
                 "packages/*",
-
                 "packages/theme/*",
                 "packages/typography/*"
             ]
@@ -71,10 +70,6 @@
         { "path": "packages/theme/theming" },
         // TYPOGRAPHY
         { "path": "packages/typography/heading" },
-        { "path": "packages/typography/text" },
-        // UTILITIES
-        {
-            "path": "stories/utilities"
-        }
+        { "path": "packages/typography/text" }
     ]
 }

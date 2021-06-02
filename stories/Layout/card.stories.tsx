@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { GlobalStyles } from '@atlantum/theme';
 import { Card } from '@atlantum/card';
 
-import { Box } from '../utilities/src/box.ut';
+import { Box } from '../../utilities/src';
 
 import '../stories.styles.css';
 

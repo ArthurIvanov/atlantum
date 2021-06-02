@@ -9,7 +9,7 @@ import { Group } from '@atlantum/group';
 
 import '../stories.styles.css';
 
-import { Box } from '../utilities/src/box.ut';
+import { Box } from '../../utilities/src';
 
 const Responsive = () => {
     return (
