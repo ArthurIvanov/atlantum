@@ -1,5 +1,14 @@
 # @atlantum/avatar
 
+## 0.1.1
+
+### Patch Changes
+
+-   bc34fd1: minor fix
+-   Updated dependencies [bc34fd1]
+    -   @atlantum/icons@0.4.2
+    -   @atlantum/theme@0.4.1
+
 ## 0.1.0
 
 ### Minor Changes

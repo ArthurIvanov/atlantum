@@ -1,5 +1,13 @@
 # @atlantum/group
 
+## 0.5.1
+
+### Patch Changes
+
+-   bc34fd1: minor fix
+-   Updated dependencies [bc34fd1]
+    -   @atlantum/theme@0.4.1
+
 ## 0.5.0
 
 ### Minor Changes

@@ -1,5 +1,13 @@
 # @atlantum/image
 
+## 0.2.6
+
+### Patch Changes
+
+-   bc34fd1: minor fix
+-   Updated dependencies [bc34fd1]
+    -   @atlantum/theme@0.4.1
+
 ## 0.2.5
 
 ### Patch Changes

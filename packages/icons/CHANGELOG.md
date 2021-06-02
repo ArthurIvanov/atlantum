@@ -1,5 +1,11 @@
 # @atlantum/icons
 
+## 0.4.2
+
+### Patch Changes
+
+-   bc34fd1: minor fix
+
 ## 0.4.1
 
 ### Patch Changes
