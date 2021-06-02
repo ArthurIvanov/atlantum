@@ -1,5 +1,14 @@
 # @atlantum/toggle
 
+## 0.3.1
+
+### Patch Changes
+
+-   bc34fd1: minor fix
+-   Updated dependencies [bc34fd1]
+    -   @atlantum/label@0.4.1
+    -   @atlantum/theme@0.4.1
+
 ## 0.3.0
 
 ### Minor Changes

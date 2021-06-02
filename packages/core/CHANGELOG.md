@@ -1,5 +1,41 @@
 # @atlantum/core
 
+## 0.3.15
+
+### Patch Changes
+
+-   bc34fd1: minor fix
+-   Updated dependencies [bc34fd1]
+    -   @atlantum/accordion@1.2.2
+    -   @atlantum/alert@1.1.1
+    -   @atlantum/avatar@0.1.1
+    -   @atlantum/badge@1.2.1
+    -   @atlantum/button@1.2.1
+    -   @atlantum/card@0.7.1
+    -   @atlantum/checkbox@1.2.1
+    -   @atlantum/column@0.3.6
+    -   @atlantum/container@0.3.6
+    -   @atlantum/content@0.3.9
+    -   @atlantum/datepicker@0.4.1
+    -   @atlantum/divider@0.1.1
+    -   @atlantum/grid@0.3.5
+    -   @atlantum/group@0.5.1
+    -   @atlantum/icons@0.4.2
+    -   @atlantum/image@0.2.6
+    -   @atlantum/items-stack@0.3.4
+    -   @atlantum/label@0.4.1
+    -   @atlantum/radio@0.3.1
+    -   @atlantum/select@0.4.1
+    -   @atlantum/spinner@0.2.1
+    -   @atlantum/table@0.2.1
+    -   @atlantum/text-input@0.3.1
+    -   @atlantum/text-link@0.6.1
+    -   @atlantum/theme@0.4.1
+    -   @atlantum/toggle@0.3.1
+    -   @atlantum/types@0.3.2
+    -   @atlantum/heading@0.4.1
+    -   @atlantum/text@0.4.1
+
 ## 0.3.14
 
 ### Patch Changes

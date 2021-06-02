@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/radio",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "radio component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -11,8 +11,8 @@
     ],
     "dependencies": {
         "@atlantum/input": "^0.2.7",
-        "@atlantum/label": "^0.4.0",
-        "@atlantum/theme": "^0.4.0"
+        "@atlantum/label": "^0.4.1",
+        "@atlantum/theme": "^0.4.1"
     },
     "devDependencies": {
         "react": "^16.13.1",

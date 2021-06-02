@@ -1,5 +1,11 @@
 # header-headline
 
+## 1.1.5
+
+### Patch Changes
+
+-   bc34fd1: minor fix
+
 ## 1.1.4
 
 ### Patch Changes
