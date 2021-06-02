@@ -2,7 +2,7 @@
     "compilerOptions": {
         "baseUrl": ".",
         "rootDir": ".",
-        "module": "esNext",
+        "module": "commonJs",
         "target": "es5",
         "outDir": "dist",
         "moduleResolution": "node",
