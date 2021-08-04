@@ -1,5 +1,13 @@
 # @atlantum/badge
 
+## 1.2.2
+
+### Patch Changes
+
+-   36bba49: minor updates
+-   Updated dependencies [36bba49]
+    -   @atlantum/theme@0.4.2
+
 ## 1.2.1
 
 ### Patch Changes

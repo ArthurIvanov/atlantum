@@ -1,5 +1,14 @@
 # @atlantum/text-input
 
+## 0.3.2
+
+### Patch Changes
+
+-   36bba49: minor updates
+-   Updated dependencies [36bba49]
+    -   @atlantum/label@0.4.2
+    -   @atlantum/theme@0.4.2
+
 ## 0.3.1
 
 ### Patch Changes

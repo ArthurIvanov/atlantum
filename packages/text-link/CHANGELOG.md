@@ -1,5 +1,14 @@
 # @atlantum/text-link
 
+## 0.6.2
+
+### Patch Changes
+
+-   36bba49: minor updates
+-   Updated dependencies [36bba49]
+    -   @atlantum/icons@0.4.3
+    -   @atlantum/theme@0.4.2
+
 ## 0.6.1
 
 ### Patch Changes

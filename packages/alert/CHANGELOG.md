@@ -1,5 +1,16 @@
 # @atlantum/alert
 
+## 1.1.2
+
+### Patch Changes
+
+-   36bba49: minor updates
+-   Updated dependencies [36bba49]
+    -   @atlantum/icons@0.4.3
+    -   @atlantum/items-stack@0.3.5
+    -   @atlantum/theme@0.4.2
+    -   @atlantum/heading@0.4.2
+
 ## 1.1.1
 
 ### Patch Changes

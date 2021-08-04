@@ -1,5 +1,13 @@
 # @atlantum/code
 
+## 0.1.11
+
+### Patch Changes
+
+-   36bba49: minor updates
+-   Updated dependencies [36bba49]
+    -   @atlantum/theme@0.4.2
+
 ## 0.1.10
 
 ### Patch Changes

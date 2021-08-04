@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/icons",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "Set of icons with type checking and auto-complete",
     "main": "dist/index.js",
     "module": "dist/index.js",
