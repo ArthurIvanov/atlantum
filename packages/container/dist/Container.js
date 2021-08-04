@@ -1,10 +1,15 @@
+"use strict";
 var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
     if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
     return cooked;
 };
-import React from 'react';
-import styled from 'styled-components';
-var StyledContainer = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    margin-top: 96px;\n    width: 100%;\n\n    section:not(:last-child) {\n        margin-bottom: 24px;\n    }\n\n    ", "\n    ", ";\n"], ["\n    margin-top: 96px;\n    width: 100%;\n\n    section:not(:last-child) {\n        margin-bottom: 24px;\n    }\n\n    ",
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(require("react"));
+var styled_components_1 = __importDefault(require("styled-components"));
+var StyledContainer = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    margin-top: 96px;\n    width: 100%;\n\n    section:not(:last-child) {\n        margin-bottom: 24px;\n    }\n\n    ", "\n    ", ";\n"], ["\n    margin-top: 96px;\n    width: 100%;\n\n    section:not(:last-child) {\n        margin-bottom: 24px;\n    }\n\n    ",
     "\n    ",
     ";\n"])), function (props) {
     return props.align === 'sidebar' &&
@@ -15,8 +20,8 @@ var StyledContainer = styled.div(templateObject_1 || (templateObject_1 = __makeT
 });
 var Container = function (_a) {
     var children = _a.children, align = _a.align;
-    return React.createElement(StyledContainer, { align: align }, children);
+    return react_1.default.createElement(StyledContainer, { align: align }, children);
 };
-export default Container;
+exports.default = Container;
 var templateObject_1;
 //# sourceMappingURL=Container.js.map

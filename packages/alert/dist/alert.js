@@ -1,13 +1,19 @@
+"use strict";
 var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
     if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
     return cooked;
 };
-import React from 'react';
-import styled from 'styled-components';
-import { Icon } from '@atlantum/icons';
-import { Heading } from '@atlantum/heading';
-import { ItemsStack } from '@atlantum/items-stack';
-var StyledAlert = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    position: relative;\n    display: flex;\n    max-width: 500px;\n    font-size: ", ";\n    line-height: ", ";\n    padding: ", "\n        ", ";\n    border: 1px solid;\n    border-radius: ", ";\n    color: ", ";\n\n    .atlantum-status-content {\n        position: absolute;\n        left: ", ";\n        top: ", ";\n    }\n\n    .atlantum-close-button {\n        position: absolute;\n        right: ", ";\n        top: ", ";\n        cursor: pointer;\n    }\n\n    ", "\n\n    ", "\n    \n    ", "\n\n    ", "\n"], ["\n    position: relative;\n    display: flex;\n    max-width: 500px;\n    font-size: ", ";\n    line-height: ", ";\n    padding: ", "\n        ", ";\n    border: 1px solid;\n    border-radius: ", ";\n    color: ", ";\n\n    .atlantum-status-content {\n        position: absolute;\n        left: ", ";\n        top: ", ";\n    }\n\n    .atlantum-close-button {\n        position: absolute;\n        right: ", ";\n        top: ", ";\n        cursor: pointer;\n    }\n\n    ",
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AlertTitle = exports.CloseIcon = exports.AlertIcon = exports.Alert = void 0;
+var react_1 = __importDefault(require("react"));
+var styled_components_1 = __importDefault(require("styled-components"));
+var icons_1 = require("@atlantum/icons");
+var heading_1 = require("@atlantum/heading");
+var items_stack_1 = require("@atlantum/items-stack");
+var StyledAlert = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    position: relative;\n    display: flex;\n    max-width: 500px;\n    font-size: ", ";\n    line-height: ", ";\n    padding: ", "\n        ", ";\n    border: 1px solid;\n    border-radius: ", ";\n    color: ", ";\n\n    .atlantum-status-content {\n        position: absolute;\n        left: ", ";\n        top: ", ";\n    }\n\n    .atlantum-close-button {\n        position: absolute;\n        right: ", ";\n        top: ", ";\n        cursor: pointer;\n    }\n\n    ", "\n\n    ", "\n    \n    ", "\n\n    ", "\n"], ["\n    position: relative;\n    display: flex;\n    max-width: 500px;\n    font-size: ", ";\n    line-height: ", ";\n    padding: ", "\n        ", ";\n    border: 1px solid;\n    border-radius: ", ";\n    color: ", ";\n\n    .atlantum-status-content {\n        position: absolute;\n        left: ", ";\n        top: ", ";\n    }\n\n    .atlantum-close-button {\n        position: absolute;\n        right: ", ";\n        top: ", ";\n        cursor: pointer;\n    }\n\n    ",
     "\n\n    ",
     "\n    \n    ",
     "\n\n    ",
@@ -24,30 +30,34 @@ var StyledAlert = styled.div(templateObject_1 || (templateObject_1 = __makeTempl
     return props.alertStatus === 'danger' &&
         " \n        border-color: " + props.theme.colors.danger[200] + ";\n        background-color: " + props.theme.colors.danger[500] + "; \n        \n        .atlantum-status-content {\n            color: " + props.theme.colors.danger[200] + ";\n\n        }\n             \n    }\n    ";
 });
-export var Alert = function (_a) {
+var Alert = function (_a) {
     var children = _a.children, alertStatus = _a.alertStatus, className = _a.className, alertTitle = _a.alertTitle, isClosable = _a.isClosable;
-    return (React.createElement(StyledAlert, { alertStatus: alertStatus, className: className },
-        React.createElement(AlertIcon, { alertStatus: alertStatus }),
-        React.createElement(CloseIcon, { className: className, isClosable: isClosable }),
-        React.createElement(ItemsStack, { direction: 'column', distance: '8px' },
-            alertTitle && (React.createElement(AlertTitle, { className: "atlantum-alert-headline", alertTitle: alertTitle }, alertTitle)),
-            React.createElement("span", null, children))));
+    return (react_1.default.createElement(StyledAlert, { alertStatus: alertStatus, className: className },
+        react_1.default.createElement(exports.AlertIcon, { alertStatus: alertStatus }),
+        react_1.default.createElement(exports.CloseIcon, { className: className, isClosable: isClosable }),
+        react_1.default.createElement(items_stack_1.ItemsStack, { direction: 'column', distance: '8px' },
+            alertTitle && (react_1.default.createElement(exports.AlertTitle, { className: "atlantum-alert-headline", alertTitle: alertTitle }, alertTitle)),
+            react_1.default.createElement("span", null, children))));
 };
-export var AlertIcon = function (_a) {
+exports.Alert = Alert;
+var AlertIcon = function (_a) {
     var alertStatus = _a.alertStatus;
-    return (React.createElement(React.Fragment, null,
-        alertStatus === 'danger' && (React.createElement(Icon, { className: "atlantum-status-content", name: "alert-triangle" })),
-        alertStatus === 'info' && (React.createElement(Icon, { className: "atlantum-status-content", name: "info" })),
-        alertStatus === 'success' && (React.createElement(Icon, { className: "atlantum-status-content", name: "check-circle" })),
-        alertStatus === 'warning' && (React.createElement(Icon, { className: "atlantum-status-content", name: "alert-circle" }))));
+    return (react_1.default.createElement(react_1.default.Fragment, null,
+        alertStatus === 'danger' && (react_1.default.createElement(icons_1.Icon, { className: "atlantum-status-content", name: "alert-triangle" })),
+        alertStatus === 'info' && (react_1.default.createElement(icons_1.Icon, { className: "atlantum-status-content", name: "info" })),
+        alertStatus === 'success' && (react_1.default.createElement(icons_1.Icon, { className: "atlantum-status-content", name: "check-circle" })),
+        alertStatus === 'warning' && (react_1.default.createElement(icons_1.Icon, { className: "atlantum-status-content", name: "alert-circle" }))));
 };
-export var CloseIcon = function (_a) {
+exports.AlertIcon = AlertIcon;
+var CloseIcon = function (_a) {
     var isClosable = _a.isClosable;
-    return (React.createElement(React.Fragment, null, isClosable && (React.createElement(Icon, { className: "atlantum-close-button", name: "close" }))));
+    return (react_1.default.createElement(react_1.default.Fragment, null, isClosable && (react_1.default.createElement(icons_1.Icon, { className: "atlantum-close-button", name: "close" }))));
 };
-export var AlertTitle = function (_a) {
+exports.CloseIcon = CloseIcon;
+var AlertTitle = function (_a) {
     var alertTitle = _a.alertTitle;
-    return (React.createElement(Heading, { as: "h6" }, alertTitle));
+    return (react_1.default.createElement(heading_1.Heading, { as: "h6" }, alertTitle));
 };
+exports.AlertTitle = AlertTitle;
 var templateObject_1;
 //# sourceMappingURL=alert.js.map

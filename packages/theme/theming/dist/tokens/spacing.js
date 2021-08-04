@@ -1,4 +1,7 @@
-export var spacing = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.spacing = void 0;
+exports.spacing = {
     s1: '1px',
     s2: '2px',
     s3: '3px',

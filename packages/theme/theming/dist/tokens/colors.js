@@ -1,4 +1,7 @@
-export var colors = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.colors = void 0;
+exports.colors = {
     red: {
         c50: '#FBF2F3',
         c100: '#FFF0F0',

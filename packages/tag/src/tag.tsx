@@ -26,29 +26,29 @@ const StyledTag = styled.div<TagProps>`
     ${(props) =>
         props.tagColor === 'red' &&
         `
-        color: ${props.theme.colors.danger[300]};
-        background-color: ${props.theme.colors.danger[400]};
+        color: ${props.theme.colors.danger[400]};
+        background-color: ${props.theme.colors.danger[500]};
     `}
 
 	${(props) =>
         props.tagColor === 'blue' &&
         `
-        color: ${props.theme.colors.info300};
-        background-color: ${props.theme.colors.info[400]};
+        color: ${props.theme.colors.info[400]};
+        background-color: ${props.theme.colors.info[500]};
     `}
 
 	${(props) =>
         props.tagColor === 'green' &&
         `
-        color: ${props.theme.colors.success[300]};
-        background-color: ${props.theme.colors.success[400]};
+        color: ${props.theme.colors.success[400]};
+        background-color: ${props.theme.colors.success[500]};
     `}
 
 	${(props) =>
         props.tagColor === 'orange' &&
         `
-        color: ${props.theme.colors.warning[300]};
-        background-color: ${props.theme.colors.warning[400]};
+        color: ${props.theme.colors.warning[400]};
+        background-color: ${props.theme.colors.warning[500]};
     `}
 `;
 

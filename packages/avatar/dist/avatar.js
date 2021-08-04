@@ -1,11 +1,17 @@
+"use strict";
 var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
     if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
     return cooked;
 };
-import styled from 'styled-components';
-import React from 'react';
-import { Icon } from '@atlantum/icons';
-var StyledAvatar = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    border-radius: 50%;\n    border: 1px solid ", ";\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-transform: uppercase;\n    color: ", ";\n    background: ", ";\n    font-weight: ", ";\n\n    ", "\n\n    ", "\n\n    ", "\n"], ["\n    border-radius: 50%;\n    border: 1px solid ", ";\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-transform: uppercase;\n    color: ", ";\n    background: ", ";\n    font-weight: ", ";\n\n    ",
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Avatar = void 0;
+var styled_components_1 = __importDefault(require("styled-components"));
+var react_1 = __importDefault(require("react"));
+var icons_1 = require("@atlantum/icons");
+var StyledAvatar = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    border-radius: 50%;\n    border: 1px solid ", ";\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-transform: uppercase;\n    color: ", ";\n    background: ", ";\n    font-weight: ", ";\n\n    ", "\n\n    ", "\n\n    ", "\n"], ["\n    border-radius: 50%;\n    border: 1px solid ", ";\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    text-transform: uppercase;\n    color: ", ";\n    background: ", ";\n    font-weight: ", ";\n\n    ",
     "\n\n    ",
     "\n\n    ",
     "\n"])), function (props) { return props.theme.colors.primary[200]; }, function (props) { return props.theme.colors.neutral[600]; }, function (props) { return props.theme.colors.primary[200]; }, function (props) { return props.theme.typography.fontWeight.semiBold; }, function (props) {
@@ -18,9 +24,10 @@ var StyledAvatar = styled.div(templateObject_1 || (templateObject_1 = __makeTemp
     return props.src &&
         "\n        background-color: none;\n        background-image: url(" + props.src + ");\n        background-position: center; \n        background-repeat: no-repeat; \n        background-size: cover;\n    \n    ";
 });
-export var Avatar = function (_a) {
+var Avatar = function (_a) {
     var children = _a.children, src = _a.src, _b = _a.size, size = _b === void 0 ? 'default' : _b;
-    return (React.createElement(StyledAvatar, { src: src, size: size }, src ? null : children ? (children) : (React.createElement(Icon, { className: "atlantum-avatar-icon", name: "user" }))));
+    return (react_1.default.createElement(StyledAvatar, { src: src, size: size }, src ? null : children ? (children) : (react_1.default.createElement(icons_1.Icon, { className: "atlantum-avatar-icon", name: "user" }))));
 };
+exports.Avatar = Avatar;
 var templateObject_1;
 //# sourceMappingURL=avatar.js.map

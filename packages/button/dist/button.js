@@ -1,10 +1,35 @@
+"use strict";
 var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
     if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
     return cooked;
 };
-import styled from 'styled-components';
-import React, { Fragment } from 'react';
-export var StyledButton = styled.button(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    outline: none;\n    border: none;\n    display: inline-block;\n    border-radius: ", ";\n    background-color: ", ";\n    color: ", ";\n    padding: ", "\n        ", ";\n    font-size: ", ";\n    font-family: ", ";\n    line-height: ", ";\n    font-weight: ", ";\n    cursor: pointer;\n\n    transition: 0.2s ease;\n    &:hover {\n        background-color: ", ";\n    }\n    &:focus {\n        box-shadow: 0 0 0 2px ", ";\n    }\n\n    &:active {\n        background-color: ", ";\n    }\n\n    ", "\n\n    ", "\n\n    \n\n    ", "\n\n    ", "\n    \n    ", "\n\n\t", "\n\n\t", "\n\n\t", "\n"], ["\n    outline: none;\n    border: none;\n    display: inline-block;\n    border-radius: ", ";\n    background-color: ", ";\n    color: ", ";\n    padding: ", "\n        ", ";\n    font-size: ", ";\n    font-family: ", ";\n    line-height: ", ";\n    font-weight: ", ";\n    cursor: pointer;\n\n    transition: 0.2s ease;\n    &:hover {\n        background-color: ", ";\n    }\n    &:focus {\n        box-shadow: 0 0 0 2px ", ";\n    }\n\n    &:active {\n        background-color: ", ";\n    }\n\n    ",
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Button = exports.StyledButton = void 0;
+var styled_components_1 = __importDefault(require("styled-components"));
+var react_1 = __importStar(require("react"));
+exports.StyledButton = styled_components_1.default.button(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    outline: none;\n    border: none;\n    display: inline-block;\n    border-radius: ", ";\n    background-color: ", ";\n    color: ", ";\n    padding: ", "\n        ", ";\n    font-size: ", ";\n    font-family: ", ";\n    line-height: ", ";\n    font-weight: ", ";\n    cursor: pointer;\n\n    transition: 0.2s ease;\n    &:hover {\n        background-color: ", ";\n    }\n    &:focus {\n        box-shadow: 0 0 0 2px ", ";\n    }\n\n    &:active {\n        background-color: ", ";\n    }\n\n    ", "\n\n    ", "\n\n    \n\n    ", "\n\n    ", "\n    \n    ", "\n\n\t", "\n\n\t", "\n\n\t", "\n"], ["\n    outline: none;\n    border: none;\n    display: inline-block;\n    border-radius: ", ";\n    background-color: ", ";\n    color: ", ";\n    padding: ", "\n        ", ";\n    font-size: ", ";\n    font-family: ", ";\n    line-height: ", ";\n    font-weight: ", ";\n    cursor: pointer;\n\n    transition: 0.2s ease;\n    &:hover {\n        background-color: ", ";\n    }\n    &:focus {\n        box-shadow: 0 0 0 2px ", ";\n    }\n\n    &:active {\n        background-color: ", ";\n    }\n\n    ",
     "\n\n    ",
     "\n\n    \n\n    ",
     "\n\n    ",
@@ -37,9 +62,10 @@ export var StyledButton = styled.button(templateObject_1 || (templateObject_1 = 
     return props.themed === 'info' &&
         "   \n        background-color: " + props.theme.colors.info[200] + ";\n        &:hover {\n        background-color: " + props.theme.colors.info[300] + ";\n    }\n        &:focus {\n            box-shadow: 0 0 0 2px " + props.theme.colors.info[100] + ";\n        }\n    \n        &:active {\n            background-color: " + props.theme.colors.info[400] + ";\n        }\n    \n    ";
 });
-export var Button = function (props) { return (React.createElement(StyledButton, { isSecondary: props.isSecondary, disabled: props.disabled, leftIcon: props.leftIcon, rightIcon: props.rightIcon, onClick: props.onClick, className: props.className, themed: props.themed },
-    props.leftIcon && React.createElement(Fragment, null, props.leftIcon),
+var Button = function (props) { return (react_1.default.createElement(exports.StyledButton, { isSecondary: props.isSecondary, disabled: props.disabled, leftIcon: props.leftIcon, rightIcon: props.rightIcon, onClick: props.onClick, className: props.className, themed: props.themed },
+    props.leftIcon && react_1.default.createElement(react_1.Fragment, null, props.leftIcon),
     props.children,
-    props.rightIcon && React.createElement(Fragment, null, props.rightIcon))); };
+    props.rightIcon && react_1.default.createElement(react_1.Fragment, null, props.rightIcon))); };
+exports.Button = Button;
 var templateObject_1;
 //# sourceMappingURL=button.js.map

@@ -1,4 +1,7 @@
-export var elevation = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.elevation = void 0;
+exports.elevation = {
     lightTheme: {
         soft: {
             low: "0 0 8px rgba(62, 57, 79, 0.04)",

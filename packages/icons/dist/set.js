@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var SvgData = {
     activity: "<polyline points=\"22 12 18 12 15 21 9 3 6 12 2 12\"></polyline>",
     airplay: "<path d=\"M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1\"></path>\n            <polygon points=\"12 15 17 21 7 21 12 15\"></polyline>",
@@ -282,5 +284,5 @@ var SvgData = {
     'zoom-in': "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle>\n      <line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>\n      <line x1=\"11\" y1=\"8\" x2=\"11\" y2=\"14\"></line>\n      <line x1=\"8\" y1=\"11\" x2=\"14\" y2=\"11\"></line>",
     'zoom-out': "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle>\n      <line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>\n      <line x1=\"8\" y1=\"11\" x2=\"14\" y2=\"11\"></line>",
 };
-export default SvgData;
+exports.default = SvgData;
 //# sourceMappingURL=set.js.map

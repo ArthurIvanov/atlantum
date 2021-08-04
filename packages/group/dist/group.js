@@ -1,10 +1,16 @@
+"use strict";
 var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
     if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
     return cooked;
 };
-import styled from 'styled-components';
-import React from 'react';
-var StyledGroup = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n\n    ", "\n\n    ", "\n\n    ", "\n\n    ", "\n    \n    ", "\n    \n    ", "\n"], ["\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n\n    ",
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Group = void 0;
+var styled_components_1 = __importDefault(require("styled-components"));
+var react_1 = __importDefault(require("react"));
+var StyledGroup = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n\n    ", "\n\n    ", "\n\n    ", "\n\n    ", "\n    \n    ", "\n    \n    ", "\n"], ["\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n\n    ",
     "\n\n    ",
     "\n\n    ",
     "\n\n    ",
@@ -29,9 +35,10 @@ var StyledGroup = styled.div(templateObject_1 || (templateObject_1 = __makeTempl
     return props.relation === 'far' &&
         "\n        &>*:not(:last-child) {\n            margin-bottom: " + props.theme.spacing[48] + ";  \n        }\n        @media only screen and (min-width: 400px) {\n        * > *:not(:last-child) {\n            margin-bottom: " + props.theme.spacing[48] + ";\n        }\n        \n        @media only screen and (min-width: 600px) {\n        * > *:not(:last-child) {\n            margin-bottom: " + props.theme.spacing[48] + ";\n        }\n        \n        @media only screen and (min-width: 1050px) {\n        * > *:not(:last-child) {\n            margin-bottom: 0;\n        }\n    }\n        \n    }\n    ";
 });
-export var Group = function (_a) {
+var Group = function (_a) {
     var children = _a.children, relation = _a.relation, className = _a.className, isCentered = _a.isCentered;
-    return (React.createElement(StyledGroup, { className: className, relation: relation, isCentered: isCentered }, children));
+    return (react_1.default.createElement(StyledGroup, { className: className, relation: relation, isCentered: isCentered }, children));
 };
+exports.Group = Group;
 var templateObject_1;
 //# sourceMappingURL=group.js.map

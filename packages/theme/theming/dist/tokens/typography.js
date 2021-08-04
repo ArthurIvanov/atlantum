@@ -1,4 +1,7 @@
-export var typography = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.typography = void 0;
+exports.typography = {
     family: {
         base: "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
         heading: "\"Inter\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
