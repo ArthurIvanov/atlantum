@@ -1,5 +1,11 @@
 # @atlantum/types
 
+## 0.3.3
+
+### Patch Changes
+
+-   36bba49: minor updates
+
 ## 0.3.2
 
 ### Patch Changes

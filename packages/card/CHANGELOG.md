@@ -1,5 +1,13 @@
 # @atlantum/card
 
+## 0.7.2
+
+### Patch Changes
+
+-   36bba49: minor updates
+-   Updated dependencies [36bba49]
+    -   @atlantum/theme@0.4.2
+
 ## 0.7.1
 
 ### Patch Changes

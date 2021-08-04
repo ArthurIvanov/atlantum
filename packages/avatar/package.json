@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/avatar",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "input avatar component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,8 +10,8 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/icons": "^0.4.2",
-        "@atlantum/theme": "^0.4.1"
+        "@atlantum/icons": "^0.4.3",
+        "@atlantum/theme": "^0.4.2"
     },
     "devDependencies": {
         "react": "^16.13.1",

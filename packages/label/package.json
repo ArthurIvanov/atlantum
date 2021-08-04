@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/label",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "label component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/theme": "^0.4.1"
+        "@atlantum/theme": "^0.4.2"
     },
     "devDependencies": {
         "react": "^16.13.1",

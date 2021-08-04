@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/badge",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "badge component",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,7 +10,7 @@
         "dist"
     ],
     "dependencies": {
-        "@atlantum/theme": "^0.4.1"
+        "@atlantum/theme": "^0.4.2"
     },
     "devDependencies": {
         "react": "^16.13.1",

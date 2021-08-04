@@ -1,5 +1,13 @@
 # @atlantum/items-stack
 
+## 0.3.5
+
+### Patch Changes
+
+-   36bba49: minor updates
+-   Updated dependencies [36bba49]
+    -   @atlantum/theme@0.4.2
+
 ## 0.3.4
 
 ### Patch Changes
