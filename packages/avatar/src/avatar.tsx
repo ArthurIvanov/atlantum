@@ -7,7 +7,7 @@ type AvatarSize = 'default' | 'large';
 export interface AvatarProps {
     /**
      * Initials which are passed to `Avatar`
-     * if no Initials provided it will fallback to standard icon
+     * if no Initials provided it will fallback to standard icon.
      */
     children?: ReactNode;
 
@@ -18,7 +18,7 @@ export interface AvatarProps {
 
     /**
      * The image url of the `Avatar`
-     * * if no image url are provided it will fallback to standard icon
+     * * if no image url are provided it will fallback to standard icon.
      */
     src?: string;
 }
