@@ -1,5 +1,11 @@
 # @atlantum/avatar
 
+## 0.1.3
+
+### Patch Changes
+
+-   7d348c3: added documentation
+
 ## 0.1.2
 
 ### Patch Changes

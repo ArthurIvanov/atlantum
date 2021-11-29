@@ -1,6 +1,6 @@
 {
     "name": "@atlantum/avatar",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "input avatar component",
     "main": "dist/index.js",
     "module": "dist/index.js",
