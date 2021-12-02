@@ -7,4 +7,5 @@ module.exports = {
     arrowParens: 'always',
     endOfLine: 'lf',
     quoteProps: 'as-needed',
+
 };
