@@ -88,7 +88,7 @@ export const Heading: FC<HeadingProps> = ({
     children,
     centered,
     className,
-}) => {
+}): JSX.Element => {
     return (
         <StyledHeading as={as} centered={centered} className={className}>
             {children}
