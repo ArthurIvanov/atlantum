@@ -1,5 +1,11 @@
 # @atlantum/tag
 
+## 0.2.3
+
+### Patch Changes
+
+-   8809ecb: fixed color shceme
+
 ## 0.2.2
 
 ### Patch Changes
